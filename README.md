@@ -16,15 +16,17 @@ install; it is documented so you can fork it and lead your own.
 
 ## The organs
 
+<!-- repos_sync:organs:begin -->
 | Organ | Repo | Role |
 |---|---|---|
 | Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Where you lead — every piece of work starts here as a plain-English markdown file saying *what* to do. |
 | Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning layer that works out *how* — classifying, planning and routing each task through specialist agents. |
+| Hands | [PyAutoBuild](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
 | Heart | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
-| Hands | [PyAutoBuild](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI. |
 | Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
 | Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | The storage mirror of Memory — holds *condemned* material (stale branches, dead code) as recoverable git refs, then voids it on a sweep. |
 | Nerves | [PyAutoConf](https://github.com/PyAutoLabs/PyAutoConf) | The configuration and serialization layer (`autoconf`) connecting the organism's conventions to every library. |
+<!-- repos_sync:organs:end -->
 
 The software the organism develops lives across the [PyAutoLabs](https://github.com/PyAutoLabs)
 organisation — see the [front door](https://pyautolabs.github.io) for the full map.
