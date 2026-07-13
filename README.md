@@ -1,0 +1,33 @@
+# PyAutoScientist
+
+**A working reference implementation of a human-led AI software-development organism.**
+
+PyAutoScientist is the live system that develops all of the [PyAutoLabs](https://github.com/PyAutoLabs)
+software. Plain-English intent becomes tested, released code through an organism of
+repositories — a set of AI agents that plan, implement, test and release the work, with a
+human directing it and checkpointing every decision that matters. It is not a framework you
+install; it is documented so you can fork it and lead your own.
+
+📖 **Docs:** https://pyautoscientist.readthedocs.io
+🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
+
+> This repo is a home for the PyAutoScientist docs and links for now. It will grow as the
+> organism does.
+
+## The organs
+
+| Organ | Repo | Role |
+|---|---|---|
+| Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Where you lead — every piece of work starts here as a plain-English markdown file saying *what* to do. |
+| Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning layer that works out *how* — classifying, planning and routing each task through specialist agents. |
+| Heart | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
+| Hands | [PyAutoBuild](https://github.com/PyAutoLabs/PyAutoBuild) | The executor that packages, tags and releases the libraries to PyPI. |
+| Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
+| Nerves | [PyAutoConf](https://github.com/PyAutoLabs/PyAutoConf) | The configuration and serialization layer (`autoconf`) connecting the organism's conventions to every library. |
+
+The software the organism develops lives across the [PyAutoLabs](https://github.com/PyAutoLabs)
+organisation — see the [front door](https://pyautolabs.github.io) for the full map.
+
+## License
+
+Released under the [MIT License](https://opensource.org/licenses/MIT). Copyright (c) 2026 Jammy2211.
