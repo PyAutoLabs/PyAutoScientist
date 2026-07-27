@@ -31,6 +31,12 @@ install; it is documented so you can fork it and lead your own.
 The software the organism develops lives across the [PyAutoLabs](https://github.com/PyAutoLabs)
 organisation — see the [front door](https://pyautolabs.github.io) for the full map.
 
+## Community
+
+PyAutoScientist is the canonical home for community-wide PyAutoLabs policy.
+Please read the [contribution guide](CONTRIBUTING.md) and
+[Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+
 ## License
 
 Released under the [MIT License](https://opensource.org/licenses/MIT). Copyright (c) 2026 Jammy2211.
