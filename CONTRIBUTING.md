@@ -86,6 +86,10 @@ clear issue or pull request in the relevant repository is enough.
 All changes require human review, including AI-assisted changes. CI must pass
 before a pull request can be merged.
 
+AI-assisted contributions must also follow the shared
+[PyAuto AI Policy](AI_POLICY.md), including its requirements for validation,
+attribution, licensing, confidentiality, disclosure, and human accountability.
+
 ## Code of Conduct
 
 Participation in every PyAutoLabs repository is governed by the shared

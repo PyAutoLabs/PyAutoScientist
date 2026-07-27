@@ -35,7 +35,9 @@ organisation — see the [front door](https://pyautolabs.github.io) for the full
 
 PyAutoScientist is the canonical home for community-wide PyAutoLabs policy.
 Please read the [contribution guide](CONTRIBUTING.md) and
-[Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+[Code of Conduct](CODE_OF_CONDUCT.md) before participating. The
+[PyAuto AI Policy](AI_POLICY.md) explains how natural language and AI are used
+responsibly across scientific analysis, learning, and software development.
 
 ## License
 
