@@ -1,12 +1,18 @@
 # PyAutoScientist
 
-**A working reference implementation of a human-led AI software-development organism.**
+**The [PyAutoLabs](https://github.com/PyAutoLabs) software is developed entirely through
+natural language.**
 
-PyAutoScientist is the live system that develops all of the [PyAutoLabs](https://github.com/PyAutoLabs)
-software. Plain-English intent becomes tested, released code through an organism of
-repositories — a set of AI agents that plan, implement, test and release the work, with a
-human directing it and checkpointing every decision that matters. It is not a framework you
-install; it is documented so you can fork it and lead your own.
+In March 2026, after more than a decade of exclusively human-led development, PyAutoLabs
+transitioned to a fully natural-language, agentic-AI development ecosystem: PyAutoScientist.
+Plain-English intent becomes tested, released code through a software organism whose
+repositories mirror the roles of human organs — recording what should change, working out
+how, implementing it, validating it and releasing it. Humans can therefore conduct software
+development entirely through natural language, describing what they want and checkpointing
+every decision that matters.
+
+PyAutoScientist is the live system doing this, not a demonstration of it. It is not a
+framework you install; it is documented so you can fork it and direct your own.
 
 📖 **Docs:** https://pyautoscientist.readthedocs.io
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
