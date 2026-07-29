@@ -1,234 +1,138 @@
 # Contributing to PyAutoLabs
 
-Thank you for contributing to PyAutoLabs. Bug reports, feature ideas,
-documentation improvements, examples, tests and code changes are all welcome.
+Thank you for contributing to PyAutoLabs. Bug reports, feature ideas, documentation improvements, scientific examples, tests and code changes are all welcome.
 
-PyAutoLabs software is developed through natural language. A contribution starts
-as a plain-English description of what should change and why — not as a diff.
-That description is then planned, implemented, tested and released through
-[PyAutoScientist](https://github.com/PyAutoLabs/PyAutoScientist), an ecosystem of
-agentic-AI coding agents directed by a human maintainer. You are welcome to
-describe what you want in words, to write the code yourself, or to do anything in
-between; contributions are held to the same standard either way.
+PyAutoLabs uses `PyAutoScientist`, a **fully natural-language, agentic-AI development ecosystem**. The simplest way to contribute is therefore to describe what you want in natural language through a GitHub issue. You do not need to install PyAutoScientist, use an AI coding agent or understand the internal development machinery.
 
-If that sounds like a lot of AI to trust with scientific software, start with the
-next section. It is the honest answer, and it comes first for a reason.
+Contributions written without AI assistance remain equally welcome. Every contribution is evaluated against the same scientific, testing and documentation standards.
 
-## How the Code Is Tested
+## If you were directed here from another repository
 
-Confidence in this software does not come from who, or what, typed it. It comes
-from evidence that it behaves correctly, gathered at four levels.
+This is the shared contribution guide for the entire [PyAutoLabs](https://github.com/PyAutoLabs) organisation. You may have been directed here from a scientific library such as [PyAutoLens](https://github.com/PyAutoLabs/PyAutoLens), a user-facing workspace or another PyAutoLabs repository.
 
-**Unit tests.** Each library carries its own suite covering individual components
-and their numerical behaviour — roughly 3,900 tests in total:
+Your issue or pull request should normally be submitted to the repository from which you were directed. For example, a PyAutoLens bug should be reported on the [PyAutoLens issue tracker](https://github.com/PyAutoLabs/PyAutoLens/issues), not on PyAutoScientist. Use this document for the shared contribution process, then follow the `README.md` and `AGENTS.md` in the relevant repository for its specific architecture, development setup and test commands.
 
-| Library | Tests |
-|---|---|
-| [PyAutoFit](https://github.com/PyAutoLabs/PyAutoFit) | 1,261 |
-| [PyAutoGalaxy](https://github.com/PyAutoLabs/PyAutoGalaxy) | 985 |
-| [PyAutoArray](https://github.com/PyAutoLabs/PyAutoArray) | 844 |
-| [PyAutoLens](https://github.com/PyAutoLabs/PyAutoLens) | 471 |
-| [PyAutoCTI](https://github.com/PyAutoLabs/PyAutoCTI) | 271 |
-| [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | 135 |
+Issues should be submitted directly to PyAutoScientist only when they concern the development ecosystem or the shared policies and documentation held in this repository.
 
-**Every workspace script is a test.** This is the part that matters most, and it
-is easy to miss. The example scripts, guides and tutorials are not illustrative
-snippets that quietly drift out of date — they are executed as a test suite.
-Release validation runs *every* script in ten repositories:
+## Ways to contribute
 
-| Repository | Scripts | What it covers |
-|---|---|---|
-| [autolens_workspace](https://github.com/PyAutoLabs/autolens_workspace) | 373 | Every documented PyAutoLens use case |
-| [autogalaxy_workspace](https://github.com/PyAutoLabs/autogalaxy_workspace) | 172 | Every documented PyAutoGalaxy use case |
-| [autofit_workspace](https://github.com/PyAutoLabs/autofit_workspace) | 40 | Every documented PyAutoFit use case |
-| [autolens_workspace_test](https://github.com/PyAutoLabs/autolens_workspace_test) | 146 | Integration and regression scripts |
-| [autofit_workspace_test](https://github.com/PyAutoLabs/autofit_workspace_test) | 63 | Integration and regression scripts |
-| [autogalaxy_workspace_test](https://github.com/PyAutoLabs/autogalaxy_workspace_test) | 61 | Integration and regression scripts |
-| [HowToLens](https://github.com/PyAutoLabs/HowToLens) | 47 | The lensing tutorial series |
-| [HowToGalaxy](https://github.com/PyAutoLabs/HowToGalaxy) | 33 | The galaxy tutorial series |
-| [HowToFit](https://github.com/PyAutoLabs/HowToFit) | 21 | The model-fitting tutorial series |
-| [euclid_strong_lens_modeling_pipeline](https://github.com/PyAutoLabs/euclid_strong_lens_modeling_pipeline) | 6 | The Euclid production pipeline |
+### 1. Open a GitHub issue
 
-That is roughly 960 scripts exercising the public API end to end. A change that
-breaks how a user actually uses the software fails this run, even when every unit
-test still passes. The `*_workspace_test` repositories are dedicated integration
-suites rather than user-facing tutorials, and exist specifically to catch
-regressions in complex workflows — inversions, interferometry, multi-dataset
-fits, database and aggregator use, and the JAX likelihood paths.
+This is the recommended route for most contributors.
 
-**Every pull request runs a smoke gate.** A curated fast subset of the workspace
-scripts runs on every push and pull request, installed against the real
-dependency chain — PyAutoNerves → PyAutoFit → PyAutoArray → PyAutoGalaxy →
-PyAutoLens — so cross-repository breakage surfaces on your PR rather than at
-release.
+Search the relevant repository’s existing issues and then open a new issue describing the problem or requested behaviour in plain English. You should include enough context for someone unfamiliar with your work to understand what is needed:
 
-**Nothing releases without a health verdict.**
-[PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) independently assesses
-repository health and emits the authoritative GREEN / YELLOW / RED judgement on
-whether it is safe to release. It is not advisory; it gates the release.
+* For bugs, provide a minimal reproducible example, the full traceback, the expected and actual behaviour, your operating system, and your Python and package versions.
+* For features, explain the scientific or technical problem, the intended behaviour and the smallest useful scope. Example Python is especially helpful for proposed APIs.
+* For scientific methods, explain the underlying assumptions and provide links to relevant papers, algorithms or existing implementations.
+* For substantial changes, begin with an issue so that the approach can be discussed before time is invested in implementation.
 
-Beyond automation, important scientific results are validated against analytic
-calculations, established implementations, benchmark datasets and published
-results.
+The community agent within [`PyAutoBrain`](https://github.com/PyAutoLabs/PyAutoBrain)—the **Ears** of the PyAutoScientist organism—monitors issues and pull requests across PyAutoLabs. It helps James Nightingale triage new submissions, identify missing information and prepare responses.
 
-The principle behind all of this is set out in the
-[PyAuto AI Policy](AI_POLICY.md): a feature is not complete because the code runs
-and looks plausible. Its original natural-language requirements are expected to
-become tests and runnable examples that demonstrate the requested behaviour.
-Building that scaffolding is central to how the project establishes that its
-software works.
+James will discuss the request with you where necessary. Once the intended behaviour is clear, an actionable issue can be routed through the relevant PyAutoBrain feature, bug, documentation or workspace agent for implementation. The original issue remains the public record connecting your natural-language request to the resulting code and pull request.
 
-## The PyAutoScientist Ecosystem
+### 2. Develop using PyAutoScientist
 
-In March 2026, after more than a decade of exclusively human-led development,
-PyAutoLabs transitioned to a fully natural-language, agentic-AI development
-ecosystem called
-[PyAutoScientist](https://github.com/PyAutoLabs/PyAutoScientist). It is organised
-as a software organism whose repositories mirror the roles of human organs:
+Contributors who are comfortable with agentic-AI development may run the PyAutoScientist ecosystem locally and use its natural-language workflows directly.
 
-| Organ | Repository | What it does |
-|---|---|---|
-| Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent. Every task begins here as a plain-English file recording *what* should be done and why, tracked from initial idea to completed implementation. |
-| Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning centre, working out *how* — classifying, planning and routing each task through specialist coding agents. |
-| Hands | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands) | The executor. It packages the libraries, generates notebooks from scripts, tags versions and releases to PyPI. |
-| Heart | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor, whose GREEN / YELLOW / RED verdict is the authoritative "is it safe to release?" gate. |
-| Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific memory — cross-linked literature wikis with verifiable citations, consulted before design decisions. |
-| Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | Holds condemned material — stale branches, dead code — as recoverable git references, then voids it on a sweep. |
-| Nerves | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | The configuration and serialization layer (`autonerves`) connecting the project's conventions to every library. |
+In this workflow, a plain-English development requirement is recorded in [`PyAutoMind`](https://github.com/PyAutoLabs/PyAutoMind), planned and routed by [`PyAutoBrain`](https://github.com/PyAutoLabs/PyAutoBrain), implemented in an isolated branch or worktree, validated and then submitted as a pull request.
 
-Because intent is recorded in the Mind and connected to an issue, a branch, a
-pull request and a dated completion record, there is a public trail from the
-original English request through to the released behaviour. You can read why a
-change was needed, how it was interpreted, what was decided during
-implementation, and how it was validated. When much of the implementation is
-produced through natural-language interaction with AI, that traceability is what
-keeps the work inspectable — and lets you question or reproduce it.
+PyAutoScientist is a working system used for daily PyAutoLabs development, but its installation and adoption process is not yet fully prepared for external contributors. If you want to try this route, please contact James Nightingale so that the ecosystem can be set up and tested with you.
 
-## How to Contribute
+The current [PyAutoScientist adoption guide](https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html) documents the intended fork-and-pull model.
 
-### 1. Open an Issue (recommended)
+### 3. Contributing without AI
 
-The simplest and most effective contribution is a well-described issue on the
-repository your task concerns. Describe the problem or the feature in plain
-English; you do not need to propose an implementation.
+Traditional contributions written without AI assistance remain fully supported.
 
-Issues are picked up by James Nightingale through PyAutoBrain's community agent —
-the organism's *ears*, which surveys every repository for contributions awaiting
-a response. We will then discuss the change with you: what it should do, how it
-should behave, and what "correct" looks like. Once that is settled, PyAutoBrain's
-feature agent implements it, and the result comes back to your issue.
+You may fork the relevant repository, create a focused branch, make the change yourself and open a conventional pull request. When the pull request is submitted, the Ears of PyAutoBrain will identify and triage it, and specialist agents may perform the first technical inspection of the change, its tests and its wider impact.
 
-To make that discussion productive, include the context another person needs to
-act on it:
+This agent-assisted first pass helps the maintainer understand contributions consistently across a large ecosystem. It does not lower the standards applied to the pull request or remove human accountability: James remains responsible for contributor communication, consequential review decisions and whether the change is merged.
 
-- **Bugs** — a minimal reproducible example, the full traceback, your operating
-  system, and your Python and package versions.
-- **Features** — the problem, the intended behaviour, and the smallest useful
-  scope. Example Python is especially helpful for API proposals.
-- **Substantial changes** — raise the approach before investing in an
-  implementation.
+## Repository-specific development
 
-Search the repository's existing issues first, and use the provided form.
+Each PyAutoLabs repository has its own `README.md` and, where present, `AGENTS.md`. Read these before making changes because they define the repository’s architecture, development setup, test commands and editing rules.
 
-### 2. Run the Ecosystem Yourself
+### Source libraries
 
-If you are comfortable with agentic AI development, you can set PyAutoScientist
-up locally and contribute directly — describing your change in natural language,
-letting the agents implement and validate it, and opening the pull request
-yourself. Review then happens at the PR.
+Source libraries such as [PyAutoLens](https://github.com/PyAutoLabs/PyAutoLens), [PyAutoGalaxy](https://github.com/PyAutoLabs/PyAutoGalaxy), [PyAutoArray](https://github.com/PyAutoLabs/PyAutoArray) and [PyAutoFit](https://github.com/PyAutoLabs/PyAutoFit) contain the installable Python packages.
 
-Be aware that the ecosystem is not yet set up for others to use. Making it
-genuinely adoptable is work in progress; today it still carries assumptions about
-local layout and tooling that are not documented well enough for you to stand it
-up unaided. If you want to go this route, please
-[get in touch](https://github.com/PyAutoLabs/PyAutoScientist/issues) and we will
-do the setup together — that is the fastest path for you, and it tells us what
-needs fixing.
+Install the target repository from source, add or update tests for behavioural changes, run the documented test suite and describe any effect on public APIs or downstream libraries.
 
-The [adoption guide](https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html)
-describes the fork-and-pull model in the meantime.
+### Workspaces and tutorials
 
-### 3. Contributing Without AI
+Workspace and HowTo repositories contain runnable examples and teaching material. Edit their source scripts and preserve their narrative explanations.
 
-Traditional, hand-written pull requests remain entirely welcome, and are reviewed
-to the same standard as everything else. Nothing here requires you to use AI.
+Where notebooks are generated from scripts, edit the Python scripts and regenerate the notebooks using the documented PyAutoHands workflow rather than editing notebooks directly.
 
-One thing to know: the first pass over your pull request will be made by an AI
-reviewing agent rather than by a human reading the diff directly. It checks the
-change against the repository's conventions, runs the validation, and reports
-what it finds. A human then reads that report, forms a judgement and decides —
-merging is always a human act. If the review raises something you disagree with,
-say so on the PR; you are talking to a person.
+### Workspace-test repositories
 
-## What We Expect From a Submission
+Workspace-test repositories are integration suites rather than user-facing tutorials. They mirror complete scientific workflows using faster test configurations.
 
-Whether written by you, by an agent, or by both, a contribution should arrive
-with:
+Preserve the scientific intent of their checks and never weaken or remove a test merely to hide a library regression.
 
-- **A plain-English statement of what changed and why.** If the intent, the scope
-  and the standard of success cannot be described in words, the change is not
-  ready. This is as true of hand-written work as of AI-assisted work.
-- **Evidence that it behaves correctly.** A unit test for numerical behaviour, a
-  runnable workspace example for a user-facing workflow, or both. Turning the
-  original requirement into a test is the point, not an afterthought.
-- **Any public API change named,** together with its impact on the workspaces,
-  tutorials and downstream libraries.
-- **Provenance checked** for generated code. AI can reproduce patterns from
-  existing software without saying so, so check licence compatibility, cite the
-  original scientific method or package, and add references to
-  [CITATIONS.md](https://github.com/PyAutoLabs/PyAutoLens/blob/main/CITATIONS.md)
-  where appropriate.
-- **The repository's own rules followed.** Each repository's `AGENTS.md` and
-  `README.md` document its setup, architecture, test commands and editing rules.
+### PyAutoScientist organ repositories
 
-The full contract — validation, attribution, licensing, confidentiality,
-disclosure and human accountability — is in the
-[PyAuto AI Policy](AI_POLICY.md). Please read it before submitting AI-assisted
-work.
+The organ repositories form the working PyAutoScientist reference implementation. Their `main` branches may change rapidly while the ecosystem is prepared for wider adoption.
 
-## Repository-Specific Notes
+Read their local guidance, keep changes within documented extension points and discuss significant architectural changes before implementation.
 
-PyAutoLabs repositories have different roles. Consult the repository's
-`AGENTS.md` and `README.md`, where present, before editing.
+## Testing and trust
 
-**Source libraries** contain the installable Python packages. Install the target
-repository from source, add or update tests alongside behavioural changes, run
-the suite named in its `AGENTS.md`, and document any public API change and its
-downstream impact. Keep dependencies flowing in the direction that repository
-documents.
+Natural-language and agentic-AI development make it easier to translate ideas into code, but they do not reduce the validation required before that code is accepted.
 
-**Workspaces and tutorials** contain runnable examples and teaching material.
-Edit the source scripts under `scripts/` and preserve their narrative
-explanations — the prose is what makes the examples teachable. Where notebooks
-are generated from scripts, **never edit the notebooks directly**; regenerate
-them through the repository's documented PyAutoHands workflow. Run the curated
-smoke tests before submitting.
+PyAuto uses several complementary layers of testing:
 
-**Workspace-test repositories** are integration suites, not user-facing
-tutorials. Preserve the intent of their checks, and never weaken a script to hide
-a library regression.
+* **Unit tests:** Each source library has an extensive test suite covering numerical behaviour, data structures and public APIs. For example, see the [PyAutoLens unit tests](https://github.com/PyAutoLabs/PyAutoLens/tree/main/test_autolens).
+* **Pull-request smoke tests:** User-facing workspaces run curated scripts and notebooks on pushes and pull requests to identify API breakages quickly.
+* **Full workspace validation:** The release process runs the complete set of runnable scripts in user-facing workspaces such as [`autolens_workspace`](https://github.com/PyAutoLabs/autolens_workspace). Any scripts that cannot be run automatically must be listed explicitly, with a reason, in `config/build/no_run.yaml`.
+* **Dedicated integration workspaces:** Repositories such as [`autolens_workspace_test`](https://github.com/PyAutoLabs/autolens_workspace_test) mirror complete scientific workflows using fast test configurations. These are run against both the development branches and released versions of the libraries.
+* **Release-readiness checks:** [`PyAutoHeart`](https://github.com/PyAutoLabs/PyAutoHeart) monitors unit tests, workspace validation, open pull requests, version compatibility and other health signals before a release proceeds.
 
-**PyAutoScientist organ repositories** form a living reference implementation
-used for daily development. Their `main` branches move quickly and carry no
-compatibility promise for the workflow itself. Adopt them by fork-and-pull, keep
-local changes within their documented extension surfaces, and pin anything you
-rely on. Issues and pull requests are welcome, though abstractions for
-hypothetical use cases may be declined in favour of needs demonstrated by a
-working system.
+New functionality should be accompanied by tests or runnable examples that demonstrate the intended behaviour. A change is not complete merely because generated code runs or looks plausible.
 
-## Pull Requests
+## What contributors are responsible for
 
-1. Fork the repository and create a focused branch from `main`.
-2. Read its `AGENTS.md` and follow the repository-specific editing rules.
-3. Make one coherent change, with tests and documentation where appropriate.
-4. Run the repository's documented validation commands.
-5. Explain what changed, why, how it was tested, and whether any public API or
-   sibling repository is affected.
+Whether you contribute through an issue, PyAutoScientist or a traditional pull request, you should be able to explain in natural language:
 
-CI must pass before a pull request can be merged, and every change — AI-assisted
-or not — is merged by a human.
+* what should change and why;
+* the scientific or technical assumptions involved;
+* the intended behaviour;
+* how the result should be tested;
+* any effect on public APIs, workspaces or downstream repositories; and
+* how you determined that the implementation is correct.
+
+Contributors are also responsible for:
+
+* adding or updating unit tests and workspace examples where appropriate;
+* running the validation commands documented by the target repository;
+* documenting public API changes and their downstream impact;
+* checking the provenance and licence of adapted code;
+* citing published methods and existing software where appropriate; and
+* ensuring that private, embargoed or collaborator-controlled information is not submitted to an unapproved AI service.
+
+AI-assisted contributions must follow the shared [PyAuto AI Policy](AI_POLICY.md). The policy does not require every line of code to have been manually written or read line by line by a human. It requires the contributor and maintainer to understand the purpose and important scientific decisions, and to provide tests and examples that demonstrate the behaviour.
+
+## How PyAutoScientist works
+
+PyAutoScientist is organised as a software organism. Its organs divide development responsibilities while preserving the connection between the original natural-language request and the released software.
+
+| Organ      | Repository                                                 | Responsibility                                                                                                                                                                                       |
+| ---------- | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mind**   | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind)     | Records what should be done: intent, goals, priorities and workflow state. It tracks work from a plain-English prompt through its GitHub issue, branch, pull request and completion record.          |
+| **Brain**  | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain)   | Determines how work should be done by classifying, planning, decomposing and routing it through specialist agents. The Ears are a community-facing conductor within the Brain, not a separate organ. |
+| **Heart**  | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart)   | Determines whether the ecosystem is healthy and provides the authoritative release-readiness verdict.                                                                                                |
+| **Hands**  | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands)   | Executes builds and releases, including package creation, notebook generation, tagging and publication to PyPI.                                                                                      |
+| **Memory** | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through literature wikis, concepts, bibliographies and verifiable citations.                                                                                 |
+| **Gut**    | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut)       | Holds obsolete or condemned development material as recoverable Git references before its eventual removal.                                                                                          |
+| **Nerves** | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the shared configuration and serialization layer connecting the conventions used by the scientific libraries and workspaces.                                                                |
+
+The normal call chain is:
+
+`Mind → Brain → Heart (validation gate) → Hands (execution)`
+
+Humans lead the process by describing the desired outcome, discussing scientific and technical decisions, responding to contributors and approving consequential actions.
 
 ## Code of Conduct
 
-Participation in every PyAutoLabs repository is governed by the shared
-[PyAutoLabs Code of Conduct](CODE_OF_CONDUCT.md).
+Participation in every PyAutoLabs repository is governed by the shared [PyAutoLabs Code of Conduct](CODE_OF_CONDUCT.md).
