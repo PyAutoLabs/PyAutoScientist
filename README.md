@@ -1,43 +1,63 @@
 # PyAutoScientist
 
-**A working reference implementation of a human-led AI software-development organism.**
+**A working reference implementation of a human-led, natural-language software-development organism.**
 
-PyAutoScientist is the live system that develops all of the [PyAutoLabs](https://github.com/PyAutoLabs)
-software. Plain-English intent becomes tested, released code through an organism of
-repositories — a set of AI agents that plan, implement, test and release the work, with a
-human directing it and checkpointing every decision that matters. It is not a framework you
-install; it is documented so you can fork it and lead your own.
+In March 2026, following more than a decade of exclusively human-led software development, PyAutoLabs transitioned to a **fully natural-language, agentic-AI development ecosystem** called `PyAutoScientist`.
+
+Humans describe in plain English what they want the software to do, why the change is needed and how success should be judged. PyAutoScientist records this intent and routes it through specialist agents that plan, implement, test and release the work. Humans remain responsible for the scientific objectives, discussions with contributors and consequential decisions.
+
+Natural language is therefore the primary development interface; agentic AI provides the implementation machinery behind it. A contributor does not need to understand the internal agent architecture to participate—a clear GitHub issue describing the desired change is enough.
 
 📖 **Docs:** https://pyautoscientist.readthedocs.io
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
 
-> This repo is a home for the PyAutoScientist docs and links for now. It will grow as the
-> organism does.
+> This repository is currently the home of the PyAutoScientist documentation, shared policies and links to its constituent repositories. The ecosystem is a working system used for daily PyAutoLabs development, but its installation and adoption process is still being prepared for wider use.
+
+## From natural language to trusted software
+
+Making development accessible through natural language does not reduce the standard of evidence required before code is accepted or released.
+
+PyAuto uses several layers of testing:
+
+* The scientific libraries have extensive unit-test suites covering their numerical behaviour and public APIs.
+* User-facing workspaces run curated smoke tests on every push and pull request.
+* Release validation runs the full set of runnable workspace scripts, including the examples in [`autolens_workspace`](https://github.com/PyAutoLabs/autolens_workspace). Scripts that genuinely cannot be run automatically are listed explicitly, with reasons, in each workspace’s `config/build/no_run.yaml`.
+* Dedicated integration repositories such as [`autolens_workspace_test`](https://github.com/PyAutoLabs/autolens_workspace_test) mirror complete modelling workflows while replacing expensive non-linear searches with fast test configurations.
+* [`PyAutoHeart`](https://github.com/PyAutoLabs/PyAutoHeart) monitors repository health and provides the release-readiness gate used before software is published.
+
+Natural-language requirements are translated into tests, examples and documentation that demonstrate the requested behaviour. AI-generated code is not considered complete simply because it runs or appears plausible.
+
+The shared [PyAuto AI Policy](AI_POLICY.md) describes the principles governing natural-language development, validation, attribution, licensing and human responsibility.
 
 ## The organs
+
+PyAutoScientist is organised as a software organism whose repositories mirror the roles of human organs:
 
 <!-- repos_sync:organs:begin -->
 | Organ | Repo | Role |
 |---|---|---|
-| Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Where you lead — every piece of work starts here as a plain-English markdown file saying *what* to do. |
-| Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | The reasoning layer that works out *how* — classifying, planning and routing each task through specialist agents. |
-| Hands | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands) | The executor that packages, tags and releases the libraries to PyPI, nightly. |
-| Heart | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) | The health monitor whose GREEN/YELLOW/RED verdict is the authoritative "is it safe to release?" gate. |
-| Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Long-term scientific knowledge — cross-linked literature wikis the agents consult. |
-| Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | The storage mirror of Memory — holds *condemned* material (stale branches, dead code) as recoverable git refs, then voids it on a sweep. |
-| Nerves | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | The configuration and serialization layer (`autonerves`) connecting the organism's conventions to every library. |
+| Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
+| Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
+| Hands | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
+| Heart | [PyAutoHeart](https://github.com/PyAutoLabs/PyAutoHeart) | Monitors repository health and supplies the authoritative GREEN/YELLOW/RED release-readiness verdict. |
+| Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
+| Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
+| Nerves | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 <!-- repos_sync:organs:end -->
 
-The software the organism develops lives across the [PyAutoLabs](https://github.com/PyAutoLabs)
-organisation — see the [front door](https://pyautolabs.github.io) for the full map.
+PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening for user-submitted GitHub issues and pull requests, helping the human maintainer discuss them with contributors and routing actionable work into development.
+
+The software developed by the organism lives across the [PyAutoLabs](https://github.com/PyAutoLabs) organisation. See the [PyAutoLabs front door](https://pyautolabs.github.io) for the full repository map.
+
+## Contributing
+
+The easiest way to contribute is to open an issue on the repository relevant to your request and describe the desired change in natural language. You may also submit a conventional pull request, with or without AI assistance.
+
+Read the [contribution guide](CONTRIBUTING.md) for the available development paths and the standards applied to submissions.
 
 ## Community
 
-PyAutoScientist is the canonical home for community-wide PyAutoLabs policy.
-Please read the [contribution guide](CONTRIBUTING.md) and
-[Code of Conduct](CODE_OF_CONDUCT.md) before participating. The
-[PyAuto AI Policy](AI_POLICY.md) explains how natural language and AI are used
-responsibly across scientific analysis, learning, and software development.
+PyAutoScientist is the canonical home for community-wide PyAutoLabs policy. Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
 
 ## License
 
