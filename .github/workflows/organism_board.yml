@@ -1,0 +1,97 @@
+name: Organism Board
+
+# Publishes the organism board — the umbrella ROUTER over the four organ
+# dashboards (scripts/organism_board.py): one row per board with its own live
+# headline, a "where to work next" banner keyed off the Heart's verdict,
+# published to GitHub Pages + badge.json + the README strip between the
+# scientist:begin/end markers. Nothing is recomputed here — each organ's
+# board stays the authority; this page only routes.
+#
+# Six-hourly: the organ boards refresh on their own daily/push cadences, so
+# the router follows within hours. Tests (`python -m pytest tests/`) run ad
+# hoc — this repo deliberately carries no CI gate; this workflow building the
+# page is the operational check.
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: organism-board-pages
+  cancel-in-progress: false
+
+jobs:
+  board:
+    name: Render + publish the organism board
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Render every surface (public HTTPS only)
+        run: |
+          mkdir -p _site
+          python scripts/organism_board.py --html     > _site/index.html
+          python scripts/organism_board.py --badge    > _site/badge.json
+          python scripts/organism_board.py --md       > board.md
+          python scripts/organism_board.py --md-brief > readme_strip.md
+
+      - name: Write the board to the job step summary
+        run: cat board.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Update the README strip (own repo only, main only)
+        if: github.ref == 'refs/heads/main'
+        run: |
+          python - <<'PY'
+          import pathlib, re
+          readme = pathlib.Path("README.md")
+          text = readme.read_text()
+          strip = pathlib.Path("readme_strip.md").read_text().strip()
+          begin, end = "<!-- scientist:begin -->", "<!-- scientist:end -->"
+          block = f"{begin}\n{strip}\n{end}"
+          if begin in text and end in text:
+              text = re.sub(re.escape(begin) + r".*?" + re.escape(end), block,
+                            text, flags=re.DOTALL)
+              readme.write_text(text)
+          PY
+          if ! git diff --quiet README.md; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "docs: auto-update organism-board strip [skip ci]"
+            for attempt in 1 2 3; do
+              if git push; then exit 0; fi
+              git pull --rebase origin main || exit 1
+            done
+            echo "::error::could not push the README strip after 3 attempts"
+            exit 1
+          else
+            echo "README strip unchanged — nothing to commit."
+          fi
+
+      # The Pages site is created once out-of-band (gh api -X POST
+      # repos/<owner>/<repo>/pages -f build_type=workflow) — the default token
+      # cannot create it here.
+      - uses: actions/configure-pages@v5
+        if: github.ref == 'refs/heads/main'
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main'

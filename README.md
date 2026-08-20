@@ -1,5 +1,7 @@
 # PyAutoScientist
 
+[![organism](https://img.shields.io/endpoint?url=https://pyautolabs.github.io/PyAutoScientist/badge.json)](https://pyautolabs.github.io/PyAutoScientist/)
+
 **A working reference implementation of a human-led, natural-language software-development organism.**
 
 In March 2026, following more than a decade of exclusively human-led software development, PyAutoLabs transitioned to a **fully natural-language, agentic-AI development ecosystem** called `PyAutoScientist`.
@@ -10,6 +12,21 @@ Natural language is therefore the primary development interface; agentic AI prov
 
 📖 **Docs:** https://pyautoscientist.readthedocs.io
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
+
+See the **[PyAutoScientist Organism Board](https://pyautolabs.github.io/PyAutoScientist/)**
+(mobile phone dashboard) to watch the organism live and know where to work: it shows each
+organ's own dashboard headline — the [Mind's tasks](https://pyautolabs.github.io/PyAutoMind/),
+the [Heart's health verdict](https://pyautolabs.github.io/PyAutoHeart/), the
+[Hands' releases](https://pyautolabs.github.io/PyAutoHands/) and the
+[Memory's knowledge](https://pyautolabs.github.io/PyAutoMemory/) — topped by a
+"where to work next" hint (if the Heart is green, you go pick a task on the Mind).
+
+## The organism live
+
+<!-- The line below is auto-updated by .github/workflows/organism_board.yml (everything -->
+<!-- between the scientist:begin/scientist:end markers is replaced with the rendered strip). -->
+<!-- scientist:begin -->
+<!-- scientist:end -->
 
 > This repository is currently the home of the PyAutoScientist documentation, shared policies and links to its constituent repositories. The ecosystem is a working system used for daily PyAutoLabs development, but its installation and adoption process is still being prepared for wider use.
 
