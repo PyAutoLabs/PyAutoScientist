@@ -13,8 +13,8 @@ Natural language is therefore the primary development interface; agentic AI prov
 📖 **Docs:** https://pyautoscientist.readthedocs.io
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
 
-See the **[PyAutoScientist Organism Board](https://pyautolabs.github.io/PyAutoScientist/)**
-(mobile phone dashboard) to watch the organism live and know where to work: it shows each
+See the **[PyAutoScientist Dashboard](https://pyautolabs.github.io/PyAutoScientist/)**
+to watch the organism live and know where to work: it shows each
 organ's own dashboard headline — the [Mind's tasks](https://pyautolabs.github.io/PyAutoMind/),
 the [Heart's health verdict](https://pyautolabs.github.io/PyAutoHeart/), the
 [Hands' releases](https://pyautolabs.github.io/PyAutoHands/) and the

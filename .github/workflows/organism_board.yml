@@ -1,6 +1,6 @@
-name: Organism Board
+name: Dashboard
 
-# Publishes the organism board — the umbrella ROUTER over the four organ
+# Publishes the PyAutoScientist Dashboard — the umbrella ROUTER over the four organ
 # dashboards (scripts/organism_board.py): one row per board with its own live
 # headline, a "where to work next" banner keyed off the Heart's verdict,
 # published to GitHub Pages + badge.json + the README strip between the
@@ -28,7 +28,7 @@ concurrency:
 
 jobs:
   board:
-    name: Render + publish the organism board
+    name: Render + publish the dashboard
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -46,6 +46,7 @@ jobs:
           python scripts/organism_board.py --html     > _site/index.html
           python scripts/organism_board.py --badge    > _site/badge.json
           python scripts/organism_board.py --md       > board.md
+          cp board.md _site/dashboard.md
           python scripts/organism_board.py --md-brief > readme_strip.md
 
       - name: Write the board to the job step summary
