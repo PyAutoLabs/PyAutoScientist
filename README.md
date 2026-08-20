@@ -14,8 +14,8 @@ green, you go pick a task on the Mind):
 - **[PyAutoHands Dashboard](https://pyautolabs.github.io/PyAutoHands/)**: what shipped — the released library versions and the release train's recent runs.
 - **[PyAutoMemory Dashboard](https://pyautolabs.github.io/PyAutoMemory/)**: the scientist's long-term knowledge — the reading queue, citation work and each sub-wiki's maturity.
 
-📖 **Docs:** https://pyautoscientist.readthedocs.io\
-🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
+- 📖 **Docs:** https://pyautoscientist.readthedocs.io
+- 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
 
 ## From natural language to trusted software
 
