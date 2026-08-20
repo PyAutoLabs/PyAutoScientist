@@ -47,40 +47,9 @@ jobs:
           python scripts/organism_board.py --badge    > _site/badge.json
           python scripts/organism_board.py --md       > board.md
           cp board.md _site/dashboard.md
-          python scripts/organism_board.py --md-brief > readme_strip.md
 
       - name: Write the board to the job step summary
         run: cat board.md >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Update the README strip (own repo only, main only)
-        if: github.ref == 'refs/heads/main'
-        run: |
-          python - <<'PY'
-          import pathlib, re
-          readme = pathlib.Path("README.md")
-          text = readme.read_text()
-          strip = pathlib.Path("readme_strip.md").read_text().strip()
-          begin, end = "<!-- scientist:begin -->", "<!-- scientist:end -->"
-          block = f"{begin}\n{strip}\n{end}"
-          if begin in text and end in text:
-              text = re.sub(re.escape(begin) + r".*?" + re.escape(end), block,
-                            text, flags=re.DOTALL)
-              readme.write_text(text)
-          PY
-          if ! git diff --quiet README.md; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add README.md
-            git commit -m "docs: auto-update organism-board strip [skip ci]"
-            for attempt in 1 2 3; do
-              if git push; then exit 0; fi
-              git pull --rebase origin main || exit 1
-            done
-            echo "::error::could not push the README strip after 3 attempts"
-            exit 1
-          else
-            echo "README strip unchanged — nothing to commit."
-          fi
 
       # The Pages site is created once out-of-band (gh api -X POST
       # repos/<owner>/<repo>/pages -f build_type=workflow) — the default token

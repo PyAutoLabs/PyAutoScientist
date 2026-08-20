@@ -14,17 +14,7 @@ green, you go pick a task on the Mind):
 - **[PyAutoHands Dashboard](https://pyautolabs.github.io/PyAutoHands/)**: what shipped — the released library versions and the release train's recent runs.
 - **[PyAutoMemory Dashboard](https://pyautolabs.github.io/PyAutoMemory/)**: the scientist's long-term knowledge — the reading queue, citation work and each sub-wiki's maturity.
 
-## The organism live
-
-<!-- The line below is auto-updated by .github/workflows/organism_board.yml (everything -->
-<!-- between the scientist:begin/scientist:end markers is replaced with the rendered strip). -->
-<!-- scientist:begin -->
-[Mind](https://pyautolabs.github.io/PyAutoMind/) 2 in flight · 3 parked · 6 planned · 149 backlog · [Heart](https://pyautolabs.github.io/PyAutoHeart/) STALE · 65 · [Hands](https://pyautolabs.github.io/PyAutoHands/) 2026.8.20.1 · 15h ago · [Memory](https://pyautolabs.github.io/PyAutoMemory/) 166 pages · 40% cited
-<!-- scientist:end -->
-
-> This repository is currently the home of the PyAutoScientist documentation, shared policies and links to its constituent repositories. The ecosystem is a working system used for daily PyAutoLabs development, but its installation and adoption process is still being prepared for wider use.
-
-📖 **Docs:** https://pyautoscientist.readthedocs.io
+📖 **Docs:** https://pyautoscientist.readthedocs.io\
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
 
 ## From natural language to trusted software
