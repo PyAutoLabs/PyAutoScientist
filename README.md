@@ -2,7 +2,7 @@
 
 [![organism](https://img.shields.io/endpoint?url=https://pyautolabs.github.io/PyAutoScientist/badge.json)](https://pyautolabs.github.io/PyAutoScientist/)
 
-**PyAutoScientist is a working reference implementation of a human-led, natural-language software-development organism.** In March 2026, after more than a decade of exclusively human-led software development, PyAutoLabs moved all of its development into it: humans describe in plain English what the software should do, why the change is needed and how success should be judged, and specialist AI agents plan, implement, test and release the work. Humans remain responsible for the scientific objectives, discussions with contributors and consequential decisions — a contributor does not need to understand the agent architecture to participate; a clear GitHub issue describing the desired change is enough.
+**PyAutoScientist enables human-led, natural-language software development** — a working reference implementation of a software-development organism. Humans describe in plain English what the software should do, why the change is needed and how success should be judged; specialist AI agents plan, implement, test and release the work. Humans remain responsible for the scientific objectives, discussions with contributors and consequential decisions — a contributor does not need to understand the agent architecture to participate; a clear GitHub issue describing the desired change is enough.
 
 See the **[PyAutoScientist Dashboard](https://pyautolabs.github.io/PyAutoScientist/)**
 to watch the organism live and know where to work: it shows each
@@ -60,6 +60,10 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening for user-submitted GitHub issues and pull requests, helping the human maintainer discuss them with contributors and routing actionable work into development.
 
 The software developed by the organism lives across the [PyAutoLabs](https://github.com/PyAutoLabs) organisation. See the [PyAutoLabs front door](https://pyautolabs.github.io) for the full repository map.
+
+## Project History
+
+In March 2026, following more than a decade of exclusively human-led software development, PyAutoLabs transitioned to a fully natural-language, agentic-AI development ecosystem called `PyAutoScientist`. The software it now develops grew out of that decade of human-led work: [PyAutoLens](https://github.com/PyAutoLabs/PyAutoLens) (strong gravitational lensing), [PyAutoGalaxy](https://github.com/PyAutoLabs/PyAutoGalaxy) (galaxy structure and morphology), [PyAutoFit](https://github.com/PyAutoLabs/PyAutoFit) (Bayesian model fitting), [PyAutoArray](https://github.com/PyAutoLabs/PyAutoArray) (scientific data structures) and [PyAutoCTI](https://github.com/PyAutoLabs/PyAutoCTI) (CCD charge-transfer calibration), together with their workspaces and tutorials.
 
 ## Contributing
 
