@@ -26,6 +26,7 @@ the [Heart's health verdict](https://pyautolabs.github.io/PyAutoHeart/), the
 <!-- The line below is auto-updated by .github/workflows/organism_board.yml (everything -->
 <!-- between the scientist:begin/scientist:end markers is replaced with the rendered strip). -->
 <!-- scientist:begin -->
+[Mind](https://pyautolabs.github.io/PyAutoMind/) 4 in flight · 3 parked · 6 planned · 151 backlog · [Heart](https://pyautolabs.github.io/PyAutoHeart/) STALE · 65 · [Hands](https://pyautolabs.github.io/PyAutoHands/) 2026.8.17.1 · 2d ago · [Memory](https://pyautolabs.github.io/PyAutoMemory/) 166 pages · 40% cited
 <!-- scientist:end -->
 
 > This repository is currently the home of the PyAutoScientist documentation, shared policies and links to its constituent repositories. The ecosystem is a working system used for daily PyAutoLabs development, but its installation and adoption process is still being prepared for wider use.
