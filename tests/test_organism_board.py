@@ -42,9 +42,9 @@ def _snap(heart="GREEN · 100", color="brightgreen"):
 
 
 def test_routing_follows_the_heart():
-    assert "pick a task on the Mind board" in ob.route_hint(_snap("GREEN · 100"))
-    assert "start at the health board" in ob.route_hint(_snap("RED · 40"))
-    assert "start at the health board" in ob.route_hint(_snap("YELLOW · 70"))
+    assert "pick a task on the PyAutoMind Dashboard" in ob.route_hint(_snap("GREEN · 100"))
+    assert "start at the PyAutoHeart Dashboard" in ob.route_hint(_snap("RED · 40"))
+    assert "start at the PyAutoHeart Dashboard" in ob.route_hint(_snap("YELLOW · 70"))
     assert "re-run checks" in ob.route_hint(_snap("STALE · 65"))
     assert "unavailable" in ob.route_hint(
         {"boards": [{"name": "Heart", "headline": None}]})

@@ -1,4 +1,4 @@
-"""scripts/organism_board.py — the PyAutoScientist organism board.
+"""scripts/organism_board.py — the PyAutoScientist Dashboard.
 
 The umbrella ROUTER over the organism's live dashboards: one row per organ
 board — Mind (tasks), Heart (health), Hands (releases), Memory (knowledge) —
@@ -112,19 +112,19 @@ def route_hint(snapshot: dict) -> str:
     word = heart_word(snapshot)
     if word in ("RED", "YELLOW"):
         return ("The Heart is " + word +
-                " — start at the health board and fix what's blocking.")
+                " — start at the PyAutoHeart Dashboard and fix what's blocking.")
     if word == "STALE":
         return ("Evidence gaps, nothing known-bad — re-run checks via /health, "
-                "then pick a task on the Mind board.")
+                "then pick a task on the PyAutoMind Dashboard.")
     if word == "GREEN":
-        return "All clear — pick a task on the Mind board."
-    return "Heart verdict unavailable — check the health board first."
+        return "All clear — pick a task on the PyAutoMind Dashboard."
+    return "Heart verdict unavailable — check the PyAutoHeart Dashboard first."
 
 
 def _render_md(snapshot: dict) -> str:
-    lines = ["# PyAutoScientist organism board", "",
+    lines = ["# PyAutoScientist Dashboard", "",
              f"_{route_hint(snapshot)}_", "",
-             "| Board | Says | |", "|---|---|---|"]
+             "| Dashboard | Says | |", "|---|---|---|"]
     for b in snapshot.get("boards") or []:
         head = b.get("headline") or "unavailable"
         link = f"[{b['name']}]({b['url']})" if b.get("url") else b["name"]
@@ -206,11 +206,12 @@ function ok(b){{b.textContent='✓';setTimeout(function(){{b.textContent='📋'}
 function fb(t){{window.prompt('Copy this:',t)}}
 </script></head>
 <body><div class="wrap">
-  <h1>PyAutoScientist organism board</h1>
+  <h1>PyAutoScientist Dashboard</h1>
   <p class="banner {cls}">{_html.escape(route_hint(snapshot))}</p>
+  <p class="meta"><a href="dashboard.md">markdown version</a></p>
   <table>{''.join(rows)}</table>
-  <p class="meta">Each row is that organ's own board speaking in its own
-  words — open it to work there. 📋 copies the board's door command for a
+  <p class="meta">Each row is that organ's own dashboard speaking in its own
+  words — open it to work there. 📋 copies the dashboard's door command for a
   Claude Code chat.</p>
   <footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
   own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
