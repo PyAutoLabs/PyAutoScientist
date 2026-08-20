@@ -5,12 +5,14 @@
 **PyAutoScientist enables human-led, natural-language software development** — a working reference implementation of a software-development organism. Humans describe in plain English what the software should do, why the change is needed and how success should be judged; specialist AI agents plan, implement, test and release the work. Humans remain responsible for the scientific objectives, discussions with contributors and consequential decisions — a contributor does not need to understand the agent architecture to participate; a clear GitHub issue describing the desired change is enough.
 
 See the **[PyAutoScientist Dashboard](https://pyautolabs.github.io/PyAutoScientist/)**
-to watch the organism live and know where to work: it shows each
-organ's own dashboard headline — the [Mind's tasks](https://pyautolabs.github.io/PyAutoMind/),
-the [Heart's health verdict](https://pyautolabs.github.io/PyAutoHeart/), the
-[Hands' releases](https://pyautolabs.github.io/PyAutoHands/) and the
-[Memory's knowledge](https://pyautolabs.github.io/PyAutoMemory/) — topped by a
-"where to work next" hint (if the Heart is green, you go pick a task on the Mind).
+to watch the organism live and know where to work: it shows each organ's own
+dashboard headline, topped by a "where to work next" hint (if the Heart is
+green, you go pick a task on the Mind):
+
+- **[PyAutoMind Dashboard](https://pyautolabs.github.io/PyAutoMind/)**: planned and active development tasks on the scientist's mind.
+- **[PyAutoHeart Dashboard](https://pyautolabs.github.io/PyAutoHeart/)**: the health of every repository, rolled into the authoritative GREEN/STALE/YELLOW/RED release verdict.
+- **[PyAutoHands Dashboard](https://pyautolabs.github.io/PyAutoHands/)**: what shipped — the released library versions and the release train's recent runs.
+- **[PyAutoMemory Dashboard](https://pyautolabs.github.io/PyAutoMemory/)**: the scientist's long-term knowledge — the reading queue, citation work and each sub-wiki's maturity.
 
 ## The organism live
 
