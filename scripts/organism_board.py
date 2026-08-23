@@ -1,11 +1,11 @@
 """scripts/organism_board.py — the PyAutoScientist Dashboard.
 
 The umbrella ROUTER over the organism's live dashboards: one row per organ
-board — Mind (tasks), Heart (health), Hands (releases), Memory (knowledge) —
-each carrying that board's own live headline and link, topped by a
-"where to work next" banner keyed off the Heart's verdict (Heart red/yellow →
-start at the health board; green → pick a task on the Mind board). A glance
-here tells you WHICH board to open; the work happens there.
+board — Brain (operations), Mind (tasks), Heart (health), Hands (releases),
+Memory (knowledge) — each carrying that board's own live headline and link,
+topped by a "where to work next" banner keyed off the Heart's verdict (Heart
+red/yellow → start at the health board; green → pick a task on the Mind
+board). A glance here tells you WHICH board to open; the work happens there.
 
 **Sources** (plain HTTPS, no tokens): the Heart/Hands/Memory boards each
 publish a shields ``badge.json`` beside their page — their own headline in
@@ -41,8 +41,8 @@ HOME = Path(__file__).resolve().parents[1]
 # the door command a 📋 chip copies.) Brain publishes the same badge.json
 # headline contract as Heart/Hands/Memory (brain_board.yml).
 BOARDS = (
-    ("Mind", "PyAutoMind", "tasks — pick what to work on", "/start_dev <prompt-path>"),
     ("Brain", "PyAutoBrain", "operations — the morning door: what needs you", "/board"),
+    ("Mind", "PyAutoMind", "tasks — pick what to work on", "/start_dev <prompt-path>"),
     ("Heart", "PyAutoHeart", "health — is the organism ok?", "/health"),
     ("Hands", "PyAutoHands", "releases — what shipped", "/release"),
     ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "/memory <topic>"),
