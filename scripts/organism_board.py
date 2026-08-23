@@ -37,10 +37,12 @@ from pathlib import Path
 
 HOME = Path(__file__).resolve().parents[1]
 
-# The four boards, in routing order. (name, repo, what the board is,
-# the door command a 📋 chip copies.)
+# The five boards, in routing order. (name, repo, what the board is,
+# the door command a 📋 chip copies.) Brain publishes the same badge.json
+# headline contract as Heart/Hands/Memory (brain_board.yml).
 BOARDS = (
     ("Mind", "PyAutoMind", "tasks — pick what to work on", "/start_dev <prompt-path>"),
+    ("Brain", "PyAutoBrain", "operations — the morning door: what needs you", "/board"),
     ("Heart", "PyAutoHeart", "health — is the organism ok?", "/health"),
     ("Hands", "PyAutoHands", "releases — what shipped", "/release"),
     ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "/memory <topic>"),
