@@ -67,13 +67,25 @@ def test_badge_carries_verdict_and_backlog():
 def test_html_is_self_contained_with_door_chips():
     out = ob.render(_snap(), "html")
     assert out.lstrip().startswith("<!doctype html>")
-    assert "/health" in out and "/start_dev" in out and "data-copy=" in out
+    assert "/health" in out and "/start_dev" in out and "data-cmd=" in out
     assert "src=" not in out and "<link" not in out.lower()
     assert "fetch(" not in out and "XMLHttpRequest" not in out
-    stripped = re.sub(r'data-copy="[^"]*"', "", out)
+    stripped = re.sub(r'data-cmd="[^"]*"', "", out)
     for m in re.finditer(r"(?:http|https)://", stripped):
         before = stripped[max(0, m.start() - 30):m.start()]
         assert 'href="' in before or "href='" in before
+
+
+def test_html_wears_the_shared_family_theme():
+    # The look is the Brain's `board/_theme.py`, not a stylesheet copied in
+    # here: the page must carry this board's hero (mark, wordmark, tagline)
+    # and its accent, or it has silently fallen out of the family.
+    t = ob.theme()
+    out = ob.render(_snap(), "html")
+    assert t.MARKS[ob.BOARD_KEY] in out
+    assert t.ORGANS[ob.BOARD_KEY]["tagline"] in out
+    assert t.ORGANS[ob.BOARD_KEY]["ink_dark"] in out
+    assert "#58a6ff" not in out  # the old hard-coded GitHub blue
 
 
 def test_mind_counts_parser():
