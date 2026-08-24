@@ -47,6 +47,16 @@ HOME = Path(__file__).resolve().parents[1]
 BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
 
 
+def _workspace_root() -> Path:
+    """Where the sibling PyAuto checkouts live: `$PYAUTO_ROOT`, else `~/Code`.
+
+    The org's own directory name is an instance fact, so it is never written
+    here — a workspace that does not follow the default sets `$PYAUTO_ROOT`
+    (the same variable the dev-flow doors read).
+    """
+    return Path(os.environ.get("PYAUTO_ROOT") or Path.home() / "Code")
+
+
 def theme():
     """The shared theme module, or a RuntimeError naming the fix.
 
@@ -55,7 +65,7 @@ def theme():
     """
     for cand in (os.environ.get("PYAUTO_BRAIN"), HOME / "PyAutoBrain",
                  HOME.parent / "PyAutoBrain",
-                 Path.home() / "Code" / "PyAutoLabs" / "PyAutoBrain"):
+                 _workspace_root() / "PyAutoBrain"):
         if not cand:
             continue
         board = Path(cand) / "board"
