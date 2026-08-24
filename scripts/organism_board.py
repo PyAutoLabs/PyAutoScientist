@@ -28,6 +28,7 @@ from __future__ import annotations
 import datetime
 import html as _html
 import json
+import os
 import re
 import subprocess
 import sys
@@ -36,6 +37,47 @@ import urllib.request
 from pathlib import Path
 
 HOME = Path(__file__).resolve().parents[1]
+
+# The family look lives once, in the Brain (``board/_theme.py``): the
+# stylesheet, the hero that redraws this organ's logo as a mark, and the
+# cross-board footer. It is imported rather than copied, so the look moves for
+# the whole family at once — organism_board.yml checks PyAutoBrain out beside
+# this repo, and a local run finds the sibling checkout the same way the other
+# PyAuto tools resolve each other.
+BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
+
+
+def _workspace_root() -> Path:
+    """Where the sibling PyAuto checkouts live: `$PYAUTO_ROOT`, else `~/Code`.
+
+    The org's own directory name is an instance fact, so it is never written
+    here — a workspace that does not follow the default sets `$PYAUTO_ROOT`
+    (the same variable the dev-flow doors read).
+    """
+    return Path(os.environ.get("PYAUTO_ROOT") or Path.home() / "Code")
+
+
+def theme():
+    """The shared theme module, or a RuntimeError naming the fix.
+
+    Only the html path needs it; ``--md``/``--badge``/``--json`` never call
+    here, so the digest keeps working with no PyAutoBrain in reach.
+    """
+    for cand in (os.environ.get("PYAUTO_BRAIN"), HOME / "PyAutoBrain",
+                 HOME.parent / "PyAutoBrain",
+                 _workspace_root() / "PyAutoBrain"):
+        if not cand:
+            continue
+        board = Path(cand) / "board"
+        if (board / "_theme.py").is_file():
+            if str(board) not in sys.path:
+                sys.path.insert(0, str(board))
+            import _theme
+            return _theme
+    raise RuntimeError(
+        "the shared board theme (PyAutoBrain/board/_theme.py) is not in reach "
+        "— check PyAutoBrain out beside this repo or set PYAUTO_BRAIN")
+
 
 # The five boards, in routing order. (name, repo, what the board is,
 # the door command a 📋 chip copies.) Brain publishes the same badge.json
@@ -144,18 +186,46 @@ def _render_md_brief(snapshot: dict) -> str:
 
 
 def _copy_btn(payload: str, label: str = "copy") -> str:
+    """A one-tap payload chip. The behaviour is the family's shared script
+    (``_theme.JS``): a delegated click handler reading ``data-cmd``."""
     return (f"<button class='copy' type='button' "
             f"title='{_html.escape(label, quote=True)}' "
-            f"data-copy=\"{_html.escape(payload, quote=True)}\" "
-            f"onclick='cp(this)'>📋</button>")
+            f"data-cmd=\"{_html.escape(payload, quote=True)}\">\U0001f4cb</button>")
 
 
 _HEART_CLS = {"RED": "fail", "YELLOW": "warn", "STALE": "info", "GREEN": "ok"}
 
+# The Heart's word in the theme's verdict vocabulary. Unknown stays neutral:
+# "we could not read the Heart" is not a verdict, and colouring it as one
+# would say something the page does not know.
+_VERDICT_CLS = {"RED": "bad", "YELLOW": "warn", "STALE": "warn", "GREEN": "ok"}
+
+# What the shared sheet has no opinion on: this board is a router, so its one
+# page-specific shape is the organ row — a name, that board's own headline,
+# and what it is for. Written against the theme's variables, so it follows the
+# accent rather than setting a second palette.
+_EXTRA_CSS = """
+.organ{display:flex;gap:.6rem;align-items:flex-start;padding:.55rem .35rem;
+ margin:0 -.35rem;border-bottom:1px solid var(--line);border-radius:7px}
+.organ:hover{background:var(--tint)}
+.organ p{margin:0;flex:1}
+.organ .name{display:inline-block;min-width:4.6rem;font-weight:700}
+.organ .head{font-weight:600}
+.organ .role{display:block;color:var(--muted);font-size:.88em}
+footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);
+ color:var(--muted);font-size:.82em}
+"""
+
+
+_LEDE = ("One row per organ, each speaking in its own words. This page "
+         "routes; the work happens on the board you open. Tap \U0001f4cb to "
+         "put that board's door command on your clipboard for a Claude Code "
+         "chat.")
+
 
 def _render_html(snapshot: dict) -> str:
+    t = theme()
     word = heart_word(snapshot)
-    cls = _HEART_CLS.get(word, "unobs")
     rows = []
     for b in snapshot.get("boards") or []:
         head = _html.escape(b.get("headline") or "unavailable")
@@ -163,61 +233,27 @@ def _render_html(snapshot: dict) -> str:
                 f"{_html.escape(b['name'])}</a>" if b.get("url")
                 else _html.escape(b["name"]))
         rows.append(
-            f"<tr><td class='name'>{link}</td>"
-            f"<td><span class='head'>{head}</span> "
-            f"<span class='meta'>{_html.escape(b['role'])}</span> "
+            f"<div class='organ'>"
             f"{_copy_btn(b['door'], 'copy the door command for a Claude Code chat')}"
-            f"</td></tr>")
+            f"<p><span class='name'>{link}</span> "
+            f"<span class='head'>{head}</span>"
+            f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
+    hero = t.hero(BOARD_KEY, "Dashboard", _LEDE)
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PyAutoScientist — {word}</title>
-<style>
-  :root {{ color-scheme: light dark; }}
-  * {{ box-sizing: border-box; }}
-  body {{ font: 15px/1.5 -apple-system, Segoe UI, Roboto, sans-serif;
-         margin: 0; padding: 2rem 1rem; background: #0d1117; color: #c9d1d9; }}
-  .wrap {{ max-width: 760px; margin: 0 auto; }}
-  h1 {{ font-size: 1.3rem; margin: 0 0 .5rem; }}
-  .banner {{ padding: .6rem .9rem; border-radius: 8px; font-weight: 600;
-            margin: 0 0 1.25rem; }}
-  .banner.ok {{ background: #12261c; color: #3fb950; }}
-  .banner.warn {{ background: #2a2110; color: #d29922; }}
-  .banner.fail {{ background: #2d1517; color: #f85149; }}
-  .banner.info {{ background: #10202f; color: #58a6ff; }}
-  .banner.unobs {{ background: #1b1f24; color: #8b949e; }}
-  table {{ width: 100%; border-collapse: collapse; }}
-  td {{ padding: .6rem .5rem; border-top: 1px solid #21262d; vertical-align: top; }}
-  td.name {{ font-weight: 700; white-space: nowrap; width: 6.5rem; }}
-  .head {{ font-weight: 600; }}
-  .meta {{ color: #8b949e; font-size: .9rem; }}
-  a {{ color: #58a6ff; text-decoration: none; }}
-  a:hover {{ text-decoration: underline; }}
-  button.copy {{ background: #21262d; border: 1px solid #30363d; border-radius: 6px;
-                color: #c9d1d9; cursor: pointer; padding: .05rem .45rem;
-                margin-left: .35rem; font-size: .85rem; line-height: 1.4; }}
-  button.copy:hover {{ background: #30363d; }}
-  footer {{ margin-top: 2rem; color: #8b949e; font-size: .8rem; }}
-</style>
-<script>
-function cp(b){{var t=b.getAttribute('data-copy');
- if(navigator.clipboard&&navigator.clipboard.writeText){{
-   navigator.clipboard.writeText(t).then(function(){{ok(b)}},function(){{fb(t)}});
- }}else{{fb(t)}}}}
-function ok(b){{b.textContent='✓';setTimeout(function(){{b.textContent='📋'}},1200)}}
-function fb(t){{window.prompt('Copy this:',t)}}
-</script></head>
-<body><div class="wrap">
-  <h1>PyAutoScientist Dashboard</h1>
-  <p class="banner {cls}">{_html.escape(route_hint(snapshot))}</p>
-  <p class="meta"><a href="dashboard.md">markdown version</a></p>
-  <table>{''.join(rows)}</table>
-  <p class="meta">Each row is that organ's own dashboard speaking in its own
-  words — open it to work there. 📋 copies the dashboard's door command for a
-  Claude Code chat.</p>
-  <footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
-  own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
-</div></body></html>
+<title>PyAutoScientist Dashboard</title>
+<style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style>
+</head>
+<body>
+{hero}
+<p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
+{''.join(rows)}
+<p class="muted mdsrc"><a href="dashboard.md">markdown version</a></p>
+<footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
+own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
+<script>{t.JS}</script>
+</body></html>
 """
 
 
