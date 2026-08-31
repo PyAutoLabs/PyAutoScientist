@@ -239,6 +239,12 @@ def _render_html(snapshot: dict) -> str:
             f"<span class='head'>{head}</span>"
             f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
     hero = t.hero(BOARD_KEY, "Dashboard", _LEDE)
+    # The way back from the Pages board to the repository front door; the
+    # owner comes from the snapshot (the git remote), so the segment drops
+    # out when the origin is unknown.
+    gh_owner = snapshot.get("owner")
+    github_link = (f' · <a href="https://github.com/{gh_owner}/PyAutoScientist'
+                   '/blob/main/README.md">GitHub Page</a>' if gh_owner else "")
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -249,7 +255,7 @@ def _render_html(snapshot: dict) -> str:
 {hero}
 <p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
 {''.join(rows)}
-<p class="muted mdsrc"><a href="dashboard.md">markdown version</a></p>
+<p class="muted mdsrc"><a href="dashboard.md">markdown version</a>{github_link}</p>
 <footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
 own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
 <script>{t.JS}</script>
