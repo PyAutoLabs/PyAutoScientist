@@ -52,6 +52,8 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 
 PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening for user-submitted GitHub issues and pull requests, helping the human maintainer discuss them with contributors and routing actionable work into development.
 
+The Cortex keeps scientific experiments on a separate track from software development. An experiment is written down as a question with the result that will settle it stated in advance, waits for whatever software work it depends on to be finished, runs on a computing cluster, and then comes back for the human maintainer to judge. Its board shows every experiment currently on that track — waiting to start, running, or waiting on a verdict — and is published at <https://pyautolabs.github.io/PyAutoCortex/>. The verdicts themselves are recorded in the Cortex and nowhere else: a conclusion written only into a project’s own notes does not count, which is what keeps the record of what the science actually found complete.
+
 The software developed by the organism lives across the [PyAutoLabs](https://github.com/PyAutoLabs) organisation. See the [PyAutoLabs front door](https://pyautolabs.github.io) for the full repository map.
 
 ## Project History
