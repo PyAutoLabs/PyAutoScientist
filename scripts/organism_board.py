@@ -48,13 +48,18 @@ BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
 
 
 def _workspace_root() -> Path:
-    """Where the sibling PyAuto checkouts live: `$PYAUTO_ROOT`, else `~/Code`.
+    """Find the workspace containing the sibling PyAuto checkouts.
 
     The org's own directory name is an instance fact, so it is never written
     here — a workspace that does not follow the default sets `$PYAUTO_ROOT`
     (the same variable the dev-flow doors read).
     """
-    return Path(os.environ.get("PYAUTO_ROOT") or Path.home() / "Code")
+    if os.environ.get("PYAUTO_ROOT"):
+        return Path(os.environ["PYAUTO_ROOT"])
+    for parent in (HOME, *HOME.parents):
+        if (parent / ".pyauto-root").is_file():
+            return parent
+    return Path.home() / "Code"
 
 
 def theme():
@@ -65,6 +70,7 @@ def theme():
     """
     for cand in (os.environ.get("PYAUTO_BRAIN"), HOME / "PyAutoBrain",
                  HOME.parent / "PyAutoBrain",
+                 _workspace_root() / "organs" / "PyAutoBrain",
                  _workspace_root() / "PyAutoBrain"):
         if not cand:
             continue
