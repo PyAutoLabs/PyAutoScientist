@@ -18,6 +18,29 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import organism_board as ob  # noqa: E402
 
 
+def test_theme_finds_grouped_brain_from_outer_workspace(tmp_path, monkeypatch):
+    brain_board = tmp_path / "organs" / "PyAutoBrain" / "board"
+    brain_board.mkdir(parents=True)
+    (brain_board / "_theme.py").write_text("GROUPED_THEME = True\n")
+    monkeypatch.setenv("PYAUTO_ROOT", str(tmp_path))
+    monkeypatch.setattr(ob, "HOME", tmp_path / "PyAutoScientist")
+    monkeypatch.delitem(sys.modules, "_theme", raising=False)
+    monkeypatch.setattr(sys, "path", sys.path.copy())
+    try:
+        assert ob.theme().GROUPED_THEME
+    finally:
+        sys.modules.pop("_theme", None)
+
+
+def test_workspace_root_marker_stays_at_outer_root(tmp_path, monkeypatch):
+    scientist = tmp_path / "organs" / "PyAutoScientist"
+    scientist.mkdir(parents=True)
+    (tmp_path / ".pyauto-root").touch()
+    monkeypatch.delenv("PYAUTO_ROOT", raising=False)
+    monkeypatch.setattr(ob, "HOME", scientist)
+    assert ob._workspace_root() == tmp_path
+
+
 def _snap(heart="GREEN · 100", color="brightgreen"):
     return {
         "generated": "2026-06-01T00:00:00+00:00",
