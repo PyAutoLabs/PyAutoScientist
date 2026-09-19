@@ -2,7 +2,7 @@
 
 [![organism](https://img.shields.io/endpoint?url=https://pyautolabs.github.io/PyAutoScientist/badge.json)](https://pyautolabs.github.io/PyAutoScientist/)
 
-**PyAutoScientist enables human-led, natural-language software development** — a working reference implementation of a software-development organism. Humans describe in plain English what the software should do, why the change is needed and how success should be judged; specialist AI agents plan, implement, test and release the work. Humans remain responsible for the scientific objectives, discussions with contributors and consequential decisions — a contributor does not need to understand the agent architecture to participate; a clear GitHub issue describing the desired change is enough.
+**PyAutoScientist enables human-led, natural-language software development** — an experimental reference implementation by James Nightingale. Humans describe what the software should do, why it is needed, and how success should be judged; specialist AI agents help plan, implement, test, and prepare releases. Humans remain responsible for scientific objectives, contributor communication, and consequential decisions. Using this ecosystem is optional: you do not need to adopt PyAutoScientist or use AI to contribute to PyAutoLabs.
 
 See the **[PyAutoScientist Dashboard](https://pyautolabs.github.io/PyAutoScientist/)**
 to watch the organism live and know where to work: it shows each organ's own
@@ -50,7 +50,7 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 | Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
 <!-- repos_sync:organs:end -->
 
-PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening for user-submitted GitHub issues and pull requests, helping the human maintainer discuss them with contributors and routing actionable work into development.
+PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening to the shared Discussions hub and user-submitted GitHub issues, helping the human maintainer discuss them with contributors and routing actionable work into development.
 
 The Cortex keeps scientific experiments on a separate track from software development. An experiment is written down as a question with the result that will settle it stated in advance, waits for whatever software work it depends on to be finished, runs on a computing cluster, and then comes back for the human maintainer to judge. Its board shows every experiment currently on that track — waiting to start, running, or waiting on a verdict — and is published at <https://pyautolabs.github.io/PyAutoCortex/>. The verdicts themselves are recorded in the Cortex and nowhere else: a conclusion written only into a project’s own notes does not count, which is what keeps the record of what the science actually found complete.
 
@@ -62,13 +62,13 @@ In March 2026, following more than a decade of exclusively human-led software de
 
 ## Contributing
 
-The easiest way to contribute is to open an issue on the repository relevant to your request and describe the desired change in natural language. You may also submit a conventional pull request, with or without AI assistance.
+Start with [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions) for questions, ideas, and proposals. Confirmed reproducible bugs and agreed implementation work belong in the affected repository's issue tracker. You may also submit a conventional pull request, with or without AI assistance.
 
-Read the [contribution guide](CONTRIBUTING.md) for the available development paths and the standards applied to submissions.
+Read the [organization-wide contribution guide](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) for the available development paths and standards. For changes to PyAutoScientist itself, also follow this repository's local agent guidance.
 
 ## Community
 
-PyAutoScientist is the canonical home for community-wide PyAutoLabs policy. Please read the [Code of Conduct](CODE_OF_CONDUCT.md) before participating.
+The [shared community hub](https://github.com/orgs/PyAutoLabs/discussions) welcomes users of every PyAutoLabs repository. Contribution, conduct, and support guidance are maintained in [PyAutoLabs/.github](https://github.com/PyAutoLabs/.github); please read the [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md) before participating. The [AI Policy](AI_POLICY.md) remains here and is linked explicitly by other repositories.
 
 ## License
 
