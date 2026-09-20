@@ -29,7 +29,9 @@ environment. Bring the resulting diff, commit and validation evidence back into
 this same Mind task and continue the Brain review / Heart / PR workflow here.
 
 Do not create a second task-state system and do not automate the ChatGPT web
-client or treat a ChatGPT session as an API.
+client or treat a ChatGPT session as an API. Do not use an OpenAI API key,
+OpenAI SDK, Responses API or API Platform fallback: this route must have no
+separately billed OpenAI API path.
 ```
 
 If the task has not yet been filed in Mind, use the normal `/start_dev`
