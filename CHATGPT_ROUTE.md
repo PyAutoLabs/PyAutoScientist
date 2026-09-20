@@ -22,7 +22,8 @@ canonical PyAutoBrain development workflow and PyAutoMind lifecycle. Use the
 GitHub capabilities available in this conversation for repository and PR work
 when they are sufficient. If a phase needs capabilities this conversation does
 not have — for example a local filesystem, shell, package imports, tests,
-scientific runs, profiling, worktrees, or a remote compute environment —
+scientific runs, profiling, worktrees, an independent reviewer when required,
+or a remote compute environment —
 handoff only that smallest coherent execution phase to a supported execution
 environment. Bring the resulting diff, commit and validation evidence back into
 this same Mind task and continue the Brain review / Heart / PR workflow here.
@@ -66,7 +67,9 @@ treat that as a missing capability and obtain only that bounded evidence before
 shipping.
 
 Escalate only when the task's required evidence needs a capability the current
-conversation lacks. A bounded execution request should identify the existing
+conversation lacks. Independent review counts: a second pass in the same
+conversation is not an independent reviewer. A bounded execution or review
+request should identify the existing
 Mind task, exact repository/branch/commit, permitted scope, required commands
 or scientific checks, and the evidence to return. It should not receive the
 whole original task merely because one test has to run.
