@@ -60,7 +60,10 @@ repository inspection, architecture reasoning, planning, GitHub-native edits,
 issues/branches/commits/PRs/reviews, and CI inspection where those actions are
 available. Existing repository CI can supply execution evidence when it
 actually covers the required validation; do not manufacture a temporary
-workflow merely to obtain a shell.
+workflow merely to obtain a shell. CI evidence does **not** replace the Heart
+verdict. If this conversation cannot obtain a fresh authoritative Heart reading,
+treat that as a missing capability and obtain only that bounded evidence before
+shipping.
 
 Escalate only when the task's required evidence needs a capability the current
 conversation lacks. A bounded execution request should identify the existing
