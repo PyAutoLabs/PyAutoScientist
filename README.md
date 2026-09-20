@@ -17,6 +17,24 @@ green, you go pick a task on the Mind):
 📖 **Docs:** https://pyautoscientist.readthedocs.io<br>
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
 
+
+## Develop from ChatGPT Chat
+
+If you are already in an ordinary ChatGPT conversation, that conversation can
+remain the scientist-facing orchestrator rather than moving the whole task into
+a coding harness. Start with:
+
+```text
+Start this PyAutoMind task using the ChatGPT route: <prompt-path-or-task>.
+```
+
+The route uses whatever repository and GitHub capabilities the current
+conversation actually exposes, and escalates only the smallest coherent phase
+that needs a real execution environment. Mind remains the task record; Brain,
+review, Heart and human merge gates remain unchanged. See
+[the ChatGPT orchestration route](CHATGPT_ROUTE.md) for the copyable launch
+prompt and adapter contract.
+
 ## From natural language to trusted software
 
 Making development accessible through natural language does not reduce the standard of evidence required before code is accepted or released.
