@@ -81,6 +81,24 @@ large worktree-coordinated changes — route that coherent phase to an execution
 environment from the outset while keeping Brain decisions, Mind state, review,
 Heart gating and human merge decisions in the orchestrating conversation.
 
+### Bounded handoff shape
+
+When a handoff is required, make it copyable and phase-sized:
+
+```text
+PyAutoMind task: <task / issue>
+Repository + branch + exact starting commit: <...>
+Objective for this execution phase: <one coherent outcome>
+Permitted scope: <files / commands / environment>
+Required evidence: <tests / run / traceback / measurements>
+Do not: redesign unrelated code or broaden the task.
+Return: changed commit/diff (if any), pass/fail counts, and only the
+decision-relevant failure/environment evidence.
+```
+
+The full constraints remain those in Brain's `MODEL_DELEGATION.md`; this is
+only the Chat-facing envelope.
+
 ## Definition of done is unchanged
 
 The route used to perform the work is not evidence that it is correct.
