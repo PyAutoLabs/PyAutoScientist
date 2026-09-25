@@ -66,6 +66,7 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 | Hands | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
 | Nerves | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 | Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
+| Eyes | [PyAutoEyes](https://github.com/PyAutoLabs/PyAutoEyes) | Holds the rendered gallery of every figure each PyAuto library draws, on realistic data, so what the software shows can be seen, judged and improved in one place. |
 <!-- repos_sync:organs:end -->
 
 PyAutoBrain also contains specialist agents that act like additional senses and capabilities. For example, its community agent serves as the organism’s **Ears**, listening to the shared Discussions hub and user-submitted GitHub issues, helping the human maintainer discuss them with contributors and routing actionable work into development.
