@@ -13,6 +13,7 @@ green, you go pick a task on the Mind):
 - **[PyAutoHeart Dashboard](https://pyautolabs.github.io/PyAutoHeart/)**: the health of every repository, rolled into the authoritative GREEN/STALE/YELLOW/RED release verdict.
 - **[PyAutoHands Dashboard](https://pyautolabs.github.io/PyAutoHands/)**: what shipped — the released library versions and the release train's recent runs.
 - **[PyAutoMemory Dashboard](https://pyautolabs.github.io/PyAutoMemory/)**: the scientist's long-term knowledge — the reading queue, citation work and each sub-wiki's maturity.
+- **[PyAutoEyes Dashboard](https://pyautolabs.github.io/PyAutoEyes/)**: what the software shows — every figure the libraries draw on realistic data, one row per visualization project, with freshness against the latest release.
 
 📖 **Docs:** https://pyautoscientist.readthedocs.io<br>
 🍴 **Adoption guide:** https://pyautoscientist.readthedocs.io/en/latest/adoption/guide.html
