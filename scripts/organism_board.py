@@ -89,11 +89,11 @@ def theme():
 # the door command a 📋 chip copies.) Brain publishes the same badge.json
 # headline contract as Heart/Hands/Memory (brain_board.yml).
 BOARDS = (
-    ("Brain", "PyAutoBrain", "operations — the morning door: what needs you", "/board"),
-    ("Mind", "PyAutoMind", "tasks — pick what to work on", "/start_dev <prompt-path>"),
-    ("Heart", "PyAutoHeart", "health — is the organism ok?", "/health"),
-    ("Hands", "PyAutoHands", "releases — what shipped", "/release"),
-    ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "/memory <topic>"),
+    ("Brain", "PyAutoBrain", "operations — the morning door: what needs you", "Use the board skill."),
+    ("Mind", "PyAutoMind", "tasks — pick what to work on", "Use the start-dev skill. <prompt-path>"),
+    ("Heart", "PyAutoHeart", "health — is the organism ok?", "Use the health skill."),
+    ("Hands", "PyAutoHands", "releases — what shipped", "Use the release skill."),
+    ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "Use the memory skill. <topic>"),
 )
 
 MIND_COUNT_RE = re.compile(r"^\|\s*\[([A-Za-z ]+)\]\([^)]*\)[^|]*\|\s*(\d+)\s*\|",
@@ -164,7 +164,7 @@ def route_hint(snapshot: dict) -> str:
         return ("The Heart is " + word +
                 " — start at the PyAutoHeart Dashboard and fix what's blocking.")
     if word == "STALE":
-        return ("Evidence gaps, nothing known-bad — re-run checks via /health, "
+        return ("Evidence gaps, nothing known-bad — re-run checks via Use the health skill., "
                 "then pick a task on the PyAutoMind Dashboard.")
     if word == "GREEN":
         return "All clear — pick a task on the PyAutoMind Dashboard."
@@ -225,7 +225,7 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);
 
 _LEDE = ("One row per organ, each speaking in its own words. This page "
          "routes; the work happens on the board you open. Tap \U0001f4cb to "
-         "put that board's door command on your clipboard for a Claude Code "
+         "put that board's door command on your clipboard for an AI assistant "
          "chat.")
 
 
@@ -240,7 +240,7 @@ def _render_html(snapshot: dict) -> str:
                 else _html.escape(b["name"]))
         rows.append(
             f"<div class='organ'>"
-            f"{_copy_btn(b['door'], 'copy the door command for a Claude Code chat')}"
+            f"{_copy_btn(b['door'], 'copy the door command for an AI assistant chat')}"
             f"<p><span class='name'>{link}</span> "
             f"<span class='head'>{head}</span>"
             f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
