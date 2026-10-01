@@ -47,18 +47,18 @@ def _snap(heart="GREEN · 100", color="brightgreen"):
         "owner": "SomeOrg",
         "boards": [
             {"name": "Mind", "repo": "PyAutoMind", "role": "tasks",
-             "door": "/start_dev <prompt-path>",
+             "door": "Use the start-dev skill. <prompt-path>",
              "url": "https://someorg.github.io/PyAutoMind/",
              "headline": "2 in flight · 9 backlog", "color": None,
              "counts": {"In flight": 2, "Backlog": 9}},
             {"name": "Heart", "repo": "PyAutoHeart", "role": "health",
-             "door": "/health", "url": "https://someorg.github.io/PyAutoHeart/",
+             "door": "Use the health skill.", "url": "https://someorg.github.io/PyAutoHeart/",
              "headline": heart, "color": color},
             {"name": "Hands", "repo": "PyAutoHands", "role": "releases",
-             "door": "/release", "url": "https://someorg.github.io/PyAutoHands/",
+             "door": "Use the release skill.", "url": "https://someorg.github.io/PyAutoHands/",
              "headline": None, "color": None},
             {"name": "Memory", "repo": "PyAutoMemory", "role": "knowledge",
-             "door": "/memory <topic>", "url": "https://someorg.github.io/PyAutoMemory/",
+             "door": "Use the memory skill. <topic>", "url": "https://someorg.github.io/PyAutoMemory/",
              "headline": "10 pages · 50% cited", "color": "blueviolet"},
         ],
     }
@@ -94,7 +94,7 @@ def test_html_is_self_contained_with_door_chips():
     assert '<a href="dashboard.md">markdown version</a>' in out
     assert ('<a href="https://github.com/SomeOrg/PyAutoScientist/blob/main/'
             'README.md">GitHub Page</a>') in out
-    assert "/health" in out and "/start_dev" in out and "data-cmd=" in out
+    assert "Use the health skill." in out and "Use the start-dev skill." in out and "data-cmd=" in out
     assert "src=" not in out and "<link" not in out.lower()
     assert "fetch(" not in out and "XMLHttpRequest" not in out
     stripped = re.sub(r'data-cmd="[^"]*"', "", out)
