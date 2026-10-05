@@ -244,7 +244,10 @@ def _render_html(snapshot: dict) -> str:
             f"<p><span class='name'>{link}</span> "
             f"<span class='head'>{head}</span>"
             f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
-    hero = t.hero(BOARD_KEY, "Dashboard", _LEDE)
+    hero = t.hero(BOARD_KEY, "Dashboard", _LEDE, navigation=[
+        {"href": b["url"], "label": b["name"]}
+        for b in snapshot.get("boards") or [] if b.get("url")
+    ])
     # The way back from the Pages board to the repository front door; the
     # owner comes from the snapshot (the git remote), so the segment drops
     # out when the origin is unknown.
