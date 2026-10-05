@@ -8,9 +8,8 @@ name: Dashboard
 # board stays the authority; this page only routes.
 #
 # Six-hourly: the organ boards refresh on their own daily/push cadences, so
-# the router follows within hours. Tests (`python -m pytest tests/`) run ad
-# hoc — this repo deliberately carries no CI gate; this workflow building the
-# page is the operational check.
+# the router follows within hours. board_tests.yml checks fixture renders on PRs;
+# this workflow builds and publishes the live page.
 
 on:
   schedule:

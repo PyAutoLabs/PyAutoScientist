@@ -1,7 +1,6 @@
 """tests/test_organism_board.py — the umbrella router board (fixture-only).
 
-Run ad hoc with `python -m pytest tests/` — this repo has no CI gate; the
-board workflow building the page is the operational check. What matters:
+Run with `python -m pytest tests/`, also exercised by board_tests.yml. What matters:
 routing follows the Heart verdict, every fmt renders from a snapshot, rows
 degrade to "unavailable", and the html is self-contained.
 """
