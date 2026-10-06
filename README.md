@@ -83,6 +83,15 @@ The software developed by the organism lives across the [PyAutoLabs](https://git
 
 In March 2026, following more than a decade of exclusively human-led software development, PyAutoLabs transitioned to a fully natural-language, agentic-AI development ecosystem called `PyAutoScientist`. The software it now develops grew out of that decade of human-led work: [PyAutoLens](https://github.com/PyAutoLabs/PyAutoLens) (strong gravitational lensing), [PyAutoGalaxy](https://github.com/PyAutoLabs/PyAutoGalaxy) (galaxy structure and morphology), [PyAutoFit](https://github.com/PyAutoLabs/PyAutoFit) (Bayesian model fitting), [PyAutoArray](https://github.com/PyAutoLabs/PyAutoArray) (scientific data structures) and [PyAutoCTI](https://github.com/PyAutoLabs/PyAutoCTI) (CCD charge-transfer calibration), together with their workspaces and tutorials.
 
+## Shared standards
+
+The [organism standards index](https://github.com/PyAutoLabs/PyAutoBrain/blob/main/docs/standards.md)
+links the shared dashboard sizing, navigation and orchestration contracts,
+their reusable components and validation. Consult the applicable standard when
+changing a shared interface; keep each board's data and workflow with its owner.
+The [published documentation](https://pyautoscientist.readthedocs.io) continues
+to build from PyAutoBrain's docs.
+
 ## Contributing
 
 Start with [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions) for questions, ideas, and proposals. Confirmed reproducible bugs and agreed implementation work belong in the affected repository's issue tracker. You may also submit a conventional pull request, with or without AI assistance.

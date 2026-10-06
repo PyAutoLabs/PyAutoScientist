@@ -44,6 +44,8 @@ HOME = Path(__file__).resolve().parents[1]
 # the whole family at once — organism_board.yml checks PyAutoBrain out beside
 # this repo, and a local run finds the sibling checkout the same way the other
 # PyAuto tools resolve each other.
+CHECKIN_PROMPT = 'Review the organism boards in this chat. Read PyAutoScientist/AGENTS.md and use the board skill to verify current operational evidence, unknown coverage, priorities and blockers. Route each next action to its relevant organ and existing skill; keep this landing repository separate from scientific execution and authoritative task state. Apply my direction while retaining the overall review. Propose bounded next steps and preserve all development, release, compute and merge approval gates. Do not execute mutations merely to check in.'
+
 BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
 
 
@@ -225,6 +227,14 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);
 
 def _render_html(snapshot: dict) -> str:
     t = theme()
+    work_links = [
+        {"label": b["name"] + " repository",
+         "href": f"https://github.com/{snapshot['owner']}/{b['repo']}"}
+        for b in snapshot.get("boards") or []
+        if snapshot.get("owner") and b.get("repo")
+    ]
+    panel = t.orchestration_panel("scientist", "", "", CHECKIN_PROMPT,
+                                  organ="scientist", work_links=work_links)
     word = heart_word(snapshot)
     rows = []
     for b in snapshot.get("boards") or []:
@@ -256,7 +266,7 @@ def _render_html(snapshot: dict) -> str:
 </head>
 <body>
 {hero}
-{t.prompt_heading("scientist")}
+{panel}
 <p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
 {''.join(rows)}
 <p class="muted mdsrc"><a href="dashboard.md">markdown version</a>{github_link}</p>
