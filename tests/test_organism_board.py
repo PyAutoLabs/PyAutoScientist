@@ -97,6 +97,7 @@ def test_html_is_self_contained_with_door_chips():
     assert "src=" not in out and "<link" not in out.lower()
     assert "fetch(" not in out and "XMLHttpRequest" not in out
     stripped = re.sub(r'data-cmd="[^"]*"', "", out)
+    stripped = re.sub(r"<textarea\b[^>]*>.*?</textarea>", "", stripped, flags=re.S)
     for m in re.finditer(r"(?:http|https)://", stripped):
         before = stripped[max(0, m.start() - 30):m.start()]
         assert 'href="' in before or "href='" in before
@@ -119,3 +120,15 @@ def test_mind_counts_parser():
           "| [In flight](#a) (`active/`) | 4 |\n| [Backlog](#b) (`draft/`) | 151 |\n")
     counts = {k: int(v) for k, v in ob.MIND_COUNT_RE.findall(md)}
     assert counts == {"In flight": 4, "Backlog": 151}
+
+
+def test_panel_links_each_work_owner_and_preserves_doors():
+    snap = _snap()
+    rendered = ob.render(snap, "html")
+    assert 'data-orchestration-panel' in rendered
+    assert 'Work on GitHub:' in rendered
+    assert 'Do not execute mutations merely to check in.' in rendered
+    for row in snap["boards"]:
+        assert f'https://github.com/SomeOrg/{row["repo"]}' in rendered
+    assert rendered.count("copy the door command") == len(snap["boards"])
+    assert rendered.index('data-orchestration-panel') < rendered.index("class='organ'")
