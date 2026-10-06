@@ -223,12 +223,6 @@ footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);
 """
 
 
-_LEDE = ("One row per organ, each speaking in its own words. This page "
-         "routes; the work happens on the board you open. Tap \U0001f4cb to "
-         "put that board's door command on your clipboard for an AI assistant "
-         "chat.")
-
-
 def _render_html(snapshot: dict) -> str:
     t = theme()
     word = heart_word(snapshot)
@@ -244,7 +238,7 @@ def _render_html(snapshot: dict) -> str:
             f"<p><span class='name'>{link}</span> "
             f"<span class='head'>{head}</span>"
             f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
-    hero = t.hero(BOARD_KEY, "Dashboard", _LEDE, navigation=[
+    hero = t.hero(BOARD_KEY, "Dashboard", navigation=[
         {"href": b["url"], "label": b["name"]}
         for b in snapshot.get("boards") or [] if b.get("url")
     ])
@@ -262,6 +256,7 @@ def _render_html(snapshot: dict) -> str:
 </head>
 <body>
 {hero}
+{t.prompt_heading("scientist")}
 <p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
 {''.join(rows)}
 <p class="muted mdsrc"><a href="dashboard.md">markdown version</a>{github_link}</p>
