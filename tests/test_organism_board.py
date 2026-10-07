@@ -152,3 +152,44 @@ def test_panel_refresh_uses_router_capture(monkeypatch):
     snap["boards"] = []
     ob.render(snap, "html")
     assert calls[-1]["refreshed_at"] is None
+
+
+def test_shared_layout_puts_slogan_above_cards_and_folds_the_section():
+    out = ob.render(_snap("YELLOW · 70", "yellow"), "html")
+    panel = out.index("data-orchestration-panel")
+    nav = out.index('class="board-nav"')
+    verdict = out.index('class="verdict')
+    section = out.index('<details class="board-section">')
+    assert panel < nav < verdict < section
+    # Collapsed by default, one disclosure, the routing answer left outside it.
+    assert out.count('<details class="board-section"') == 1
+    assert '<details class="board-section" open' not in out
+    assert out.index('<h2 id="dashboards">') > section
+    # Every organ row keeps a stable fragment inside the disclosure, and the
+    # door chips survive the wrapping.
+    body = out[section:out.index("</details>", section)]
+    for name in ("mind", "heart", "hands", "memory"):
+        assert f"id='board-{name}'" in body
+    assert body.count("copy the door command") == 4
+
+
+def test_section_header_counts_live_boards_and_labels_the_heart():
+    out = ob.render(_snap("RED · 40", "red"), "html")
+    start = out.index('<details class="board-section"><summary>')
+    summary = out[start:out.index("</summary>", start)]
+    assert '<span class="section-badge">3 of 4 reporting</span>' in summary
+    assert '<span class="section-badge section-status-red">Heart RED</span>' in summary
+
+
+def test_missing_evidence_is_never_green_or_zero():
+    snap = _snap()
+    for row in snap["boards"]:
+        row["headline"] = None
+    info = ob.section_summaries(snap)["dashboards"]
+    assert info == {"status": "unknown", "label": "Heart unknown",
+                    "count": "0 of 4 reporting"}
+    snap["boards"] = []
+    assert ob.section_summaries(snap)["dashboards"] == {
+        "status": "unknown", "label": "Heart unknown"}
+    assert ob.section_summaries(_snap("STALE · 65"))["dashboards"]["status"] == "stale"
+    assert ob.section_summaries(_snap("WHATEVER"))["dashboards"]["status"] == "unknown"

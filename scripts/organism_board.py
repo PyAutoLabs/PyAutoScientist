@@ -234,6 +234,38 @@ _HEART_CLS = {"RED": "fail", "YELLOW": "warn", "STALE": "info", "GREEN": "ok"}
 # would say something the page does not know.
 _VERDICT_CLS = {"RED": "bad", "YELLOW": "warn", "STALE": "warn", "GREEN": "ok"}
 
+# The same word in the shared section-status vocabulary (Brain
+# ``section_layout``). Anything the Heart did not say — an unreadable badge, an
+# unfamiliar word — is "unknown", never green.
+_SECTION_STATUS = {"RED": "red", "YELLOW": "yellow", "STALE": "stale", "GREEN": "green"}
+
+SECTION_ID = "dashboards"
+
+
+def _row_id(name: str) -> str:
+    """The stable fragment of one organ row (``#board-heart``)."""
+    return "board-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def section_summaries(snapshot: dict) -> dict:
+    """Owner-computed header facts for the collapsed "Organ dashboards" section.
+
+    The count is how many boards actually answered out of how many are listed,
+    so a missing headline reads as a gap ("4 of 5 reporting"), not as a quiet
+    zero. The status is the Heart's own word, labelled as such; it routes, it
+    does not restate release readiness.
+    """
+    rows = snapshot.get("boards") or []
+    word = heart_word(snapshot)
+    info: dict = {
+        "status": _SECTION_STATUS.get(word, "unknown"),
+        "label": "Heart " + (word if word in _SECTION_STATUS else "unknown"),
+    }
+    if rows:
+        live = sum(1 for b in rows if b.get("headline"))
+        info["count"] = f"{live} of {len(rows)} reporting"
+    return {SECTION_ID: info}
+
 # What the shared sheet has no opinion on: this board is a router, so its one
 # page-specific shape is the organ row — a name, that board's own headline,
 # and what it is for. Written against the theme's variables, so it follows the
@@ -275,7 +307,7 @@ def _render_html(snapshot: dict) -> str:
                 f"{_html.escape(b['name'])}</a>" if b.get("url")
                 else _html.escape(b["name"]))
         rows.append(
-            f"<div class='organ'>"
+            f"<div class='organ' id='{_row_id(b['name'])}'>"
             f"{_copy_btn(b['door'], 'copy the door command for an AI assistant chat')}"
             f"<p><span class='name'>{link}</span> "
             f"<span class='head'>{head}</span>"
@@ -290,7 +322,10 @@ def _render_html(snapshot: dict) -> str:
     gh_owner = snapshot.get("owner")
     github_link = (f' · <a href="https://github.com/{gh_owner}/PyAutoScientist'
                    '/blob/main/README.md">GitHub Page</a>' if gh_owner else "")
-    return f"""<!doctype html>
+    # Brain's shared layout puts the slogan panel above the navigation cards
+    # and folds the titled section into a collapsed native disclosure; the
+    # verdict banner stays outside it so the routing answer is always visible.
+    return t.section_layout(f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PyAutoScientist Dashboard</title>
@@ -300,13 +335,16 @@ def _render_html(snapshot: dict) -> str:
 {hero}
 {panel}
 <p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
+<section class="dashboards">
+<h2 id="{SECTION_ID}">Organ dashboards</h2>
 {''.join(rows)}
+</section>
 <p class="muted mdsrc"><a href="dashboard.md">markdown version</a>{github_link}</p>
 <footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
 own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
 <script>{t.JS}</script>
 </body></html>
-"""
+""", section_summaries(snapshot))
 
 
 def badge_endpoint(snapshot: dict) -> dict:
