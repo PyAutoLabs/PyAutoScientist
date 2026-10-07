@@ -92,15 +92,19 @@ changing a shared interface; keep each board's data and workflow with its owner.
 The [published documentation](https://pyautoscientist.readthedocs.io) continues
 to build from PyAutoBrain's docs.
 
-## Contributing
+## Community & Contributing
 
 Start with [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions) for questions, ideas, and proposals. Confirmed reproducible bugs and agreed implementation work belong in the affected repository's issue tracker. You may also submit a conventional pull request, with or without AI assistance.
 
 Read the [organization-wide contribution guide](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) for the available development paths and standards. For changes to PyAutoScientist itself, also follow this repository's local agent guidance.
 
-## Community
-
 The [shared community hub](https://github.com/orgs/PyAutoLabs/discussions) welcomes users of every PyAutoLabs repository. Contribution, conduct, and support guidance are maintained in [PyAutoLabs/.github](https://github.com/PyAutoLabs/.github); please read the [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md) before participating. The [AI Policy](AI_POLICY.md) remains here and is linked explicitly by other repositories.
+
+Each project keeps a community page listing community-built tools, tutorials and how to contribute:
+
+- [PyAutoLens community page](https://pyautolens.readthedocs.io/en/latest/general/community.html)
+- [PyAutoGalaxy community page](https://pyautogalaxy.readthedocs.io/en/latest/general/community.html)
+- [PyAutoFit community page](https://pyautofit.readthedocs.io/en/latest/general/community.html)
 
 ## License
 
