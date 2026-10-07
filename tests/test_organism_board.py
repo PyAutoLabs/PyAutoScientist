@@ -22,6 +22,7 @@ def test_theme_finds_grouped_brain_from_outer_workspace(tmp_path, monkeypatch):
     brain_board.mkdir(parents=True)
     (brain_board / "_theme.py").write_text("GROUPED_THEME = True\n")
     monkeypatch.setenv("PYAUTO_ROOT", str(tmp_path))
+    monkeypatch.delenv("PYAUTO_BRAIN", raising=False)
     monkeypatch.setattr(ob, "HOME", tmp_path / "PyAutoScientist")
     monkeypatch.delitem(sys.modules, "_theme", raising=False)
     monkeypatch.setattr(sys, "path", sys.path.copy())
@@ -133,3 +134,21 @@ def test_panel_links_each_work_owner_and_preserves_doors():
         assert f'https://github.com/SomeOrg/{row["repo"]}' in rendered
     assert rendered.count("copy the door command") == len(snap["boards"])
     assert rendered.index('data-orchestration-panel') < rendered.index("class='organ'")
+
+
+def test_panel_refresh_uses_router_capture(monkeypatch):
+    theme = ob.theme()
+    calls = []
+    monkeypatch.setattr(theme, "orchestration_panel", lambda *a, **kw: calls.append(kw) or "")
+    snap = _snap()
+    snap["boards"][2]["headline"] = "Release information collected"
+    ob.render(snap, "html")
+    assert calls[0]["refreshed_at"] == snap["generated"]
+    assert calls[0]["refresh_url"] == "https://github.com/SomeOrg/PyAutoScientist/actions/workflows/organism_board.yml"
+
+    snap["boards"][2]["headline"] = None
+    ob.render(snap, "html")
+    assert calls[-1]["refreshed_at"] is None
+    snap["boards"] = []
+    ob.render(snap, "html")
+    assert calls[-1]["refreshed_at"] is None

@@ -260,7 +260,13 @@ def _render_html(snapshot: dict) -> str:
         if snapshot.get("owner") and b.get("repo")
     ]
     panel = t.orchestration_panel("scientist", "", "", CHECKIN_PROMPT,
-                                  organ="scientist", work_links=work_links)
+                                  organ="scientist", work_links=work_links,
+                                  refreshed_at=(snapshot.get("generated")
+                                                if snapshot.get("boards") and all(row.get("headline") is not None
+                                                                                for row in snapshot["boards"])
+                                                else None),
+                                  refresh_url=(f"https://github.com/{snapshot['owner']}/PyAutoScientist/actions/workflows/organism_board.yml"
+                                               if snapshot.get("owner") else None))
     word = heart_word(snapshot)
     rows = []
     for b in snapshot.get("boards") or []:
