@@ -127,7 +127,8 @@ def test_panel_links_each_work_owner_and_preserves_doors():
     rendered = ob.render(snap, "html")
     assert 'data-orchestration-panel' in rendered
     assert 'Work on GitHub:' in rendered
-    assert 'Do not execute mutations merely to check in.' in rendered
+    assert "Carry clearly authorized work through the appropriate skills" in rendered
+    assert "Preserve applicable development, compute, community-reply, merge and release approval requirements." in rendered
     for row in snap["boards"]:
         assert f'https://github.com/SomeOrg/{row["repo"]}' in rendered
     assert rendered.count("copy the door command") == len(snap["boards"])

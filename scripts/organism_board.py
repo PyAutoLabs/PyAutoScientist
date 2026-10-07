@@ -44,7 +44,33 @@ HOME = Path(__file__).resolve().parents[1]
 # the whole family at once — organism_board.yml checks PyAutoBrain out beside
 # this repo, and a local run finds the sibling checkout the same way the other
 # PyAuto tools resolve each other.
-CHECKIN_PROMPT = 'Review the organism boards in this chat. Read PyAutoScientist/AGENTS.md and use the board skill to verify current operational evidence, unknown coverage, priorities and blockers. Route each next action to its relevant organ and existing skill; keep this landing repository separate from scientific execution and authoritative task state. Apply my direction while retaining the overall review. Propose bounded next steps and preserve all development, release, compute and merge approval gates. Do not execute mutations merely to check in.'
+CHECKIN_PROMPT = (
+    "Use this chat as an ongoing entry point to PyAutoLabs. Read PyAutoScientist/AGENTS.md "
+    "and use the board skill to inspect relevant operational evidence. Load other organs and "
+    "project context as the request requires.\n\n"
+    "When I give no particular direction, provide a concise overview of the organism’s "
+    "current position: significant progress, blockers, decisions needing my attention and "
+    "useful next steps. Check evidence freshness and coverage, linking to the owning boards "
+    "rather than reproducing every queue.\n\n"
+    "When I supply a question, idea or task, make that the main focus. Help me clarify what I "
+    "want to achieve and identify the appropriate organ, project and workflow. Explain the "
+    "routing briefly and continue through it in this conversation where possible. Do not "
+    "repeat the organism-wide review on every follow-up.\n\n"
+    "Help me work through requests that span several organs. Identify dependencies, establish "
+    "an appropriate order and keep decisions connected across the work. Respect each organ’s "
+    "ownership of its records, judgments and execution procedures.\n\n"
+    "When I ask about the organism itself, help me examine its architecture, workflows, "
+    "missing capabilities or unnecessary complexity. Ground recommendations in the existing "
+    "system and discuss concrete options and tradeoffs before proposing changes.\n\n"
+    "Carry clearly authorized work through the appropriate skills, retaining decisions and "
+    "approvals already given in this conversation. Ask when a missing decision materially "
+    "changes the next step. Preserve applicable development, compute, community-reply, merge "
+    "and release approval requirements.\n\n"
+    "Keep authoritative task state, scientific records and execution in their owning "
+    "repositories. After taking action, report the outcome, where any changes were recorded "
+    "and what remains unresolved. Stop at the session deliverable without scheduling "
+    "background follow-up."
+)
 
 BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
 
