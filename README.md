@@ -94,11 +94,9 @@ to build from PyAutoBrain's docs.
 
 ## Community & Contributing
 
-Start with [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions) for questions, ideas, and proposals. Confirmed reproducible bugs and agreed implementation work belong in the affected repository's issue tracker. You may also submit a conventional pull request, with or without AI assistance.
+PyAuto is built in the open by its users: everyone is welcome to ask questions, share what they have made with it, and contribute.
 
-Read the [organization-wide contribution guide](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) for the available development paths and standards. For changes to PyAutoScientist itself, also follow this repository's local agent guidance.
-
-The [shared community hub](https://github.com/orgs/PyAutoLabs/discussions) welcomes users of every PyAutoLabs repository. Contribution, conduct, and support guidance are maintained in [PyAutoLabs/.github](https://github.com/PyAutoLabs/.github); please read the [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md) before participating. The [AI Policy](AI_POLICY.md) remains here and is linked explicitly by other repositories.
+Questions, ideas and bug reports: the [PyAutoLabs Discussions](https://github.com/orgs/PyAutoLabs/discussions). Chat with us on [Slack](https://join.slack.com/t/pyautolens/shared_invite/zt-2cufp4eyf-fXfgMxRGuvg~bMrI3uOAxg). Contributions follow the [PyAutoLabs contribution guide](https://github.com/PyAutoLabs/.github/blob/main/CONTRIBUTING.md) (one guide for every repository), the [Code of Conduct](https://github.com/PyAutoLabs/.github/blob/main/CODE_OF_CONDUCT.md) and the [AI Policy](AI_POLICY.md).
 
 Each project keeps a community page listing community-built tools, tutorials and how to contribute:
 
