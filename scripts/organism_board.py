@@ -316,12 +316,6 @@ def _render_html(snapshot: dict) -> str:
         {"href": b["url"], "label": b["name"]}
         for b in snapshot.get("boards") or [] if b.get("url")
     ])
-    # The way back from the Pages board to the repository front door; the
-    # owner comes from the snapshot (the git remote), so the segment drops
-    # out when the origin is unknown.
-    gh_owner = snapshot.get("owner")
-    github_link = (f' · <a href="https://github.com/{gh_owner}/PyAutoScientist'
-                   '/blob/main/README.md">GitHub Page</a>' if gh_owner else "")
     # Brain's shared layout puts the slogan panel above the navigation cards
     # and folds the titled section into a collapsed native disclosure; the
     # verdict banner stays outside it so the routing answer is always visible.
@@ -339,7 +333,7 @@ def _render_html(snapshot: dict) -> str:
 <h2 id="{SECTION_ID}">Organ dashboards</h2>
 {''.join(rows)}
 </section>
-<p class="muted mdsrc"><a href="dashboard.md">markdown version</a>{github_link}</p>
+<p class="muted mdsrc"><a href="dashboard.md">markdown version</a></p>
 <footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
 own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
 <script>{t.JS}</script>

@@ -90,10 +90,9 @@ def test_badge_carries_verdict_and_backlog():
 def test_html_is_self_contained_with_door_chips():
     out = ob.render(_snap(), "html")
     assert out.lstrip().startswith("<!doctype html>")
-    # the header links the markdown twin and the repository front door
-    assert '<a href="dashboard.md">markdown version</a>' in out
-    assert ('<a href="https://github.com/SomeOrg/PyAutoScientist/blob/main/'
-            'README.md">GitHub Page</a>') in out
+    # Keep the Markdown source without the redundant repository link.
+    assert 'href="dashboard.md"' in out
+    assert 'GitHub Page</a>' not in out
     assert "Use the health skill." in out and "Use the start-dev skill." in out and "data-cmd=" in out
     assert "src=" not in out and "<link" not in out.lower()
     assert "fetch(" not in out and "XMLHttpRequest" not in out
