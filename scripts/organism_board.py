@@ -121,6 +121,8 @@ BOARDS = (
     ("Mind", "PyAutoMind", "tasks — pick what to work on", "Use the start-dev skill. <prompt-path>"),
     ("Heart", "PyAutoHeart", "health — is the organism ok?", "Use the health skill."),
     ("Hands", "PyAutoHands", "releases — what shipped", "Use the release skill."),
+    ("DNA", "PyAutoDNA", "software stacks — versions, compatibility and upgrades",
+     "Review PyAutoDNA software stacks and compatibility. Compare observed environments with recommended stacks, explain drift and propose validated upgrades. Read the repository AGENTS.md first."),
     ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "Use the memory skill. <topic>"),
 )
 

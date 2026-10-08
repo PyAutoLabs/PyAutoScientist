@@ -192,3 +192,20 @@ def test_missing_evidence_is_never_green_or_zero():
         "status": "unknown", "label": "Heart unknown"}
     assert ob.section_summaries(_snap("STALE · 65"))["dashboards"]["status"] == "stale"
     assert ob.section_summaries(_snap("WHATEVER"))["dashboards"]["status"] == "unknown"
+
+
+def test_dna_headline_is_owned_by_dna_and_unavailable_stays_unknown(monkeypatch):
+    def get(url):
+        if "/PyAutoDNA/" in url:
+            return json.dumps({"message": "2 observed · 4 unknown", "color": "lightgrey"})
+        raise OSError("unavailable")
+    monkeypatch.setattr(ob, "_get", get)
+    snapshot = ob.collect("Example")
+    dna = next(row for row in snapshot["boards"] if row["name"] == "DNA")
+    assert dna["headline"] == "2 observed · 4 unknown"
+    assert dna["url"] == "https://example.github.io/PyAutoDNA/"
+    assert "PyAutoDNA" in dna["door"]
+    assert "2 observed" in ob.render(snapshot, "html")
+    monkeypatch.setattr(ob, "_get", lambda url: (_ for _ in ()).throw(OSError("offline")))
+    missing = next(row for row in ob.collect("Example")["boards"] if row["name"] == "DNA")
+    assert missing["headline"] is None
