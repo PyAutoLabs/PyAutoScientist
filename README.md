@@ -12,6 +12,7 @@ green, you go pick a task on the Mind):
 - **[PyAutoMind Dashboard](https://pyautolabs.github.io/PyAutoMind/)**: planned and active development tasks on the scientist's mind.
 - **[PyAutoHeart Dashboard](https://pyautolabs.github.io/PyAutoHeart/)**: the health of every repository, rolled into the authoritative GREEN/STALE/YELLOW/RED release verdict.
 - **[PyAutoHands Dashboard](https://pyautolabs.github.io/PyAutoHands/)**: what shipped — the released library versions and the release train's recent runs.
+- **[PyAutoDNA Dashboard](https://pyautolabs.github.io/PyAutoDNA/)**: software stacks — observed environments, compatibility decisions and validated upgrade campaigns.
 - **[PyAutoMemory Dashboard](https://pyautolabs.github.io/PyAutoMemory/)**: the scientist's long-term knowledge — the reading queue, citation work and each sub-wiki's maturity.
 - **[PyAutoEyes Dashboard](https://pyautolabs.github.io/PyAutoEyes/)**: what the software shows — every figure the libraries draw on realistic data, one row per visualization project, with freshness against the latest release.
 
@@ -69,6 +70,7 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 | Hands | [PyAutoHands](https://github.com/PyAutoLabs/PyAutoHands) | Executes builds and releases: packages libraries, generates notebooks, creates tags and publishes releases to PyPI. |
 | Pulse | [PyAutoPulse](https://github.com/PyAutoLabs/PyAutoPulse) | The dashboard of how fast the PyAuto libraries run: it gathers each library's profiling results into one board, so run times and how they change across releases can be seen in one place. |
 | Insight | [PyAutoInsight](https://github.com/PyAutoLabs/PyAutoInsight) | Coordinates inference campaigns and their tasks in one place, showing results, diagnostics, provenance and missing evidence across projects while keeping scientific conclusions with the human and Cortex. |
+| DNA | [PyAutoDNA](https://github.com/PyAutoLabs/PyAutoDNA) | Records software-stack specifications, tracks what local, RAL and CI environments run, and coordinates validated upgrades with compatibility evidence and rollback history. |
 | Nerves | [PyAutoNerves](https://github.com/PyAutoLabs/PyAutoNerves) | Provides the configuration and serialization layer connecting shared conventions across the scientific libraries and workspaces. |
 | Gut | [PyAutoGut](https://github.com/PyAutoLabs/PyAutoGut) | Holds stale branches, dead code and other condemned material as recoverable Git references before it is permanently removed. |
 <!-- repos_sync:organs:end -->
