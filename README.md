@@ -5,9 +5,9 @@
 **PyAutoScientist enables human-led, natural-language software development** — an experimental reference implementation by James Nightingale. Humans describe what the software should do, why it is needed, and how success should be judged; specialist AI agents help plan, implement, test, and prepare releases. Humans remain responsible for scientific objectives, contributor communication, and consequential decisions. Using this ecosystem is optional: you do not need to adopt PyAutoScientist or use AI to contribute to PyAutoLabs.
 
 See the **[PyAutoScientist Dashboard](https://pyautolabs.github.io/PyAutoScientist/)**
-to watch the organism live and know where to work: it shows each organ's own
-dashboard headline, topped by a "where to work next" hint (if the Heart is
-green, you go pick a task on the Mind):
+to monitor work across the organism: expand an organ for a concise status and
+evidence links, or copy the Scientist prompt for a summary or cross-organ task.
+Detailed records remain with their owners, including:
 
 - **[PyAutoMind Dashboard](https://pyautolabs.github.io/PyAutoMind/)**: planned and active development tasks on the scientist's mind.
 - **[PyAutoHeart Dashboard](https://pyautolabs.github.io/PyAutoHeart/)**: the health of every repository, rolled into the authoritative GREEN/STALE/YELLOW/RED release verdict.
@@ -109,3 +109,12 @@ Each project keeps a community page listing community-built tools, tutorials and
 ## License
 
 Released under the [MIT License](https://opensource.org/licenses/MIT). Copyright (c) 2026 Jammy2211.
+
+## Work with your Scientist
+
+Use the Scientist tab in the [cockpit](https://pyautolabs.github.io/cockpit/#scientist)
+for the organism overview and its copyable check-in prompt. Ask for a high-level
+summary across all organs over the last 24 hours, a chosen date range, or help
+coordinating work across organs. [Reporting guidance](REPORTING.md) defines
+source coverage, event dates and concise evidence-linked summaries. Detailed
+work and authoritative records remain with each organ.

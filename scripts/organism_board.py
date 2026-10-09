@@ -1,17 +1,10 @@
 """scripts/organism_board.py — the PyAutoScientist Dashboard.
 
-The umbrella ROUTER over the organism's live dashboards: one row per organ
-board — Brain (operations), Mind (tasks), Heart (health), Hands (releases),
-Memory (knowledge) — each carrying that board's own live headline and link,
-topped by a "where to work next" banner keyed off the Heart's verdict (Heart
-red/yellow → start at the health board; green → pick a task on the Mind
-board). A glance here tells you WHICH board to open; the work happens there.
-
-**Sources** (plain HTTPS, no tokens): the Heart/Hands/Memory boards each
-publish a shields ``badge.json`` beside their page — their own headline in
-their own words — and the Mind's counts are parsed from its committed
-``dashboard.md``. Every row degrades to "unavailable" honestly; nothing is
-recomputed here (each organ's board stays the authority on itself).
+The Scientist home presents concise disclosures over owner-published state.json
+feeds. Brain supplies the shared theme, organ registry and feed validator.
+The browser refreshes feeds without resetting open cards or prompt controls;
+the publication snapshot remains a labelled fallback without JavaScript.
+Scientist coordinates and reports; the organs retain their records and work.
 
 **Identity** derives from ``git remote`` (an adopting fork gets its own URLs
 for free). Rendered fresh by ``.github/workflows/organism_board.yml`` into
@@ -25,6 +18,7 @@ Tests: ``python -m pytest tests/`` (run ad hoc; this repo has no CI gate).
 
 from __future__ import annotations
 
+import concurrent.futures
 import datetime
 import html as _html
 import json
@@ -46,12 +40,19 @@ HOME = Path(__file__).resolve().parents[1]
 # PyAuto tools resolve each other.
 CHECKIN_PROMPT = (
     "Use this chat as an ongoing entry point to PyAutoLabs. Read PyAutoScientist/AGENTS.md "
-    "and use the board skill to inspect relevant operational evidence. Load other organs and "
+    "and PyAutoScientist/REPORTING.md. Use the board skill to inspect relevant operational evidence. Load other organs and "
     "project context as the request requires.\n\n"
     "When I give no particular direction, provide a concise overview of the organism’s "
-    "current position: significant progress, blockers, decisions needing my attention and "
+    "work across all organs over the last 24 hours, plus its current position: significant progress, blockers, decisions needing my attention and "
     "useful next steps. Check evidence freshness and coverage, linking to the owning boards "
     "rather than reproducing every queue.\n\n"
+    "For a summary over a given time period, use that period instead of the last 24 hours. "
+    "State the start, end and timezone. Check dated records in every organ, distinguish "
+    "completed outcomes from work still in progress and decisions awaiting me, and link "
+    "the evidence. Deduplicate work spanning organs. A dashboard refresh is not a completed "
+    "event; current snapshots alone cannot establish a historical summary. Report coverage "
+    "gaps separately from verified inactivity, and separate events within the period from "
+    "older blockers that remain open. Keep the summary high level.\n\n"
     "When I supply a question, idea or task, make that the main focus. Help me clarify what I "
     "want to achieve and identify the appropriate organ, project and workflow. Explain the "
     "routing briefly and continue through it in this conversation where possible. Do not "
@@ -93,8 +94,8 @@ def _workspace_root() -> Path:
 def theme():
     """The shared theme module, or a RuntimeError naming the fix.
 
-    Only the html path needs it; ``--md``/``--badge``/``--json`` never call
-    here, so the digest keeps working with no PyAutoBrain in reach.
+    The collector uses its canonical board registry and matching state validator;
+    the HTML renderer also uses its branding and orchestration controls.
     """
     for cand in (os.environ.get("PYAUTO_BRAIN"), HOME / "PyAutoBrain",
                  HOME.parent / "PyAutoBrain",
@@ -113,21 +114,16 @@ def theme():
         "— check PyAutoBrain out beside this repo or set PYAUTO_BRAIN")
 
 
-# The five boards, in routing order. (name, repo, what the board is,
-# the door command a 📋 chip copies.) Brain publishes the same badge.json
-# headline contract as Heart/Hands/Memory (brain_board.yml).
-BOARDS = (
-    ("Brain", "PyAutoBrain", "operations — the morning door: what needs you", "Use the board skill."),
-    ("Mind", "PyAutoMind", "tasks — pick what to work on", "Use the start-dev skill. <prompt-path>"),
-    ("Heart", "PyAutoHeart", "health — is the organism ok?", "Use the health skill."),
-    ("Hands", "PyAutoHands", "releases — what shipped", "Use the release skill."),
-    ("DNA", "PyAutoDNA", "software stacks — versions, compatibility and upgrades",
-     "Review PyAutoDNA software stacks and compatibility. Compare observed environments with recommended stacks, explain drift and propose validated upgrades. Read the repository AGENTS.md first."),
-    ("Memory", "PyAutoMemory", "knowledge — papers and wikis", "Use the memory skill. <topic>"),
-)
-
-MIND_COUNT_RE = re.compile(r"^\|\s*\[([A-Za-z ]+)\]\([^)]*\)[^|]*\|\s*(\d+)\s*\|",
-                           re.MULTILINE)
+def boards(owner: str) -> list[dict]:
+    """Canonical membership/order from Brain; Scientist never summarizes itself."""
+    t = theme()
+    links = t.board_links(f"https://{owner.lower()}.github.io", current=BOARD_KEY)
+    if not links:
+        raise RuntimeError("Brain board registry unavailable")
+    return [{"name": t.organ(key)["organ"], "key": key,
+             "repo": url.rstrip("/").rsplit("/", 1)[-1], "url": url,
+             "role": t.organ(key)["function"]}
+            for key, url in links.items()]
 
 
 def _owner() -> str:
@@ -144,32 +140,28 @@ def _get(url: str) -> str:
 
 def collect(owner: str | None = None) -> dict:
     owner = owner if owner is not None else _owner()
-    low = owner.lower()
-    snapshot: dict = {
-        "generated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-        "owner": owner,
-        "boards": [],
-    }
-    for name, repo, role, door in BOARDS:
-        row = {"name": name, "repo": repo, "role": role, "door": door,
-               "url": f"https://{low}.github.io/{repo}/" if low else "",
-               "headline": None, "color": None}
+    if not owner:
+        raise ValueError("Cannot resolve the repository owner")
+    rows = boards(owner)
+    # theme() resolves the matching Brain checkout and its validator.
+    from _state import validate_state
+
+    def read(row):
+        row = dict(row, headline=None, color=None, feed=None, error=None)
         try:
-            if name == "Mind":
-                md = _get(f"https://raw.githubusercontent.com/{owner}/{repo}/main/dashboard.md")
-                counts = {label: int(n) for label, n in MIND_COUNT_RE.findall(md)}
-                if counts:
-                    row["headline"] = " · ".join(
-                        f"{v} {k.lower()}" for k, v in counts.items())
-                    row["counts"] = counts
-            else:
-                badge = json.loads(_get(row["url"] + "badge.json"))
-                row["headline"] = str(badge.get("message") or "")
-                row["color"] = str(badge.get("color") or "")
+            feed = json.loads(_get(row["url"] + "state.json"))
+            errors = validate_state(feed)
+            if errors or feed["organ"] != row["key"] or feed["repo"] != row["repo"]:
+                raise ValueError("Invalid organ feed")
+            row.update(feed=feed, headline=feed["headline"], color=feed["status"])
         except (urllib.error.URLError, TimeoutError, ValueError, OSError):
-            pass
-        snapshot["boards"].append(row)
-    return snapshot
+            row["error"] = "Evidence unavailable"
+        return row
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+        collected = list(executor.map(read, rows))
+    return {"generated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            "owner": owner, "boards": collected}
 
 
 # --- pure helpers ---------------------------------------------------------------
@@ -184,6 +176,8 @@ def heart_word(snapshot: dict) -> str:
     h = _heart(snapshot)
     if not h or not h.get("headline"):
         return "UNKNOWN"
+    if h.get("feed"):
+        return h["feed"]["status"].upper()
     return h["headline"].split()[0].upper().strip("·")
 
 
@@ -194,7 +188,7 @@ def route_hint(snapshot: dict) -> str:
         return ("The Heart is " + word +
                 " — start at the PyAutoHeart Dashboard and fix what's blocking.")
     if word == "STALE":
-        return ("Evidence gaps, nothing known-bad — re-run checks via Use the health skill., "
+        return ("Heart evidence is stale — re-run checks via Use the health skill., "
                 "then pick a task on the PyAutoMind Dashboard.")
     if word == "GREEN":
         return "All clear — pick a task on the PyAutoMind Dashboard."
@@ -221,126 +215,70 @@ def _render_md_brief(snapshot: dict) -> str:
     return " · ".join(bits)
 
 
-def _copy_btn(payload: str, label: str = "copy") -> str:
-    """A one-tap payload chip. The behaviour is the family's shared script
-    (``_theme.JS``): a delegated click handler reading ``data-cmd``."""
-    return (f"<button class='copy' type='button' "
-            f"title='{_html.escape(label, quote=True)}' "
-            f"data-cmd=\"{_html.escape(payload, quote=True)}\">\U0001f4cb</button>")
-
-
-_HEART_CLS = {"RED": "fail", "YELLOW": "warn", "STALE": "info", "GREEN": "ok"}
-
-# The Heart's word in the theme's verdict vocabulary. Unknown stays neutral:
-# "we could not read the Heart" is not a verdict, and colouring it as one
-# would say something the page does not know.
-_VERDICT_CLS = {"RED": "bad", "YELLOW": "warn", "STALE": "warn", "GREEN": "ok"}
-
-# The same word in the shared section-status vocabulary (Brain
-# ``section_layout``). Anything the Heart did not say — an unreadable badge, an
-# unfamiliar word — is "unknown", never green.
-_SECTION_STATUS = {"RED": "red", "YELLOW": "yellow", "STALE": "stale", "GREEN": "green"}
-
-SECTION_ID = "dashboards"
-
-
 def _row_id(name: str) -> str:
     """The stable fragment of one organ row (``#board-heart``)."""
     return "board-" + re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
-def section_summaries(snapshot: dict) -> dict:
-    """Owner-computed header facts for the collapsed "Organ dashboards" section.
-
-    The count is how many boards actually answered out of how many are listed,
-    so a missing headline reads as a gap ("4 of 5 reporting"), not as a quiet
-    zero. The status is the Heart's own word, labelled as such; it routes, it
-    does not restate release readiness.
-    """
-    rows = snapshot.get("boards") or []
-    word = heart_word(snapshot)
-    info: dict = {
-        "status": _SECTION_STATUS.get(word, "unknown"),
-        "label": "Heart " + (word if word in _SECTION_STATUS else "unknown"),
-    }
-    if rows:
-        live = sum(1 for b in rows if b.get("headline"))
-        info["count"] = f"{live} of {len(rows)} reporting"
-    return {SECTION_ID: info}
-
-# What the shared sheet has no opinion on: this board is a router, so its one
-# page-specific shape is the organ row — a name, that board's own headline,
-# and what it is for. Written against the theme's variables, so it follows the
-# accent rather than setting a second palette.
 _EXTRA_CSS = """
-.organ{display:flex;gap:.6rem;align-items:flex-start;padding:.55rem .35rem;
- margin:0 -.35rem;border-bottom:1px solid var(--line);border-radius:7px}
-.organ:hover{background:var(--tint)}
-.organ p{margin:0;flex:1}
-.organ .name{display:inline-block;min-width:4.6rem;font-weight:700}
-.organ .head{font-weight:600}
-.organ .role{display:block;color:var(--muted);font-size:.88em}
-footer{margin-top:2.4rem;padding-top:1rem;border-top:1px solid var(--line);
- color:var(--muted);font-size:.82em}
+.organ-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.75rem;align-items:start;margin-top:1.25rem}
+.organ-card{min-width:0;border:1px solid var(--line);border-radius:12px;background:var(--bg)}
+.organ-card[open]{grid-column:1/-1}
+.organ-card>summary{cursor:pointer;min-height:64px;padding:1rem;display:flex;gap:.65rem;align-items:center;font-weight:700;list-style:none}
+.organ-card>summary::-webkit-details-marker{display:none}
+.organ-card>summary::after{content:'⌄';margin-left:auto}
+.organ-card[open]>summary::after{content:'⌃'}
+.organ-icon svg{width:30px;height:30px;display:block}
+.organ-status{font-size:.8rem;font-weight:500;color:var(--muted)}
+.organ-status[data-status=red]{color:var(--bad)}
+.organ-status[data-status=green]{color:var(--ok)}
+.organ-content{padding:0 1rem 1rem}
+.organ-content dl{margin:0;display:grid;gap:.6rem}
+.organ-content .summary-row{display:grid;grid-template-columns:9rem 1fr;gap:.75rem}
+.organ-content dt{font-size:.88rem;color:var(--muted)}
+.organ-content dd{margin:0;overflow-wrap:anywhere}
+.organ-content a{display:inline-block;min-height:44px}
+.organ-foot{display:flex;justify-content:space-between;gap:1rem;align-items:center;margin:.8rem 0 0;font-size:.82rem;color:var(--muted);flex-wrap:wrap}
+.organ-foot a{min-height:44px;display:inline-flex;align-items:center}
+.organ-grid :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+@media(max-width:64rem){.organ-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:40rem){.organ-grid{grid-template-columns:1fr}.organ-content .summary-row{grid-template-columns:1fr;gap:.15rem}}
 """
 
 
 def _render_html(snapshot: dict) -> str:
     t = theme()
-    work_links = [
-        {"label": b["name"] + " repository",
-         "href": f"https://github.com/{snapshot['owner']}/{b['repo']}"}
-        for b in snapshot.get("boards") or []
-        if snapshot.get("owner") and b.get("repo")
-    ]
-    panel = t.orchestration_panel("scientist", "", "", CHECKIN_PROMPT,
-                                  organ="scientist", work_links=work_links,
-                                  refreshed_at=(snapshot.get("generated")
-                                                if snapshot.get("boards") and all(row.get("headline") is not None
-                                                                                for row in snapshot["boards"])
-                                                else None),
-                                  refresh_url=(f"https://github.com/{snapshot['owner']}/PyAutoScientist/actions/workflows/organism_board.yml"
-                                               if snapshot.get("owner") else None))
-    word = heart_word(snapshot)
+    owner = snapshot.get("owner")
+    panel = t.orchestration_panel(
+        "scientist", "", "", CHECKIN_PROMPT, organ="scientist",
+        work_links=([{"label": "Scientist repository", "href": f"https://github.com/{owner}/PyAutoScientist"}] if owner else []),
+        refreshed_at=(snapshot.get("generated") if snapshot.get("boards") and
+                      all(row.get("headline") is not None for row in snapshot["boards"]) else None),
+        refresh_url=(f"https://github.com/{owner}/PyAutoScientist/actions/workflows/organism_board.yml" if owner else None))
     rows = []
-    for b in snapshot.get("boards") or []:
-        head = _html.escape(b.get("headline") or "unavailable")
-        link = (f"<a href=\"{_html.escape(b['url'], quote=True)}\">"
-                f"{_html.escape(b['name'])}</a>" if b.get("url")
-                else _html.escape(b["name"]))
-        rows.append(
-            f"<div class='organ' id='{_row_id(b['name'])}'>"
-            f"{_copy_btn(b['door'], 'copy the door command for an AI assistant chat')}"
-            f"<p><span class='name'>{link}</span> "
-            f"<span class='head'>{head}</span>"
-            f"<span class='role'>{_html.escape(b['role'])}</span></p></div>")
-    hero = t.hero(BOARD_KEY, "Dashboard", navigation=[
-        {"href": b["url"], "label": b["name"]}
-        for b in snapshot.get("boards") or [] if b.get("url")
-    ])
-    # Brain's shared layout puts the slogan panel above the navigation cards
-    # and folds the titled section into a collapsed native disclosure; the
-    # verdict banner stays outside it so the routing answer is always visible.
-    return t.section_layout(f"""<!doctype html>
-<html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PyAutoScientist Dashboard</title>
-<style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style>
-</head>
-<body>
-{hero}
-{panel}
-<p class="verdict {_VERDICT_CLS.get(word, '')}"><b>{_html.escape(route_hint(snapshot))}</b></p>
-<section class="dashboards">
-<h2 id="{SECTION_ID}">Organ dashboards</h2>
-{''.join(rows)}
-</section>
-<p class="muted mdsrc"><a href="dashboard.md">markdown version</a></p>
-<footer>Rendered by <code>scripts/organism_board.py</code> from the boards'
-own published headlines · generated {_html.escape(str(snapshot.get('generated') or '?'))}.</footer>
-<script>{t.JS}</script>
-</body></html>
-""", section_summaries(snapshot))
+    for row in snapshot.get("boards") or []:
+        key = row.get("key", row["name"].lower())
+        name = _html.escape(row["name"])
+        ident = _row_id(row["name"])
+        # Server fallback is explicitly a publication snapshot, not a live check.
+        head = _html.escape(row.get("headline") or "Evidence unavailable")
+        url = _html.escape(row["url"], quote=True)
+        rows.append(f"""<details class="organ-card" id="{ident}" data-organ="{key}">
+<summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{name}</span><span class="organ-status">Snapshot</span></summary>
+<div class="organ-content"><dl><div class="summary-row"><dt>Published status</dt><dd>{head}</dd></div></dl>
+<div class="organ-foot"><span data-freshness>Published {_html.escape(str(snapshot.get('generated') or 'unknown'))}</span><a href="{url}">Open {name} →</a></div></div></details>""")
+    data = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
+    script = (HOME / "scripts" / "overview.js").read_text(encoding="utf-8")
+    # Native per-organ disclosures keep the overview visible; do not put the
+    # whole grid inside section_layout's extra collapsed H2 group.
+    return f"""<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PyAutoScientist Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
+<body>{t.hero(BOARD_KEY, "Dashboard")}{panel}
+<div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
+<noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
+<script type="application/json" id="scientist-snapshot">{data}</script>
+<script>{t.JS}</script><script>{script}</script></body></html>"""
 
 
 def badge_endpoint(snapshot: dict) -> dict:

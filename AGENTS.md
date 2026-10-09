@@ -9,9 +9,24 @@ Code loads it via the `@AGENTS.md` import in `CLAUDE.md`.
 **PyAutoScientist is the umbrella landing repo for the PyAuto organism** — a
 human-led AI software-development system. It presents the organism (what it is,
 how to fork it) through the docs and links in `README.md`; it is not a framework
-you install, and it holds no organism code of its own. The organs that do the
+you install, and owns the Scientist overview renderer and reporting guidance. The organs that do the
 work are peer repositories — see the body map in `PyAutoMind/repos.yaml` and the
 canonical boundaries in `PyAutoBrain/ORGANISM.md`.
+
+## Scientist home and reporting
+
+The cockpit Scientist tab embeds this repository's dashboard. It is the entry
+point for cross-organ summaries and coordination; individual organs retain
+their authoritative records and task procedures. For a high-level summary over
+the last 24 hours or another requested period, follow [REPORTING.md](REPORTING.md).
+The copyable dashboard prompt points here. Current status cards are not a
+historical activity ledger.
+
+The dashboard uses Brain's shared hero/panel, registry and state validator.
+Its organ disclosures stay visible as a grid, without another outer disclosure
+or duplicate organ navigation. Each expanded organ has at most three concise
+rows. `scripts/overview.js` is inlined at render time and refreshes published
+feeds without replacing open disclosures or prompt controls.
 
 ## Editing rules
 
