@@ -87,20 +87,14 @@ def test_badge_carries_verdict_and_backlog():
                  "message": "RED · 9 tasks queued", "color": "red"}
 
 
-def test_html_is_self_contained_with_door_chips():
+def test_html_is_self_contained_with_live_owner_feeds():
     out = ob.render(_snap(), "html")
     assert out.lstrip().startswith("<!doctype html>")
-    # Keep the Markdown source without the redundant repository link.
-    assert 'href="dashboard.md"' in out
-    assert 'GitHub Page</a>' not in out
-    assert "Use the health skill." in out and "Use the start-dev skill." in out and "data-cmd=" in out
-    assert "src=" not in out and "<link" not in out.lower()
-    assert "fetch(" not in out and "XMLHttpRequest" not in out
-    stripped = re.sub(r'data-cmd="[^"]*"', "", out)
-    stripped = re.sub(r"<textarea\b[^>]*>.*?</textarea>", "", stripped, flags=re.S)
-    for m in re.finditer(r"(?:http|https)://", stripped):
-        before = stripped[max(0, m.start() - 30):m.start()]
-        assert 'href="' in before or "href='" in before
+    assert 'src=' not in out and '<link' not in out.lower()
+    assert 'fetch(' in out
+    assert 'data-orchestration-panel' in out
+    assert 'data-cmd=' not in out  # no repeated per-organ prompt buttons
+    assert 'class="board-nav"' not in out
 
 
 def test_html_wears_the_shared_family_theme():
@@ -115,24 +109,16 @@ def test_html_wears_the_shared_family_theme():
     assert "#58a6ff" not in out  # the old hard-coded GitHub blue
 
 
-def test_mind_counts_parser():
-    md = ("| Where | Count |\n|---|---:|\n"
-          "| [In flight](#a) (`active/`) | 4 |\n| [Backlog](#b) (`draft/`) | 151 |\n")
-    counts = {k: int(v) for k, v in ob.MIND_COUNT_RE.findall(md)}
-    assert counts == {"In flight": 4, "Backlog": 151}
-
-
-def test_panel_links_each_work_owner_and_preserves_doors():
-    snap = _snap()
-    rendered = ob.render(snap, "html")
-    assert 'data-orchestration-panel' in rendered
+def test_panel_links_scientist_and_includes_reporting_contract():
+    rendered = ob.render(_snap(), "html")
     assert 'Work on GitHub:' in rendered
-    assert "Carry clearly authorized work through the appropriate skills" in rendered
-    assert "Preserve applicable development, compute, community-reply, merge and release approval requirements." in rendered
-    for row in snap["boards"]:
-        assert f'https://github.com/SomeOrg/{row["repo"]}' in rendered
-    assert rendered.count("copy the door command") == len(snap["boards"])
-    assert rendered.index('data-orchestration-panel') < rendered.index("class='organ'")
+    assert 'https://github.com/SomeOrg/PyAutoScientist' in rendered
+    assert 'https://github.com/SomeOrg/PyAutoMind' not in rendered
+    assert 'PyAutoScientist/REPORTING.md' in rendered
+    assert 'last 24 hours' in rendered and 'given time period' in rendered
+    assert 'dashboard refresh is not a completed event' in ob.CHECKIN_PROMPT
+    assert 'Preserve applicable development, compute, community-reply, merge and release approval requirements.' in rendered
+    assert rendered.index('data-orchestration-panel') < rendered.index('id="dashboards"')
 
 
 def test_panel_refresh_uses_router_capture(monkeypatch):
@@ -153,59 +139,46 @@ def test_panel_refresh_uses_router_capture(monkeypatch):
     assert calls[-1]["refreshed_at"] is None
 
 
-def test_shared_layout_puts_slogan_above_cards_and_folds_the_section():
-    out = ob.render(_snap("YELLOW · 70", "yellow"), "html")
-    panel = out.index("data-orchestration-panel")
-    nav = out.index('class="board-nav"')
-    verdict = out.index('class="verdict')
-    section = out.index('<details class="board-section">')
-    assert panel < nav < verdict < section
-    # Collapsed by default, one disclosure, the routing answer left outside it.
-    assert out.count('<details class="board-section"') == 1
-    assert '<details class="board-section" open' not in out
-    assert out.index('<h2 id="dashboards">') > section
-    # Every organ row keeps a stable fragment inside the disclosure, and the
-    # door chips survive the wrapping.
-    body = out[section:out.index("</details>", section)]
-    for name in ("mind", "heart", "hands", "memory"):
-        assert f"id='board-{name}'" in body
-    assert body.count("copy the door command") == 4
+def test_cards_are_individually_collapsed_without_outer_disclosure():
+    out = ob.render(_snap(), "html")
+    assert '<details class="board-section"' not in out
+    assert out.count('<details class="organ-card"') == 4
+    assert '<details class="organ-card" open' not in out
+    assert 'class="verdict' not in out
+    for name in ('mind', 'heart', 'hands', 'memory'):
+        assert f'id="board-{name}"' in out
 
 
-def test_section_header_counts_live_boards_and_labels_the_heart():
-    out = ob.render(_snap("RED · 40", "red"), "html")
-    start = out.index('<details class="board-section"><summary>')
-    summary = out[start:out.index("</summary>", start)]
-    assert '<span class="section-badge">3 of 4 reporting</span>' in summary
-    assert '<span class="section-badge section-status-red">Heart RED</span>' in summary
-
-
-def test_missing_evidence_is_never_green_or_zero():
+def test_snapshot_cannot_escape_json_script():
     snap = _snap()
-    for row in snap["boards"]:
-        row["headline"] = None
-    info = ob.section_summaries(snap)["dashboards"]
-    assert info == {"status": "unknown", "label": "Heart unknown",
-                    "count": "0 of 4 reporting"}
-    snap["boards"] = []
-    assert ob.section_summaries(snap)["dashboards"] == {
-        "status": "unknown", "label": "Heart unknown"}
-    assert ob.section_summaries(_snap("STALE · 65"))["dashboards"]["status"] == "stale"
-    assert ob.section_summaries(_snap("WHATEVER"))["dashboards"]["status"] == "unknown"
+    snap['boards'][0]['headline'] = '</script><script>alert(1)</script>&'
+    out = ob.render(snap, 'html')
+    payload = re.search(r'id="scientist-snapshot">(.*?)</script>', out, re.S)[1]
+    assert '<' not in payload
+    assert json.loads(payload)['boards'][0]['headline'] == snap['boards'][0]['headline']
 
 
-def test_dna_headline_is_owned_by_dna_and_unavailable_stays_unknown(monkeypatch):
+def test_collection_validates_identity_and_degrades_per_organ(monkeypatch):
     def get(url):
-        if "/PyAutoDNA/" in url:
-            return json.dumps({"message": "2 observed · 4 unknown", "color": "lightgrey"})
-        raise OSError("unavailable")
-    monkeypatch.setattr(ob, "_get", get)
-    snapshot = ob.collect("Example")
-    dna = next(row for row in snapshot["boards"] if row["name"] == "DNA")
-    assert dna["headline"] == "2 observed · 4 unknown"
-    assert dna["url"] == "https://example.github.io/PyAutoDNA/"
-    assert "PyAutoDNA" in dna["door"]
-    assert "2 observed" in ob.render(snapshot, "html")
-    monkeypatch.setattr(ob, "_get", lambda url: (_ for _ in ()).throw(OSError("offline")))
-    missing = next(row for row in ob.collect("Example")["boards"] if row["name"] == "DNA")
-    assert missing["headline"] is None
+        if '/PyAutoDNA/' in url:
+            return json.dumps({'schema_version': 1, 'organ': 'dna', 'repo': 'PyAutoDNA',
+                'status': 'grey', 'headline': '2 observed · 4 unknown',
+                'updated': '2026-10-09T10:00:00Z', 'pages_url': 'https://example.github.io/PyAutoDNA/', 'items': []})
+        raise OSError('unavailable')
+    monkeypatch.setattr(ob, '_get', get)
+    snapshot = ob.collect('Example')
+    dna = next(row for row in snapshot['boards'] if row['name'] == 'DNA')
+    assert dna['headline'] == '2 observed · 4 unknown'
+    assert dna['url'] == 'https://example.github.io/PyAutoDNA/'
+    assert len(snapshot['boards']) == len(ob.theme().board_links('https://example.github.io', current='organism'))
+    assert all(row['name'] != 'Scientist' for row in snapshot['boards'])
+    assert all(row['feed'] is None for row in snapshot['boards'] if row['name'] != 'DNA')
+    monkeypatch.setattr(ob, '_get', lambda url: get('https://example.github.io/PyAutoDNA/state.json'))
+    mismatched = ob.collect('Example')
+    assert all(row['feed'] is None for row in mismatched['boards'] if row['name'] != 'DNA')
+
+
+def test_structured_heart_status_does_not_parse_the_headline():
+    snap = _snap('Monitoring RED · release STALE')
+    next(row for row in snap['boards'] if row['name'] == 'Heart')['feed'] = {'status': 'red'}
+    assert ob.heart_word(snap) == 'RED'
