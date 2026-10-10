@@ -61,6 +61,7 @@ PyAutoScientist is organised as a software organism whose repositories mirror th
 | Organ | Repo | Role |
 |---|---|---|
 | Brain | [PyAutoBrain](https://github.com/PyAutoLabs/PyAutoBrain) | Works out *how*: classifies, plans and routes work through specialist reasoning and coding agents. |
+| Broca | [PyAutoBroca](https://github.com/PyAutoLabs/PyAutoBroca) | Tracks assistant evaluation and upkeep evidence. |
 | Mind | [PyAutoMind](https://github.com/PyAutoLabs/PyAutoMind) | Captures intent: every piece of work begins as a plain-English description of *what* should change and is tracked from the initial idea to its completed implementation. |
 | Cortex | [PyAutoCortex](https://github.com/PyAutoLabs/PyAutoCortex) | Holds the science body map and one ledger per science project — the runs on the cluster and a dated log of what was set off, seen and learned — so a project is picked up where it was left, apart from software development. |
 | Memory | [PyAutoMemory](https://github.com/PyAutoLabs/PyAutoMemory) | Provides long-term scientific knowledge through cross-linked literature wikis, concepts and verifiable citations. |
