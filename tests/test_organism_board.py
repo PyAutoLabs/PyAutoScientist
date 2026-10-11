@@ -182,3 +182,14 @@ def test_structured_heart_status_does_not_parse_the_headline():
     snap = _snap('Monitoring RED · release STALE')
     next(row for row in snap['boards'] if row['name'] == 'Heart')['feed'] = {'status': 'red'}
     assert ob.heart_word(snap) == 'RED'
+
+
+def test_organ_footer_is_below_cards_and_uses_instance_host():
+    page = ob.render(_snap(), "html")
+    footer = re.search(r'<ul class="boards">(.*?)</ul>', page, re.S)
+    assert footer is not None
+    assert page.index('id="dashboards"') < footer.start()
+    assert 'data-organ="brain"' in footer.group(1)
+    assert 'data-organ="organism"' not in footer.group(1)
+    assert 'https://someorg.github.io/PyAutoBrain/' in footer.group(1)
+    assert 'pyautolabs.github.io' not in footer.group(1)
