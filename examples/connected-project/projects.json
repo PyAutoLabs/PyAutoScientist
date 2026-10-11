@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "resources": {
+    "spectra-code": {
+      "name": "SpectralAnalysis",
+      "repo": "spectra-code",
+      "public": true
+    }
+  },
+  "projects": {
+    "spectra": {
+      "name": "Spectra",
+      "kind": "scientific_project",
+      "public": true,
+      "resources": {
+        "software": [
+          "spectra-code"
+        ]
+      },
+      "available": {
+        "workspaces": {
+          "name": "spectra_workspace",
+          "public": true
+        },
+        "tutorials": {
+          "name": "HowToSpectra",
+          "public": true
+        },
+        "documentation": {
+          "name": "Spectra guide",
+          "public": true
+        },
+        "assistants": {
+          "name": "spectra_assistant",
+          "public": true
+        },
+        "tests": {
+          "name": "spectra_workspace_test",
+          "public": true
+        },
+        "profiling": {
+          "name": "spectra_profiling",
+          "public": true
+        },
+        "inference": {
+          "name": "spectra_inference",
+          "public": true
+        },
+        "visualization": {
+          "name": "spectra_visualization",
+          "public": true
+        }
+      }
+    }
+  }
+}

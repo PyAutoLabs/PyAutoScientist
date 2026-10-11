@@ -29,6 +29,16 @@ RELATIONS = {
     "records": "Organ records",
 }
 KINDS = {"software_family": "Software family", "scientific_project": "Scientific investigation"}
+CAPABILITIES = {
+    "workspaces": "Examples and working scripts for this project.",
+    "tutorials": "Step-by-step teaching material.",
+    "documentation": "Reference and usage guides.",
+    "assistants": "A project-specific research assistant.",
+    "tests": "Regression and smoke-test workspaces.",
+    "profiling": "Measure runtime and resource use.",
+    "inference": "Compare inference methods and results.",
+    "visualization": "Review figures and visualization outputs.",
+}
 ID = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*\Z")
 
 
@@ -119,13 +129,19 @@ def resolve(config: dict, body_map: dict) -> dict:
 
     public_projects = []
     for key, item in projects.items():
-        if set(item) - {"name", "public", "kind", "description", "resources"}:
+        if set(item) - {"name", "public", "kind", "description", "resources", "available"}:
             raise ValueError(f"project {key}: unknown field")
         if not isinstance(item.get("kind"), str) or item["kind"] not in KINDS:
             raise ValueError(f"project {key}: unknown project kind")
         relations = item.get("resources", {})
         if not isinstance(relations, dict) or set(relations) - RELATIONS.keys():
             raise ValueError(f"project {key}: unknown resource relationship")
+        available = _entries(item.get("available", {}), "available capability")
+        for capability, option in available.items():
+            if capability not in CAPABILITIES or set(option) - {"name", "public"}:
+                raise ValueError(f"project {key}: unknown available capability or field")
+            if relations.get(capability):
+                raise ValueError(f"project {key}: available capability is already connected")
         groups = []
         for relation, label in RELATIONS.items():
             ids = relations.get(relation, [])
@@ -135,8 +151,12 @@ def resolve(config: dict, body_map: dict) -> dict:
             if any(i not in resources for i in ids):
                 raise ValueError(f"project {key}: unknown resource reference")
             visible = [resolved[i] for i in ids if resources[i].get("public") is True]
-            if visible:
+            option = available.get(relation, {})
+            if visible or option.get("public") is True:
                 group = {"relation": relation, "label": label, "resources": visible}
+                if option.get("public") is True:
+                    group["available"] = [{"id": relation, "name": option["name"],
+                                           "purpose": CAPABILITIES[relation]}]
                 dashboard = routes.get(relation)
                 if dashboard and resources[dashboard].get("public") is True:
                     group["dashboard"] = {"id": dashboard, "name": resources[dashboard]["name"],
@@ -164,8 +184,10 @@ def display_groups(project: dict) -> list[dict]:
         key = ("dashboard", dashboard["id"]) if dashboard else ("relation", group["relation"])
         if key not in groups:
             groups[key] = {"label": dashboard["name"] if dashboard else group["label"],
-                           "url": dashboard["url"] if dashboard else None, "resources": []}
+                           "url": dashboard["url"] if dashboard else None,
+                           "resources": [], "available": []}
         row = groups[key]
+        row["available"].extend(group.get("available", []))
         seen = {r["id"] for r in row["resources"]}
         for resource in group["resources"]:
             if resource["id"] in seen:
@@ -184,10 +206,31 @@ def markdown_text(value: str) -> str:
     return re.sub(r"([\\\[\]*_`#|])", r"\\\1", html.escape(value)).replace("\n", " ")
 
 
+def setup_prompt(project: dict, option: dict) -> str:
+    """A portable request, not an activation command or inferred repository ID."""
+    return (
+        f"Help me add {RELATIONS[option['id']].lower()} to project "
+        f"{json.dumps(project['name'])} (stable project ID: {project['id']}). "
+        f"Suggested name: {json.dumps(option['name'])}; this is only a naming hint.\n\n"
+        "Read this Scientist's instructions, instance profile, project relationships and "
+        "canonical Mind repository map. Inspect existing project-owned sources and any "
+        "partial setup first; reuse them and preserve user records. Ask for missing purpose, "
+        "location, ownership or visibility choices. Do not infer identity or access from names. "
+        "Propose the smallest useful setup through the existing development workflow, "
+        "including validation and how to resume it. Obtain approval before creating "
+        "repositories, changing access, publishing or running science.\n\n"
+        f"Keep capability {option['id']} available until setup is validated. Then replace "
+        "its available entry with an explicit connected resource using the canonical "
+        "repository identity, and validate the Scientist configuration offline. "
+        "Configure an owning organ separately if needed; a resource link is not organ "
+        "activation or evidence of quality."
+    )
+
+
 def render_markdown(snapshot: dict) -> str:
     text = markdown_text
 
-    lines = ["## Projects", "", "Connected resources; inventory is not a quality or readiness verdict."]
+    lines = ["## Projects"]
     for project in snapshot.get("projects", []):
         lines.extend(["", "### " + text(project["name"]), "", text(project["description"])])
         for group in display_groups(project):
@@ -198,6 +241,9 @@ def render_markdown(snapshot: dict) -> str:
                 links = " · ".join(f"[{text(resource['name'] if i == 0 else link['label'])}]({quote(link['url'], safe='/:?=&%+#@~;,-_')})"
                                    for i, link in enumerate(resource["links"]))
                 lines.append(f"- {label}: {links}")
+            for option in group["available"]:
+                lines.extend([f"- {label}: {text(option['name'])} — Available to add",
+                              "", text(setup_prompt(project, option)), ""])
     return "\n".join(lines)
 
 
@@ -212,6 +258,16 @@ def render_html(snapshot: dict) -> str:
                 links = " · ".join(f'<a href="{esc(link["url"], quote=True)}">{esc(resource["name"] if i == 0 else link["label"])}</a>'
                                    for i, link in enumerate(resource["links"]))
                 entries.append(f'<li data-resource="{esc(resource["id"])}">{links}</li>')
+            for option in group["available"]:
+                ident = f"setup-{project['id']}-{option['id']}"
+                entries.append(
+                    f'<li><details class="available-resource" data-capability="{option["id"]}">'
+                    f'<summary><span>{esc(option["name"])}</span> '
+                    '<span class="availability-label">Available to add</span></summary>'
+                    f'<div class="available-resource-body"><p>{esc(option["purpose"])}</p>'
+                    f'<label for="{ident}">Setup prompt</label>'
+                    f'<textarea id="{ident}" readonly rows="8">'
+                    f'{esc(setup_prompt(project, option))}</textarea></div></details></li>')
             label = esc(group["label"])
             if group["url"]:
                 label = f'<a href="{esc(group["url"], quote=True)}">{label}</a>'
@@ -222,7 +278,6 @@ def render_html(snapshot: dict) -> str:
 <div class="organ-content"><p>{esc(project['description'])}</p>{content}</div></details>''')
     empty = '<p>No public projects configured.</p>' if not cards else ''
     return f'''<section id="projects" aria-labelledby="projects-heading"><h2 id="projects-heading">Projects</h2>
-<p>Connected resources. Follow the source links for current records; listed resources do not establish quality or readiness.</p>
 {empty}<div class="organ-grid" aria-label="Project resources">{''.join(cards)}</div></section>'''
 
 

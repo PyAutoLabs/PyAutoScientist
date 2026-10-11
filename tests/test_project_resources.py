@@ -198,3 +198,105 @@ def test_owner_deep_links_preserve_sources_and_snapshot(inputs):
         "https://docs.example.org/", "https://example.org/broca/#resource-docs",
         "https://github.com/OtherLab/renamed-code/tree/release%2F1/guide/start%20here.md"}
     assert snapshot == before
+
+
+def test_available_resources_are_not_connected_or_exported(inputs):
+    config, body_map = inputs
+    before = pr.catalogue(pr.resolve(*inputs))
+    config['projects']['alpha']['available'] = {
+        'inference': {'name': 'renamed_experiments', 'public': True},
+        'assistants': {'name': 'optional_helper', 'public': True}}
+    snapshot = pr.resolve(config, body_map)
+    assert pr.catalogue(snapshot) == before
+    inference = next(g for g in snapshot['projects'][0]['groups'] if g['relation'] == 'inference')
+    assert inference['resources'] == []
+    assert inference['available'][0]['id'] == 'inference'
+    page = pr.render_html(snapshot)
+    assert 'Available to add' in page and 'readonly' in page
+    assert 'renamed_experiments</span>' in page
+    assert 'href="https://github.com/renamed_experiments' not in page
+    assert r'renamed\_experiments' in pr.render_markdown(snapshot)
+    assert 'Do not infer identity or access from names' in page
+
+
+@pytest.mark.parametrize('available', [
+    [], {'unknown': {'name': 'x'}}, {'software': {'name': 'x'}},
+    {'tests': {'name': 'x', 'repo': 'library'}},
+    {'tests': {'name': 'x', 'public': 'true'}},
+    {'tests': {'name': ''}}, {'tests': 'x'},
+    {'tests': {'name': 'x', 'status': 'active'}},
+    {'documentation': {'name': 'already-connected', 'public': True}},
+])
+def test_available_configuration_rejects_ambiguous_states(inputs, available):
+    inputs[0]['projects']['alpha']['available'] = available
+    with pytest.raises(ValueError):
+        pr.resolve(*inputs)
+
+
+def test_private_available_entries_and_routes_never_leak(inputs):
+    config, body_map = inputs
+    config['projects']['alpha']['available'] = {
+        'tests': {'name': 'private-tests', 'public': False},
+        'inference': {'name': 'unapproved-inference'},
+        'workspaces': {'name': 'public-workspace', 'public': True}}
+    config['projects']['beta']['public'] = False
+    config['projects']['beta']['available'] = {'tests': {'name': 'private-project-tests', 'public': True}}
+    config['resources']['private']['published_url'] = 'https://private.example.org/'
+    config['routes'] = {'workspaces': 'private'}
+    result = pr.resolve(config, body_map)
+    for output in [json.dumps(result), pr.render_html(result), pr.render_markdown(result)]:
+        assert 'public-workspace' in output
+        for private in ['private-tests', 'unapproved-inference', 'private-project-tests', 'private.example.org']:
+            assert private not in output
+
+
+def test_available_uses_dashboard_groups_without_inventing_detail_anchor(inputs):
+    config, body_map = inputs
+    config['resources']['broca'] = {'name': 'Broca', 'published_url': 'https://example.org/broca/', 'public': True}
+    config['routes'] = {'documentation': 'broca', 'workspaces': 'broca'}
+    config['projects']['alpha']['available'] = {'workspaces': {'name': 'any-name', 'public': True}}
+    snapshot = pr.resolve(config, body_map)
+    row = next(r for r in pr.display_groups(snapshot['projects'][0]) if r['label'] == 'Broca')
+    assert [r['id'] for r in row['resources']] == ['docs']
+    assert [r['id'] for r in row['available']] == ['workspaces']
+    page = pr.render_html(snapshot)
+    assert '#resource-docs' in page
+    assert '#resource-workspaces' not in page
+
+
+def test_available_transition_to_connected_is_explicit_and_name_independent(inputs):
+    config, body_map = inputs
+    config['projects']['alpha']['available'] = {'workspaces': {'name': 'hint-only', 'public': True}}
+    config['projects']['alpha']['resources']['workspaces'] = ['private']
+    with pytest.raises(ValueError, match='already connected'):
+        pr.resolve(*inputs)  # private connections must not look unconfigured
+    del config['projects']['alpha']['available']['workspaces']
+    config['projects']['alpha']['resources']['workspaces'] = ['library']
+    page = pr.render_html(pr.resolve(*inputs))
+    assert 'hint-only' not in page and 'Available to add' not in page
+    assert 'https://github.com/OtherLab/renamed-code' in page
+
+
+def test_available_labels_are_plain_text_and_rendering_preserves_inputs(inputs):
+    inputs[0]['projects']['alpha']['available'] = {
+        'tests': {'name': '</textarea><script>bad()</script>', 'public': True}}
+    before = copy.deepcopy(inputs)
+    snapshot = pr.resolve(*inputs)
+    page = pr.render_html(snapshot)
+    assert '<script>bad()' not in page and '&lt;script&gt;bad()' in page
+    assert inputs == before
+
+
+def test_connected_example_is_offline_and_independent(monkeypatch, capsys):
+    root = Path(__file__).resolve().parents[1]
+    folder = root / 'examples' / 'connected-project'
+    monkeypatch.setattr(ob, '_get', lambda *a, **k: pytest.fail('example fetched a feed'))
+    args = ['--instance', str(folder / 'instance.json'), '--repos', str(folder / 'repos.yaml')]
+    assert ob.main(args + ['--html']) == 0
+    page = capsys.readouterr().out
+    assert 'Mira Scientist' in page and 'SpectralAnalysis' in page
+    assert page.count('class="available-resource"') == 8
+    assert 'autolens' not in page.lower()
+    assert ob.main(args + ['--catalogue']) == 0
+    catalogue = json.loads(capsys.readouterr().out)
+    assert [r['repo'] for r in catalogue['resources']] == ['spectra-code']

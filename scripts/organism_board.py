@@ -272,6 +272,12 @@ _EXTRA_CSS = """
 .organ-foot a{min-height:44px;display:inline-flex;align-items:center}
 .project-card ul{list-style:none;padding:0;margin:0}
 .project-card li{margin:0 0 .35rem}
+.available-resource{border:1px dashed var(--line);border-radius:6px}
+.available-resource>summary{color:var(--muted);cursor:pointer;padding:.65rem;min-height:44px;box-sizing:border-box}
+.availability-label{font-size:.8rem;margin-left:.4rem}
+.available-resource-body{padding:0 .75rem .75rem 1.25rem}
+.available-resource-body label{display:block;margin-bottom:.35rem}
+.available-resource-body textarea{font:inherit;width:100%;box-sizing:border-box;resize:vertical;background:var(--bg);color:var(--fg);border:1px solid var(--line);padding:.65rem}
 .organ-grid :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media(max-width:64rem){.organ-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:40rem){.organ-grid{grid-template-columns:1fr}.organ-content .summary-row{grid-template-columns:1fr;gap:.15rem}}
