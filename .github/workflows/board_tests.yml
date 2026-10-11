@@ -22,7 +22,7 @@ jobs:
         env:
           SCIENTIST_TASK_BRANCH: ${{ github.head_ref }}
         run: |
-          if git ls-remote --exit-code --heads origin "refs/heads/$SCIENTIST_TASK_BRANCH" > /tmp/scientist-brain-ref; then
+          if git ls-remote --exit-code --heads origin "refs/heads/$SCIENTIST_TASK_BRANCH" > /dev/null; then
             git fetch --depth 1 origin "refs/heads/$SCIENTIST_TASK_BRANCH"
             git checkout -q FETCH_HEAD
           else
