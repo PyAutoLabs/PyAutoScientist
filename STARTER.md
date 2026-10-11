@@ -119,5 +119,22 @@ organ is unconfigured, not failed. Empty `organs: {}` is supported.
 
 Connections are an explicit choice of public feed locations. Adding a connection
 reads that feed during rendering and browser refresh; it never installs or runs
-an organ. Grey available-to-add capabilities, resumable AI-led activation and
-independent deployment are subsequent epic phases.
+an organ. Grey available-to-add project resources are described below. Resumable organ
+activation and independent deployment remain subsequent epic phases.
+
+## Discover what a project can add
+
+The separate `examples/connected-project/` fixture shows **Mira Scientist** with
+one fictional software resource, no connected assistant or organs, and optional
+resources such as `spectra_workspace` and `spectra_inference`:
+
+```bash
+python scripts/organism_board.py --instance examples/connected-project/instance.json \
+  --repos examples/connected-project/repos.yaml --html > connected-project.html
+```
+
+Expand Spectra, then a grey **Available to add** row to select its setup prompt.
+Names are suggestions in instance configuration, not detected repositories.
+Choose opportunities explicitly when connecting your project; see
+[PROJECTS.md](PROJECTS.md#available-to-add). The empty starter stays empty.
+These prompts begin a setup conversation; they do not run setup or activate organs.

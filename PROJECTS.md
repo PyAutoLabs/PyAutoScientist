@@ -78,11 +78,12 @@ Project repositories own software, docs, notebooks, scripts, assistant definitio
 and runners. Scientist owns these explicit project associations and links. The
 agreed Broca expansion covers communication/documentation relationships and
 upkeep evidence, with documentation, tutorials, user-facing workspaces and
-assistants as first-class surfaces. Its current published implementation still
-covers assistant evidence; the broader contract and evidence migration are
-separate Mind tasks. These IDs/categories provide a coordination point, not a
-new Broca evidence schema or copied ledger. Links to Broca route communication resources to its dashboard; they do not
-imply a project-specific assessment or implemented evidence coverage.
+assistants as first-class surfaces. Its dashboard now presents communication
+resource inventories alongside assistant evidence; broader upkeep evidence
+remains separate Mind work. These IDs/categories provide a coordination point,
+not a new Broca evidence schema or copied ledger. Links to Broca route
+communication resources to its dashboard; they do not imply a project-specific
+assessment or implemented evidence coverage.
 
 Ears retains listening and feedback collection; Brain interprets and routes;
 Mind tracks implementation; Memory holds knowledge and citations; Cortex owns
@@ -102,13 +103,10 @@ Mind. Rename displays or change canonical locations without changing stable IDs.
 Unsupported schema versions fail explicitly; an upgrade must preserve the
 configuration and user records or supply a reviewable migration.
 
-This phase does **not** yet make the complete Scientist independently named or
-organs optional. Existing hero branding, organ membership, check-in prompt,
-workflow checkout identities and framework discovery still reflect the current
-instance. Starter packaging, configurable capability locations, optional-organ
-activation and record-preserving upgrades are recorded follow-ups. No
-collaborator project or access is assumed. Shared multi-contributor operation is
-a later milestone.
+Independent names and explicit optional organ connections are supported by the
+local [starter preview](STARTER.md). Resumable activation, independently hosted
+deployment and record-preserving upgrades remain separate phases. Shared
+multi-contributor operation is a later milestone.
 
 ## Dashboard routing
 
@@ -142,3 +140,36 @@ no evidence timestamp: inventory refresh is not evidence collection.
 Tests and communication resources link to their owning board's
 `#resource-<resource ID>` disclosure while retaining source/published links.
 Publish the owner-board changes before publishing the new Scientist links.
+
+## Available to add
+
+Each project may opt into `available` opportunities keyed by the stable capability
+IDs `workspaces`, `tutorials`, `documentation`, `assistants`, `tests`, `profiling`,
+`inference` and `visualization`. Add only what would be useful to that project:
+
+```json
+"available": {
+  "workspaces": {"name": "myproject_workspace", "public": true},
+  "inference": {"name": "myproject_inference", "public": true}
+}
+```
+
+`name` is an instance-owned naming hint. No GitHub URL is inferred, no remote
+existence is checked, and suffixes do not establish identity. The grey disclosure
+contains a short purpose and selectable setup prompt. It stays usable by keyboard
+and without JavaScript. Existing dashboard routes also group these opportunities;
+an absent or private route falls back to the category heading.
+
+As with connected resources, both the project and opportunity need explicit
+`public: true` to appear. Opportunities are excluded from the connected resource
+catalogue consumed by Heart and Broca. You cannot mark a capability available
+while the same project's relationship contains a connected resource, including a
+private one. To connect a validated resource, remove that opportunity and add the
+normal resource/relationship using its canonical identity in one configuration
+change. Projects can always omit assistants, and resources can be shared.
+
+This is an explicit discovery contract, not a setup-state ledger. Keep incomplete
+setup in your existing task records; do not claim it is connected until validated.
+Missing or stale evidence on a connected organ never greys its resource into an
+available opportunity. Paused/needs-attention states, resumable activation and
+organ-specific validation remain separate work.
