@@ -45,3 +45,23 @@ test('feed identity, impossible dates and malformed action metadata are rejected
  assert.ok(run('validate(d)',{d:feed({updated:'2026-02-30T12:00:00Z'})}));
  assert.ok(run('validate(d)',{d:feed({items:[{severity:'info',text:'text',actions:[{id:'x',kind:'link',label:'x',target:'javascript:alert(1)'}]}]})}));
 });
+
+test('independent profiles do not load another instance or host cache with the same repo name', () => {
+ const connected = {key:'mind',name:'Mind',repo:'ResearchPlans',url:'https://research.example/boards/plans/'};
+ const instance = {source_url:'https://github.com/Research/Mira'};
+ const otherFeed = feed({repo:'ResearchPlans',pages_url:'https://other.example/plans/',headline:'OTHER INSTANCE PRIVATE TASK'});
+ const oldKey = 'pyauto-cockpit:last-good:ResearchPlans';
+ const ownKey = run('cacheKey(connected, instance)', {connected,instance});
+ const otherHostKey = run('cacheKey({...connected,url:"https://other.example/plans/"},instance)');
+ const otherInstanceKey = run('cacheKey(connected,{source_url:"https://github.com/Other/Mira"})');
+ assert.notEqual(ownKey,otherHostKey);
+ assert.notEqual(ownKey,otherInstanceKey);
+ const saved = new Map([oldKey,otherHostKey,otherInstanceKey].map(k=>[k,JSON.stringify({feed:otherFeed})]));
+ const read = [];
+ const boot = vm.createContext({URL,Date,document:{getElementById:()=>({textContent:JSON.stringify({instance,boards:[connected]})})},
+   localStorage:{getItem:k=>{read.push(k);return saved.get(k) || null;}}});
+ vm.runInContext(script.split('function paint(organ)')[0],boot);
+ assert.equal(vm.runInContext('organStates.get("mind").lastGood',boot),null);
+ assert.deepEqual(read,[ownKey]);
+ assert.equal(run('cacheKey(connected,null)'),oldKey);
+});

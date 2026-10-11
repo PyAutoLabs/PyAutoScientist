@@ -137,13 +137,21 @@ function summaryHtml(rows) {
   return rows.map(row => `<div class="summary-row"><dt>${esc(row.label)}</dt><dd><a href="${esc(safeUrl(row.url) || '#')}" title="${esc(row.text)}">${esc(concise(row.text))}</a></dd></div>`).join('');
 }
 
+function cacheKey(organ, instance) {
+  // An independent instance must never consume another owner's basename-only
+  // cache. Retain that old key only for the existing unprofiled dashboard.
+  return instance
+    ? 'scientist:last-good:' + JSON.stringify([instance.source_url, organ.key, organ.repo, organ.url])
+    : 'pyauto-cockpit:last-good:' + organ.repo;
+}
+
 // ---- browser startup ----
 const snapshot = JSON.parse(document.getElementById('scientist-snapshot').textContent);
 const organStates = new Map();
 for (const organ of snapshot.boards) {
   const identity = { organ: organ.name, repo: organ.repo };
   let saved = null;
-  try { saved = JSON.parse(localStorage.getItem('pyauto-cockpit:last-good:' + organ.repo)); } catch (_) {}
+  try { saved = JSON.parse(localStorage.getItem(cacheKey(organ, snapshot.instance))); } catch (_) {}
   const lastGood = saved && !validate(saved.feed, identity) ? saved.feed :
     organ.feed && !validate(organ.feed, identity) ? organ.feed : null;
   organStates.set(organ.key, { lastGood });
@@ -182,7 +190,7 @@ async function refresh() {
         const feed = await response.json();
         if (validate(feed, { organ: organ.name, repo: organ.repo })) throw new Error('Invalid evidence');
         st.feed = feed; st.lastGood = feed; st.error = null;
-        try { localStorage.setItem('pyauto-cockpit:last-good:' + organ.repo, JSON.stringify({ feed, at: new Date().toISOString() })); } catch (_) {}
+        try { localStorage.setItem(cacheKey(organ, snapshot.instance), JSON.stringify({ feed, at: new Date().toISOString() })); } catch (_) {}
       } catch (_) { st.feed = null; st.error = 'Evidence unavailable'; }
       finally { clearTimeout(timeout); paint(organ); }
     }));

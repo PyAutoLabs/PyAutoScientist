@@ -38,16 +38,13 @@ HOME = Path(__file__).resolve().parents[1]
 # the whole family at once — organism_board.yml checks PyAutoBrain out beside
 # this repo, and a local run finds the sibling checkout the same way the other
 # PyAuto tools resolve each other.
-CHECKIN_PROMPT = (
-    "Use this chat as an ongoing entry point to PyAutoLabs. Read PyAutoScientist/AGENTS.md "
-    "and PyAutoScientist/REPORTING.md. Use the board skill to inspect relevant operational evidence. Load other organs and "
-    "project context as the request requires.\n\n"
+COMMON_CHECKIN_PROMPT = (
     "When I give no particular direction, provide a concise overview of the organism’s "
-    "work across all organs over the last 24 hours, plus its current position: significant progress, blockers, decisions needing my attention and "
+    "work across connected organs over the last 24 hours, plus its current position: significant progress, blockers, decisions needing my attention and "
     "useful next steps. Check evidence freshness and coverage, linking to the owning boards "
     "rather than reproducing every queue.\n\n"
     "For a summary over a given time period, use that period instead of the last 24 hours. "
-    "State the start, end and timezone. Check dated records in every organ, distinguish "
+    "State the start, end and timezone. Check dated records in every connected organ, distinguish "
     "completed outcomes from work still in progress and decisions awaiting me, and link "
     "the evidence. Deduplicate work spanning organs. A dashboard refresh is not a completed "
     "event; current snapshots alone cannot establish a historical summary. Report coverage "
@@ -72,6 +69,26 @@ CHECKIN_PROMPT = (
     "and what remains unresolved. Stop at the session deliverable without scheduling "
     "background follow-up."
 )
+
+CHECKIN_PROMPT = (
+    "Use this chat as an ongoing entry point to PyAutoLabs. Read PyAutoScientist/AGENTS.md "
+    "and PyAutoScientist/REPORTING.md. Use the board skill to inspect relevant operational evidence. Load other organs and "
+    "project context as the request requires.\n\n"
+    + COMMON_CHECKIN_PROMPT
+)
+
+
+def instance_prompt(instance):
+    return (f"Use this chat as an ongoing entry point to {instance['name']}. "
+            "Read this Scientist checkout’s AGENTS.md, STARTER.md and REPORTING.md, "
+            "then its explicit instance profile and project relationships. "
+            "Consult only connected organs and relevant project-owned sources. "
+            "Do not assume optional organs, an agent harness or remote access are installed. "
+            "Help connect existing projects using their canonical repository identities; "
+            "ask about purpose, visibility and needed capabilities before changing setup. "
+            "Keep missing evidence distinct from unconfigured organs.\n\n"
+            + COMMON_CHECKIN_PROMPT)
+
 
 BOARD_KEY = "organism"  # this board's entry in the Brain's palette table
 
@@ -138,12 +155,13 @@ def _get(url: str) -> str:
         return resp.read().decode("utf-8", errors="replace")
 
 
-def collect(owner: str | None = None) -> dict:
-    owner = owner if owner is not None else _owner()
-    if not owner:
+def collect(owner: str | None = None, instance: dict | None = None) -> dict:
+    owner = owner if owner is not None else (_owner() if instance is None else None)
+    if instance is None and not owner:
         raise ValueError("Cannot resolve the repository owner")
-    rows = boards(owner)
+    rows = boards(owner) if instance is None else instance["boards"]
     # theme() resolves the matching Brain checkout and its validator.
+    theme()
     from _state import validate_state
 
     def read(row):
@@ -160,8 +178,11 @@ def collect(owner: str | None = None) -> dict:
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
         collected = list(executor.map(read, rows))
-    return {"generated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-            "owner": owner, "boards": collected}
+    snapshot = {"generated": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+                "owner": owner, "boards": collected}
+    if instance is not None:
+        snapshot["instance"] = {k: v for k, v in instance.items() if k != "boards"}
+    return snapshot
 
 
 # --- pure helpers ---------------------------------------------------------------
@@ -183,6 +204,10 @@ def heart_word(snapshot: dict) -> str:
 
 def route_hint(snapshot: dict) -> str:
     """Where to work next, keyed off the Heart's verdict."""
+    if "instance" in snapshot:
+        if not snapshot.get("boards"):
+            return "No organs connected. Connect a project, then add only the organs it needs."
+        return "Inspect connected organ evidence before choosing the next action; missing evidence is not a passing result."
     word = heart_word(snapshot)
     if word in ("RED", "YELLOW"):
         return ("The Heart is " + word +
@@ -196,7 +221,9 @@ def route_hint(snapshot: dict) -> str:
 
 
 def _render_md(snapshot: dict) -> str:
-    lines = ["# PyAutoScientist Dashboard", "",
+    from project_resources import markdown_text
+    name = snapshot.get("instance", {}).get("name", "PyAutoScientist")
+    lines = [f"# {markdown_text(name)} Dashboard", "",
              f"_{route_hint(snapshot)}_", "",
              "| Dashboard | Says | |", "|---|---|---|"]
     for b in snapshot.get("boards") or []:
@@ -254,37 +281,46 @@ _EXTRA_CSS = """
 def _render_html(snapshot: dict) -> str:
     t = theme()
     owner = snapshot.get("owner")
+    instance = snapshot.get("instance")
+    name = instance["name"] if instance is not None else "PyAutoScientist"
+    source = instance["source_url"] if instance is not None else (f"https://github.com/{owner}/PyAutoScientist" if owner else None)
+    prompt = CHECKIN_PROMPT if instance is None else instance_prompt(instance)
     panel = t.orchestration_panel(
-        "scientist", "", "", CHECKIN_PROMPT, organ="scientist",
-        work_links=([{"label": "Scientist repository", "href": f"https://github.com/{owner}/PyAutoScientist"}] if owner else []),
+        "scientist", "", "", prompt, organ="scientist",
+        work_links=([{"label": (name if instance is not None else "Scientist") + " repository", "href": source}] if source else []),
         refreshed_at=(snapshot.get("generated") if snapshot.get("boards") and
                       all(row.get("headline") is not None for row in snapshot["boards"]) else None),
-        refresh_url=(f"https://github.com/{owner}/PyAutoScientist/actions/workflows/organism_board.yml" if owner else None))
+        refresh_url=(source + "/actions/workflows/organism_board.yml" if source and instance is None else None))
     from project_resources import render_html as render_projects
     projects_html = render_projects(snapshot["project_resources"]) if "project_resources" in snapshot else ""
-    footer = t.boards_footer(t.board_links(f"https://{owner.lower()}.github.io", BOARD_KEY), BOARD_KEY) if owner else ""
+    links = ({row["key"]: row["url"] for row in snapshot["boards"]} if instance is not None
+             else t.board_links(f"https://{owner.lower()}.github.io", BOARD_KEY) if owner else {})
+    footer = t.boards_footer(links, BOARD_KEY)
     rows = []
     for row in snapshot.get("boards") or []:
         key = row.get("key", row["name"].lower())
-        name = _html.escape(row["name"])
+        organ_name = _html.escape(row["name"])
         ident = _row_id(row["name"])
         # Server fallback is explicitly a publication snapshot, not a live check.
         head = _html.escape(row.get("headline") or "Evidence unavailable")
         url = _html.escape(row["url"], quote=True)
         rows.append(f"""<details class="organ-card" id="{ident}" data-organ="{key}">
-<summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{name}</span><span class="organ-status">Snapshot</span></summary>
+<summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{organ_name}</span><span class="organ-status">Snapshot</span></summary>
 <div class="organ-content"><dl><div class="summary-row"><dt>Published status</dt><dd>{head}</dd></div></dl>
-<div class="organ-foot"><span data-freshness>Published {_html.escape(str(snapshot.get('generated') or 'unknown'))}</span><a href="{url}">Open {name} →</a></div></div></details>""")
+<div class="organ-foot"><span data-freshness>Published {_html.escape(str(snapshot.get('generated') or 'unknown'))}</span><a href="{url}">Open {organ_name} →</a></div></div></details>""")
     data = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     script = (HOME / "scripts" / "overview.js").read_text(encoding="utf-8")
+    banner = (t.hero(BOARD_KEY, "Dashboard", display_name=name) if instance is not None
+              else t.hero(BOARD_KEY, "Dashboard"))
     # Native per-organ disclosures keep the overview visible; do not put the
     # whole grid inside section_layout's extra collapsed H2 group.
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>PyAutoScientist Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
-<body>{t.hero(BOARD_KEY, "Dashboard")}{panel}
+<title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
+<body>{banner}{panel}
 {projects_html}
 <h2 id="dashboards-heading">Dashboards</h2>
+{'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not rows else ''}
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 {footer}
@@ -299,7 +335,9 @@ def badge_endpoint(snapshot: dict) -> dict:
     mind = next((b for b in snapshot.get("boards") or [] if b["name"] == "Mind"), {})
     backlog = (mind.get("counts") or {}).get("Backlog")
     msg = word if backlog is None else f"{word} · {backlog} tasks queued"
-    return {"schemaVersion": 1, "label": "organism", "message": msg, "color": color}
+    if "instance" in snapshot and not snapshot.get("boards"):
+        msg, color = "No organs connected", "lightgrey"
+    return {"schemaVersion": 1, "label": snapshot.get("instance", {}).get("name", "organism"), "message": msg, "color": color}
 
 
 def render(snapshot: dict, fmt: str = "md") -> str:
@@ -327,10 +365,12 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--html", action="store_true")
     g.add_argument("--badge", action="store_true")
     g.add_argument("--json", action="store_true")
-    ap.add_argument("--projects", type=Path, default=HOME / "config" / "projects.json",
+    ap.add_argument("--instance", type=Path, help="opt-in instance profile; selects only explicitly connected organs")
+    ap.add_argument("--projects", type=Path,
                     help="instance-owned project/resource configuration")
     ap.add_argument("--repos", type=Path, help="canonical Mind repos.yaml (required outside a configured workspace)")
     ap.add_argument("--check-projects", action="store_true", help="validate relationships offline; do not collect feeds")
+    ap.add_argument("--check-instance", action="store_true", help="validate the profile and project relationships offline")
     ns = ap.parse_args(argv)
     from project_resources import load
     repos_path = ns.repos
@@ -344,13 +384,20 @@ def main(argv: list[str] | None = None) -> int:
             from _repo_paths import repo_path
             repos_path = repo_path(_workspace_root(), "PyAutoMind", required=True) / "repos.yaml"
     try:
-        projects = load(ns.projects, repos_path)
+        instance = None
+        projects_path = HOME / "config" / "projects.json"
+        if ns.instance:
+            from instance_profile import load as load_instance
+            instance, projects_path = load_instance(ns.instance, repos_path, theme())
+        elif ns.check_instance:
+            ap.error("--check-instance requires --instance")
+        projects = load(ns.projects or projects_path, repos_path)
     except (OSError, ValueError, yaml.YAMLError) as exc:
         ap.error(f"project configuration unavailable or invalid: {exc}")
-    if ns.check_projects:
+    if ns.check_projects or ns.check_instance:
         print(f"Project configuration valid: {len(projects['projects'])} public projects")
         return 0
-    snap = collect()
+    snap = collect(instance=instance)
     snap["project_resources"] = projects
     fmt = "md"
     for name, label in (("md", "md"), ("md_brief", "md-brief"),

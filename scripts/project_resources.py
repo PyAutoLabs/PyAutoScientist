@@ -169,9 +169,13 @@ def display_groups(project: dict) -> list[dict]:
     return list(groups.values())
 
 
+def markdown_text(value: str) -> str:
+    """Escape instance-owned labels for plain text in published Markdown."""
+    return re.sub(r"([\\\[\]*_`#|])", r"\\\1", html.escape(value)).replace("\n", " ")
+
+
 def render_markdown(snapshot: dict) -> str:
-    def text(value):
-        return re.sub(r"([\\\[\]*_`#|])", r"\\\1", html.escape(value)).replace("\n", " ")
+    text = markdown_text
 
     lines = ["## Projects", "", "Connected resources; inventory is not a quality or readiness verdict."]
     for project in snapshot.get("projects", []):
