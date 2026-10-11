@@ -14,9 +14,16 @@ jobs:
         with:
           repository: PyAutoLabs/PyAutoBrain
           path: PyAutoBrain
+      # Canonical repository identity input; relationships remain in Scientist.
+      - uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoMind
+          path: PyAutoMind
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: python -m pip install pytest pyyaml
+      - run: python scripts/organism_board.py --repos PyAutoMind/repos.yaml --check-projects
       - run: python -m pytest tests -q
       - run: node --test tests/overview.cjs
