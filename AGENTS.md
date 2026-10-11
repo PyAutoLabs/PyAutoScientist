@@ -23,9 +23,9 @@ The copyable dashboard prompt points here. Current status cards are not a
 historical activity ledger.
 
 The dashboard uses Brain's shared hero/panel, registry and state validator.
-Its organ disclosures stay visible as a grid, without another outer disclosure
-or duplicate organ navigation. Each expanded organ has at most three concise
-rows. `scripts/overview.js` is inlined at render time and refreshes published
+Its organ disclosures stay visible as a grid, without another outer disclosure.
+The shared organ-link footer sits below the grid. Each expanded organ has at most
+three concise rows. `scripts/overview.js` is inlined at render time and refreshes published
 feeds without replacing open disclosures or prompt controls.
 
 ## Editing rules

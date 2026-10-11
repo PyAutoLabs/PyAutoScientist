@@ -262,6 +262,7 @@ def _render_html(snapshot: dict) -> str:
         refresh_url=(f"https://github.com/{owner}/PyAutoScientist/actions/workflows/organism_board.yml" if owner else None))
     from project_resources import render_html as render_projects
     projects_html = render_projects(snapshot["project_resources"]) if "project_resources" in snapshot else ""
+    footer = t.boards_footer(t.board_links(f"https://{owner.lower()}.github.io", BOARD_KEY), BOARD_KEY) if owner else ""
     rows = []
     for row in snapshot.get("boards") or []:
         key = row.get("key", row["name"].lower())
@@ -286,6 +287,7 @@ def _render_html(snapshot: dict) -> str:
 <h2 id="dashboards-heading">Dashboards</h2>
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
+{footer}
 <script type="application/json" id="scientist-snapshot">{data}</script>
 <script>{t.JS}</script><script>{script}</script></body></html>"""
 
