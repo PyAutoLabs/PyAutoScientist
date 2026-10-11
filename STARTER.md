@@ -27,6 +27,34 @@ The example GitHub identity and `example.invalid` address are placeholders,
 not repositories or a deployed service. This example body map is a fixture,
 not a complete Mind installation.
 
+## Initialize a user-owned configuration directory
+
+If you already have a canonical Mind `repos.yaml`, the offline initializer saves
+copying the preview files by hand. Add your Scientist repository identity to that
+map first. Use an intended HTTPS Pages address; it need not be deployed yet.
+From the framework checkout:
+
+```bash
+python scripts/starter.py /path/to/new-instance --repos /path/to/Mind/repos.yaml \
+  --name "My Scientist" --repo my-scientist \
+  --pages-url https://example.invalid/my-scientist/
+```
+
+This prints the file plan without writing. Repeat with `--apply` to create
+`instance.json`, empty `projects.json` and `SETUP.md`. The destination's parent
+must exist; the destination itself must not exist, even as an empty directory or
+symlink. An existing instance is resumed, never initialized again. No `--force`
+is provided. If a filesystem error interrupts writing, inspect the partial
+new directory; the command will refuse to overwrite it on retry.
+
+`SETUP.md` records local validation commands and a fresh-chat handoff. Keep it
+private: it contains paths to your framework and canonical map. It is an ordinary
+local note, not an installed agent skill. Moving either checkout or configuration
+requires updating these paths. No body map is copied, no remote access is checked,
+and no task or knowledge records, project source, harness settings or repositories
+are created. Mind/Memory template setup and harness integration remain separate.
+Use the existing supported templates for those, rather than copying live records.
+
 ## Configure your instance
 
 Copy the example configuration to a directory you own, outside the framework
