@@ -14,6 +14,22 @@ jobs:
         with:
           repository: PyAutoLabs/PyAutoBrain
           path: PyAutoBrain
+      # Coordinated presentation changes test the companion Brain branch.
+      # Main remains the fallback when this is a Scientist-only change.
+      - name: Prefer matching Brain branch on pull requests
+        if: github.event_name == 'pull_request'
+        working-directory: PyAutoBrain
+        env:
+          SCIENTIST_TASK_BRANCH: ${{ github.head_ref }}
+        run: |
+          if git ls-remote --exit-code --heads origin "refs/heads/$SCIENTIST_TASK_BRANCH" > /dev/null; then
+            git fetch --depth 1 origin "refs/heads/$SCIENTIST_TASK_BRANCH"
+            git checkout -q FETCH_HEAD
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then exit "$status"; fi
+            echo "No companion Brain branch; testing against main"
+          fi
       # Canonical repository identity input; relationships remain in Scientist.
       - uses: actions/checkout@v4
         with:
@@ -25,5 +41,6 @@ jobs:
           python-version: '3.12'
       - run: python -m pip install pytest pyyaml
       - run: python scripts/organism_board.py --repos PyAutoMind/repos.yaml --check-projects
+      - run: python scripts/organism_board.py --instance examples/starter/instance.json --repos examples/starter/repos.yaml --check-instance
       - run: python -m pytest tests -q
       - run: node --test tests/overview.cjs

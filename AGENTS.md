@@ -37,6 +37,14 @@ feeds without replacing open disclosures or prompt controls.
   https://pyautoscientist.readthedocs.io are built from **`PyAutoBrain/docs/`**;
   edit the docs there.
 
+## Independent instance preview
+
+`STARTER.md` documents the opt-in `--instance` profile. Keep instance names,
+repository identities, project paths and connected-organ locations in configuration.
+An empty profile contacts no feeds and imports no live project records. Repo
+identities continue to come from Mind. Bootstrap, activation and deployment are
+separate phases; do not describe this preview as a full installation.
+
 ## Future intent (not now — Phase 3, demand-gated)
 
 Migrating the RTD docs source *into* this repo — so PyAutoScientist becomes the
