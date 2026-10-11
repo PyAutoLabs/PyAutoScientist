@@ -18,7 +18,7 @@ package dependency lockfile and not inferred from naming prefixes.
 Each project has `name`, `kind` (`software_family` or `scientific_project`),
 optional `description`, `public`, and a `resources` object. Its optional lists
 are `software`, `dependencies`, `workspaces`, `tutorials`, `documentation`,
-`assistants` and `records`. Each list contains resource IDs, in display order.
+`assistants`, `profiling`, `inference`, `visualization`, `tests` and `records`. Each list contains resource IDs, in display order.
 An assistant is never required. An empty project catalogue is supported.
 
 Each resource has `name`, `public`, and one or both of:
@@ -81,8 +81,8 @@ upkeep evidence, with documentation, tutorials, user-facing workspaces and
 assistants as first-class surfaces. Its current published implementation still
 covers assistant evidence; the broader contract and evidence migration are
 separate Mind tasks. These IDs/categories provide a coordination point, not a
-new Broca evidence schema or copied ledger. A shared Broca inventory link does
-not imply a project-specific assessment.
+new Broca evidence schema or copied ledger. Links to Broca route communication resources to its dashboard; they do not
+imply a project-specific assessment or implemented evidence coverage.
 
 Ears retains listening and feedback collection; Brain interprets and routes;
 Mind tracks implementation; Memory holds knowledge and citations; Cortex owns
@@ -109,3 +109,23 @@ instance. Starter packaging, configurable capability locations, optional-organ
 activation and record-preserving upgrades are recorded follow-ups. No
 collaborator project or access is assumed. Shared multi-contributor operation is
 a later milestone.
+
+## Dashboard routing
+
+An optional top-level `routes` object maps relationship names to resource IDs
+for the relevant dashboards. Each target must have a `published_url`. For example,
+`"profiling": "pulse-dashboard"` routes profiling resources to a dashboard resource
+named Pulse. Identity and URLs stay in instance configuration, not framework logic.
+
+Cards combine relationships routed to the same public dashboard into one row: the
+organ name links to its dashboard and each resource name links to its source (with
+a separate Published link when configured). The snapshot retains each typed
+relationship for reuse. Broca groups docs, tutorials, workspaces and assistants;
+Pulse profiling; Insight inference; Eyes visualization; Heart test workspaces.
+These links convey responsibility, never a health or quality verdict.
+
+Without a route, or when its dashboard is not explicitly public, resources retain
+their ordinary category row. No private dashboard name or URL enters the snapshot.
+Old schema-version-1 configurations continue to work without `routes`; generic
+`records` remains supported for existing instances, but this instance no longer
+uses the generic Organ records row or the shared assistant evidence inventory.

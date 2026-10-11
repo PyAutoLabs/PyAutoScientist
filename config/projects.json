@@ -154,13 +154,6 @@
       "public": true,
       "repo": "PyAutoNerves"
     },
-    "broca-assistants": {
-      "name": "Broca assistant evidence (shared inventory)",
-      "public": true,
-      "repo": "PyAutoBroca",
-      "path": "assistants.json",
-      "published_url": "https://pyautolabs.github.io/PyAutoBroca/"
-    },
     "array-docs": {
       "name": "PyAutoArray documentation source",
       "repo": "PyAutoArray",
@@ -171,6 +164,66 @@
       "name": "PyAutoReduce project guide",
       "repo": "PyAutoReduce",
       "path": "README.md",
+      "public": true
+    },
+    "broca-dashboard": {
+      "name": "Broca",
+      "repo": "PyAutoBroca",
+      "published_url": "https://pyautolabs.github.io/PyAutoBroca/",
+      "public": true
+    },
+    "pulse-dashboard": {
+      "name": "Pulse",
+      "repo": "PyAutoPulse",
+      "published_url": "https://pyautolabs.github.io/PyAutoPulse/",
+      "public": true
+    },
+    "insight-dashboard": {
+      "name": "Insight",
+      "repo": "PyAutoInsight",
+      "published_url": "https://pyautolabs.github.io/PyAutoInsight/",
+      "public": true
+    },
+    "eyes-dashboard": {
+      "name": "Eyes",
+      "repo": "PyAutoEyes",
+      "published_url": "https://pyautolabs.github.io/PyAutoEyes/",
+      "public": true
+    },
+    "heart-dashboard": {
+      "name": "Heart",
+      "repo": "PyAutoHeart",
+      "published_url": "https://pyautolabs.github.io/PyAutoHeart/",
+      "public": true
+    },
+    "fit-tests": {
+      "name": "autofit_workspace_test",
+      "repo": "autofit_workspace_test",
+      "public": true
+    },
+    "galaxy-visualization": {
+      "name": "autogalaxy_visualization",
+      "repo": "autogalaxy_visualization",
+      "public": true
+    },
+    "galaxy-tests": {
+      "name": "autogalaxy_workspace_test",
+      "repo": "autogalaxy_workspace_test",
+      "public": true
+    },
+    "lens-tests": {
+      "name": "autolens_workspace_test",
+      "repo": "autolens_workspace_test",
+      "public": true
+    },
+    "cti-visualization": {
+      "name": "autocti_visualization",
+      "repo": "autocti_visualization",
+      "public": true
+    },
+    "cti-tests": {
+      "name": "autocti_workspace_test",
+      "repo": "autocti_workspace_test",
       "public": true
     }
   },
@@ -199,11 +252,17 @@
         "assistants": [
           "fit-assistant"
         ],
-        "records": [
-          "broca-assistants",
-          "fit-profiling",
-          "fit-inference",
+        "profiling": [
+          "fit-profiling"
+        ],
+        "inference": [
+          "fit-inference"
+        ],
+        "visualization": [
           "fit-visualization"
+        ],
+        "tests": [
+          "fit-tests"
         ]
       }
     },
@@ -250,8 +309,11 @@
         "assistants": [
           "galaxy-assistant"
         ],
-        "records": [
-          "broca-assistants"
+        "visualization": [
+          "galaxy-visualization"
+        ],
+        "tests": [
+          "galaxy-tests"
         ]
       }
     },
@@ -282,11 +344,17 @@
         "assistants": [
           "lens-assistant"
         ],
-        "records": [
-          "broca-assistants",
-          "lens-profiling",
-          "lens-inference",
+        "profiling": [
+          "lens-profiling"
+        ],
+        "inference": [
+          "lens-inference"
+        ],
+        "visualization": [
           "lens-visualization"
+        ],
+        "tests": [
+          "lens-tests"
         ]
       }
     },
@@ -330,10 +398,23 @@
         "assistants": [
           "cti-assistant"
         ],
-        "records": [
-          "broca-assistants"
+        "visualization": [
+          "cti-visualization"
+        ],
+        "tests": [
+          "cti-tests"
         ]
       }
     }
+  },
+  "routes": {
+    "workspaces": "broca-dashboard",
+    "documentation": "broca-dashboard",
+    "tutorials": "broca-dashboard",
+    "assistants": "broca-dashboard",
+    "profiling": "pulse-dashboard",
+    "inference": "insight-dashboard",
+    "visualization": "eyes-dashboard",
+    "tests": "heart-dashboard"
   }
 }
