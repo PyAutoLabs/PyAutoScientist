@@ -122,6 +122,54 @@ reads that feed during rendering and browser refresh; it never installs or runs
 an organ. Grey available-to-add project resources are described below. Resumable organ
 activation and independent deployment remain subsequent epic phases.
 
+### Validate a connection before saving it
+
+For an organ that already has a public dashboard, use the connection helper.
+First register its actual repository identity in your Mind map. For example,
+`my-guides` may identify your independently named Broca repository; `broca`
+remains the framework organ key. Supply the actual board URL, not a guessed
+repository-name suffix:
+
+```sh
+PYAUTO_BRAIN=/path/to/PyAutoBrain python scripts/connect_organ.py \
+  --instance /path/to/instance/instance.json --repos /path/to/Mind/repos.yaml \
+  --organ broca --repo my-guides --pages-url https://research.example/guides/
+```
+
+This previews the connection after checking the existing instance/projects and
+reading only the selected board's `state.json`. The feed must match Brain's state
+contract, organ key, canonical repository name and board URL. The command checks
+declared identity, not repository access or ownership. Repeat with `--apply` to
+validate again and save the connection. A valid red or old feed can be connected:
+the command reports its status and timestamp, not a healthy/ready verdict.
+
+Failed validation leaves the profile unchanged. Fix the missing prerequisite
+and rerun the same command; no reinitialization is needed. An identical connection
+is a no-op after validation. A different existing connection is refused for
+manual review. The helper atomically replaces only `instance.json`, preserves its
+permissions and other configuration, and refuses input changes detected during
+validation. Avoid concurrent manual edits while applying. Projects, canonical
+identities, research records and organ source remain untouched.
+
+Once connected, missing or stale evidence stays visible as evidence trouble;
+it does not turn the organ back into an unconfigured capability. This step does
+not create an organ, publish it, configure upkeep, or validate its scientific or
+communication quality. Broca's project-owned guides/workspaces and separate
+assistants retain their own source; connecting Broca copies none of them.
+
+To resume with an AI assistant:
+
+> Read my profile, canonical map and existing Mind task first. Resume the selected
+> organ connection using connect_organ.py. Ask only for missing repository identity
+> or the public board URL. Preview and explain the change before applying it.
+> If the organ or its feed is not ready, keep setup incomplete in this Mind task;
+> do not invent a feed or mark it connected. Preserve all existing records and
+> report connection validation separately from readiness. Do not create or publish
+> anything without its own approved setup task.
+
+Organ provisioning, resumable owner-specific setup, pause controls and deployment
+are later activation phases. This helper covers the validated connection boundary.
+
 ## Discover what a project can add
 
 The separate `examples/connected-project/` fixture shows **Mira Scientist** with
