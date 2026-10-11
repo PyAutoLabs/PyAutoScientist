@@ -23,6 +23,17 @@ const assert = require('node:assert/strict');
         await page.goto(destination);
         await page.waitForFunction(() => !refreshing);
         assert.equal(await page.locator('.project-card').count(), 6);
+        assert(await page.locator('#projects-heading').isVisible());
+        assert(await page.locator('#dashboards-heading').isVisible());
+        assert.equal(await page.locator('#dashboards details').first().getAttribute('id'), 'board-brain');
+        for (const [name, resource] of [['Pulse', 'lens-profiling'], ['Insight', 'lens-inference'],
+                                       ['Eyes', 'lens-visualization'], ['Heart', 'lens-tests'],
+                                       ['Broca', 'lens-workspace']]) {
+          const row = page.locator('#project-lens .summary-row').filter({ has: page.locator(`[data-resource="${resource}"]`) });
+          assert.equal(await row.locator('dt a').textContent(), name);
+          assert((await row.locator('dt a').getAttribute('href')).endsWith(`/PyAuto${name}/`));
+        }
+        assert.equal(await page.locator('[data-resource="broca-assistants"]').count(), 0);
         assert.equal(await page.locator('.project-card[open]').count(), 0);
         const summary = page.locator('#project-lens > summary');
         await summary.focus();

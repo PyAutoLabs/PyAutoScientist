@@ -22,6 +22,10 @@ RELATIONS = {
     "tutorials": "Tutorials",
     "documentation": "Documentation",
     "assistants": "Assistants",
+    "profiling": "Profiling",
+    "inference": "Inference",
+    "visualization": "Visualization",
+    "tests": "Workspace tests",
     "records": "Organ records",
 }
 KINDS = {"software_family": "Software family", "scientific_project": "Scientific investigation"}
@@ -59,7 +63,7 @@ def resolve(config: dict, body_map: dict) -> dict:
     """Resolve explicit relationships without inferring projects from repo names."""
     if not isinstance(config, dict) or type(config.get("schema_version")) is not int or config["schema_version"] != 1:
         raise ValueError("unsupported project configuration schema_version")
-    if set(config) - {"schema_version", "resources", "projects"}:
+    if set(config) - {"schema_version", "resources", "projects", "routes"}:
         raise ValueError("unknown project configuration field")
     repos = body_map.get("repos") if isinstance(body_map, dict) else None
     if not isinstance(repos, dict):
@@ -102,6 +106,15 @@ def resolve(config: dict, body_map: dict) -> dict:
             raise ValueError(f"resource {key}: repo or published_url required")
         resolved[key] = {"id": key, "name": item["name"], "links": links}
 
+    routes = config.get("routes", {})
+    if not isinstance(routes, dict) or set(routes) - RELATIONS.keys():
+        raise ValueError("routes must map known relationships to dashboard resource IDs")
+    for relation, key in routes.items():
+        if not isinstance(key, str) or key not in resources:
+            raise ValueError(f"route {relation}: unknown dashboard resource")
+        if "published_url" not in resources[key]:
+            raise ValueError(f"route {relation}: dashboard requires published_url")
+
     public_projects = []
     for key, item in projects.items():
         if set(item) - {"name", "public", "kind", "description", "resources"}:
@@ -121,7 +134,12 @@ def resolve(config: dict, body_map: dict) -> dict:
                 raise ValueError(f"project {key}: unknown resource reference")
             visible = [resolved[i] for i in ids if resources[i].get("public") is True]
             if visible:
-                groups.append({"relation": relation, "label": label, "resources": visible})
+                group = {"relation": relation, "label": label, "resources": visible}
+                dashboard = routes.get(relation)
+                if dashboard and resources[dashboard].get("public") is True:
+                    group["dashboard"] = {"id": dashboard, "name": resources[dashboard]["name"],
+                                          "url": resources[dashboard]["published_url"]}
+                groups.append(group)
         description = item.get("description", "")
         if not isinstance(description, str):
             raise ValueError(f"project {key}: description must be text")
@@ -136,6 +154,21 @@ def load(config_path: Path, repos_path: Path) -> dict:
                    yaml.safe_load(repos_path.read_text(encoding="utf-8")))
 
 
+def display_groups(project: dict) -> list[dict]:
+    """Combine rows sharing a dashboard; keep typed relationships in the snapshot."""
+    groups = {}
+    for group in project["groups"]:
+        dashboard = group.get("dashboard")
+        key = ("dashboard", dashboard["id"]) if dashboard else ("relation", group["relation"])
+        if key not in groups:
+            groups[key] = {"label": dashboard["name"] if dashboard else group["label"],
+                           "url": dashboard["url"] if dashboard else None, "resources": []}
+        row = groups[key]
+        seen = {r["id"] for r in row["resources"]}
+        row["resources"].extend(r for r in group["resources"] if r["id"] not in seen)
+    return list(groups.values())
+
+
 def render_markdown(snapshot: dict) -> str:
     def text(value):
         return re.sub(r"([\\\[\]*_`#|])", r"\\\1", html.escape(value)).replace("\n", " ")
@@ -143,11 +176,14 @@ def render_markdown(snapshot: dict) -> str:
     lines = ["## Projects", "", "Connected resources; inventory is not a quality or readiness verdict."]
     for project in snapshot.get("projects", []):
         lines.extend(["", "### " + text(project["name"]), "", text(project["description"])])
-        for group in project["groups"]:
+        for group in display_groups(project):
+            label = text(group["label"])
+            if group["url"]:
+                label = f"[{label}]({quote(group['url'], safe='/:?=&%+#@~;,-_')})"
             for resource in group["resources"]:
-                links = " · ".join(f"[{text(link['label'])}]({quote(link['url'], safe='/:?=&%+#@~;,-_')})"
-                                   for link in resource["links"])
-                lines.append(f"- {text(group['label'])}: {text(resource['name'])} — {links}")
+                links = " · ".join(f"[{text(resource['name'] if i == 0 else link['label'])}]({quote(link['url'], safe='/:?=&%+#@~;,-_')})"
+                                   for i, link in enumerate(resource["links"]))
+                lines.append(f"- {label}: {links}")
     return "\n".join(lines)
 
 
@@ -156,13 +192,16 @@ def render_html(snapshot: dict) -> str:
     cards = []
     for project in snapshot.get("projects", []):
         groups = []
-        for group in project["groups"]:
+        for group in display_groups(project):
             entries = []
             for resource in group["resources"]:
-                links = " · ".join(f'<a href="{esc(link["url"], quote=True)}">{esc(link["label"])}</a>'
-                                   for link in resource["links"])
-                entries.append(f'<li data-resource="{esc(resource["id"])}"><span>{esc(resource["name"])}</span> — {links}</li>')
-            groups.append(f'<div class="summary-row"><dt>{esc(group["label"])}</dt><dd><ul>{"".join(entries)}</ul></dd></div>')
+                links = " · ".join(f'<a href="{esc(link["url"], quote=True)}">{esc(resource["name"] if i == 0 else link["label"])}</a>'
+                                   for i, link in enumerate(resource["links"]))
+                entries.append(f'<li data-resource="{esc(resource["id"])}">{links}</li>')
+            label = esc(group["label"])
+            if group["url"]:
+                label = f'<a href="{esc(group["url"], quote=True)}">{label}</a>'
+            groups.append(f'<div class="summary-row"><dt>{label}</dt><dd><ul>{"".join(entries)}</ul></dd></div>')
         content = f'<dl>{"".join(groups)}</dl>' if groups else '<p>No public resources configured.</p>'
         cards.append(f'''<details class="organ-card project-card" id="project-{esc(project['id'])}">
 <summary><span>{esc(project['name'])}</span><span class="organ-status">{esc(KINDS[project['kind']])}</span></summary>

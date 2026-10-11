@@ -283,6 +283,7 @@ def _render_html(snapshot: dict) -> str:
 <title>PyAutoScientist Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
 <body>{t.hero(BOARD_KEY, "Dashboard")}{panel}
 {projects_html}
+<h2 id="dashboards-heading">Dashboards</h2>
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 <script type="application/json" id="scientist-snapshot">{data}</script>

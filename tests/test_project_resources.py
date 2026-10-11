@@ -124,3 +124,45 @@ def test_board_integration_and_offline_cli(inputs, tmp_path, monkeypatch, capsys
     assert html.index('data-orchestration-panel') < html.index('id="projects"') < html.index('id="dashboards"')
     assert "Alpha" in ob.render(snapshot, "md")
     assert "Secret records" not in ob.render(snapshot, "json")
+
+
+def test_routes_combine_display_rows_without_losing_typed_relationships(inputs):
+    config, body_map = inputs
+    config["resources"]["communication"] = {
+        "name": "Communication", "public": True, "published_url": "https://example.org/board/"}
+    config["routes"] = {"documentation": "communication", "workspaces": "communication"}
+    config["projects"]["alpha"]["resources"]["workspaces"] = ["library"]
+    snapshot = pr.resolve(config, body_map)
+    groups = snapshot["projects"][0]["groups"]
+    assert {g["relation"] for g in groups} == {"software", "workspaces", "documentation"}
+    rows = pr.display_groups(snapshot["projects"][0])
+    assert [r["label"] for r in rows] == ["Software", "Communication"]
+    assert [r["id"] for r in rows[1]["resources"]] == ["library", "docs"]
+    page = pr.render_html(snapshot)
+    assert '<dt><a href="https://example.org/board/">Communication</a></dt>' in page
+    assert '<a href="https://github.com/OtherLab/renamed-code">Shared code</a>' in page
+    assert '[Communication](https://example.org/board/)' in pr.render_markdown(snapshot)
+
+
+def test_private_dashboard_falls_back_without_leaking_metadata(inputs):
+    config, body_map = inputs
+    config["resources"]["private"]["published_url"] = "https://private.example.org/"
+    config["routes"] = {"documentation": "private"}
+    snapshot = pr.resolve(config, body_map)
+    assert "dashboard" not in snapshot["projects"][0]["groups"][1]
+    assert "private.example.org" not in json.dumps(snapshot)
+    assert "<dt>Documentation</dt>" in pr.render_html(snapshot)
+
+
+@pytest.mark.parametrize("routes", [[], {"typo": "docs"}, {"profiling": "missing"},
+                                    {"profiling": []}, {"tests": "library"}])
+def test_bad_routes_are_rejected(inputs, routes):
+    inputs[0]["routes"] = routes
+    with pytest.raises(ValueError):
+        pr.resolve(*inputs)
+
+
+def test_dashboard_headings_remain_visible_and_separate(inputs):
+    snapshot = {"owner": "Example", "boards": [], "project_resources": pr.resolve(*inputs)}
+    page = ob.render(snapshot, "html")
+    assert page.index('<h2 id="projects-heading">Projects</h2>') < page.index('<h2 id="dashboards-heading">Dashboards</h2>') < page.index('id="dashboards"')
