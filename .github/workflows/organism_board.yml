@@ -42,16 +42,24 @@ jobs:
           repository: PyAutoLabs/PyAutoBrain
           path: PyAutoBrain
 
+      # Canonical repository identity input; relationships remain in Scientist.
+      - uses: actions/checkout@v4
+        with:
+          repository: PyAutoLabs/PyAutoMind
+          path: PyAutoMind
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      - run: python -m pip install pyyaml
+
       - name: Render every surface (public HTTPS only)
         run: |
           mkdir -p _site
-          python scripts/organism_board.py --html     > _site/index.html
-          python scripts/organism_board.py --badge    > _site/badge.json
-          python scripts/organism_board.py --md       > board.md
+          python scripts/organism_board.py --repos PyAutoMind/repos.yaml --html     > _site/index.html
+          python scripts/organism_board.py --repos PyAutoMind/repos.yaml --badge    > _site/badge.json
+          python scripts/organism_board.py --repos PyAutoMind/repos.yaml --md       > board.md
           cp board.md _site/dashboard.md
 
       - name: Write the board to the job step summary

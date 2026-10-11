@@ -119,3 +119,7 @@ summary across all organs over the last 24 hours, a chosen date range, or help
 coordinating work across organs. [Reporting guidance](REPORTING.md) defines
 source coverage, event dates and concise evidence-linked summaries. Detailed
 work and authoritative records remain with each organ.
+
+## Connected projects
+
+The dashboard includes expandable project cards linking software, shared dependencies, documentation, tutorials, workspaces, assistants and owner records. See [the project configuration contract](PROJECTS.md) to connect resources; an assistant is optional and source records remain with their owners.

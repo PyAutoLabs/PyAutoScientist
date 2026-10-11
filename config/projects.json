@@ -1,0 +1,339 @@
+{
+  "schema_version": 1,
+  "resources": {
+    "fit": {
+      "name": "PyAutoFit",
+      "public": true,
+      "repo": "PyAutoFit"
+    },
+    "fit-workspace": {
+      "name": "autofit_workspace",
+      "public": true,
+      "repo": "autofit_workspace"
+    },
+    "fit-tutorials": {
+      "name": "HowToFit",
+      "public": true,
+      "repo": "HowToFit"
+    },
+    "fit-docs": {
+      "name": "PyAutoFit documentation",
+      "public": true,
+      "repo": "PyAutoFit",
+      "path": "docs",
+      "published_url": "https://pyautofit.readthedocs.io/en/latest/"
+    },
+    "fit-assistant": {
+      "name": "autofit_assistant",
+      "public": true,
+      "repo": "autofit_assistant"
+    },
+    "fit-profiling": {
+      "name": "autofit_profiling",
+      "public": true,
+      "repo": "autofit_profiling"
+    },
+    "fit-inference": {
+      "name": "autofit_inference",
+      "public": true,
+      "repo": "autofit_inference"
+    },
+    "fit-visualization": {
+      "name": "autofit_visualization",
+      "public": true,
+      "repo": "autofit_visualization"
+    },
+    "array": {
+      "name": "PyAutoArray",
+      "public": true,
+      "repo": "PyAutoArray"
+    },
+    "galaxy": {
+      "name": "PyAutoGalaxy",
+      "public": true,
+      "repo": "PyAutoGalaxy"
+    },
+    "galaxy-workspace": {
+      "name": "autogalaxy_workspace",
+      "public": true,
+      "repo": "autogalaxy_workspace"
+    },
+    "galaxy-tutorials": {
+      "name": "HowToGalaxy",
+      "public": true,
+      "repo": "HowToGalaxy"
+    },
+    "galaxy-docs": {
+      "name": "PyAutoGalaxy documentation",
+      "public": true,
+      "repo": "PyAutoGalaxy",
+      "path": "docs",
+      "published_url": "https://pyautogalaxy.readthedocs.io/en/latest/"
+    },
+    "galaxy-assistant": {
+      "name": "autogalaxy_assistant",
+      "public": true,
+      "repo": "autogalaxy_assistant"
+    },
+    "lens": {
+      "name": "PyAutoLens",
+      "public": true,
+      "repo": "PyAutoLens"
+    },
+    "lens-workspace": {
+      "name": "autolens_workspace",
+      "public": true,
+      "repo": "autolens_workspace"
+    },
+    "lens-tutorials": {
+      "name": "HowToLens",
+      "public": true,
+      "repo": "HowToLens"
+    },
+    "lens-docs": {
+      "name": "PyAutoLens documentation",
+      "public": true,
+      "repo": "PyAutoLens",
+      "path": "docs",
+      "published_url": "https://pyautolens.readthedocs.io/en/latest/"
+    },
+    "lens-assistant": {
+      "name": "autolens_assistant",
+      "public": true,
+      "repo": "autolens_assistant"
+    },
+    "lens-profiling": {
+      "name": "autolens_profiling",
+      "public": true,
+      "repo": "autolens_profiling"
+    },
+    "lens-inference": {
+      "name": "autolens_inference",
+      "public": true,
+      "repo": "autolens_inference"
+    },
+    "lens-visualization": {
+      "name": "autolens_visualization",
+      "public": true,
+      "repo": "autolens_visualization"
+    },
+    "reduce": {
+      "name": "PyAutoReduce",
+      "public": true,
+      "repo": "PyAutoReduce"
+    },
+    "reduce-workspace": {
+      "name": "autoreduce_workspace",
+      "public": true,
+      "repo": "autoreduce_workspace"
+    },
+    "cti": {
+      "name": "PyAutoCTI",
+      "public": true,
+      "repo": "PyAutoCTI"
+    },
+    "cti-workspace": {
+      "name": "autocti_workspace",
+      "public": true,
+      "repo": "autocti_workspace"
+    },
+    "cti-docs": {
+      "name": "PyAutoCTI documentation",
+      "public": true,
+      "repo": "PyAutoCTI",
+      "path": "docs",
+      "published_url": "https://pyautocti.readthedocs.io/en/latest/"
+    },
+    "cti-assistant": {
+      "name": "autocti_assistant",
+      "public": true,
+      "repo": "autocti_assistant"
+    },
+    "nerves": {
+      "name": "PyAutoNerves",
+      "public": true,
+      "repo": "PyAutoNerves"
+    },
+    "broca-assistants": {
+      "name": "Broca assistant evidence (shared inventory)",
+      "public": true,
+      "repo": "PyAutoBroca",
+      "path": "assistants.json",
+      "published_url": "https://pyautolabs.github.io/PyAutoBroca/"
+    },
+    "array-docs": {
+      "name": "PyAutoArray documentation source",
+      "repo": "PyAutoArray",
+      "path": "docs",
+      "public": true
+    },
+    "reduce-guide": {
+      "name": "PyAutoReduce project guide",
+      "repo": "PyAutoReduce",
+      "path": "README.md",
+      "public": true
+    }
+  },
+  "projects": {
+    "fit": {
+      "name": "PyAutoFit",
+      "kind": "software_family",
+      "public": true,
+      "description": "Model fitting and non-linear inference.",
+      "resources": {
+        "software": [
+          "fit"
+        ],
+        "dependencies": [
+          "nerves"
+        ],
+        "workspaces": [
+          "fit-workspace"
+        ],
+        "tutorials": [
+          "fit-tutorials"
+        ],
+        "documentation": [
+          "fit-docs"
+        ],
+        "assistants": [
+          "fit-assistant"
+        ],
+        "records": [
+          "broca-assistants",
+          "fit-profiling",
+          "fit-inference",
+          "fit-visualization"
+        ]
+      }
+    },
+    "array": {
+      "name": "PyAutoArray",
+      "kind": "software_family",
+      "public": true,
+      "description": "Arrays, grids, masks and inversions shared across software families.",
+      "resources": {
+        "software": [
+          "array"
+        ],
+        "dependencies": [
+          "nerves"
+        ],
+        "documentation": [
+          "array-docs"
+        ]
+      }
+    },
+    "galaxy": {
+      "name": "PyAutoGalaxy",
+      "kind": "software_family",
+      "public": true,
+      "description": "Galaxy profiles and modelling.",
+      "resources": {
+        "software": [
+          "galaxy"
+        ],
+        "dependencies": [
+          "array",
+          "fit",
+          "nerves"
+        ],
+        "workspaces": [
+          "galaxy-workspace"
+        ],
+        "tutorials": [
+          "galaxy-tutorials"
+        ],
+        "documentation": [
+          "galaxy-docs"
+        ],
+        "assistants": [
+          "galaxy-assistant"
+        ],
+        "records": [
+          "broca-assistants"
+        ]
+      }
+    },
+    "lens": {
+      "name": "PyAutoLens",
+      "kind": "software_family",
+      "public": true,
+      "description": "Strong-lensing modelling.",
+      "resources": {
+        "software": [
+          "lens"
+        ],
+        "dependencies": [
+          "galaxy",
+          "array",
+          "fit",
+          "nerves"
+        ],
+        "workspaces": [
+          "lens-workspace"
+        ],
+        "tutorials": [
+          "lens-tutorials"
+        ],
+        "documentation": [
+          "lens-docs"
+        ],
+        "assistants": [
+          "lens-assistant"
+        ],
+        "records": [
+          "broca-assistants",
+          "lens-profiling",
+          "lens-inference",
+          "lens-visualization"
+        ]
+      }
+    },
+    "reduce": {
+      "name": "PyAutoReduce",
+      "kind": "software_family",
+      "public": true,
+      "description": "Imaging reduction into modelling-ready datasets.",
+      "resources": {
+        "software": [
+          "reduce"
+        ],
+        "workspaces": [
+          "reduce-workspace"
+        ],
+        "documentation": [
+          "reduce-guide"
+        ]
+      }
+    },
+    "cti": {
+      "name": "PyAutoCTI",
+      "kind": "software_family",
+      "public": true,
+      "description": "Charge transfer inefficiency modelling and calibration.",
+      "resources": {
+        "software": [
+          "cti"
+        ],
+        "dependencies": [
+          "array",
+          "fit",
+          "nerves"
+        ],
+        "workspaces": [
+          "cti-workspace"
+        ],
+        "documentation": [
+          "cti-docs"
+        ],
+        "assistants": [
+          "cti-assistant"
+        ],
+        "records": [
+          "broca-assistants"
+        ]
+      }
+    }
+  }
+}

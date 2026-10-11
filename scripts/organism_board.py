@@ -203,6 +203,9 @@ def _render_md(snapshot: dict) -> str:
         head = b.get("headline") or "unavailable"
         link = f"[{b['name']}]({b['url']})" if b.get("url") else b["name"]
         lines.append(f"| {link} | {head} | {b['role']} |")
+    if "project_resources" in snapshot:
+        from project_resources import render_markdown
+        lines.extend(["", render_markdown(snapshot["project_resources"])])
     return "\n".join(lines)
 
 
@@ -240,6 +243,8 @@ _EXTRA_CSS = """
 .organ-content a{display:inline-block;min-height:44px}
 .organ-foot{display:flex;justify-content:space-between;gap:1rem;align-items:center;margin:.8rem 0 0;font-size:.82rem;color:var(--muted);flex-wrap:wrap}
 .organ-foot a{min-height:44px;display:inline-flex;align-items:center}
+.project-card ul{list-style:none;padding:0;margin:0}
+.project-card li{margin:0 0 .35rem}
 .organ-grid :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media(max-width:64rem){.organ-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:40rem){.organ-grid{grid-template-columns:1fr}.organ-content .summary-row{grid-template-columns:1fr;gap:.15rem}}
@@ -255,6 +260,8 @@ def _render_html(snapshot: dict) -> str:
         refreshed_at=(snapshot.get("generated") if snapshot.get("boards") and
                       all(row.get("headline") is not None for row in snapshot["boards"]) else None),
         refresh_url=(f"https://github.com/{owner}/PyAutoScientist/actions/workflows/organism_board.yml" if owner else None))
+    from project_resources import render_html as render_projects
+    projects_html = render_projects(snapshot["project_resources"]) if "project_resources" in snapshot else ""
     rows = []
     for row in snapshot.get("boards") or []:
         key = row.get("key", row["name"].lower())
@@ -275,6 +282,7 @@ def _render_html(snapshot: dict) -> str:
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>PyAutoScientist Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
 <body>{t.hero(BOARD_KEY, "Dashboard")}{panel}
+{projects_html}
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 <script type="application/json" id="scientist-snapshot">{data}</script>
@@ -307,6 +315,7 @@ def render(snapshot: dict, fmt: str = "md") -> str:
 
 def main(argv: list[str] | None = None) -> int:
     import argparse
+    import yaml
 
     ap = argparse.ArgumentParser(prog="organism_board", description=__doc__)
     g = ap.add_mutually_exclusive_group()
@@ -315,8 +324,31 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--html", action="store_true")
     g.add_argument("--badge", action="store_true")
     g.add_argument("--json", action="store_true")
+    ap.add_argument("--projects", type=Path, default=HOME / "config" / "projects.json",
+                    help="instance-owned project/resource configuration")
+    ap.add_argument("--repos", type=Path, help="canonical Mind repos.yaml (required outside a configured workspace)")
+    ap.add_argument("--check-projects", action="store_true", help="validate relationships offline; do not collect feeds")
     ns = ap.parse_args(argv)
+    from project_resources import load
+    repos_path = ns.repos
+    if repos_path is None:
+        if os.environ.get("PYAUTO_MIND"):
+            repos_path = Path(os.environ["PYAUTO_MIND"]) / "repos.yaml"
+        else:
+            # Use Brain's manifest-backed resolver rather than guessing a layout.
+            brain = Path(theme().__file__).resolve().parents[1]
+            sys.path.insert(0, str(brain / "agents"))
+            from _repo_paths import repo_path
+            repos_path = repo_path(_workspace_root(), "PyAutoMind", required=True) / "repos.yaml"
+    try:
+        projects = load(ns.projects, repos_path)
+    except (OSError, ValueError, yaml.YAMLError) as exc:
+        ap.error(f"project configuration unavailable or invalid: {exc}")
+    if ns.check_projects:
+        print(f"Project configuration valid: {len(projects['projects'])} public projects")
+        return 0
     snap = collect()
+    snap["project_resources"] = projects
     fmt = "md"
     for name, label in (("md", "md"), ("md_brief", "md-brief"),
                         ("html", "html"), ("badge", "badge"), ("json", "json")):
