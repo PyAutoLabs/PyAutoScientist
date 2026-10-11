@@ -2,7 +2,9 @@
 
 Scientist is the place to ask “What happened across all organs in the last
 24 hours?” or “Summarize this week's work.” It joins evidence and coordinates
-follow-through; the organs keep their authoritative records.
+follow-through; the organs keep their authoritative records. Use the existing
+Scientist check-in with a direction such as “Review overnight work” or
+“What changed since Friday?”; no separate reporting service is required.
 
 ## Establish the period
 
@@ -17,7 +19,9 @@ A feed's generation time or dashboard refresh is not a completion timestamp.
 
 ## Cover the organs without loading every repository
 
-Discover organ membership from Brain's board registry and Mind's body map.
+Use the instance profile's explicit connections when present; otherwise discover
+organ membership from Brain's board registry and Mind's body map. Do not assume
+that an independent instance has every framework organ installed.
 Read their published summaries first, then inspect the relevant dated owner
 records. For an all-organ report, account for every listed organ, including
 ones whose evidence is missing. Ordinary focused requests still load only the
@@ -44,6 +48,21 @@ establish historical coverage. Git activity is supporting evidence, not proof
 of completed work: distinguish proposed, committed, merged, published and
 scientifically accepted outcomes. A release, a merged task and a successful
 scientific run are different kinds of result.
+
+## Query activity when asked
+
+Brain's dashboard is an agent/workflow directory, not an overnight collector.
+At request time, use dated owner records and the relevant repositories' workflow
+runs to cover the requested interval. Enumerate enough runs/pages to establish
+coverage; the single latest run per workflow cannot answer “what happened in the
+last 24 hours.” Do not assume a fixed list of workflow names or repository owners.
+
+Distinguish failure, a successful gate that blocked execution, work still in
+progress, and a verified absence of runs. Follow run links for gate reasons and
+use event timestamps, not the time you fetched a feed. Missing access, expired
+history or incomplete pagination must appear as coverage gaps. State the cutoff
+for work still changing while you review it. Brain's explicit workflow tools may
+help investigate a specific run, but are not a separate history ledger.
 
 ## Write the summary
 
