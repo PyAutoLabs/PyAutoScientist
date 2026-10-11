@@ -166,3 +166,35 @@ def test_dashboard_headings_remain_visible_and_separate(inputs):
     snapshot = {"owner": "Example", "boards": [], "project_resources": pr.resolve(*inputs)}
     page = ob.render(snapshot, "html")
     assert page.index('<h2 id="projects-heading">Projects</h2>') < page.index('<h2 id="dashboards-heading">Dashboards</h2>') < page.index('id="dashboards"')
+
+
+def test_catalogue_deduplicates_public_relationships():
+    from project_resources import catalogue, resolve
+    config = {'schema_version': 1, 'resources': {
+        'shared': {'name': 'Guide', 'repo': 'guide', 'public': True},
+        'secret': {'name': 'Secret', 'repo': 'guide', 'public': False}},
+        'projects': {key: {'name': key, 'kind': 'scientific_project', 'public': public,
+                          'resources': {'tutorials': ['shared', 'secret']}}
+                     for key, public in [('one', True), ('two', True), ('private', False)]}}
+    result = catalogue(resolve(config, {'repos': {'guide': {'github': 'Example/Guide'}}}))
+    assert len(result['resources']) == 1
+    resource = result['resources'][0]
+    assert resource['repo'] == 'guide'
+    assert resource['github'] == 'Example/Guide'
+    assert [p['id'] for p in resource['projects']] == ['one', 'two']
+    assert 'Secret' not in str(result) and 'private' not in str(result)
+
+
+def test_owner_deep_links_preserve_sources_and_snapshot(inputs):
+    config, body_map = inputs
+    config["resources"]["communication"] = {
+        "name": "Broca", "public": True, "published_url": "https://example.org/broca/"}
+    config["routes"] = {"documentation": "communication"}
+    snapshot = pr.resolve(config, body_map)
+    before = copy.deepcopy(snapshot)
+    rows = pr.display_groups(snapshot["projects"][0])
+    docs = next(row for row in rows if row["label"] == "Broca")["resources"][0]
+    assert {link["url"] for link in docs["links"]} == {
+        "https://docs.example.org/", "https://example.org/broca/#resource-docs",
+        "https://github.com/OtherLab/renamed-code/tree/release%2F1/guide/start%20here.md"}
+    assert snapshot == before

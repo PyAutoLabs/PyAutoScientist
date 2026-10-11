@@ -129,3 +129,16 @@ their ordinary category row. No private dashboard name or URL enters the snapsho
 Old schema-version-1 configurations continue to work without `routes`; generic
 `records` remains supported for existing instances, but this instance no longer
 uses the generic Organ records row or the shared assistant evidence inventory.
+
+## Public owner-board catalogue
+
+`organism_board.py --catalogue --repos <Mind>/repos.yaml` exports only public
+resources referenced by public projects, deduplicated by stable resource ID.
+It collects no organ feeds. Heart and Broca keep reviewed copies as resources.json
+for offline rendering. Regenerate these projections when relationships change;
+never hand-maintain a second identity or relationship map. The catalogue carries
+no evidence timestamp: inventory refresh is not evidence collection.
+
+Tests and communication resources link to their owning board's
+`#resource-<resource ID>` disclosure while retaining source/published links.
+Publish the owner-board changes before publishing the new Scientist links.

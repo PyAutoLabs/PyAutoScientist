@@ -365,6 +365,7 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--html", action="store_true")
     g.add_argument("--badge", action="store_true")
     g.add_argument("--json", action="store_true")
+    g.add_argument("--catalogue", action="store_true", help="export public resource relationships offline; no feed collection")
     ap.add_argument("--instance", type=Path, help="opt-in instance profile; selects only explicitly connected organs")
     ap.add_argument("--projects", type=Path,
                     help="instance-owned project/resource configuration")
@@ -396,6 +397,10 @@ def main(argv: list[str] | None = None) -> int:
         ap.error(f"project configuration unavailable or invalid: {exc}")
     if ns.check_projects or ns.check_instance:
         print(f"Project configuration valid: {len(projects['projects'])} public projects")
+        return 0
+    if ns.catalogue:
+        from project_resources import catalogue
+        print(json.dumps(catalogue(projects), indent=2))
         return 0
     snap = collect(instance=instance)
     snap["project_resources"] = projects

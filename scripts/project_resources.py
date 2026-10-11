@@ -105,6 +105,8 @@ def resolve(config: dict, body_map: dict) -> dict:
         if not links:
             raise ValueError(f"resource {key}: repo or published_url required")
         resolved[key] = {"id": key, "name": item["name"], "links": links}
+        if "repo" in item:
+            resolved[key].update(repo=item["repo"], github=repos[item["repo"]]["github"])
 
     routes = config.get("routes", {})
     if not isinstance(routes, dict) or set(routes) - RELATIONS.keys():
@@ -165,7 +167,15 @@ def display_groups(project: dict) -> list[dict]:
                            "url": dashboard["url"] if dashboard else None, "resources": []}
         row = groups[key]
         seen = {r["id"] for r in row["resources"]}
-        row["resources"].extend(r for r in group["resources"] if r["id"] not in seen)
+        for resource in group["resources"]:
+            if resource["id"] in seen:
+                continue
+            resource = dict(resource, links=list(resource["links"]))
+            if dashboard and group["relation"] in {"tests", "workspaces", "tutorials", "documentation", "assistants"}:
+                base = dashboard["url"].split("#", 1)[0]
+                resource["links"].append({"label": dashboard["name"] + " details",
+                                          "url": base + "#resource-" + resource["id"]})
+            row["resources"].append(resource)
     return list(groups.values())
 
 
@@ -214,3 +224,18 @@ def render_html(snapshot: dict) -> str:
     return f'''<section id="projects" aria-labelledby="projects-heading"><h2 id="projects-heading">Projects</h2>
 <p>Connected resources. Follow the source links for current records; listed resources do not establish quality or readiness.</p>
 {empty}<div class="organ-grid" aria-label="Project resources">{''.join(cards)}</div></section>'''
+
+
+def catalogue(snapshot: dict) -> dict:
+    """Public, deduplicated inventory only; no evidence or source-content copy."""
+    resources = {}
+    for project in snapshot.get("projects", []):
+        for group in project["groups"]:
+            for resource in group["resources"]:
+                row = resources.setdefault(resource["id"], dict(resource, projects=[], relations=[]))
+                context = {"id": project["id"], "name": project["name"]}
+                if context not in row["projects"]:
+                    row["projects"].append(context)
+                if group["relation"] not in row["relations"]:
+                    row["relations"].append(group["relation"])
+    return {"schema_version": 1, "resources": list(resources.values())}
