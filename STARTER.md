@@ -69,7 +69,9 @@ Start with the empty project file. Supplying `--instance` never falls back to
 this repository's live project configuration. Use `--projects` only when you
 intentionally want to override the profile's file. Keep this configuration and
 your records when updating the framework; this change neither migrates nor
-rewrites them. A supported upgrade procedure remains future work.
+rewrites them. For the minimal Scientist/Brain pair, use the [pinned runtime and recovery
+procedure](docs/instance-upgrades.md). Owner-organ and environment upgrades remain
+separate.
 
 Omitting `--instance` retains the existing PyAutoLabs-compatible dashboard path.
 The current Actions publishing workflow still uses that path; this local preview
@@ -248,4 +250,6 @@ The fictitious `examples/lifecycle/` profile contains a pending Broca, paused Mi
 and connected Heart with explicit independent names. Its `example.invalid` URLs
 are placeholders; it makes no claim of live deployment. Use the normal renderer
 with `--instance` and `--repos` for a local preview. Optional-organ provisioning,
-real independent deployment and framework upgrades remain separate tasks.
+real independent deployment and owner-organ upgrades remain separate tasks.
+The [runtime upgrade guide](docs/instance-upgrades.md) covers Scientist/Brain
+selection and recovery while preserving existing records.
