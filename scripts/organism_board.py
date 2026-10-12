@@ -87,7 +87,7 @@ def instance_prompt(instance):
     return (f"Use this chat as an ongoing entry point to {instance['name']}. "
             "Read this Scientist checkout’s AGENTS.md, STARTER.md and REPORTING.md, "
             "then its explicit instance profile and project relationships. "
-            "Consult only connected organs and relevant project-owned sources. "
+            "Consult only connected, unpaused organs and relevant project-owned sources. "
             "Do not assume optional organs, an agent harness or remote access are installed. "
             "Help connect existing projects using their canonical repository identities; "
             "ask about purpose, visibility and needed capabilities before changing setup. "
@@ -171,10 +171,14 @@ def collect(owner: str | None = None, instance: dict | None = None) -> dict:
 
     def read(row):
         row = dict(row, headline=None, color=None, feed=None, error=None)
+        if row.get("paused"):
+            row.update(headline="Observation paused", color="grey")
+            return row
         try:
             feed = json.loads(_get(row["url"] + "state.json"))
             errors = validate_state(feed)
-            if errors or feed["organ"] != row["key"] or feed["repo"] != row["repo"]:
+            if (errors or feed["organ"] != row["key"] or feed["repo"] != row["repo"]
+                    or (instance is not None and feed["pages_url"].rstrip("/") != row["url"].rstrip("/"))):
                 raise ValueError("Invalid organ feed")
             row.update(feed=feed, headline=feed["headline"], color=feed["status"])
         except (urllib.error.URLError, TimeoutError, ValueError, OSError):
@@ -200,7 +204,7 @@ def _heart(snapshot: dict) -> dict | None:
 
 def heart_word(snapshot: dict) -> str:
     h = _heart(snapshot)
-    if not h or not h.get("headline"):
+    if not h or h.get("paused") or not h.get("headline"):
         return "UNKNOWN"
     if h.get("feed"):
         return h["feed"]["status"].upper()
@@ -235,6 +239,8 @@ def _render_md(snapshot: dict) -> str:
         head = b.get("headline") or "unavailable"
         link = f"[{b['name']}]({b['url']})" if b.get("url") else b["name"]
         lines.append(f"| {link} | {head} | {b['role']} |")
+    for pending in snapshot.get("instance", {}).get("setup", []):
+        lines.append(f"| {pending['name']} | Setup incomplete; not connected | {pending['role']} |")
     if "project_resources" in snapshot:
         from project_resources import render_markdown
         lines.extend(["", render_markdown(snapshot["project_resources"])])
@@ -283,6 +289,9 @@ _EXTRA_CSS = """
 .available-resource-body{padding:0 .75rem .75rem 1.25rem}
 .available-resource-body label{display:block;margin-bottom:.35rem}
 .available-resource-body textarea{font:inherit;width:100%;box-sizing:border-box;resize:vertical;background:var(--bg);color:var(--fg);border:1px solid var(--line);padding:.65rem}
+.organ-catalogue textarea,.organ-content textarea{width:100%;box-sizing:border-box;min-height:7rem;font:inherit}
+.organ-catalogue{margin-block:1rem}
+.organ-catalogue details>summary{color:var(--muted,#666)}
 .organ-grid :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 @media(max-width:64rem){.organ-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:40rem){.organ-grid{grid-template-columns:1fr}.organ-content .summary-row{grid-template-columns:1fr;gap:.15rem}}
@@ -300,7 +309,7 @@ def _render_html(snapshot: dict) -> str:
         "scientist", "", "", prompt, organ="scientist",
         work_links=([{"label": (name if instance is not None else "Scientist") + " repository", "href": source}] if source else []),
         refreshed_at=(snapshot.get("generated") if snapshot.get("boards") and
-                      all(row.get("headline") is not None for row in snapshot["boards"]) else None),
+                      all(row.get("headline") is not None and not row.get("paused") for row in snapshot["boards"]) else None),
         refresh_url=(source + "/actions/workflows/organism_board.yml" if source and instance is None else None))
     from project_resources import render_html as render_projects
     projects_html = render_projects(snapshot["project_resources"]) if "project_resources" in snapshot else ""
@@ -315,10 +324,37 @@ def _render_html(snapshot: dict) -> str:
         # Server fallback is explicitly a publication snapshot, not a live check.
         head = _html.escape(row.get("headline") or "Evidence unavailable")
         url = _html.escape(row["url"], quote=True)
+        lifecycle = "Paused" if row.get("paused") else "Connected" if instance is not None else "Snapshot"
+        note = ("Scientist observation paused; owner jobs are unaffected." if row.get("paused")
+                else "Published " + str(snapshot.get("generated") or "unknown"))
         rows.append(f"""<details class="organ-card" id="{ident}" data-organ="{key}">
-<summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{organ_name}</span><span class="organ-status">Snapshot</span></summary>
+<summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{organ_name}</span><span class="organ-status">{lifecycle}</span></summary>
 <div class="organ-content"><dl><div class="summary-row"><dt>Published status</dt><dd>{head}</dd></div></dl>
-<div class="organ-foot"><span data-freshness>Published {_html.escape(str(snapshot.get('generated') or 'unknown'))}</span><a href="{url}">Open {organ_name} →</a></div></div></details>""")
+<div class="organ-foot"><span data-freshness>{_html.escape(note)}</span><a href="{url}">Open {organ_name} →</a></div></div></details>""")
+    catalogue = ""
+    if instance is not None:
+        for pending in instance.get("setup", []):
+            key = pending["key"]
+            prompt_text = (f"Resume setup for {pending['name']} in my existing Mind task. "
+                           "Read my profile and canonical map first. Validate the owner setup and published feed, "
+                           "then preview connect_organ.py before applying. Preserve existing records.")
+            rows.append(f'<details class="organ-card" id="setup-{key}"><summary>'
+                        f'{_html.escape(pending["name"])} · Setup incomplete</summary>'
+                        f'<div class="organ-content"><p>Not connected. No feed requested.</p>'
+                        f'<p>{_html.escape(pending["role"])}</p><textarea readonly aria-label="Resume {key} setup">'
+                        f'{_html.escape(prompt_text)}</textarea></div></details>')
+        entries = []
+        for available in instance.get("available", []):
+            key = available["key"]
+            prompt_text = (f"Help me add {available['name']} ({available['role']}) to this Scientist. "
+                           "Read my existing profile, canonical map and Mind task. Confirm the purpose, repository "
+                           "identity and public board location; preview organ_lifecycle.py setup before applying. "
+                           "Keep it setup incomplete until connect_organ.py validates its published feed.")
+            entries.append(f'<details><summary>{_html.escape(available["name"])} · Available to add</summary>'
+                           f'<p>{_html.escape(available["role"])}</p><textarea readonly aria-label="Add {key}">'
+                           f'{_html.escape(prompt_text)}</textarea></details>')
+        if entries:
+            catalogue = '<details class="organ-catalogue"><summary>Available organs</summary>' + ''.join(entries) + '</details>'
     data = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
     script = (HOME / "scripts" / "overview.js").read_text(encoding="utf-8")
     banner = (t.hero(BOARD_KEY, "Dashboard", display_name=name) if instance is not None
@@ -331,8 +367,9 @@ def _render_html(snapshot: dict) -> str:
 <body>{banner}{panel}
 {projects_html}
 <h2 id="dashboards-heading">Dashboards</h2>
-{'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not rows else ''}
+{'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not snapshot.get("boards") else ''}
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
+{catalogue}
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 {footer}
 <script type="application/json" id="scientist-snapshot">{data}</script>

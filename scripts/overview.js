@@ -149,6 +149,7 @@ function cacheKey(organ, instance) {
 const snapshot = JSON.parse(document.getElementById('scientist-snapshot').textContent);
 const organStates = new Map();
 for (const organ of snapshot.boards) {
+  if (organ.paused) { organStates.set(organ.key, {}); continue; }
   const identity = { organ: organ.name, repo: organ.repo };
   let saved = null;
   try { saved = JSON.parse(localStorage.getItem(cacheKey(organ, snapshot.instance))); } catch (_) {}
@@ -157,10 +158,11 @@ for (const organ of snapshot.boards) {
   organStates.set(organ.key, { lastGood });
 }
 function paint(organ) {
+  if (organ.paused) return; // retain server-rendered pause state; never use cached evidence
   const view = observation(organStates.get(organ.key));
   const card = document.getElementById('board-' + organ.key);
   const badge = card.querySelector('.organ-status');
-  badge.textContent = statusLabel(view);
+  badge.textContent = (snapshot.instance ? 'Connected · ' : '') + statusLabel(view);
   badge.dataset.status = view.status;
   const list = card.querySelector('dl');
   const markup = summaryHtml(summaries(organ, view));
@@ -181,6 +183,7 @@ async function refresh() {
   refreshing = true;
   try {
     await Promise.all(snapshot.boards.map(async organ => {
+      if (organ.paused) return;
       const st = organStates.get(organ.key);
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 15000);
@@ -188,7 +191,7 @@ async function refresh() {
         const response = await fetch(organ.url + 'state.json?t=' + Date.now(), { cache: 'no-store', signal: controller.signal });
         if (!response.ok) throw new Error('Evidence unavailable');
         const feed = await response.json();
-        if (validate(feed, { organ: organ.name, repo: organ.repo })) throw new Error('Invalid evidence');
+        if (validate(feed, { organ: organ.name, repo: organ.repo }) || (snapshot.instance && feed.pages_url.replace(/\/$/, '') !== organ.url.replace(/\/$/, ''))) throw new Error('Invalid evidence');
         st.feed = feed; st.lastGood = feed; st.error = null;
         try { localStorage.setItem(cacheKey(organ, snapshot.instance), JSON.stringify({ feed, at: new Date().toISOString() })); } catch (_) {}
       } catch (_) { st.feed = null; st.error = 'Evidence unavailable'; }
