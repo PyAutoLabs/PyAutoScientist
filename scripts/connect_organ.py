@@ -15,7 +15,7 @@ import organism_board
 import project_resources
 
 
-def plan(instance, repos, organ, repo, pages_url):
+def plan(instance, repos, organ, repo, pages_url, *, resume=False):
     """Return validated replacement bytes and input snapshots, without writing.
 
     A connection is a location/contract check, never installation or a health
@@ -37,8 +37,12 @@ def plan(instance, repos, organ, repo, pages_url):
     github = instance_profile._identity(repo, yaml.safe_load(body_bytes)["repos"])
     connection = {"repo": repo, "pages_url": instance_profile._pages(pages_url)}
     existing = config["organs"].get(organ)
-    if existing is not None:
-        normalized = dict(existing, pages_url=instance_profile._pages(existing["pages_url"]))
+    pending = config.get("organ_setup", {}).get(organ)
+    if existing is not None and existing.get("paused", False) and not resume:
+        raise ValueError("organ observation is paused; use explicit lifecycle resume")
+    if existing is not None or pending is not None:
+        prior = existing if existing is not None else pending
+        normalized = {"repo": prior["repo"], "pages_url": instance_profile._pages(prior["pages_url"])}
         if normalized != connection:
             raise ValueError("organ already has a different connection; review it manually")
 
@@ -54,12 +58,14 @@ def plan(instance, repos, organ, repo, pages_url):
         raise ValueError("organ feed pages_url does not match the selected location")
 
     config["organs"][organ] = connection
+    if pending is not None:
+        del config["organ_setup"][organ]
     return {
         "instance": instance,
         "inputs": {instance: original, repos: body_bytes, projects: project_bytes},
         "mode": stat.S_IMODE(instance.stat().st_mode),
         "replacement": (json.dumps(config, indent=2, ensure_ascii=False) + "\n").encode(),
-        "changed": existing is None,
+        "changed": existing is None or bool(existing.get("paused", False)),
         "organ": organ,
         "connection": connection,
         "status": feed["status"],

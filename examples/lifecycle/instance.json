@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "name": "Mira Scientist",
+  "repo": "scientist",
+  "pages_url": "https://example.invalid/mira/",
+  "projects": "projects.json",
+  "organs": {
+    "mind": {"repo": "plans", "pages_url": "https://example.invalid/plans/", "paused": true},
+    "heart": {"repo": "checks", "pages_url": "https://example.invalid/checks/"}
+  },
+  "organ_setup": {
+    "broca": {"repo": "guides", "pages_url": "https://example.invalid/guides/"}
+  }
+}

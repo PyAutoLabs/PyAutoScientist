@@ -41,7 +41,7 @@ def load(path, repos_path, theme):
     path = Path(path)
     config = json.loads(path.read_text(encoding="utf-8"))
     required = {"schema_version", "name", "repo", "pages_url", "projects", "organs"}
-    if not isinstance(config, dict) or set(config) != required:
+    if not isinstance(config, dict) or not required <= set(config) or set(config) - required - {"organ_setup"}:
         raise ValueError("instance profile must declare schema_version, name, repo, pages_url, projects and organs")
     if type(config["schema_version"]) is not int or config["schema_version"] != 1:
         raise ValueError("unsupported instance schema_version")
@@ -64,18 +64,34 @@ def load(path, repos_path, theme):
         raise ValueError("Brain board registry unavailable")
     if not isinstance(selected, dict) or set(selected) - set(family):
         raise ValueError("organs must map canonical Brain organ keys to explicit connections")
+    pending = config.get("organ_setup", {})
+    if not isinstance(pending, dict) or set(pending) - set(family) or set(pending) & set(selected):
+        raise ValueError("organ_setup must contain known, unconnected organ keys")
+    setup = []
+    for key, connection in pending.items():
+        if not isinstance(connection, dict) or set(connection) != {"repo", "pages_url"}:
+            raise ValueError(f"organ setup {key}: declare only repo and pages_url")
+        github_setup = _identity(connection["repo"], repos)
+        setup.append({"key": key, "name": theme.organ(key)["organ"],
+                      "role": theme.organ(key)["function"], "repo": github_setup.split("/")[-1],
+                      "url": _pages(connection["pages_url"])})
+    available = [{"key": key, "name": theme.organ(key)["organ"],
+                  "role": theme.organ(key)["function"]} for key in family
+                 if key not in selected and key not in pending]
     boards = []
     for key in family:
         if key not in selected:
             continue
         connection = selected[key]
-        if not isinstance(connection, dict) or set(connection) != {"repo", "pages_url"}:
-            raise ValueError(f"organ {key}: declare only repo and pages_url")
+        if (not isinstance(connection, dict) or not {"repo", "pages_url"} <= set(connection)
+                or set(connection) - {"repo", "pages_url", "paused"}
+                or type(connection.get("paused", False)) is not bool):
+            raise ValueError(f"organ {key}: declare repo, pages_url and optional boolean paused")
         organ_github = _identity(connection["repo"], repos)
         boards.append({"key": key, "name": theme.organ(key)["organ"],
                        "role": theme.organ(key)["function"],
                        "repo": organ_github.split("/")[1],
-                       "url": _pages(connection["pages_url"])})
+                       "url": _pages(connection["pages_url"]), "paused": connection.get("paused", False)})
     return {"schema_version": 1, "name": name, "repo": github.split("/")[1],
             "source_url": "https://github.com/" + github, "pages_url": pages_url,
-            "boards": boards}, projects
+            "boards": boards, "setup": setup, "available": available}, projects

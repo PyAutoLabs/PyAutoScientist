@@ -167,8 +167,9 @@ To resume with an AI assistant:
 > report connection validation separately from readiness. Do not create or publish
 > anything without its own approved setup task.
 
-Organ provisioning, resumable owner-specific setup, pause controls and deployment
-are later activation phases. This helper covers the validated connection boundary.
+This helper covers the validated connection boundary. The lifecycle controls below
+track incomplete setup and pause Scientist observation. Provisioning and deployment
+remain owner-specific steps.
 
 ## Discover what a project can add
 
@@ -186,3 +187,65 @@ Names are suggestions in instance configuration, not detected repositories.
 Choose opportunities explicitly when connecting your project; see
 [PROJECTS.md](PROJECTS.md#available-to-add). The empty starter stays empty.
 These prompts begin a setup conversation; they do not run setup or activate organs.
+
+## Track setup and pause observation
+
+Independent profiles now distinguish configuration from evidence. The **Available
+organs** catalogue offers setup prompts; selecting text there does not change files.
+An optional `organ_setup` map records a chosen organ's canonical `repo` and
+`pages_url` while its setup is incomplete. Its card makes no feed request and is
+not a connected board link. Mind retains the actual setup task and history.
+
+Preview beginning Broca setup (repeat with `--apply` after reviewing):
+
+```sh
+python scripts/organ_lifecycle.py setup --instance /path/to/instance.json \
+  --repos /path/to/Mind/repos.yaml --organ broca --repo my-guides \
+  --pages-url https://research.example/guides/
+```
+
+When the owner setup and publication are ready, use `connect_organ.py` as above.
+A matching setup entry moves to `organs` only after its real feed validates.
+Failures preserve the profile; mismatched identities require manual review.
+Neither grey evidence nor a recorded failure prevents a valid connection: owner
+readiness is separate from connection state.
+
+To pause Scientist's observation of a connected organ:
+
+```sh
+python scripts/organ_lifecycle.py pause --instance /path/to/instance.json \
+  --repos /path/to/Mind/repos.yaml --organ broca
+```
+
+Repeat with `--apply` to save optional `paused: true` on the connection. Render and
+publish your updated Scientist dashboard for viewers to see the change; an already
+open or previously published page keeps its old configuration until reloaded from
+the updated publication. New renders and refreshed pages skip server/browser feed
+requests for paused organs, and cached evidence cannot revive them as current.
+The repository identity and board link remain available.
+
+**Pause stops only Scientist's observation.** It does not stop services, scheduled
+Actions, jobs or compute. Those remain controlled by the organ's own procedures.
+Use the same command with `resume` to preview resumption. Resume validates the saved
+feed identity before removing the pause flag; an unavailable or invalid feed leaves
+it paused. Apply and republish the Scientist page to resume its observation.
+
+Connected cards show **Connected** separately from current evidence such as
+**Needs attention** or **Unavailable**. Missing, old or grey evidence never turns a
+connection into an available-to-add capability. Setup entries and paused connections
+do not claim healthy evidence. Existing profiles without these optional fields
+retain their connections and continue fetching normally.
+
+For a fresh conversation:
+
+> Read my instance profile, canonical map and existing Mind task. Identify organs
+> still being set up, connected organs and paused observations. Preview the relevant
+> lifecycle operation before applying it. Preserve records and identities; validate
+> the published feed before connecting or resuming. Pausing observation must not
+> stop owner jobs. Explain whether the dashboard needs republishing.
+
+The fictitious `examples/lifecycle/` profile contains a pending Broca, paused Mind
+and connected Heart with explicit independent names. Its `example.invalid` URLs
+are placeholders; it makes no claim of live deployment. Use the normal renderer
+with `--instance` and `--repos` for a local preview. Optional-organ provisioning,
+real independent deployment and framework upgrades remain separate tasks.
