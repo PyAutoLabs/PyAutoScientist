@@ -27,6 +27,19 @@ The example GitHub identity and `example.invalid` address are placeholders,
 not repositories or a deployed service. This example body map is a fixture,
 not a complete Mind installation.
 
+## Navigate before connecting organs
+
+The instance preview includes the familiar Scientist/organ icon bar above the
+overview. Scientist returns to the overview; each connected organ opens its
+configured board inside the page, with an external-link fallback. Paused organs
+remain navigable without resuming their feed observation.
+
+An unconnected organ opens its existing Dashboards description and setup prompt,
+with a **Copy setup prompt** button. Setup-incomplete organs use the same resume
+prompt as their overview card. These views share their text with Dashboards;
+selecting one does not connect an organ or request its feed. Links such as
+`#organ-brain` can be bookmarked, and Back/Forward switch the selected view.
+
 ## Initialize a user-owned configuration directory
 
 If you already have a canonical Mind `repos.yaml`, the offline initializer saves
