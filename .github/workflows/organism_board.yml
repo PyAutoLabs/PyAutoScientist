@@ -1,19 +1,12 @@
 name: Dashboard
 
-# Publishes the PyAutoScientist Dashboard — the umbrella ROUTER over the four organ
-# dashboards (scripts/organism_board.py): one row per board with its own live
-# headline, a "where to work next" banner keyed off the Heart's verdict,
-# published to GitHub Pages + badge.json + the README strip between the
-# scientist:begin/end markers. Nothing is recomputed here — each organ's
-# board stays the authority; this page only routes.
-#
-# Six-hourly: the organ boards refresh on their own daily/push cadences, so
-# the router follows within hours. board_tests.yml checks fixture renders on PRs;
-# this workflow builds and publishes the live page.
+# Scientist owns a bounded public development activity index. Owner repositories
+# remain authoritative. Five-minute scheduling is best effort; the page exposes
+# source coverage and event/collection times separately.
 
 on:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -29,6 +22,7 @@ jobs:
   board:
     name: Render + publish the dashboard
     runs-on: ubuntu-latest
+    timeout-minutes: 4
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -54,10 +48,44 @@ jobs:
 
       - run: python -m pip install pyyaml
 
+      - name: Restore bounded activity index
+        run: |
+          mkdir -p _activity _site
+          if git ls-remote --exit-code --heads origin refs/heads/scientist-activity-cache > /dev/null; then
+            git fetch --depth 1 origin refs/heads/scientist-activity-cache
+            git show FETCH_HEAD:cache.json > _activity/cache.json
+            git rev-parse FETCH_HEAD > _activity/parent
+          else
+            status=$?
+            if [ "$status" -ne 2 ]; then exit "$status"; fi
+          fi
+
+      - name: Collect public development activity
+        env:
+          GH_TOKEN: ${{ secrets.PAT_PYAUTOLABS || github.token }}
+          ACTIVITY_BUDGET: ${{ secrets.PAT_PYAUTOLABS && '180' || '60' }}
+        run: |
+          python scripts/activity_feed.py --repos PyAutoMind/repos.yaml --cache _activity/cache.json --output _site/activity.json --budget "$ACTIVITY_BUDGET"
+
+      - name: Preserve bounded derived index
+        if: github.ref == 'refs/heads/main'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          activity_blob=$(git hash-object -w _activity/cache.json)
+          activity_tree=$(printf '100644 blob %s\tcache.json\n' "$activity_blob" | git mktree)
+          if [ -f _activity/parent ]; then
+            activity_parent=$(cat _activity/parent)
+            activity_commit=$(git commit-tree "$activity_tree" -p "$activity_parent" -m 'Refresh derived public activity index')
+          else
+            activity_commit=$(git commit-tree "$activity_tree" -m 'Begin derived public activity index')
+          fi
+          git push origin "$activity_commit:refs/heads/scientist-activity-cache"
+
       - name: Render every surface (public HTTPS only)
         run: |
           mkdir -p _site
-          python scripts/organism_board.py --repos PyAutoMind/repos.yaml --html     > _site/index.html
+          python scripts/organism_board.py --repos PyAutoMind/repos.yaml --activity _site/activity.json --html > _site/index.html
           python scripts/organism_board.py --repos PyAutoMind/repos.yaml --badge    > _site/badge.json
           python scripts/organism_board.py --repos PyAutoMind/repos.yaml --md       > board.md
           cp board.md _site/dashboard.md

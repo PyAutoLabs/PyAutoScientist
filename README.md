@@ -129,3 +129,7 @@ work and authoritative records remain with each organ.
 ## Connected projects
 
 The dashboard includes expandable project cards linking software, shared dependencies, documentation, tutorials, workspaces, assistants and owner records. See [the project configuration contract](PROJECTS.md) to connect resources; an assistant is optional and source records remain with their owners.
+
+The Scientist **Live Feed** groups recorded public development activity by task,
+with five compact rows and expandable history. Its coverage, refresh behaviour
+and limits are documented in [REPORTING.md](REPORTING.md#live-feed-recorded-development-activity).

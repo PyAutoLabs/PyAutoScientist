@@ -84,3 +84,54 @@ A requested summary is read-only. Follow-up work uses the owning workflow and
 existing approval rules; the request does not authorize compute, replies,
 merges or releases. Do not add recurring collection, a second task registry or
 persistent monitoring to produce a one-off report.
+
+## Live Feed: recorded development activity
+
+The canonical Scientist dashboard has a grouped Live Feed between Projects and
+Dashboards. It covers public development issues, issue/PR discussion updates,
+explicit progress reports, closed tasks and merged PRs in Mind's registered
+repositories. Library/workspace tasks route to Mind; organ development routes
+to that organ. Scientific run progress, private work, local edits and chat-only
+work are outside this first version. Independent instance previews do not yet
+include the feed.
+
+One task occupies one row. A PR is grouped with an issue only when its body has
+one unambiguous standalone `Closes #N`, `Fixes #N` or `Resolves #N` directive for
+that same repository and the target issue is in the collected evidence. Other
+PRs remain separate. An issue being opened is not evidence of work starting;
+a closed PR is not a merge, and a merge is not publication or science acceptance.
+
+Comment bodies are never exported. Recognized headings (`Progress`, `Progress
+update`, `In progress`, `Blocked`, `Shipped`, `Workspace PR Created`, `Library PR
+Created`) produce short factual stage labels and source links. Other human
+comments appear as “Discussion update recorded”; bot comments are excluded.
+Editing a comment replaces that event without giving it a new posted time.
+The source link is the place to read detail, not an automatic transcript mirror.
+
+Collection runs in the existing Scientist Pages workflow approximately every
+five minutes; scheduling and upstream visibility can delay it. The browser
+checks the published same-origin `activity.json` every minute while visible.
+There is no GitHub credential or per-visitor GitHub request in the page. A new
+snapshot is buffered while a reader has expanded details, focused a control,
+scrolled into the feed, or loaded older rows. “Show updates” applies it explicitly.
+
+The `scientist-activity-cache` branch holds a derived, normalized cache and
+per-repository cursors. It is not a task registry and contains no API response
+bodies, prompts, tokens or raw comments. Only public repositories independently
+verified in the current owner catalog are exported. Failed/inaccessible catalogs
+suppress their cached rows. Other source failures retain last-known evidence,
+mark it stale and leave the cursor unchanged. Losing the cache starts a disclosed
+seven-day backfill; successful collection retains up to 30 days, 1500 events per
+repository, 200 published task rows and 20 displayed events per task.
+
+The collector uses `PAT_PYAUTOLABS` when available (180 requests per cycle), or
+the workflow token (60). It rotates repositories when the request budget is
+exhausted; a busy source or pagination cap is reported in coverage rather than
+claimed complete. The issue and comment endpoints paginate up to three pages
+of 100 each. Partial batches retain verified events and reuse already normalized PR
+revisions on the next attempt. A source cursor advances only after both
+endpoints and the needed PR details have succeeded. Each cycle also has a
+two-minute collection time budget. Therefore “every five minutes” is the collection
+attempt interval, not a guarantee that every repository is current. Event time,
+source check time and page check time remain distinct. Routine feed rebuilds
+never create activity events.

@@ -331,6 +331,12 @@ def _render_html(snapshot: dict) -> str:
 <summary><span class="organ-icon" aria-hidden="true">{t.mark(key)}</span><span>{organ_name}</span><span class="organ-status">{lifecycle}</span></summary>
 <div class="organ-content"><dl><div class="summary-row"><dt>Published status</dt><dd>{head}</dd></div></dl>
 <div class="organ-foot"><span data-freshness>{_html.escape(note)}</span><a href="{url}">Open {organ_name} →</a></div></div></details>""")
+    activity_html = activity_css = activity_script = ""
+    if instance is None:
+        from activity_feed import render_html as render_activity, CSS as ACTIVITY_CSS
+        activity_html = render_activity(snapshot.get("activity"))
+        activity_css = ACTIVITY_CSS
+        activity_script = (HOME / "scripts" / "live_feed.js").read_text(encoding="utf-8")
     catalogue = ""
     navigation = views = navigation_css = navigation_script = ""
     if instance is not None:
@@ -357,9 +363,10 @@ def _render_html(snapshot: dict) -> str:
     # whole grid inside section_layout's extra collapsed H2 group.
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}{navigation_css}</style></head>
+<title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}{navigation_css}{activity_css}</style></head>
 <body{' class="instance-cockpit"' if instance is not None else ""}>{navigation}{'<div class="instance-stage">' if instance is not None else ""}{'<main id="scientist">' if instance is not None else ""}{banner}{panel}
 {projects_html}
+{activity_html}
 <h2 id="dashboards-heading">Dashboards</h2>
 {'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not snapshot.get("boards") else ''}
 <div id="dashboards" class="organ-grid" aria-label="Organ summaries">{''.join(rows)}</div>
@@ -369,7 +376,7 @@ def _render_html(snapshot: dict) -> str:
 {'</main>' if instance is not None else ""}{views}{'</div>' if instance is not None else ""}
 {'<noscript><style>body.instance-cockpit{height:auto;overflow:auto}.instance-stage{display:block;overflow:visible}.instance-stage>.instance-view[hidden]{display:block!important}.embedded-board>p{display:block}.embedded-board iframe{display:none}</style></noscript>' if instance is not None else ""}
 <script type="application/json" id="scientist-snapshot">{data}</script>
-<script>{t.JS}</script><script>{script}</script><script>{navigation_script}</script></body></html>"""
+<script>{t.JS}</script><script>{script}</script><script>{navigation_script}</script><script>{activity_script}</script></body></html>"""
 
 
 def badge_endpoint(snapshot: dict) -> dict:
@@ -410,6 +417,7 @@ def main(argv: list[str] | None = None) -> int:
     g.add_argument("--badge", action="store_true")
     g.add_argument("--json", action="store_true")
     g.add_argument("--catalogue", action="store_true", help="export public resource relationships offline; no feed collection")
+    ap.add_argument("--activity", type=Path, help="public normalized activity snapshot (canonical Scientist only)")
     ap.add_argument("--instance", type=Path, help="opt-in instance profile; selects only explicitly connected organs")
     ap.add_argument("--projects", type=Path,
                     help="instance-owned project/resource configuration")
@@ -448,6 +456,8 @@ def main(argv: list[str] | None = None) -> int:
         return 0
     snap = collect(instance=instance)
     snap["project_resources"] = projects
+    if ns.activity and instance is None:
+        snap["activity"] = json.loads(ns.activity.read_text())
     fmt = "md"
     for name, label in (("md", "md"), ("md_brief", "md-brief"),
                         ("html", "html"), ("badge", "badge"), ("json", "json")):
