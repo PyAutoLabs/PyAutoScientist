@@ -332,27 +332,21 @@ def _render_html(snapshot: dict) -> str:
 <div class="organ-content"><dl><div class="summary-row"><dt>Published status</dt><dd>{head}</dd></div></dl>
 <div class="organ-foot"><span data-freshness>{_html.escape(note)}</span><a href="{url}">Open {organ_name} →</a></div></div></details>""")
     catalogue = ""
+    navigation = views = navigation_css = navigation_script = ""
     if instance is not None:
+        from instance_navigation import inactive_content, render as render_navigation, CSS
+        navigation, views = render_navigation(dict(instance, boards=snapshot.get("boards", [])))
+        navigation_css = CSS
+        navigation_script = (HOME / "scripts" / "instance_navigation.js").read_text(encoding="utf-8")
         for pending in instance.get("setup", []):
             key = pending["key"]
-            prompt_text = (f"Resume setup for {pending['name']} in my existing Mind task. "
-                           "Read my profile and canonical map first. Validate the owner setup and published feed, "
-                           "then preview connect_organ.py before applying. Preserve existing records.")
             rows.append(f'<details class="organ-card" id="setup-{key}"><summary>'
                         f'{_html.escape(pending["name"])} · Setup incomplete</summary>'
-                        f'<div class="organ-content"><p>Not connected. No feed requested.</p>'
-                        f'<p>{_html.escape(pending["role"])}</p><textarea readonly aria-label="Resume {key} setup">'
-                        f'{_html.escape(prompt_text)}</textarea></div></details>')
+                        f'<div class="organ-content">{inactive_content(pending, pending=True)}</div></details>')
         entries = []
         for available in instance.get("available", []):
-            key = available["key"]
-            prompt_text = (f"Help me add {available['name']} ({available['role']}) to this Scientist. "
-                           "Read my existing profile, canonical map and Mind task. Confirm the purpose, repository "
-                           "identity and public board location; preview organ_lifecycle.py setup before applying. "
-                           "Keep it setup incomplete until connect_organ.py validates its published feed.")
             entries.append(f'<details><summary>{_html.escape(available["name"])} · Available to add</summary>'
-                           f'<p>{_html.escape(available["role"])}</p><textarea readonly aria-label="Add {key}">'
-                           f'{_html.escape(prompt_text)}</textarea></details>')
+                           f'{inactive_content(available)}</details>')
         if entries:
             catalogue = '<details class="organ-catalogue"><summary>Available organs</summary>' + ''.join(entries) + '</details>'
     data = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c").replace(">", "\\u003e").replace("&", "\\u0026")
@@ -363,8 +357,8 @@ def _render_html(snapshot: dict) -> str:
     # whole grid inside section_layout's extra collapsed H2 group.
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}</style></head>
-<body>{banner}{panel}
+<title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}{navigation_css}</style></head>
+<body>{navigation}{'<main id="scientist">' if instance is not None else ""}{banner}{panel}
 {projects_html}
 <h2 id="dashboards-heading">Dashboards</h2>
 {'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not snapshot.get("boards") else ''}
@@ -372,8 +366,10 @@ def _render_html(snapshot: dict) -> str:
 {catalogue}
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 {footer}
+{'</main>' if instance is not None else ""}{views}
+{'<noscript><style>.instance-view[hidden]{display:block!important}</style></noscript>' if instance is not None else ""}
 <script type="application/json" id="scientist-snapshot">{data}</script>
-<script>{t.JS}</script><script>{script}</script></body></html>"""
+<script>{t.JS}</script><script>{script}</script><script>{navigation_script}</script></body></html>"""
 
 
 def badge_endpoint(snapshot: dict) -> dict:
