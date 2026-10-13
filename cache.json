@@ -1,0 +1,1697 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "Jammy2211/euclid_assistant": {
+      "status": "unavailable",
+      "reason": "public source unavailable",
+      "events": {},
+      "tasks": {}
+    },
+    "PyAutoLabs/HowToFit": {
+      "events": {
+        "PyAutoLabs/HowToFit#71:merged": {
+          "id": "PyAutoLabs/HowToFit#71:merged",
+          "task": "PyAutoLabs/HowToFit#71",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-10-07T10:05:02Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/71"
+        },
+        "PyAutoLabs/HowToFit#71:opened": {
+          "id": "PyAutoLabs/HowToFit#71:opened",
+          "task": "PyAutoLabs/HowToFit#71",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-10-07T09:39:13Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/71"
+        },
+        "PyAutoLabs/HowToFit#70:merged": {
+          "id": "PyAutoLabs/HowToFit#70:merged",
+          "task": "PyAutoLabs/HowToFit#70",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-10-06T14:41:40Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/70"
+        },
+        "PyAutoLabs/HowToFit#70:opened": {
+          "id": "PyAutoLabs/HowToFit#70:opened",
+          "task": "PyAutoLabs/HowToFit#70",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-10-06T14:13:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/70"
+        },
+        "PyAutoLabs/HowToFit#66:merged": {
+          "id": "PyAutoLabs/HowToFit#66:merged",
+          "task": "PyAutoLabs/HowToFit#66",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-15T18:37:06Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: requirements for tutorials 6/7 + revert workshop Colab stopgap",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/66"
+        },
+        "PyAutoLabs/HowToFit#66:opened": {
+          "id": "PyAutoLabs/HowToFit#66:opened",
+          "task": "PyAutoLabs/HowToFit#66",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-15T18:18:55Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: requirements for tutorials 6/7 + revert workshop Colab stopgap",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/66"
+        },
+        "PyAutoLabs/HowToFit#56:merged": {
+          "id": "PyAutoLabs/HowToFit#56:merged",
+          "task": "PyAutoLabs/HowToFit#56",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T22:27:45Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/56"
+        },
+        "PyAutoLabs/HowToFit#56:opened": {
+          "id": "PyAutoLabs/HowToFit#56:opened",
+          "task": "PyAutoLabs/HowToFit#56",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T20:24:55Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/56"
+        },
+        "PyAutoLabs/HowToFit#55:merged": {
+          "id": "PyAutoLabs/HowToFit#55:merged",
+          "task": "PyAutoLabs/HowToFit#55",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T19:59:31Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: add HowToFit assistant guidance",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/55"
+        },
+        "PyAutoLabs/HowToFit#55:opened": {
+          "id": "PyAutoLabs/HowToFit#55:opened",
+          "task": "PyAutoLabs/HowToFit#55",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T19:59:12Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: add HowToFit assistant guidance",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/55"
+        },
+        "PyAutoLabs/HowToFit#54:merged": {
+          "id": "PyAutoLabs/HowToFit#54:merged",
+          "task": "PyAutoLabs/HowToFit#54",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T17:19:35Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: surface Colab entry point on README, rename chapter 3 to chapter_advanced",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/54"
+        },
+        "PyAutoLabs/HowToFit#54:opened": {
+          "id": "PyAutoLabs/HowToFit#54:opened",
+          "task": "PyAutoLabs/HowToFit#54",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-09-14T17:15:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: surface Colab entry point on README, rename chapter 3 to chapter_advanced",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/54"
+        }
+      },
+      "tasks": {
+        "54": {
+          "title": "docs: surface Colab entry point on README, rename chapter 3 to chapter_advanced",
+          "is_pr": true,
+          "issue": 53,
+          "state": "closed",
+          "revision": "2026-10-07T10:49:35Z"
+        },
+        "55": {
+          "title": "docs: add HowToFit assistant guidance",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:49:39Z"
+        },
+        "56": {
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:49:42Z"
+        },
+        "66": {
+          "title": "fix: requirements for tutorials 6/7 + revert workshop Colab stopgap",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:49:46Z"
+        },
+        "70": {
+          "title": "docs: discover shared organism standards",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:49:49Z"
+        },
+        "71": {
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T11:17:42Z"
+        }
+      },
+      "checked": "2026-10-13T21:17:16Z",
+      "status": "ok",
+      "reason": null,
+      "cursor": "2026-10-13T21:17:16Z"
+    },
+    "PyAutoLabs/HowToGalaxy": {
+      "events": {
+        "PyAutoLabs/HowToGalaxy#86:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#86:merged",
+          "task": "PyAutoLabs/HowToGalaxy#86",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-08T09:01:17Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: describe the MultiStart optimizers and fix CITATIONS search wording (search-extensibility A0c)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/86"
+        },
+        "PyAutoLabs/HowToGalaxy#86:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#86:opened",
+          "task": "PyAutoLabs/HowToGalaxy#86",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-08T08:37:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: describe the MultiStart optimizers and fix CITATIONS search wording (search-extensibility A0c)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/86"
+        },
+        "PyAutoLabs/HowToGalaxy#85:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#85:merged",
+          "task": "PyAutoLabs/HowToGalaxy#85",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-07T10:04:59Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/85"
+        },
+        "PyAutoLabs/HowToGalaxy#85:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#85:opened",
+          "task": "PyAutoLabs/HowToGalaxy#85",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-07T09:39:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/85"
+        },
+        "PyAutoLabs/HowToGalaxy#84:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#84:merged",
+          "task": "PyAutoLabs/HowToGalaxy#84",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-06T14:41:44Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/84"
+        },
+        "PyAutoLabs/HowToGalaxy#84:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#84:opened",
+          "task": "PyAutoLabs/HowToGalaxy#84",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-06T14:13:31Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/84"
+        },
+        "PyAutoLabs/HowToGalaxy#78:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#78:merged",
+          "task": "PyAutoLabs/HowToGalaxy#78",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-09-15T18:37:15Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "revert: workshop Colab dependency stopgap (#77)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/78"
+        },
+        "PyAutoLabs/HowToGalaxy#78:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#78:opened",
+          "task": "PyAutoLabs/HowToGalaxy#78",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-09-15T18:19:04Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "revert: workshop Colab dependency stopgap (#77)",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/78"
+        }
+      },
+      "tasks": {
+        "78": {
+          "title": "revert: workshop Colab dependency stopgap (#77)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:51:55Z"
+        },
+        "84": {
+          "title": "docs: discover shared organism standards",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:51:58Z"
+        },
+        "85": {
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T11:17:44Z"
+        },
+        "86": {
+          "title": "docs: describe the MultiStart optimizers and fix CITATIONS search wording (search-extensibility A0c)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-08T09:01:20Z"
+        }
+      },
+      "checked": "2026-10-13T21:17:16Z",
+      "status": "ok",
+      "reason": null,
+      "cursor": "2026-10-13T21:17:16Z"
+    },
+    "PyAutoLabs/HowToLens": {
+      "events": {
+        "PyAutoLabs/HowToLens#97:merged": {
+          "id": "PyAutoLabs/HowToLens#97:merged",
+          "task": "PyAutoLabs/HowToLens#97",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-08T09:01:13Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: describe LBFGS/BFGS and the MultiStart optimizers in tutorial_searches (search-extensibility A0c)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/97"
+        },
+        "PyAutoLabs/HowToLens#97:opened": {
+          "id": "PyAutoLabs/HowToLens#97:opened",
+          "task": "PyAutoLabs/HowToLens#97",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-08T08:37:03Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: describe LBFGS/BFGS and the MultiStart optimizers in tutorial_searches (search-extensibility A0c)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/97"
+        },
+        "PyAutoLabs/HowToLens#96:merged": {
+          "id": "PyAutoLabs/HowToLens#96:merged",
+          "task": "PyAutoLabs/HowToLens#96",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-07T10:04:55Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/96"
+        },
+        "PyAutoLabs/HowToLens#96:opened": {
+          "id": "PyAutoLabs/HowToLens#96:opened",
+          "task": "PyAutoLabs/HowToLens#96",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-07T09:38:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/96"
+        },
+        "PyAutoLabs/HowToLens#95:merged": {
+          "id": "PyAutoLabs/HowToLens#95:merged",
+          "task": "PyAutoLabs/HowToLens#95",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-06T14:41:48Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/95"
+        },
+        "PyAutoLabs/HowToLens#95:opened": {
+          "id": "PyAutoLabs/HowToLens#95:opened",
+          "task": "PyAutoLabs/HowToLens#95",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-06T14:13:38Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: discover shared organism standards",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/95"
+        },
+        "PyAutoLabs/HowToLens#90:merged": {
+          "id": "PyAutoLabs/HowToLens#90:merged",
+          "task": "PyAutoLabs/HowToLens#90",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-19T19:37:13Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: teach flat MassField fields in HowToLens",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/90"
+        },
+        "PyAutoLabs/HowToLens#90:opened": {
+          "id": "PyAutoLabs/HowToLens#90:opened",
+          "task": "PyAutoLabs/HowToLens#90",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-19T14:44:57Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: teach flat MassField fields in HowToLens",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/90"
+        },
+        "PyAutoLabs/HowToLens#87:merged": {
+          "id": "PyAutoLabs/HowToLens#87:merged",
+          "task": "PyAutoLabs/HowToLens#87",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-16T09:35:08Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(config): re-sync priors, plots_search and general.yaml with the packaged PyAutoGalaxy config",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/87"
+        },
+        "PyAutoLabs/HowToLens#87:opened": {
+          "id": "PyAutoLabs/HowToLens#87:opened",
+          "task": "PyAutoLabs/HowToLens#87",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-16T08:52:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(config): re-sync priors, plots_search and general.yaml with the packaged PyAutoGalaxy config",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/87"
+        },
+        "PyAutoLabs/HowToLens#86:merged": {
+          "id": "PyAutoLabs/HowToLens#86:merged",
+          "task": "PyAutoLabs/HowToLens#86",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-15T18:37:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "revert: workshop Colab dependency stopgap (#85)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/86"
+        },
+        "PyAutoLabs/HowToLens#86:opened": {
+          "id": "PyAutoLabs/HowToLens#86:opened",
+          "task": "PyAutoLabs/HowToLens#86",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-15T18:19:08Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "revert: workshop Colab dependency stopgap (#85)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/86"
+        },
+        "PyAutoLabs/HowToLens#83:merged": {
+          "id": "PyAutoLabs/HowToLens#83:merged",
+          "task": "PyAutoLabs/HowToLens#83",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-14T22:33:36Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/83"
+        },
+        "PyAutoLabs/HowToLens#83:opened": {
+          "id": "PyAutoLabs/HowToLens#83:opened",
+          "task": "PyAutoLabs/HowToLens#83",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-14T22:23:02Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/83"
+        },
+        "PyAutoLabs/HowToLens#81:merged": {
+          "id": "PyAutoLabs/HowToLens#81:merged",
+          "task": "PyAutoLabs/HowToLens#81",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-09-13T21:27:48Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Draw the model figure beside every model.info (model-figures phase 6b)",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/81"
+        }
+      },
+      "tasks": {
+        "81": {
+          "title": "Draw the model figure beside every model.info (model-figures phase 6b)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:05Z"
+        },
+        "83": {
+          "title": "docs: simplify the model figure prose to two fixed paragraphs",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:08Z"
+        },
+        "86": {
+          "title": "revert: workshop Colab dependency stopgap (#85)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:11Z"
+        },
+        "87": {
+          "title": "fix(config): re-sync priors, plots_search and general.yaml with the packaged PyAutoGalaxy config",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:15Z"
+        },
+        "90": {
+          "title": "docs: teach flat MassField fields in HowToLens",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:18Z"
+        },
+        "95": {
+          "title": "docs: discover shared organism standards",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:54:21Z"
+        },
+        "96": {
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T11:17:46Z"
+        },
+        "97": {
+          "title": "docs: describe LBFGS/BFGS and the MultiStart optimizers in tutorial_searches (search-extensibility A0c)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-08T09:01:16Z"
+        }
+      },
+      "checked": "2026-10-13T21:17:16Z",
+      "status": "ok",
+      "reason": null,
+      "cursor": "2026-10-13T21:17:16Z"
+    },
+    "PyAutoLabs/PyAutoArray": {
+      "events": {
+        "PyAutoLabs/PyAutoArray#622:merged": {
+          "id": "PyAutoLabs/PyAutoArray#622:merged",
+          "task": "PyAutoLabs/PyAutoArray#622",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T11:56:16Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: allow-list setuptools package discovery (autoarray*)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/622"
+        },
+        "PyAutoLabs/PyAutoArray#622:opened": {
+          "id": "PyAutoLabs/PyAutoArray#622:opened",
+          "task": "PyAutoLabs/PyAutoArray#622",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T11:34:09Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: allow-list setuptools package discovery (autoarray*)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/622"
+        },
+        "PyAutoLabs/PyAutoArray#620:comment-6036437461": {
+          "id": "PyAutoLabs/PyAutoArray#620:comment-6036437461",
+          "task": "PyAutoLabs/PyAutoArray#620",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:55:59Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/620#issuecomment-6036437461"
+        },
+        "PyAutoLabs/PyAutoArray#620:closed": {
+          "id": "PyAutoLabs/PyAutoArray#620:closed",
+          "task": "PyAutoLabs/PyAutoArray#620",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:54:59Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/620"
+        },
+        "PyAutoLabs/PyAutoArray#621:merged": {
+          "id": "PyAutoLabs/PyAutoArray#621:merged",
+          "task": "PyAutoLabs/PyAutoArray#621",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:54:57Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/621"
+        },
+        "PyAutoLabs/PyAutoArray#620:comment-6036056091": {
+          "id": "PyAutoLabs/PyAutoArray#620:comment-6036056091",
+          "task": "PyAutoLabs/PyAutoArray#620",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:30:36Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/620#issuecomment-6036056091"
+        },
+        "PyAutoLabs/PyAutoArray#621:opened": {
+          "id": "PyAutoLabs/PyAutoArray#621:opened",
+          "task": "PyAutoLabs/PyAutoArray#621",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:29:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/621"
+        },
+        "PyAutoLabs/PyAutoArray#620:opened": {
+          "id": "PyAutoLabs/PyAutoArray#620:opened",
+          "task": "PyAutoLabs/PyAutoArray#620",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:13:32Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/620"
+        },
+        "PyAutoLabs/PyAutoArray#617:comment-6035715400": {
+          "id": "PyAutoLabs/PyAutoArray#617:comment-6035715400",
+          "task": "PyAutoLabs/PyAutoArray#617",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:08:38Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/617#issuecomment-6035715400"
+        },
+        "PyAutoLabs/PyAutoArray#617:closed": {
+          "id": "PyAutoLabs/PyAutoArray#617:closed",
+          "task": "PyAutoLabs/PyAutoArray#617",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:07:51Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/617"
+        },
+        "PyAutoLabs/PyAutoArray#619:merged": {
+          "id": "PyAutoLabs/PyAutoArray#619:merged",
+          "task": "PyAutoLabs/PyAutoArray#619",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T10:07:50Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/619"
+        },
+        "PyAutoLabs/PyAutoArray#618:merged": {
+          "id": "PyAutoLabs/PyAutoArray#618:merged",
+          "task": "PyAutoLabs/PyAutoArray#618",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T09:54:12Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/618"
+        },
+        "PyAutoLabs/PyAutoArray#617:comment-6035407261": {
+          "id": "PyAutoLabs/PyAutoArray#617:comment-6035407261",
+          "task": "PyAutoLabs/PyAutoArray#617",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T09:49:42Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/617#issuecomment-6035407261"
+        },
+        "PyAutoLabs/PyAutoArray#619:opened": {
+          "id": "PyAutoLabs/PyAutoArray#619:opened",
+          "task": "PyAutoLabs/PyAutoArray#619",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T09:49:29Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/619"
+        },
+        "PyAutoLabs/PyAutoArray#618:opened": {
+          "id": "PyAutoLabs/PyAutoArray#618:opened",
+          "task": "PyAutoLabs/PyAutoArray#618",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T09:38:23Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/618"
+        },
+        "PyAutoLabs/PyAutoArray#617:opened": {
+          "id": "PyAutoLabs/PyAutoArray#617:opened",
+          "task": "PyAutoLabs/PyAutoArray#617",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T09:38:05Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/617"
+        },
+        "PyAutoLabs/PyAutoArray#565:closed": {
+          "id": "PyAutoLabs/PyAutoArray#565:closed",
+          "task": "PyAutoLabs/PyAutoArray#565",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T08:47:53Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: make plot_array overlays respect imshow_origin",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/565"
+        },
+        "PyAutoLabs/PyAutoArray#616:merged": {
+          "id": "PyAutoLabs/PyAutoArray#616:merged",
+          "task": "PyAutoLabs/PyAutoArray#616",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T08:47:52Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: make plot_array overlays respect imshow_origin \"lower\" (#565)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/616"
+        },
+        "PyAutoLabs/PyAutoArray#565:comment-6034282263": {
+          "id": "PyAutoLabs/PyAutoArray#565:comment-6034282263",
+          "task": "PyAutoLabs/PyAutoArray#565",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T08:42:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: make plot_array overlays respect imshow_origin",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/565#issuecomment-6034282263"
+        },
+        "PyAutoLabs/PyAutoArray#616:opened": {
+          "id": "PyAutoLabs/PyAutoArray#616:opened",
+          "task": "PyAutoLabs/PyAutoArray#616",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T08:41:45Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: make plot_array overlays respect imshow_origin \"lower\" (#565)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/616"
+        },
+        "PyAutoLabs/PyAutoArray#565:comment-6034057591": {
+          "id": "PyAutoLabs/PyAutoArray#565:comment-6034057591",
+          "task": "PyAutoLabs/PyAutoArray#565",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T08:27:36Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: make plot_array overlays respect imshow_origin",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/565#issuecomment-6034057591"
+        },
+        "PyAutoLabs/PyAutoArray#613:closed": {
+          "id": "PyAutoLabs/PyAutoArray#613:closed",
+          "task": "PyAutoLabs/PyAutoArray#613",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T06:43:26Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/613"
+        },
+        "PyAutoLabs/PyAutoArray#615:merged": {
+          "id": "PyAutoLabs/PyAutoArray#615:merged",
+          "task": "PyAutoLabs/PyAutoArray#615",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T06:43:25Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/615"
+        },
+        "PyAutoLabs/PyAutoArray#613:comment-6032248261": {
+          "id": "PyAutoLabs/PyAutoArray#613:comment-6032248261",
+          "task": "PyAutoLabs/PyAutoArray#613",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T06:21:22Z",
+          "kind": "progress",
+          "summary": "Library PR recorded",
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/613#issuecomment-6032248261"
+        },
+        "PyAutoLabs/PyAutoArray#615:opened": {
+          "id": "PyAutoLabs/PyAutoArray#615:opened",
+          "task": "PyAutoLabs/PyAutoArray#615",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-07T06:21:02Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/615"
+        },
+        "PyAutoLabs/PyAutoArray#613:opened": {
+          "id": "PyAutoLabs/PyAutoArray#613:opened",
+          "task": "PyAutoLabs/PyAutoArray#613",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-04T19:41:35Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/613"
+        },
+        "PyAutoLabs/PyAutoArray#612:merged": {
+          "id": "PyAutoLabs/PyAutoArray#612:merged",
+          "task": "PyAutoLabs/PyAutoArray#612",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-04T15:50:07Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: require Nerves with the JAX deadlock exclusions",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/612"
+        },
+        "PyAutoLabs/PyAutoArray#612:opened": {
+          "id": "PyAutoLabs/PyAutoArray#612:opened",
+          "task": "PyAutoLabs/PyAutoArray#612",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-04T14:51:03Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: require Nerves with the JAX deadlock exclusions",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/612"
+        },
+        "PyAutoLabs/PyAutoArray#611:merged": {
+          "id": "PyAutoLabs/PyAutoArray#611:merged",
+          "task": "PyAutoLabs/PyAutoArray#611",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T11:45:32Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "test: Audit numerical invariants across every mesh interpolator",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/611"
+        },
+        "PyAutoLabs/PyAutoArray#608:merged": {
+          "id": "PyAutoLabs/PyAutoArray#608:merged",
+          "task": "PyAutoLabs/PyAutoArray#608",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T11:44:51Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: Align transformed mesh areas with their cell edges",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/608"
+        },
+        "PyAutoLabs/PyAutoArray#607:merged": {
+          "id": "PyAutoLabs/PyAutoArray#607:merged",
+          "task": "PyAutoLabs/PyAutoArray#607",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T11:43:57Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: Keep masked fit utility gradients finite",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/607"
+        },
+        "PyAutoLabs/PyAutoArray#606:merged": {
+          "id": "PyAutoLabs/PyAutoArray#606:merged",
+          "task": "PyAutoLabs/PyAutoArray#606",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T11:43:22Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: Add direct signal-to-noise over-sampling helper",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/606"
+        },
+        "PyAutoLabs/PyAutoArray#611:opened": {
+          "id": "PyAutoLabs/PyAutoArray#611:opened",
+          "task": "PyAutoLabs/PyAutoArray#611",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T11:10:19Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "test: Audit numerical invariants across every mesh interpolator",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/611"
+        },
+        "PyAutoLabs/PyAutoArray#608:opened": {
+          "id": "PyAutoLabs/PyAutoArray#608:opened",
+          "task": "PyAutoLabs/PyAutoArray#608",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T10:32:57Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: Align transformed mesh areas with their cell edges",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/608"
+        },
+        "PyAutoLabs/PyAutoArray#607:opened": {
+          "id": "PyAutoLabs/PyAutoArray#607:opened",
+          "task": "PyAutoLabs/PyAutoArray#607",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T10:09:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: Keep masked fit utility gradients finite",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/607"
+        },
+        "PyAutoLabs/PyAutoArray#606:opened": {
+          "id": "PyAutoLabs/PyAutoArray#606:opened",
+          "task": "PyAutoLabs/PyAutoArray#606",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-02T09:03:35Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: Add direct signal-to-noise over-sampling helper",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/606"
+        },
+        "PyAutoLabs/PyAutoArray#601:merged": {
+          "id": "PyAutoLabs/PyAutoArray#601:merged",
+          "task": "PyAutoLabs/PyAutoArray#601",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-01T10:25:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: per-channel SparseTerms sum and phase-centre shifts in sparse_terms_from_chunks (streaming P5)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/601"
+        },
+        "PyAutoLabs/PyAutoArray#601:opened": {
+          "id": "PyAutoLabs/PyAutoArray#601:opened",
+          "task": "PyAutoLabs/PyAutoArray#601",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-01T09:42:04Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: per-channel SparseTerms sum and phase-centre shifts in sparse_terms_from_chunks (streaming P5)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/601"
+        },
+        "PyAutoLabs/PyAutoArray#599:merged": {
+          "id": "PyAutoLabs/PyAutoArray#599:merged",
+          "task": "PyAutoLabs/PyAutoArray#599",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-01T08:52:49Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: per-interface data_term override and sparse profile-term identity (streaming P4)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/599"
+        },
+        "PyAutoLabs/PyAutoArray#599:opened": {
+          "id": "PyAutoLabs/PyAutoArray#599:opened",
+          "task": "PyAutoLabs/PyAutoArray#599",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-01T08:38:07Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: per-interface data_term override and sparse profile-term identity (streaming P4)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/599"
+        },
+        "PyAutoLabs/PyAutoArray#597:merged": {
+          "id": "PyAutoLabs/PyAutoArray#597:merged",
+          "task": "PyAutoLabs/PyAutoArray#597",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T19:18:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(plot): interferometer plots on array-free datasets — natural-weighted dirty panels, inversion subplot fix",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/597"
+        },
+        "PyAutoLabs/PyAutoArray#597:opened": {
+          "id": "PyAutoLabs/PyAutoArray#597:opened",
+          "task": "PyAutoLabs/PyAutoArray#597",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T19:13:14Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(plot): interferometer plots on array-free datasets — natural-weighted dirty panels, inversion subplot fix",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/597"
+        },
+        "PyAutoLabs/PyAutoArray#595:merged": {
+          "id": "PyAutoLabs/PyAutoArray#595:merged",
+          "task": "PyAutoLabs/PyAutoArray#595",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T16:41:55Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: return the polished raw-forward PDIP iterate as the forward value (#594)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/595"
+        },
+        "PyAutoLabs/PyAutoArray#595:opened": {
+          "id": "PyAutoLabs/PyAutoArray#595:opened",
+          "task": "PyAutoLabs/PyAutoArray#595",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T16:19:02Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: return the polished raw-forward PDIP iterate as the forward value (#594)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/595"
+        },
+        "PyAutoLabs/PyAutoArray#593:merged": {
+          "id": "PyAutoLabs/PyAutoArray#593:merged",
+          "task": "PyAutoLabs/PyAutoArray#593",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T14:36:47Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(interferometer): array-free Interferometer.from_stream / from_sparse_terms (streaming phase 1, Discussion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/593"
+        },
+        "PyAutoLabs/PyAutoArray#593:opened": {
+          "id": "PyAutoLabs/PyAutoArray#593:opened",
+          "task": "PyAutoLabs/PyAutoArray#593",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T14:33:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(interferometer): array-free Interferometer.from_stream / from_sparse_terms (streaming phase 1, Discussion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/593"
+        },
+        "PyAutoLabs/PyAutoArray#591:merged": {
+          "id": "PyAutoLabs/PyAutoArray#591:merged",
+          "task": "PyAutoLabs/PyAutoArray#591",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T09:51:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(inversion): guard data_subtracted_dict on data=None, harden sparse noise check and data-term dtype",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/591"
+        },
+        "PyAutoLabs/PyAutoArray#591:opened": {
+          "id": "PyAutoLabs/PyAutoArray#591:opened",
+          "task": "PyAutoLabs/PyAutoArray#591",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T09:35:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(inversion): guard data_subtracted_dict on data=None, harden sparse noise check and data-term dtype",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/591"
+        },
+        "PyAutoLabs/PyAutoArray#586:merged": {
+          "id": "PyAutoLabs/PyAutoArray#586:merged",
+          "task": "PyAutoLabs/PyAutoArray#586",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T08:39:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: apply_over_sampling keeps the sparse operator; cache operated_mapping_matrix_list",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/586"
+        },
+        "PyAutoLabs/PyAutoArray#589:merged": {
+          "id": "PyAutoLabs/PyAutoArray#589:merged",
+          "task": "PyAutoLabs/PyAutoArray#589",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-30T07:56:16Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: cache sparse-path scalars + chunked SparseTerms accumulation (#588)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/589"
+        },
+        "PyAutoLabs/PyAutoArray#589:opened": {
+          "id": "PyAutoLabs/PyAutoArray#589:opened",
+          "task": "PyAutoLabs/PyAutoArray#589",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-29T17:04:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: cache sparse-path scalars + chunked SparseTerms accumulation (#588)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/589"
+        },
+        "PyAutoLabs/PyAutoArray#586:opened": {
+          "id": "PyAutoLabs/PyAutoArray#586:opened",
+          "task": "PyAutoLabs/PyAutoArray#586",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T22:42:41Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: apply_over_sampling keeps the sparse operator; cache operated_mapping_matrix_list",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/586"
+        },
+        "PyAutoLabs/PyAutoArray#584:merged": {
+          "id": "PyAutoLabs/PyAutoArray#584:merged",
+          "task": "PyAutoLabs/PyAutoArray#584",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T19:05:49Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "perf(triangles): raise PointSolver MAX_CONTAINING_SIZE 15 → 20 (#583)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/584"
+        },
+        "PyAutoLabs/PyAutoArray#584:opened": {
+          "id": "PyAutoLabs/PyAutoArray#584:opened",
+          "task": "PyAutoLabs/PyAutoArray#584",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T18:45:11Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "perf(triangles): raise PointSolver MAX_CONTAINING_SIZE 15 → 20 (#583)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/584"
+        },
+        "PyAutoLabs/PyAutoArray#582:merged": {
+          "id": "PyAutoLabs/PyAutoArray#582:merged",
+          "task": "PyAutoLabs/PyAutoArray#582",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T16:29:01Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "perf(interferometer): cache curvature_matrix / data_vector on sparse and mapping inversions (#581)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/582"
+        },
+        "PyAutoLabs/PyAutoArray#582:opened": {
+          "id": "PyAutoLabs/PyAutoArray#582:opened",
+          "task": "PyAutoLabs/PyAutoArray#582",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T16:14:13Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "perf(interferometer): cache curvature_matrix / data_vector on sparse and mapping inversions (#581)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/582"
+        },
+        "PyAutoLabs/PyAutoArray#580:merged": {
+          "id": "PyAutoLabs/PyAutoArray#580:merged",
+          "task": "PyAutoLabs/PyAutoArray#580",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T15:10:18Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "perf(triangles): step-0 Point containment without the (N,3,2) gather (#579)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/580"
+        },
+        "PyAutoLabs/PyAutoArray#580:opened": {
+          "id": "PyAutoLabs/PyAutoArray#580:opened",
+          "task": "PyAutoLabs/PyAutoArray#580",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-27T13:43:21Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "perf(triangles): step-0 Point containment without the (N,3,2) gather (#579)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/580"
+        },
+        "PyAutoLabs/PyAutoArray#578:merged": {
+          "id": "PyAutoLabs/PyAutoArray#578:merged",
+          "task": "PyAutoLabs/PyAutoArray#578",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-26T18:26:18Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/578"
+        },
+        "PyAutoLabs/PyAutoArray#578:opened": {
+          "id": "PyAutoLabs/PyAutoArray#578:opened",
+          "task": "PyAutoLabs/PyAutoArray#578",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-26T17:13:50Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/578"
+        },
+        "PyAutoLabs/PyAutoArray#576:merged": {
+          "id": "PyAutoLabs/PyAutoArray#576:merged",
+          "task": "PyAutoLabs/PyAutoArray#576",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-26T15:33:44Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: route MGE-only interferometer fits through the W~ sparse operator (#575)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/576"
+        },
+        "PyAutoLabs/PyAutoArray#576:opened": {
+          "id": "PyAutoLabs/PyAutoArray#576:opened",
+          "task": "PyAutoLabs/PyAutoArray#576",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-26T11:37:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: route MGE-only interferometer fits through the W~ sparse operator (#575)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/576"
+        },
+        "PyAutoLabs/PyAutoArray#565:opened": {
+          "id": "PyAutoLabs/PyAutoArray#565:opened",
+          "task": "PyAutoLabs/PyAutoArray#565",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-09-21T08:48:34Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: make plot_array overlays respect imshow_origin",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/565"
+        }
+      },
+      "tasks": {
+        "613": {
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T06:43:26Z"
+        },
+        "565": {
+          "title": "fix: make plot_array overlays respect imshow_origin",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T08:47:53Z"
+        },
+        "616": {
+          "title": "fix: make plot_array overlays respect imshow_origin \"lower\" (#565)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T08:47:54Z"
+        },
+        "576": {
+          "title": "feat: route MGE-only interferometer fits through the W~ sparse operator (#575)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:33Z"
+        },
+        "578": {
+          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
+          "is_pr": true,
+          "issue": 577,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:36Z"
+        },
+        "580": {
+          "title": "perf(triangles): step-0 Point containment without the (N,3,2) gather (#579)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:39Z"
+        },
+        "582": {
+          "title": "perf(interferometer): cache curvature_matrix / data_vector on sparse and mapping inversions (#581)",
+          "is_pr": true,
+          "issue": 581,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:43Z"
+        },
+        "584": {
+          "title": "perf(triangles): raise PointSolver MAX_CONTAINING_SIZE 15 → 20 (#583)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:46Z"
+        },
+        "586": {
+          "title": "fix: apply_over_sampling keeps the sparse operator; cache operated_mapping_matrix_list",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:50Z"
+        },
+        "589": {
+          "title": "feat: cache sparse-path scalars + chunked SparseTerms accumulation (#588)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:54Z"
+        },
+        "591": {
+          "title": "fix(inversion): guard data_subtracted_dict on data=None, harden sparse noise check and data-term dtype",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:50:58Z"
+        },
+        "593": {
+          "title": "feat(interferometer): array-free Interferometer.from_stream / from_sparse_terms (streaming phase 1, Discussion",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:01Z"
+        },
+        "595": {
+          "title": "fix: return the polished raw-forward PDIP iterate as the forward value (#594)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:05Z"
+        },
+        "597": {
+          "title": "feat(plot): interferometer plots on array-free datasets — natural-weighted dirty panels, inversion subplot fix",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:10Z"
+        },
+        "599": {
+          "title": "feat: per-interface data_term override and sparse profile-term identity (streaming P4)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:13Z"
+        },
+        "601": {
+          "title": "feat: per-channel SparseTerms sum and phase-centre shifts in sparse_terms_from_chunks (streaming P5)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:17Z"
+        },
+        "606": {
+          "title": "feat: Add direct signal-to-noise over-sampling helper",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:20Z"
+        },
+        "607": {
+          "title": "fix: Keep masked fit utility gradients finite",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:23Z"
+        },
+        "608": {
+          "title": "fix: Align transformed mesh areas with their cell edges",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:26Z"
+        },
+        "611": {
+          "title": "test: Audit numerical invariants across every mesh interpolator",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:51:31Z"
+        },
+        "617": {
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:08:38Z"
+        },
+        "620": {
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T10:55:59Z"
+        },
+        "612": {
+          "title": "fix: require Nerves with the JAX deadlock exclusions",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T17:56:20Z"
+        },
+        "615": {
+          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
+          "is_pr": true,
+          "issue": 613,
+          "state": "closed",
+          "revision": "2026-10-07T17:56:25Z"
+        },
+        "622": {
+          "title": "fix: allow-list setuptools package discovery (autoarray*)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T17:56:34Z"
+        },
+        "619": {
+          "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T17:56:42Z"
+        },
+        "621": {
+          "title": "feat: SparseTerms oversample=q fine precision-operator and dirty-image grids",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T17:56:45Z"
+        },
+        "618": {
+          "title": "docs: merge README Community & Contributing section, link community page (#773)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T17:57:05Z"
+        }
+      },
+      "checked": "2026-10-13T21:17:16Z",
+      "status": "ok",
+      "reason": null,
+      "cursor": "2026-10-13T21:17:16Z"
+    },
+    "PyAutoLabs/PyAutoBrain": {
+      "events": {
+        "PyAutoLabs/PyAutoBrain#489:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#489:merged",
+          "task": "PyAutoLabs/PyAutoBrain#489",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T09:11:56Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: review follow-ups without requiring contributor reopen rights",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/489"
+        },
+        "PyAutoLabs/PyAutoBrain#489:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#489:opened",
+          "task": "PyAutoLabs/PyAutoBrain#489",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T09:08:29Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: review follow-ups without requiring contributor reopen rights",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/489"
+        },
+        "PyAutoLabs/PyAutoBrain#488:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#488:merged",
+          "task": "PyAutoLabs/PyAutoBrain#488",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T09:02:40Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "ship/prm skills: pending-release label and line for the published set only",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/488"
+        },
+        "PyAutoLabs/PyAutoBrain#488:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#488:opened",
+          "task": "PyAutoLabs/PyAutoBrain#488",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T08:58:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "ship/prm skills: pending-release label and line for the published set only",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/488"
+        },
+        "PyAutoLabs/PyAutoBrain#486:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#486:closed",
+          "task": "PyAutoLabs/PyAutoBrain#486",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T08:14:29Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: standardize dashboard freshness footers",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/486"
+        },
+        "PyAutoLabs/PyAutoBrain#486:comment-6033851543": {
+          "id": "PyAutoLabs/PyAutoBrain#486:comment-6033851543",
+          "task": "PyAutoLabs/PyAutoBrain#486",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T08:14:27Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: standardize dashboard freshness footers",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/486#issuecomment-6033851543"
+        },
+        "PyAutoLabs/PyAutoBrain#486:comment-6033656477": {
+          "id": "PyAutoLabs/PyAutoBrain#486:comment-6033656477",
+          "task": "PyAutoLabs/PyAutoBrain#486",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T08:01:48Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: standardize dashboard freshness footers",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/486#issuecomment-6033656477"
+        },
+        "PyAutoLabs/PyAutoBrain#486:comment-6033429140": {
+          "id": "PyAutoLabs/PyAutoBrain#486:comment-6033429140",
+          "task": "PyAutoLabs/PyAutoBrain#486",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T07:46:55Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: standardize dashboard freshness footers",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/486#issuecomment-6033429140"
+        },
+        "PyAutoLabs/PyAutoBrain#486:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#486:opened",
+          "task": "PyAutoLabs/PyAutoBrain#486",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T07:27:05Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: standardize dashboard freshness footers",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/486"
+        },
+        "PyAutoLabs/PyAutoBrain#484:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#484:closed",
+          "task": "PyAutoLabs/PyAutoBrain#484",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T07:13:14Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs: expand all dashboard check-in prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/484"
+        },
+        "PyAutoLabs/PyAutoBrain#484:comment-6032920386": {
+          "id": "PyAutoLabs/PyAutoBrain#484:comment-6032920386",
+          "task": "PyAutoLabs/PyAutoBrain#484",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T07:13:12Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "docs: expand all dashboard check-in prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/484#issuecomment-6032920386"
+        },
+        "PyAutoLabs/PyAutoBrain#484:comment-6032834502": {
+          "id": "PyAutoLabs/PyAutoBrain#484:comment-6032834502",
+          "task": "PyAutoLabs/PyAutoBrain#484",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T07:06:50Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: expand all dashboard check-in prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/484#issuecomment-6032834502"
+        },
+        "PyAutoLabs/PyAutoBrain#484:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#484:opened",
+          "task": "PyAutoLabs/PyAutoBrain#484",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-07T06:37:19Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: expand all dashboard check-in prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/484"
+        }
+      },
+      "tasks": {
+        "484": {
+          "title": "docs: expand all dashboard check-in prompts",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T07:13:14Z"
+        },
+        "486": {
+          "title": "feat: standardize dashboard freshness footers",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T08:14:29Z"
+        },
+        "488": {
+          "title": "ship/prm skills: pending-release label and line for the published set only",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:02:43Z"
+        },
+        "489": {
+          "title": "fix: review follow-ups without requiring contributor reopen rights",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-07T09:15:50Z"
+        }
+      },
+      "checked": "2026-10-13T21:17:16Z",
+      "status": "partial",
+      "reason": "collection time budget reached; comment task metadata not yet collected"
+    },
+    "PyAutoLabs/PyAutoBroca": {
+      "status": "stale",
+      "reason": "collection time budget reached"
+    },
+    "PyAutoLabs/PyAutoCTI": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoCortex": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoDNA": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoEars": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoEyes": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoFit": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoGalaxy": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoGut": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoHands": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoHeart": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoInsight": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoLens": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoMemory": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoMind": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoNerves": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoPulse": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoReduce": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/PyAutoScientist": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autocti_assistant": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autocti_visualization": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autocti_workspace": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autocti_workspace_test": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_assistant": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_inference": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_profiling": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_visualization": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_workspace": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_workspace_developer": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autofit_workspace_test": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autogalaxy_assistant": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autogalaxy_visualization": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autogalaxy_workspace": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autogalaxy_workspace_test": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_assistant": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_inference": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_profiling": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_visualization": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_workspace": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_workspace_developer": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autolens_workspace_test": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/autoreduce_workspace": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    },
+    "PyAutoLabs/pyautolabs.github.io": {
+      "status": "stale",
+      "reason": "awaiting collection"
+    }
+  },
+  "next": 6
+}
