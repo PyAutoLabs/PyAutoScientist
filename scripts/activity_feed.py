@@ -43,7 +43,7 @@ def short(text, limit=110):
     return re.sub(r'\s+', ' ', str(text or '')).strip()[:limit]
 
 
-def sources(path):
+def sources(path, routes=None):
     import yaml
     rows = yaml.safe_load(Path(path).read_text())['repos']
     result = {}
@@ -52,7 +52,9 @@ def sources(path):
         if not re.fullmatch(r'[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+', repo):
             continue
         organ = str(row.get('organ', 'scientist' if name == 'PyAutoScientist' else 'mind')).lower()
-        board = organ if organ in BOARDS else 'mind'
+        board = (routes or {}).get(name, organ if organ in BOARDS else 'mind')
+        if board not in BOARDS:
+            raise ValueError('unknown activity board')
         result[repo] = {'board': board, 'board_url': f'https://{repo.split("/")[0].lower()}.github.io/PyAuto{BOARDS[board]}/'}
     return dict(sorted(result.items()))
 
@@ -102,6 +104,20 @@ class GitHub:
         error = CollectionError('pagination limit reached')
         error.rows = rows
         raise error
+
+
+class RepositoryBudget:
+    """A busy repo yields to peers; normalized partial batches resume next cycle."""
+    def __init__(self, parent, limit=12):
+        self.parent, self.start, self.limit = parent, parent.requests, limit
+
+    def get(self, path):
+        if self.parent.requests - self.start >= self.limit:
+            raise CollectionError('repository allowance reached')
+        return self.parent.get(path)
+
+    def pages(self, path, params):
+        return GitHub.pages(self, path, params)
 
 
 def closing_issue(body):
@@ -207,7 +223,7 @@ def collect_repo(api, repo, since, now, prior):
     return result
 
 
-def collect(registry, previous, api, now=None):
+def collect(registry, previous, api, now=None, pulse_config=None, identities=None):
     now = now or datetime.now(timezone.utc)
     previous = previous if previous.get('schema_version') == SCHEMA else {}
     cache = {'schema_version': SCHEMA, 'sources': {}, 'next': 0}
@@ -234,6 +250,11 @@ def collect(registry, previous, api, now=None):
             cache['sources'][repo] = dict(old, status='stale', reason='awaiting collection')
         else:
             cache['sources'][repo] = {'status': 'unavailable', 'reason': 'public source unavailable', 'events': {}, 'tasks': {}}
+    if pulse_config:
+        from pulse_activity import collect_pulse
+        cache['pulse'] = collect_pulse(RepositoryBudget(api), (identities or {}).get(pulse_config['repository'], ''),
+                                      pulse_config.get('ref', 'main'), public, identities or {},
+                                      previous.get('pulse', {}), now)
     advanced = 0
     for repo in ordered:
         if repo not in public:
@@ -242,7 +263,7 @@ def collect(registry, previous, api, now=None):
         old = cache['sources'][repo]
         since = stamp(max(now - timedelta(days=RETENTION_DAYS), instant(old['cursor']) - timedelta(minutes=2))) if old.get('cursor') else stamp(now - timedelta(days=7))
         try:
-            cache['sources'][repo] = collect_repo(api, repo, since, now, old)
+            cache['sources'][repo] = collect_repo(RepositoryBudget(api) if isinstance(api, GitHub) else api, repo, since, now, old)
             advanced += 1
         except (CollectionError, ValueError, KeyError, TypeError) as exc:
             old['status'] = 'stale'
@@ -280,8 +301,13 @@ def make_feed(registry, cache, now):
         row['history_count'] = len(row['events'])
         row['events'] = row['events'][:20]
         row['time'] = row['events'][0]['time']
+    if 'pulse' in cache:
+        from pulse_activity import publish
+        coverage.append({'repo': 'Pulse campaign evidence', **{k: cache['pulse'].get(k) for k in ('status', 'checked', 'reason')}})
+        for row in publish(cache['pulse'], now):
+            grouped[row['id']] = row
     rows = sorted(grouped.values(), key=lambda row: (row['time'], row['id']), reverse=True)
-    return {'schema_version': SCHEMA, 'generated': stamp(now), 'scope': 'Recorded development activity',
+    return {'schema_version': SCHEMA, 'generated': stamp(now), 'scope': 'Development and Pulse campaign activity',
             'retention_days': RETENTION_DAYS, 'initial_backfill_days': 7, 'truncated': len(rows) > MAX_TASKS,
             'coverage': coverage, 'tasks': rows[:MAX_TASKS]}
 
@@ -320,11 +346,11 @@ def render_html(feed=None):
     data = json.dumps(feed, ensure_ascii=False).replace('<', '\\u003c').replace('>', '\\u003e').replace('&', '\\u0026')
     return f'''<h2 id="live-feed-heading">Live Feed</h2>
 <section class="live-feed" aria-labelledby="live-feed-heading" id="live-feed">
-<div class="feed-toolbar"><div><p>Recorded development activity</p><p data-feed-freshness>Collection {esc(feed.get('generated') or 'not yet available')}</p></div><button type="button" data-feed-new hidden>New updates</button></div>
+<div class="feed-toolbar"><div><p>Development and Pulse campaign activity</p><p data-feed-freshness>Collection {esc(feed.get('generated') or 'not yet available')}</p></div><button type="button" data-feed-new hidden>New updates</button></div>
 <p data-feed-notice role="status"></p><ul class="feed-list" data-feed-list>{''.join(rows)}</ul>
 <p data-feed-empty {'hidden' if rows else ''}>No recorded activity available yet.</p>
 <button type="button" data-feed-more hidden>Show more</button>
-<details class="feed-coverage"><summary data-feed-coverage-label>Coverage and freshness</summary><p>Public recorded development only; scientific runs and unrecorded local work are not included. Up to 30 days retained; initial collection looks back seven days. Collection runs approximately every five minutes; repositories share a bounded request budget.</p><ul data-feed-coverage></ul></details>
+<details class="feed-coverage"><summary data-feed-coverage-label>Coverage and freshness</summary><p>Public development and Pulse campaign check-ins; only explicitly associated, dated run evidence enters the timeline. Unrecorded local work is not included. Up to 30 days retained; initial collection looks back seven days. Collection runs approximately every five minutes; repositories share a bounded request budget.</p><ul data-feed-coverage></ul></details>
 <noscript><p>Publication snapshot; enable JavaScript for updates and more history.</p></noscript>
 <script type="application/json" id="live-feed-snapshot">{data}</script></section>'''
 
@@ -335,10 +361,18 @@ def main():
     ap.add_argument('--cache', required=True, type=Path)
     ap.add_argument('--output', required=True, type=Path)
     ap.add_argument('--budget', type=int, default=60)
+    ap.add_argument('--config', type=Path, default=Path(__file__).resolve().parents[1] / 'config' / 'activity_sources.json')
     args = ap.parse_args()
     # 180 calls / 5min fits a 5000/hour PAT. Default GITHUB_TOKEN uses 60/cycle.
     previous = json.loads(args.cache.read_text()) if args.cache.exists() else {}
-    cache, feed = collect(sources(args.repos), previous, GitHub(os.environ.get('GH_TOKEN'), args.budget))
+    import yaml
+    config = json.loads(args.config.read_text())
+    if config.get('schema_version') != 1:
+        raise ValueError('unsupported activity source config')
+    identities = {name: row.get('github') for name, row in yaml.safe_load(args.repos.read_text())['repos'].items()}
+    cache, feed = collect(sources(args.repos, config.get('board_routes')), previous,
+                          GitHub(os.environ.get('GH_TOKEN'), args.budget),
+                          pulse_config=config.get('pulse'), identities=identities)
     for path, value in ((args.cache, cache), (args.output, feed)):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + '\n')
@@ -346,4 +380,6 @@ def main():
 
 
 if __name__ == '__main__':
+    import sys
+    sys.modules['activity_feed'] = sys.modules[__name__]
     main()

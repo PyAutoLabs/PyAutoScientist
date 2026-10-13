@@ -135,3 +135,35 @@ two-minute collection time budget. Therefore “every five minutes” is the col
 attempt interval, not a guarantee that every repository is current. Event time,
 source check time and page check time remain distinct. Routine feed rebuilds
 never create activity events.
+
+### Pulse coverage and fair collection
+
+`config/activity_sources.json` routes the registered `autolens_profiling` and
+`autofit_profiling` development repositories to Pulse. Their identity still comes
+from Mind's body map. A repository gets at most 12 API requests in a cycle;
+partial normalized evidence survives to the next cycle and other repositories
+get a turn. The whole-cycle request and two-minute limits still apply. GitHub
+schedule delivery remains best effort; an enabled schedule is not evidence that
+a collection occurred. The published source check times are the evidence.
+
+The Pulse adapter reads `campaigns.yaml`, `registry.yaml` and the registered
+`snapshots/<instance>.json` at one verified public Pulse commit. Campaign and task
+changes share one campaign row. The recorded `last_checkin` dates a check-in,
+not a measurement. Repeated check-ins with unchanged facts and next steps do not
+create new events. `active` is not displayed as `running`.
+
+A measurement event requires a producer `provenance.measured_at`, a stable
+`run_id` and an explicit campaign association. Pulse may provide the association
+as `campaigns[].runs: [{repo: <Mind identity>, run_id: <producer run ID>}]` in its
+own ledger; alternatively a producer may declare `campaign_id` where its schema
+allows it. The adapter never guesses from setup names or filenames. Multiple
+measurements from a run produce one campaign-history entry; qualification,
+speedups, comparisons and scientific acceptance are not inferred. No run-start
+event is invented from a later measurement. Current legacy records lacking times
+are counted in coverage and excluded from the timeline.
+
+No Pulse or project records are changed by collection. Pulse input errors keep
+last-known campaign history marked stale; an unverified public Pulse repository
+suppresses it. The new adapter does not run profiling or add project collection
+approval. The original development-only scope above describes PR84; this section
+extends it with recorded Pulse campaign and admissible run activity.

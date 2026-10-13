@@ -57,7 +57,7 @@ function renderCoverage() {
   const gaps = current.coverage.filter(c => c.status !== 'ok').length;
   const aged = current.generated && Date.now() - Date.parse(current.generated) > 15 * 60000;
   fresh.textContent = current.generated ? `Collected ${age(current.generated)}${aged ? ' · delayed' : ''}${lastChecked ? ' · checked ' + age(lastChecked) : ''}` : 'Collection not yet available';
-  root.querySelector('[data-feed-coverage-label]').textContent = `Coverage and freshness · ${current.coverage.length - gaps}/${current.coverage.length} sources checked${gaps ? ' · gaps' : ''}${current.truncated ? ' · latest 200 tasks' : ''}`;
+  root.querySelector('[data-feed-coverage-label]').textContent = `Coverage and freshness · ${current.coverage.length - gaps}/${current.coverage.length} sources complete${gaps ? ' · gaps' : ''}${current.truncated ? ' · latest 200 tasks' : ''}`;
   coverage.replaceChildren(...current.coverage.map(c => el('li', `${c.repo}: ${c.status}${c.checked ? ' · checked ' + age(c.checked) : ''}${c.reason ? ' · ' + c.reason : ''}`)));
 }
 function reading() {

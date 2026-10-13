@@ -147,7 +147,7 @@ def test_server_snapshot_escapes_and_keeps_instance_out():
     rendered = af.render_html(feed)
     assert '<script>alert(1)' not in rendered
     assert '&lt;/script&gt;' in rendered
-    assert 'Recorded development activity' in rendered
+    assert 'Development and Pulse campaign activity' in rendered
 
 
 def test_partial_pr_scan_retains_events_and_resumes_without_duplicates():
