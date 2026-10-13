@@ -88,10 +88,7 @@ body.instance-cockpit{max-width:none;width:100%;height:100vh;height:100dvh;paddi
 .cockpit-idle{border:1px solid var(--shell-line);border-radius:8px;background:var(--shell-alt);color:var(--shell-soft);min-height:44px;padding:.35rem .65rem;font-family:inherit;font-size:.78rem;font-weight:700;letter-spacing:.04em;white-space:nowrap;opacity:.7}
 .cockpit-idle span{color:var(--shell-grey);margin-right:.35em}
 .instance-nav{background:var(--shell-alt);border-bottom:1px solid var(--shell-line)}
-.instance-nav .nav-scroll{max-width:1160px;margin:auto;overflow-x:scroll;overscroll-behavior-x:contain;scrollbar-width:thin;scrollbar-color:var(--shell-grey) var(--shell-alt);padding:.45rem .5rem;box-sizing:border-box}
-.instance-nav .nav-scroll::-webkit-scrollbar{height:8px}
-.instance-nav .nav-scroll::-webkit-scrollbar-track{background:var(--shell-alt)}
-.instance-nav .nav-scroll::-webkit-scrollbar-thumb{background:var(--shell-grey);border-radius:4px}
+.instance-nav .nav-scroll{overflow-x:auto;overscroll-behavior-x:contain;scrollbar-width:thin;padding:.45rem .5rem;box-sizing:border-box}
 .instance-nav ul{display:flex;gap:.3rem;list-style:none;width:max-content;margin:0 auto;padding:0}
 .instance-nav .board-link{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.15rem;min-width:76px;min-height:64px;padding:.4rem .65rem;border:1px solid transparent;border-radius:12px;color:var(--shell-soft);font-size:.8rem;font-weight:650;text-decoration:none;box-sizing:border-box}
 .instance-nav .board-link:hover{background:var(--shell-bg);color:var(--shell-text)}
