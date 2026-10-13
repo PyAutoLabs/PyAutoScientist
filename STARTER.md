@@ -29,8 +29,14 @@ not a complete Mind installation.
 
 ## Navigate before connecting organs
 
-The instance preview includes the familiar Scientist/organ icon bar above the
-overview. Scientist returns to the overview; each connected organ opens its
+The instance preview uses the familiar cockpit shell: an instance-owned
+repository name and `/ Cockpit` home link, a grey **IDLE** button (awaiting work),
+a horizontally scrollable organ icon bar, and a selected-board toolbar. The shell
+stays visible while the board content scrolls. **Reload** refreshes the selected
+configured board or local view; **New tab** opens that same destination. IDLE is a
+starter-shell placeholder, not an aggregated health verdict.
+
+Scientist returns to the overview; each connected organ opens its
 configured board inside the page, with an external-link fallback. Paused organs
 remain navigable without resuming their feed observation.
 

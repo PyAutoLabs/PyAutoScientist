@@ -358,7 +358,7 @@ def _render_html(snapshot: dict) -> str:
     return f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_html.escape(name)} Dashboard</title><style>{t.css(BOARD_KEY)}{_EXTRA_CSS}{navigation_css}</style></head>
-<body>{navigation}{'<main id="scientist">' if instance is not None else ""}{banner}{panel}
+<body{' class="instance-cockpit"' if instance is not None else ""}>{navigation}{'<div class="instance-stage">' if instance is not None else ""}{'<main id="scientist">' if instance is not None else ""}{banner}{panel}
 {projects_html}
 <h2 id="dashboards-heading">Dashboards</h2>
 {'<p>No organs connected. Add a connection when your project needs it.</p>' if instance is not None and not snapshot.get("boards") else ''}
@@ -366,8 +366,8 @@ def _render_html(snapshot: dict) -> str:
 {catalogue}
 <noscript><p>Publication snapshot. Open an organ for its latest evidence.</p></noscript>
 {footer}
-{'</main>' if instance is not None else ""}{views}
-{'<noscript><style>.instance-view[hidden]{display:block!important}</style></noscript>' if instance is not None else ""}
+{'</main>' if instance is not None else ""}{views}{'</div>' if instance is not None else ""}
+{'<noscript><style>body.instance-cockpit{height:auto;overflow:auto}.instance-stage{display:block;overflow:visible}.instance-stage>.instance-view[hidden]{display:block!important}.embedded-board>p{display:block}.embedded-board iframe{display:none}</style></noscript>' if instance is not None else ""}
 <script type="application/json" id="scientist-snapshot">{data}</script>
 <script>{t.JS}</script><script>{script}</script><script>{navigation_script}</script></body></html>"""
 

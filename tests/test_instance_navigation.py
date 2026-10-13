@@ -61,3 +61,21 @@ def test_collected_connected_and_paused_boards_remain_in_navigation(monkeypatch)
     assert 'href="#organ-mind"' in page
     assert 'href="#organ-heart"' in page
     assert page.count('<iframe') == 2
+
+
+def test_shell_uses_instance_identity_and_safe_local_toolbar_defaults():
+    nav, _ = render({'repo': 'Mira & <Lab>', 'available': [], 'setup': [], 'boards': []})
+    assert 'Mira &amp; &lt;Lab&gt; <span>/ Cockpit</span>' in nav
+    assert 'disabled title="Awaiting work"' in nav
+    assert '>●</span> IDLE</button>' in nav
+    assert nav.index('cockpit-topbar') < nav.index('instance-nav') < nav.index('cockpit-toolbar')
+    assert 'id="cockpit-reload"' in nav
+    assert 'id="cockpit-external" href="#scientist" target="_blank"' in nav
+    assert 'pyautolabs.github.io' not in nav
+
+
+def test_unprofiled_dashboard_does_not_gain_cockpit_shell():
+    page = ob.render({'owner': 'Example', 'boards': [], 'generated': None}, 'html')
+    assert 'class="instance-cockpit"' not in page
+    assert 'class="instance-shell-header"' not in page
+    assert 'id="cockpit-reload"' not in page
