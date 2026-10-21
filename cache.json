@@ -4,13 +4,33 @@
     "PyAutoLabs/autocti_assistant": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
+        "PyAutoLabs/autocti_visualization#4:merged": {
+          "id": "PyAutoLabs/autocti_visualization#4:merged",
+          "task": "PyAutoLabs/autocti_visualization#4",
+          "repo": "PyAutoLabs/autocti_visualization",
+          "time": "2026-10-21T11:26:17Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autocti_visualization/pull/4"
+        },
+        "PyAutoLabs/autocti_visualization#4:opened": {
+          "id": "PyAutoLabs/autocti_visualization#4:opened",
+          "task": "PyAutoLabs/autocti_visualization#4",
+          "repo": "PyAutoLabs/autocti_visualization",
+          "time": "2026-10-21T11:21:40Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autocti_visualization/pull/4"
+        },
         "PyAutoLabs/autocti_visualization#3:merged": {
           "id": "PyAutoLabs/autocti_visualization#3:merged",
           "task": "PyAutoLabs/autocti_visualization#3",
@@ -93,12 +113,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T18:07:48Z"
+        },
+        "4": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:26:19Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -159,10 +186,10 @@
           "revision": "2026-10-08T08:48:15Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -196,10 +223,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -260,10 +287,10 @@
           "revision": "2026-10-15T15:58:55Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -906,10 +933,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -1098,13 +1125,33 @@
           "revision": "2026-10-15T17:20:52Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
+        "PyAutoLabs/autofit_visualization#4:merged": {
+          "id": "PyAutoLabs/autofit_visualization#4:merged",
+          "task": "PyAutoLabs/autofit_visualization#4",
+          "repo": "PyAutoLabs/autofit_visualization",
+          "time": "2026-10-21T11:26:13Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autofit_visualization/pull/4"
+        },
+        "PyAutoLabs/autofit_visualization#4:opened": {
+          "id": "PyAutoLabs/autofit_visualization#4:opened",
+          "task": "PyAutoLabs/autofit_visualization#4",
+          "repo": "PyAutoLabs/autofit_visualization",
+          "time": "2026-10-21T11:21:35Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autofit_visualization/pull/4"
+        },
         "PyAutoLabs/autofit_visualization#3:merged": {
           "id": "PyAutoLabs/autofit_visualization#3:merged",
           "task": "PyAutoLabs/autofit_visualization#3",
@@ -1187,15 +1234,82 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T18:07:45Z"
+        },
+        "4": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:26:15Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
+        "PyAutoLabs/autofit_workspace#172:comment-6313245095": {
+          "id": "PyAutoLabs/autofit_workspace#172:comment-6313245095",
+          "task": "PyAutoLabs/autofit_workspace#172",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T10:00:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: install zeus in the 3.13+ smoke bootstrap (Python Version Matrix)",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/172#issuecomment-6313245095"
+        },
+        "PyAutoLabs/autofit_workspace#172:closed": {
+          "id": "PyAutoLabs/autofit_workspace#172:closed",
+          "task": "PyAutoLabs/autofit_workspace#172",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T09:59:44Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: install zeus in the 3.13+ smoke bootstrap (Python Version Matrix)",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/172"
+        },
+        "PyAutoLabs/autofit_workspace#173:merged": {
+          "id": "PyAutoLabs/autofit_workspace#173:merged",
+          "task": "PyAutoLabs/autofit_workspace#173",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T09:59:42Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(ci): install zeus in the 3.13+ smoke bootstrap",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/173"
+        },
+        "PyAutoLabs/autofit_workspace#172:comment-6313174632": {
+          "id": "PyAutoLabs/autofit_workspace#172:comment-6313174632",
+          "task": "PyAutoLabs/autofit_workspace#172",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T09:56:05Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: install zeus in the 3.13+ smoke bootstrap (Python Version Matrix)",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/172#issuecomment-6313174632"
+        },
+        "PyAutoLabs/autofit_workspace#173:opened": {
+          "id": "PyAutoLabs/autofit_workspace#173:opened",
+          "task": "PyAutoLabs/autofit_workspace#173",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T09:50:19Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(ci): install zeus in the 3.13+ smoke bootstrap",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/173"
+        },
+        "PyAutoLabs/autofit_workspace#172:opened": {
+          "id": "PyAutoLabs/autofit_workspace#172:opened",
+          "task": "PyAutoLabs/autofit_workspace#172",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-21T09:44:45Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: install zeus in the 3.13+ smoke bootstrap (Python Version Matrix)",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/172"
+        },
         "PyAutoLabs/autofit_workspace#171:merged": {
           "id": "PyAutoLabs/autofit_workspace#171:merged",
           "task": "PyAutoLabs/autofit_workspace#171",
@@ -1332,12 +1446,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-16T21:15:07Z"
+        },
+        "173": {
+          "title": "fix(ci): install zeus in the 3.13+ smoke bootstrap",
+          "is_pr": true,
+          "issue": 172,
+          "state": "closed",
+          "revision": "2026-10-21T09:59:46Z"
+        },
+        "172": {
+          "title": "fix: install zeus in the 3.13+ smoke bootstrap (Python Version Matrix)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:00:04Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -1607,10 +1735,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -1873,10 +2001,10 @@
           "revision": "2026-10-15T20:57:43Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -1991,13 +2119,73 @@
           "revision": "2026-10-15T15:59:15Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
+        "PyAutoLabs/autogalaxy_visualization#4:closed": {
+          "id": "PyAutoLabs/autogalaxy_visualization#4:closed",
+          "task": "PyAutoLabs/autogalaxy_visualization#4",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:26:57Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/issues/4"
+        },
+        "PyAutoLabs/autogalaxy_visualization#4:comment-6314771074": {
+          "id": "PyAutoLabs/autogalaxy_visualization#4:comment-6314771074",
+          "task": "PyAutoLabs/autogalaxy_visualization#4",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:26:56Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/issues/4#issuecomment-6314771074"
+        },
+        "PyAutoLabs/autogalaxy_visualization#5:merged": {
+          "id": "PyAutoLabs/autogalaxy_visualization#5:merged",
+          "task": "PyAutoLabs/autogalaxy_visualization#5",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:26:08Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/pull/5"
+        },
+        "PyAutoLabs/autogalaxy_visualization#4:comment-6314686969": {
+          "id": "PyAutoLabs/autogalaxy_visualization#4:comment-6314686969",
+          "task": "PyAutoLabs/autogalaxy_visualization#4",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:22:11Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/issues/4#issuecomment-6314686969"
+        },
+        "PyAutoLabs/autogalaxy_visualization#5:opened": {
+          "id": "PyAutoLabs/autogalaxy_visualization#5:opened",
+          "task": "PyAutoLabs/autogalaxy_visualization#5",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:21:30Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/pull/5"
+        },
+        "PyAutoLabs/autogalaxy_visualization#4:opened": {
+          "id": "PyAutoLabs/autogalaxy_visualization#4:opened",
+          "task": "PyAutoLabs/autogalaxy_visualization#4",
+          "repo": "PyAutoLabs/autogalaxy_visualization",
+          "time": "2026-10-21T11:15:23Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_visualization/issues/4"
+        },
         "PyAutoLabs/autogalaxy_visualization#3:merged": {
           "id": "PyAutoLabs/autogalaxy_visualization#3:merged",
           "task": "PyAutoLabs/autogalaxy_visualization#3",
@@ -2080,12 +2268,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T18:07:41Z"
+        },
+        "5": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:26:10Z"
+        },
+        "4": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:26:57Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -2200,18 +2402,18 @@
           "revision": "2026-10-15T15:59:34Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -2471,10 +2673,10 @@
           "revision": "2026-10-20T16:44:32Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -3229,10 +3431,10 @@
           "revision": "2026-10-20T17:02:30Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -5136,13 +5338,173 @@
           "revision": "2026-10-18T17:33:55Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
+        "PyAutoLabs/autolens_visualization#12:merged": {
+          "id": "PyAutoLabs/autolens_visualization#12:merged",
+          "task": "PyAutoLabs/autolens_visualization#12",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T14:37:22Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "render: PointSolver refinement figure + thinner model cross",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/12"
+        },
+        "PyAutoLabs/autolens_visualization#12:opened": {
+          "id": "PyAutoLabs/autolens_visualization#12:opened",
+          "task": "PyAutoLabs/autolens_visualization#12",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T13:57:08Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "render: PointSolver refinement figure + thinner model cross",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/12"
+        },
+        "PyAutoLabs/autolens_visualization#11:merged": {
+          "id": "PyAutoLabs/autolens_visualization#11:merged",
+          "task": "PyAutoLabs/autolens_visualization#11",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T13:25:07Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "render: point positions panels (PyAutoLens#786)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/11"
+        },
+        "PyAutoLabs/autolens_visualization#11:opened": {
+          "id": "PyAutoLabs/autolens_visualization#11:opened",
+          "task": "PyAutoLabs/autolens_visualization#11",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T13:00:32Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "render: point positions panels (PyAutoLens#786)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/11"
+        },
+        "PyAutoLabs/autolens_visualization#10:merged": {
+          "id": "PyAutoLabs/autolens_visualization#10:merged",
+          "task": "PyAutoLabs/autolens_visualization#10",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T12:18:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Re-render point fit_image_with_points.png with closed critical curves",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/10"
+        },
+        "PyAutoLabs/autolens_visualization#10:opened": {
+          "id": "PyAutoLabs/autolens_visualization#10:opened",
+          "task": "PyAutoLabs/autolens_visualization#10",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T12:03:17Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Re-render point fit_image_with_points.png with closed critical curves",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/10"
+        },
+        "PyAutoLabs/autolens_visualization#8:comment-6315075285": {
+          "id": "PyAutoLabs/autolens_visualization#8:comment-6315075285",
+          "task": "PyAutoLabs/autolens_visualization#8",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:43:49Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/issues/8#issuecomment-6315075285"
+        },
+        "PyAutoLabs/autolens_visualization#8:closed": {
+          "id": "PyAutoLabs/autolens_visualization#8:closed",
+          "task": "PyAutoLabs/autolens_visualization#8",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:43:25Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/issues/8"
+        },
+        "PyAutoLabs/autolens_visualization#9:merged": {
+          "id": "PyAutoLabs/autolens_visualization#9:merged",
+          "task": "PyAutoLabs/autolens_visualization#9",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:43:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/9"
+        },
+        "PyAutoLabs/autolens_visualization#8:comment-6314978316": {
+          "id": "PyAutoLabs/autolens_visualization#8:comment-6314978316",
+          "task": "PyAutoLabs/autolens_visualization#8",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:38:41Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/issues/8#issuecomment-6314978316"
+        },
+        "PyAutoLabs/autolens_visualization#9:opened": {
+          "id": "PyAutoLabs/autolens_visualization#9:opened",
+          "task": "PyAutoLabs/autolens_visualization#9",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:38:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/9"
+        },
+        "PyAutoLabs/autolens_visualization#8:opened": {
+          "id": "PyAutoLabs/autolens_visualization#8:opened",
+          "task": "PyAutoLabs/autolens_visualization#8",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:34:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/issues/8"
+        },
+        "PyAutoLabs/autolens_visualization#7:merged": {
+          "id": "PyAutoLabs/autolens_visualization#7:merged",
+          "task": "PyAutoLabs/autolens_visualization#7",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:19:52Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: point domains keep image_with_points.png and fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/7"
+        },
+        "PyAutoLabs/autolens_visualization#7:opened": {
+          "id": "PyAutoLabs/autolens_visualization#7:opened",
+          "task": "PyAutoLabs/autolens_visualization#7",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T11:04:30Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: point domains keep image_with_points.png and fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/7"
+        },
+        "PyAutoLabs/autolens_visualization#6:merged": {
+          "id": "PyAutoLabs/autolens_visualization#6:merged",
+          "task": "PyAutoLabs/autolens_visualization#6",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T10:40:21Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: image_with_points.png for the point-source chi-squared domains",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/6"
+        },
+        "PyAutoLabs/autolens_visualization#6:opened": {
+          "id": "PyAutoLabs/autolens_visualization#6:opened",
+          "task": "PyAutoLabs/autolens_visualization#6",
+          "repo": "PyAutoLabs/autolens_visualization",
+          "time": "2026-10-21T09:58:42Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: image_with_points.png for the point-source chi-squared domains",
+          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/6"
+        },
         "PyAutoLabs/autolens_visualization#4:comment-6312288685": {
           "id": "PyAutoLabs/autolens_visualization#4:comment-6312288685",
           "task": "PyAutoLabs/autolens_visualization#4",
@@ -5299,15 +5661,104 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-21T09:08:27Z"
+        },
+        "6": {
+          "title": "feat: image_with_points.png for the point-source chi-squared domains",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:40:24Z"
+        },
+        "7": {
+          "title": "feat: point domains keep image_with_points.png and fit_image_with_points.png",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:19:55Z"
+        },
+        "9": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:43:26Z"
+        },
+        "8": {
+          "title": "feat: mirror rendered figures to an opt-in Eyes scratch folder (lens)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:43:49Z"
+        },
+        "10": {
+          "title": "Re-render point fit_image_with_points.png with closed critical curves",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:18:26Z"
+        },
+        "11": {
+          "title": "render: point positions panels (PyAutoLens#786)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:25:11Z"
+        },
+        "12": {
+          "title": "render: PointSolver refinement figure + thinner model cross",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T14:37:25Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#592:merged": {
+          "id": "PyAutoLabs/autolens_workspace#592:merged",
+          "task": "PyAutoLabs/autolens_workspace#592",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-21T11:14:52Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: point-source scripts describe image_with_points.png and fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/592"
+        },
+        "PyAutoLabs/autolens_workspace#592:opened": {
+          "id": "PyAutoLabs/autolens_workspace#592:opened",
+          "task": "PyAutoLabs/autolens_workspace#592",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-21T11:04:27Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: point-source scripts describe image_with_points.png and fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/592"
+        },
+        "PyAutoLabs/autolens_workspace#591:merged": {
+          "id": "PyAutoLabs/autolens_workspace#591:merged",
+          "task": "PyAutoLabs/autolens_workspace#591",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-21T10:26:48Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: point-source imaging from PSF-convolved point images; pass image= to AnalysisPoint",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/591"
+        },
+        "PyAutoLabs/autolens_workspace#591:opened": {
+          "id": "PyAutoLabs/autolens_workspace#591:opened",
+          "task": "PyAutoLabs/autolens_workspace#591",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-21T09:58:40Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: point-source imaging from PSF-convolved point images; pass image= to AnalysisPoint",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/591"
+        },
         "PyAutoLabs/autolens_workspace#590:merged": {
           "id": "PyAutoLabs/autolens_workspace#590:merged",
           "task": "PyAutoLabs/autolens_workspace#590",
@@ -5538,20 +5989,34 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-15T15:59:25Z"
+        },
+        "591": {
+          "title": "feat: point-source imaging from PSF-convolved point images; pass image= to AnalysisPoint",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:26:50Z"
+        },
+        "592": {
+          "title": "docs: point-source scripts describe image_with_points.png and fit_image_with_points.png",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:14:54Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -5585,10 +6050,10 @@
           "revision": "2026-10-16T19:45:47Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -5649,10 +6114,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -5797,10 +6262,10 @@
           "revision": "2026-10-16T21:09:46Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -6205,10 +6670,10 @@
           "revision": "2026-10-10T16:45:50Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -6353,10 +6818,10 @@
           "revision": "2026-10-17T17:54:30Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -6444,10 +6909,10 @@
           "revision": "2026-10-08T09:01:20Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -6535,13 +7000,513 @@
           "revision": "2026-10-08T09:01:16Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#643:comment-6317072900": {
+          "id": "PyAutoLabs/PyAutoArray#643:comment-6317072900",
+          "task": "PyAutoLabs/PyAutoArray#643",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:18:52Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/643#issuecomment-6317072900"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6316914804": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6316914804",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:11:25Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6316914804"
+        },
+        "PyAutoLabs/PyAutoArray#648:comment-6316913898": {
+          "id": "PyAutoLabs/PyAutoArray#648:comment-6316913898",
+          "task": "PyAutoLabs/PyAutoArray#648",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:11:22Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 4 — interior-point positivity with active-set polish",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/648#issuecomment-6316913898"
+        },
+        "PyAutoLabs/PyAutoArray#648:closed": {
+          "id": "PyAutoLabs/PyAutoArray#648:closed",
+          "task": "PyAutoLabs/PyAutoArray#648",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:10:52Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: matrix-free interferometer inversion phase 4 — interior-point positivity with active-set polish",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/648"
+        },
+        "PyAutoLabs/PyAutoArray#652:merged": {
+          "id": "PyAutoLabs/PyAutoArray#652:merged",
+          "task": "PyAutoLabs/PyAutoArray#652",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:10:51Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: matrix-free interferometer positivity via primal-dual interior point with active-set polish (phase 4 of ",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/652"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6316809948": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6316809948",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:06:26Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6316809948"
+        },
+        "PyAutoLabs/PyAutoArray#648:comment-6316809084": {
+          "id": "PyAutoLabs/PyAutoArray#648:comment-6316809084",
+          "task": "PyAutoLabs/PyAutoArray#648",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:06:24Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 4 — interior-point positivity with active-set polish",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/648#issuecomment-6316809084"
+        },
+        "PyAutoLabs/PyAutoArray#652:opened": {
+          "id": "PyAutoLabs/PyAutoArray#652:opened",
+          "task": "PyAutoLabs/PyAutoArray#652",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T13:06:13Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: matrix-free interferometer positivity via primal-dual interior point with active-set polish (phase 4 of ",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/652"
+        },
+        "PyAutoLabs/PyAutoArray#647:comment-6316330932": {
+          "id": "PyAutoLabs/PyAutoArray#647:comment-6316330932",
+          "task": "PyAutoLabs/PyAutoArray#647",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:47:43Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 3 — sparse log-det + stochastic Lanczos quadrature evidence",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/647#issuecomment-6316330932"
+        },
+        "PyAutoLabs/PyAutoArray#647:closed": {
+          "id": "PyAutoLabs/PyAutoArray#647:closed",
+          "task": "PyAutoLabs/PyAutoArray#647",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:47:10Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: matrix-free interferometer inversion phase 3 — sparse log-det + stochastic Lanczos quadrature evidence",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/647"
+        },
+        "PyAutoLabs/PyAutoArray#651:merged": {
+          "id": "PyAutoLabs/PyAutoArray#651:merged",
+          "task": "PyAutoLabs/PyAutoArray#651",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:47:08Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: matrix-free interferometer evidence via sparse log-dets + stochastic Lanczos quadrature (phase 3 of #638",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/651"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6316124040": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6316124040",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:39:40Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6316124040"
+        },
+        "PyAutoLabs/PyAutoArray#647:comment-6316123441": {
+          "id": "PyAutoLabs/PyAutoArray#647:comment-6316123441",
+          "task": "PyAutoLabs/PyAutoArray#647",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:39:39Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 3 — sparse log-det + stochastic Lanczos quadrature evidence",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/647#issuecomment-6316123441"
+        },
+        "PyAutoLabs/PyAutoArray#651:opened": {
+          "id": "PyAutoLabs/PyAutoArray#651:opened",
+          "task": "PyAutoLabs/PyAutoArray#651",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:39:27Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: matrix-free interferometer evidence via sparse log-dets + stochastic Lanczos quadrature (phase 3 of #638",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/651"
+        },
+        "PyAutoLabs/PyAutoArray#646:comment-6315911857": {
+          "id": "PyAutoLabs/PyAutoArray#646:comment-6315911857",
+          "task": "PyAutoLabs/PyAutoArray#646",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:29:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 2 — sparse Matérn (SPDE) precision regularization",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/646#issuecomment-6315911857"
+        },
+        "PyAutoLabs/PyAutoArray#646:closed": {
+          "id": "PyAutoLabs/PyAutoArray#646:closed",
+          "task": "PyAutoLabs/PyAutoArray#646",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:28:31Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: matrix-free interferometer inversion phase 2 — sparse Matérn (SPDE) precision regularization",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/646"
+        },
+        "PyAutoLabs/PyAutoArray#650:merged": {
+          "id": "PyAutoLabs/PyAutoArray#650:merged",
+          "task": "PyAutoLabs/PyAutoArray#650",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:28:30Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: MaternSparse sparse Matérn (SPDE) precision regularization (phase 2 of #638)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/650"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6315818383": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6315818383",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:24:04Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6315818383"
+        },
+        "PyAutoLabs/PyAutoArray#646:comment-6315817907": {
+          "id": "PyAutoLabs/PyAutoArray#646:comment-6315817907",
+          "task": "PyAutoLabs/PyAutoArray#646",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:24:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 2 — sparse Matérn (SPDE) precision regularization",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/646#issuecomment-6315817907"
+        },
+        "PyAutoLabs/PyAutoArray#650:opened": {
+          "id": "PyAutoLabs/PyAutoArray#650:opened",
+          "task": "PyAutoLabs/PyAutoArray#650",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:23:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: MaternSparse sparse Matérn (SPDE) precision regularization (phase 2 of #638)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/650"
+        },
+        "PyAutoLabs/PyAutoArray#643:comment-6315566212": {
+          "id": "PyAutoLabs/PyAutoArray#643:comment-6315566212",
+          "task": "PyAutoLabs/PyAutoArray#643",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:10:27Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/643#issuecomment-6315566212"
+        },
+        "PyAutoLabs/PyAutoArray#643:closed": {
+          "id": "PyAutoLabs/PyAutoArray#643:closed",
+          "task": "PyAutoLabs/PyAutoArray#643",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:09:56Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/643"
+        },
+        "PyAutoLabs/PyAutoArray#649:merged": {
+          "id": "PyAutoLabs/PyAutoArray#649:merged",
+          "task": "PyAutoLabs/PyAutoArray#649",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:09:55Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; backend-dispatched scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/649"
+        },
+        "PyAutoLabs/PyAutoArray#643:comment-6315467591": {
+          "id": "PyAutoLabs/PyAutoArray#643:comment-6315467591",
+          "task": "PyAutoLabs/PyAutoArray#643",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:05:29Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/643#issuecomment-6315467591"
+        },
+        "PyAutoLabs/PyAutoArray#649:opened": {
+          "id": "PyAutoLabs/PyAutoArray#649:opened",
+          "task": "PyAutoLabs/PyAutoArray#649",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:05:19Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; backend-dispatched scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/649"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6315446621": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6315446621",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:04:21Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6315446621"
+        },
+        "PyAutoLabs/PyAutoArray#648:opened": {
+          "id": "PyAutoLabs/PyAutoArray#648:opened",
+          "task": "PyAutoLabs/PyAutoArray#648",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:03:51Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: matrix-free interferometer inversion phase 4 — interior-point positivity with active-set polish",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/648"
+        },
+        "PyAutoLabs/PyAutoArray#647:opened": {
+          "id": "PyAutoLabs/PyAutoArray#647:opened",
+          "task": "PyAutoLabs/PyAutoArray#647",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T12:03:49Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: matrix-free interferometer inversion phase 3 — sparse log-det + stochastic Lanczos quadrature evidence",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/647"
+        },
+        "PyAutoLabs/PyAutoArray#646:opened": {
+          "id": "PyAutoLabs/PyAutoArray#646:opened",
+          "task": "PyAutoLabs/PyAutoArray#646",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:58:34Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: matrix-free interferometer inversion phase 2 — sparse Matérn (SPDE) precision regularization",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/646"
+        },
+        "PyAutoLabs/PyAutoArray#642:comment-6315079782": {
+          "id": "PyAutoLabs/PyAutoArray#642:comment-6315079782",
+          "task": "PyAutoLabs/PyAutoArray#642",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:44:04Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 1 — operator data term + PCG parity",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/642#issuecomment-6315079782"
+        },
+        "PyAutoLabs/PyAutoArray#642:closed": {
+          "id": "PyAutoLabs/PyAutoArray#642:closed",
+          "task": "PyAutoLabs/PyAutoArray#642",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:43:42Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: matrix-free interferometer inversion phase 1 — operator data term + PCG parity",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/642"
+        },
+        "PyAutoLabs/PyAutoArray#645:merged": {
+          "id": "PyAutoLabs/PyAutoArray#645:merged",
+          "task": "PyAutoLabs/PyAutoArray#645",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:43:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: matrix-free interferometer data operator + Powell-preconditioned PCG (phase 1 of #638)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/645"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6314988773": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6314988773",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:39:17Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6314988773"
+        },
+        "PyAutoLabs/PyAutoArray#642:comment-6314988368": {
+          "id": "PyAutoLabs/PyAutoArray#642:comment-6314988368",
+          "task": "PyAutoLabs/PyAutoArray#642",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:39:16Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion phase 1 — operator data term + PCG parity",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/642#issuecomment-6314988368"
+        },
+        "PyAutoLabs/PyAutoArray#645:opened": {
+          "id": "PyAutoLabs/PyAutoArray#645:opened",
+          "task": "PyAutoLabs/PyAutoArray#645",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:39:03Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: matrix-free interferometer data operator + Powell-preconditioned PCG (phase 1 of #638)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/645"
+        },
+        "PyAutoLabs/PyAutoArray#640:comment-6314801341": {
+          "id": "PyAutoLabs/PyAutoArray#640:comment-6314801341",
+          "task": "PyAutoLabs/PyAutoArray#640",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:28:42Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/640#issuecomment-6314801341"
+        },
+        "PyAutoLabs/PyAutoArray#640:closed": {
+          "id": "PyAutoLabs/PyAutoArray#640:closed",
+          "task": "PyAutoLabs/PyAutoArray#640",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:28:14Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/640"
+        },
+        "PyAutoLabs/PyAutoArray#644:merged": {
+          "id": "PyAutoLabs/PyAutoArray#644:merged",
+          "task": "PyAutoLabs/PyAutoArray#644",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:28:12Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/644"
+        },
+        "PyAutoLabs/PyAutoArray#640:comment-6314713336": {
+          "id": "PyAutoLabs/PyAutoArray#640:comment-6314713336",
+          "task": "PyAutoLabs/PyAutoArray#640",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:23:38Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/640#issuecomment-6314713336"
+        },
+        "PyAutoLabs/PyAutoArray#644:opened": {
+          "id": "PyAutoLabs/PyAutoArray#644:opened",
+          "task": "PyAutoLabs/PyAutoArray#644",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T11:23:27Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/644"
+        },
+        "PyAutoLabs/PyAutoArray#643:opened": {
+          "id": "PyAutoLabs/PyAutoArray#643:opened",
+          "task": "PyAutoLabs/PyAutoArray#643",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:56:55Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/643"
+        },
+        "PyAutoLabs/PyAutoArray#638:comment-6314128611": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6314128611",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:49:54Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6314128611"
+        },
+        "PyAutoLabs/PyAutoArray#642:opened": {
+          "id": "PyAutoLabs/PyAutoArray#642:opened",
+          "task": "PyAutoLabs/PyAutoArray#642",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:49:39Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: matrix-free interferometer inversion phase 1 — operator data term + PCG parity",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/642"
+        },
+        "PyAutoLabs/PyAutoArray#639:comment-6314051007": {
+          "id": "PyAutoLabs/PyAutoArray#639:comment-6314051007",
+          "task": "PyAutoLabs/PyAutoArray#639",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:45:21Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/639#issuecomment-6314051007"
+        },
+        "PyAutoLabs/PyAutoArray#639:closed": {
+          "id": "PyAutoLabs/PyAutoArray#639:closed",
+          "task": "PyAutoLabs/PyAutoArray#639",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:44:43Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/639"
+        },
+        "PyAutoLabs/PyAutoArray#641:merged": {
+          "id": "PyAutoLabs/PyAutoArray#641:merged",
+          "task": "PyAutoLabs/PyAutoArray#641",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:44:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/641"
+        },
+        "PyAutoLabs/PyAutoArray#639:comment-6313904824": {
+          "id": "PyAutoLabs/PyAutoArray#639:comment-6313904824",
+          "task": "PyAutoLabs/PyAutoArray#639",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:36:50Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/639#issuecomment-6313904824"
+        },
+        "PyAutoLabs/PyAutoArray#641:opened": {
+          "id": "PyAutoLabs/PyAutoArray#641:opened",
+          "task": "PyAutoLabs/PyAutoArray#641",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:36:37Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/641"
+        },
+        "PyAutoLabs/PyAutoArray#640:opened": {
+          "id": "PyAutoLabs/PyAutoArray#640:opened",
+          "task": "PyAutoLabs/PyAutoArray#640",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:23:51Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/640"
+        },
+        "PyAutoLabs/PyAutoArray#639:opened": {
+          "id": "PyAutoLabs/PyAutoArray#639:opened",
+          "task": "PyAutoLabs/PyAutoArray#639",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-21T10:18:20Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/639"
+        },
         "PyAutoLabs/PyAutoArray#638:opened": {
           "id": "PyAutoLabs/PyAutoArray#638:opened",
           "task": "PyAutoLabs/PyAutoArray#638",
@@ -8030,16 +8995,154 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-21T07:36:09Z"
+          "revision": "2026-10-21T13:11:25Z"
+        },
+        "639": {
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:45:21Z"
+        },
+        "641": {
+          "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:45:25Z"
+        },
+        "644": {
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:28:40Z"
+        },
+        "640": {
+          "title": "feat: primary beam for interferometer datasets, transformers and the sparse inversion",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:28:42Z"
+        },
+        "645": {
+          "title": "feat: matrix-free interferometer data operator + Powell-preconditioned PCG (phase 1 of #638)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:44:03Z"
+        },
+        "642": {
+          "title": "feat: matrix-free interferometer inversion phase 1 — operator data term + PCG parity",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:44:04Z"
+        },
+        "649": {
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; backend-dispatched scatter-add helpers",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:10:25Z"
+        },
+        "650": {
+          "title": "feat: MaternSparse sparse Matérn (SPDE) precision regularization (phase 2 of #638)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:29:01Z"
+        },
+        "646": {
+          "title": "feat: matrix-free interferometer inversion phase 2 — sparse Matérn (SPDE) precision regularization",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:29:03Z"
+        },
+        "651": {
+          "title": "feat: matrix-free interferometer evidence via sparse log-dets + stochastic Lanczos quadrature (phase 3 of #638",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:47:41Z"
+        },
+        "647": {
+          "title": "feat: matrix-free interferometer inversion phase 3 — sparse log-det + stochastic Lanczos quadrature evidence",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:47:43Z"
+        },
+        "652": {
+          "title": "feat: matrix-free interferometer positivity via primal-dual interior point with active-set polish (phase 4 of ",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:11:20Z"
+        },
+        "648": {
+          "title": "feat: matrix-free interferometer inversion phase 4 — interior-point positivity with active-set polish",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:11:22Z"
+        },
+        "643": {
+          "title": "fix: mask invalid mapper triplets on the imaging sparse path; lazy JAX import in its scatter-add helpers",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:18:52Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#530:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#530:merged",
+          "task": "PyAutoLabs/PyAutoBrain#530",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-21T11:43:28Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs(eyes): scratch mirror now covers autolens_visualization",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/530"
+        },
+        "PyAutoLabs/PyAutoBrain#530:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#530:opened",
+          "task": "PyAutoLabs/PyAutoBrain#530",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-21T11:38:33Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs(eyes): scratch mirror now covers autolens_visualization",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/530"
+        },
+        "PyAutoLabs/PyAutoBrain#529:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#529:merged",
+          "task": "PyAutoLabs/PyAutoBrain#529",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-21T11:26:21Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs(eyes): active image work mode with the Eyes scratch mirror",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/529"
+        },
+        "PyAutoLabs/PyAutoBrain#529:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#529:opened",
+          "task": "PyAutoLabs/PyAutoBrain#529",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-21T11:21:53Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs(eyes): active image work mode with the Eyes scratch mirror",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/529"
+        },
         "PyAutoLabs/PyAutoBrain#527:comment-6200679699": {
           "id": "PyAutoLabs/PyAutoBrain#527:comment-6200679699",
           "task": "PyAutoLabs/PyAutoBrain#527",
@@ -9273,12 +10376,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-15T19:36:45Z"
+        },
+        "529": {
+          "title": "docs(eyes): active image work mode with the Eyes scratch mirror",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:26:23Z"
+        },
+        "530": {
+          "title": "docs(eyes): scratch mirror now covers autolens_visualization",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:43:31Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -9958,10 +11075,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -10022,10 +11139,10 @@
           "revision": "2026-10-08T13:25:40Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -10713,10 +11830,10 @@
           "revision": "2026-10-19T17:33:28Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -10804,10 +11921,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -11377,10 +12494,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -12024,10 +13141,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -13970,13 +15087,73 @@
           "revision": "2026-10-21T09:27:35Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
+        "PyAutoLabs/PyAutoGalaxy#654:comment-6315546818": {
+          "id": "PyAutoLabs/PyAutoGalaxy#654:comment-6315546818",
+          "task": "PyAutoLabs/PyAutoGalaxy#654",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T12:09:24Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/654#issuecomment-6315546818"
+        },
+        "PyAutoLabs/PyAutoGalaxy#654:closed": {
+          "id": "PyAutoLabs/PyAutoGalaxy#654:closed",
+          "task": "PyAutoLabs/PyAutoGalaxy#654",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T12:08:59Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/654"
+        },
+        "PyAutoLabs/PyAutoGalaxy#655:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#655:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#655",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T12:08:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/655"
+        },
+        "PyAutoLabs/PyAutoGalaxy#654:comment-6315462921": {
+          "id": "PyAutoLabs/PyAutoGalaxy#654:comment-6315462921",
+          "task": "PyAutoLabs/PyAutoGalaxy#654",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T12:05:15Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/654#issuecomment-6315462921"
+        },
+        "PyAutoLabs/PyAutoGalaxy#655:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#655:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#655",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T12:04:50Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/655"
+        },
+        "PyAutoLabs/PyAutoGalaxy#654:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#654:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#654",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-21T11:58:32Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/654"
+        },
         "PyAutoLabs/PyAutoGalaxy#653:merged": {
           "id": "PyAutoLabs/PyAutoGalaxy#653:merged",
           "task": "PyAutoLabs/PyAutoGalaxy#653",
@@ -14474,12 +15651,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-16T04:48:18Z"
+        },
+        "655": {
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:09:23Z"
+        },
+        "654": {
+          "title": "feat: persist the interferometer primary beam through analysis save and aggregator rebuild",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:09:24Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -14891,13 +16082,73 @@
           "revision": "2026-10-16T21:12:22Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
+        "PyAutoLabs/PyAutoHands#317:comment-6313244388": {
+          "id": "PyAutoLabs/PyAutoHands#317:comment-6313244388",
+          "task": "PyAutoLabs/PyAutoHands#317",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T10:00:01Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: run order-dependent smoke lists (euclid) as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/317#issuecomment-6313244388"
+        },
+        "PyAutoLabs/PyAutoHands#317:closed": {
+          "id": "PyAutoLabs/PyAutoHands#317:closed",
+          "task": "PyAutoLabs/PyAutoHands#317",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T09:59:33Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: run order-dependent smoke lists (euclid) as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/317"
+        },
+        "PyAutoLabs/PyAutoHands#318:merged": {
+          "id": "PyAutoLabs/PyAutoHands#318:merged",
+          "task": "PyAutoLabs/PyAutoHands#318",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T09:59:31Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: emit one ordered shard for order-dependent smoke lists",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/318"
+        },
+        "PyAutoLabs/PyAutoHands#317:comment-6313174169": {
+          "id": "PyAutoLabs/PyAutoHands#317:comment-6313174169",
+          "task": "PyAutoLabs/PyAutoHands#317",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T09:56:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: run order-dependent smoke lists (euclid) as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/317#issuecomment-6313174169"
+        },
+        "PyAutoLabs/PyAutoHands#318:opened": {
+          "id": "PyAutoLabs/PyAutoHands#318:opened",
+          "task": "PyAutoLabs/PyAutoHands#318",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T09:55:20Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: emit one ordered shard for order-dependent smoke lists",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/318"
+        },
+        "PyAutoLabs/PyAutoHands#317:opened": {
+          "id": "PyAutoLabs/PyAutoHands#317:opened",
+          "task": "PyAutoLabs/PyAutoHands#317",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-21T09:44:44Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: run order-dependent smoke lists (euclid) as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/317"
+        },
         "PyAutoLabs/PyAutoHands#313:comment-6225270033": {
           "id": "PyAutoLabs/PyAutoHands#313:comment-6225270033",
           "task": "PyAutoLabs/PyAutoHands#313",
@@ -15249,15 +16500,189 @@
           "issue": 313,
           "state": "closed",
           "revision": "2026-10-16T21:43:46Z"
+        },
+        "318": {
+          "title": "fix: emit one ordered shard for order-dependent smoke lists",
+          "is_pr": true,
+          "issue": 317,
+          "state": "closed",
+          "revision": "2026-10-21T09:59:34Z"
+        },
+        "317": {
+          "title": "fix: run order-dependent smoke lists (euclid) as one ordered shard",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:00:01Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
+        "PyAutoLabs/PyAutoHeart#314:comment-6313892695": {
+          "id": "PyAutoLabs/PyAutoHeart#314:comment-6313892695",
+          "task": "PyAutoLabs/PyAutoHeart#314",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:36:07Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: ci_timing flags PR runs cancelled on PR close as kill suspects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/314#issuecomment-6313892695"
+        },
+        "PyAutoLabs/PyAutoHeart#314:closed": {
+          "id": "PyAutoLabs/PyAutoHeart#314:closed",
+          "task": "PyAutoLabs/PyAutoHeart#314",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:36:04Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: ci_timing flags PR runs cancelled on PR close as kill suspects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/314"
+        },
+        "PyAutoLabs/PyAutoHeart#315:merged": {
+          "id": "PyAutoLabs/PyAutoHeart#315:merged",
+          "task": "PyAutoLabs/PyAutoHeart#315",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:36:03Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(ci_timing): treat PR runs cancelled by their PR closing as abandoned",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/315"
+        },
+        "PyAutoLabs/PyAutoHeart#315:comment-6313854331": {
+          "id": "PyAutoLabs/PyAutoHeart#315:comment-6313854331",
+          "task": "PyAutoLabs/PyAutoHeart#315",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:33:52Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix(ci_timing): treat PR runs cancelled by their PR closing as abandoned",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/315#issuecomment-6313854331"
+        },
+        "PyAutoLabs/PyAutoHeart#314:comment-6313853915": {
+          "id": "PyAutoLabs/PyAutoHeart#314:comment-6313853915",
+          "task": "PyAutoLabs/PyAutoHeart#314",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:33:51Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: ci_timing flags PR runs cancelled on PR close as kill suspects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/314#issuecomment-6313853915"
+        },
+        "PyAutoLabs/PyAutoHeart#315:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#315:opened",
+          "task": "PyAutoLabs/PyAutoHeart#315",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:32:07Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(ci_timing): treat PR runs cancelled by their PR closing as abandoned",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/315"
+        },
+        "PyAutoLabs/PyAutoHeart#314:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#314:opened",
+          "task": "PyAutoLabs/PyAutoHeart#314",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:26:30Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: ci_timing flags PR runs cancelled on PR close as kill suspects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/314"
+        },
+        "PyAutoLabs/PyAutoHeart#311:comment-6313609027": {
+          "id": "PyAutoLabs/PyAutoHeart#311:comment-6313609027",
+          "task": "PyAutoLabs/PyAutoHeart#311",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:19:56Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: ci_timing treats concurrency-superseded main cancels as kill events",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/311#issuecomment-6313609027"
+        },
+        "PyAutoLabs/PyAutoHeart#311:closed": {
+          "id": "PyAutoLabs/PyAutoHeart#311:closed",
+          "task": "PyAutoLabs/PyAutoHeart#311",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:19:54Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: ci_timing treats concurrency-superseded main cancels as kill events",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/311"
+        },
+        "PyAutoLabs/PyAutoHeart#313:merged": {
+          "id": "PyAutoLabs/PyAutoHeart#313:merged",
+          "task": "PyAutoLabs/PyAutoHeart#313",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:19:52Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(ci_timing): treat concurrency-superseded cancels on main as benign",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/313"
+        },
+        "PyAutoLabs/PyAutoHeart#311:comment-6313385359": {
+          "id": "PyAutoLabs/PyAutoHeart#311:comment-6313385359",
+          "task": "PyAutoLabs/PyAutoHeart#311",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:07:38Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: ci_timing treats concurrency-superseded main cancels as kill events",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/311#issuecomment-6313385359"
+        },
+        "PyAutoLabs/PyAutoHeart#313:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#313:opened",
+          "task": "PyAutoLabs/PyAutoHeart#313",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T10:07:16Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(ci_timing): treat concurrency-superseded cancels on main as benign",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/313"
+        },
+        "PyAutoLabs/PyAutoHeart#312:merged": {
+          "id": "PyAutoLabs/PyAutoHeart#312:merged",
+          "task": "PyAutoLabs/PyAutoHeart#312",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T09:59:38Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(ci): run the Euclid smoke list as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/312"
+        },
+        "PyAutoLabs/PyAutoHeart#312:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#312:opened",
+          "task": "PyAutoLabs/PyAutoHeart#312",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T09:55:30Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix(ci): run the Euclid smoke list as one ordered shard",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/312"
+        },
+        "PyAutoLabs/PyAutoHeart#311:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#311:opened",
+          "task": "PyAutoLabs/PyAutoHeart#311",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T09:44:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: ci_timing treats concurrency-superseded main cancels as kill events",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/311"
+        },
+        "PyAutoLabs/PyAutoHeart#310:closed": {
+          "id": "PyAutoLabs/PyAutoHeart#310:closed",
+          "task": "PyAutoLabs/PyAutoHeart#310",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-10-21T09:41:12Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "[heart-health] Degraded ecosystem health",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/310"
+        },
         "PyAutoLabs/PyAutoHeart#310:opened": {
           "id": "PyAutoLabs/PyAutoHeart#310:opened",
           "task": "PyAutoLabs/PyAutoHeart#310",
@@ -15954,14 +17379,49 @@
           "title": "[heart-health] Degraded ecosystem health",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-20T09:48:22Z"
+          "state": "closed",
+          "revision": "2026-10-21T09:41:12Z"
+        },
+        "312": {
+          "title": "fix(ci): run the Euclid smoke list as one ordered shard",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T09:59:41Z"
+        },
+        "313": {
+          "title": "fix(ci_timing): treat concurrency-superseded cancels on main as benign",
+          "is_pr": true,
+          "issue": 311,
+          "state": "closed",
+          "revision": "2026-10-21T10:19:55Z"
+        },
+        "311": {
+          "title": "fix: ci_timing treats concurrency-superseded main cancels as kill events",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:19:57Z"
+        },
+        "315": {
+          "title": "fix(ci_timing): treat PR runs cancelled by their PR closing as abandoned",
+          "is_pr": true,
+          "issue": 314,
+          "state": "closed",
+          "revision": "2026-10-21T10:36:06Z"
+        },
+        "314": {
+          "title": "fix: ci_timing flags PR runs cancelled on PR close as kill suspects",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:36:07Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -16919,13 +18379,353 @@
           "revision": "2026-10-19T19:27:03Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
+        "PyAutoLabs/PyAutoLens#787:comment-6318714409": {
+          "id": "PyAutoLabs/PyAutoLens#787:comment-6318714409",
+          "task": "PyAutoLabs/PyAutoLens#787",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T14:37:51Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/787#issuecomment-6318714409"
+        },
+        "PyAutoLabs/PyAutoLens#787:closed": {
+          "id": "PyAutoLabs/PyAutoLens#787:closed",
+          "task": "PyAutoLabs/PyAutoLens#787",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T14:29:38Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/787"
+        },
+        "PyAutoLabs/PyAutoLens#788:merged": {
+          "id": "PyAutoLabs/PyAutoLens#788:merged",
+          "task": "PyAutoLabs/PyAutoLens#788",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T14:29:37Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/788"
+        },
+        "PyAutoLabs/PyAutoLens#787:comment-6317890312": {
+          "id": "PyAutoLabs/PyAutoLens#787:comment-6317890312",
+          "task": "PyAutoLabs/PyAutoLens#787",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:57:19Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/787#issuecomment-6317890312"
+        },
+        "PyAutoLabs/PyAutoLens#788:opened": {
+          "id": "PyAutoLabs/PyAutoLens#788:opened",
+          "task": "PyAutoLabs/PyAutoLens#788",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:56:21Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/788"
+        },
+        "PyAutoLabs/PyAutoLens#787:opened": {
+          "id": "PyAutoLabs/PyAutoLens#787:opened",
+          "task": "PyAutoLabs/PyAutoLens#787",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:30:24Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/787"
+        },
+        "PyAutoLabs/PyAutoLens#785:comment-6317222633": {
+          "id": "PyAutoLabs/PyAutoLens#785:comment-6317222633",
+          "task": "PyAutoLabs/PyAutoLens#785",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:25:38Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/785#issuecomment-6317222633"
+        },
+        "PyAutoLabs/PyAutoLens#785:closed": {
+          "id": "PyAutoLabs/PyAutoLens#785:closed",
+          "task": "PyAutoLabs/PyAutoLens#785",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:17:32Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/785"
+        },
+        "PyAutoLabs/PyAutoLens#786:merged": {
+          "id": "PyAutoLabs/PyAutoLens#786:merged",
+          "task": "PyAutoLabs/PyAutoLens#786",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:17:30Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/786"
+        },
+        "PyAutoLabs/PyAutoLens#785:comment-6316672161": {
+          "id": "PyAutoLabs/PyAutoLens#785:comment-6316672161",
+          "task": "PyAutoLabs/PyAutoLens#785",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T13:00:07Z",
+          "kind": "progress",
+          "summary": "Library PR recorded",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/785#issuecomment-6316672161"
+        },
+        "PyAutoLabs/PyAutoLens#786:opened": {
+          "id": "PyAutoLabs/PyAutoLens#786:opened",
+          "task": "PyAutoLabs/PyAutoLens#786",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:59:54Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/786"
+        },
+        "PyAutoLabs/PyAutoLens#785:opened": {
+          "id": "PyAutoLabs/PyAutoLens#785:opened",
+          "task": "PyAutoLabs/PyAutoLens#785",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:38:38Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/785"
+        },
+        "PyAutoLabs/PyAutoLens#783:comment-6315730908": {
+          "id": "PyAutoLabs/PyAutoLens#783:comment-6315730908",
+          "task": "PyAutoLabs/PyAutoLens#783",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:19:20Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: point-source critical curves clipped into arcs by a too-small grid",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/783#issuecomment-6315730908"
+        },
+        "PyAutoLabs/PyAutoLens#783:closed": {
+          "id": "PyAutoLabs/PyAutoLens#783:closed",
+          "task": "PyAutoLabs/PyAutoLens#783",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:18:14Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: point-source critical curves clipped into arcs by a too-small grid",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/783"
+        },
+        "PyAutoLabs/PyAutoLens#784:merged": {
+          "id": "PyAutoLabs/PyAutoLens#784:merged",
+          "task": "PyAutoLabs/PyAutoLens#784",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:18:13Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: point-source and weak-lensing critical-curve grids (clipped / transposed)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/784"
+        },
+        "PyAutoLabs/PyAutoLens#783:comment-6315428451": {
+          "id": "PyAutoLabs/PyAutoLens#783:comment-6315428451",
+          "task": "PyAutoLabs/PyAutoLens#783",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:03:21Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: point-source critical curves clipped into arcs by a too-small grid",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/783#issuecomment-6315428451"
+        },
+        "PyAutoLabs/PyAutoLens#784:comment-6315427848": {
+          "id": "PyAutoLabs/PyAutoLens#784:comment-6315427848",
+          "task": "PyAutoLabs/PyAutoLens#784",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:03:19Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: point-source and weak-lensing critical-curve grids (clipped / transposed)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/784#issuecomment-6315427848"
+        },
+        "PyAutoLabs/PyAutoLens#784:opened": {
+          "id": "PyAutoLabs/PyAutoLens#784:opened",
+          "task": "PyAutoLabs/PyAutoLens#784",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T12:03:13Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: point-source and weak-lensing critical-curve grids (clipped / transposed)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/784"
+        },
+        "PyAutoLabs/PyAutoLens#783:opened": {
+          "id": "PyAutoLabs/PyAutoLens#783:opened",
+          "task": "PyAutoLabs/PyAutoLens#783",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:55:54Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: point-source critical curves clipped into arcs by a too-small grid",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/783"
+        },
+        "PyAutoLabs/PyAutoLens#781:comment-6314663238": {
+          "id": "PyAutoLabs/PyAutoLens#781:comment-6314663238",
+          "task": "PyAutoLabs/PyAutoLens#781",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:20:50Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/781#issuecomment-6314663238"
+        },
+        "PyAutoLabs/PyAutoLens#781:closed": {
+          "id": "PyAutoLabs/PyAutoLens#781:closed",
+          "task": "PyAutoLabs/PyAutoLens#781",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:14:44Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/781"
+        },
+        "PyAutoLabs/PyAutoLens#782:merged": {
+          "id": "PyAutoLabs/PyAutoLens#782:merged",
+          "task": "PyAutoLabs/PyAutoLens#782",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:14:43Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/782"
+        },
+        "PyAutoLabs/PyAutoLens#781:comment-6314378527": {
+          "id": "PyAutoLabs/PyAutoLens#781:comment-6314378527",
+          "task": "PyAutoLabs/PyAutoLens#781",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:04:34Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/781#issuecomment-6314378527"
+        },
+        "PyAutoLabs/PyAutoLens#782:comment-6314378007": {
+          "id": "PyAutoLabs/PyAutoLens#782:comment-6314378007",
+          "task": "PyAutoLabs/PyAutoLens#782",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:04:33Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/782#issuecomment-6314378007"
+        },
+        "PyAutoLabs/PyAutoLens#782:opened": {
+          "id": "PyAutoLabs/PyAutoLens#782:opened",
+          "task": "PyAutoLabs/PyAutoLens#782",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T11:04:23Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/782"
+        },
+        "PyAutoLabs/PyAutoLens#781:opened": {
+          "id": "PyAutoLabs/PyAutoLens#781:opened",
+          "task": "PyAutoLabs/PyAutoLens#781",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T10:49:18Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/781"
+        },
+        "PyAutoLabs/PyAutoLens#779:closed": {
+          "id": "PyAutoLabs/PyAutoLens#779:closed",
+          "task": "PyAutoLabs/PyAutoLens#779",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T10:41:03Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: overlay point-source positions on a dataset image (+ PyAutoEyes figure)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/779"
+        },
+        "PyAutoLabs/PyAutoLens#779:comment-6313976851": {
+          "id": "PyAutoLabs/PyAutoLens#779:comment-6313976851",
+          "task": "PyAutoLabs/PyAutoLens#779",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T10:41:01Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: overlay point-source positions on a dataset image (+ PyAutoEyes figure)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/779#issuecomment-6313976851"
+        },
+        "PyAutoLabs/PyAutoLens#780:merged": {
+          "id": "PyAutoLabs/PyAutoLens#780:merged",
+          "task": "PyAutoLabs/PyAutoLens#780",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T10:26:38Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: overlay point-source positions on a dataset image",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/780"
+        },
+        "PyAutoLabs/PyAutoLens#779:comment-6313226417": {
+          "id": "PyAutoLabs/PyAutoLens#779:comment-6313226417",
+          "task": "PyAutoLabs/PyAutoLens#779",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T09:59:00Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: overlay point-source positions on a dataset image (+ PyAutoEyes figure)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/779#issuecomment-6313226417"
+        },
+        "PyAutoLabs/PyAutoLens#780:comment-6313221919": {
+          "id": "PyAutoLabs/PyAutoLens#780:comment-6313221919",
+          "task": "PyAutoLabs/PyAutoLens#780",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T09:58:44Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: overlay point-source positions on a dataset image",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/780#issuecomment-6313221919"
+        },
+        "PyAutoLabs/PyAutoLens#780:comment-6313177933": {
+          "id": "PyAutoLabs/PyAutoLens#780:comment-6313177933",
+          "task": "PyAutoLabs/PyAutoLens#780",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T09:56:15Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: overlay point-source positions on a dataset image",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/780#issuecomment-6313177933"
+        },
+        "PyAutoLabs/PyAutoLens#779:comment-6312889201": {
+          "id": "PyAutoLabs/PyAutoLens#779:comment-6312889201",
+          "task": "PyAutoLabs/PyAutoLens#779",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T09:41:16Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: overlay point-source positions on a dataset image (+ PyAutoEyes figure)",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/779#issuecomment-6312889201"
+        },
+        "PyAutoLabs/PyAutoLens#780:opened": {
+          "id": "PyAutoLabs/PyAutoLens#780:opened",
+          "task": "PyAutoLabs/PyAutoLens#780",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-21T09:41:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: overlay point-source positions on a dataset image",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/780"
+        },
         "PyAutoLabs/PyAutoLens#779:opened": {
           "id": "PyAutoLabs/PyAutoLens#779:opened",
           "task": "PyAutoLabs/PyAutoLens#779",
@@ -17579,14 +19379,77 @@
           "title": "feat: overlay point-source positions on a dataset image (+ PyAutoEyes figure)",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-21T09:29:09Z"
+          "state": "closed",
+          "revision": "2026-10-21T10:41:03Z"
+        },
+        "780": {
+          "title": "feat: overlay point-source positions on a dataset image",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T10:26:41Z"
+        },
+        "782": {
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:14:45Z"
+        },
+        "781": {
+          "title": "feat: keep dataset-only image_with_points.png; after-fit figure → fit_image_with_points.png",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T11:20:50Z"
+        },
+        "784": {
+          "title": "fix: point-source and weak-lensing critical-curve grids (clipped / transposed)",
+          "is_pr": true,
+          "issue": 783,
+          "state": "closed",
+          "revision": "2026-10-21T12:18:15Z"
+        },
+        "783": {
+          "title": "fix: point-source critical curves clipped into arcs by a too-small grid",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T12:19:20Z"
+        },
+        "786": {
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:17:32Z"
+        },
+        "785": {
+          "title": "feat: point positions panels — solver extent, visible markers, noise circles, titles",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T13:25:39Z"
+        },
+        "788": {
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T14:29:40Z"
+        },
+        "787": {
+          "title": "feat: PointSolver refinement figure (2×2 + teaching GIF + visualizer output)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-21T14:37:51Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -18126,10 +19989,10 @@
           "revision": "2026-10-21T07:48:25Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -18897,10 +20760,10 @@
           "revision": "2026-10-17T18:16:26Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -19632,13 +21495,23 @@
           "revision": "2026-10-17T17:54:03Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
+        "PyAutoLabs/PyAutoPulse#62:comment-6317391066": {
+          "id": "PyAutoLabs/PyAutoPulse#62:comment-6317391066",
+          "task": "PyAutoLabs/PyAutoPulse#62",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-10-21T13:33:36Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "campaign: interferometer large-mask likelihood — memory and routing (Aris 512×512)",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/issues/62#issuecomment-6317391066"
+        },
         "PyAutoLabs/PyAutoPulse#68:opened": {
           "id": "PyAutoLabs/PyAutoPulse#68:opened",
           "task": "PyAutoLabs/PyAutoPulse#68",
@@ -21403,7 +23276,7 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-16T14:48:05Z"
+          "revision": "2026-10-21T13:33:36Z"
         },
         "64": {
           "title": "docs: record the Aris large-mask before/after witness tables",
@@ -21441,18 +23314,18 @@
           "revision": "2026-10-17T17:34:40Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     },
     "PyAutoLabs/PyAutoScientist": {
       "events": {
@@ -23015,17 +24888,17 @@
           "revision": "2026-10-13T21:34:51Z"
         }
       },
-      "checked": "2026-10-21T09:34:01Z",
+      "checked": "2026-10-21T14:38:50Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-21T09:34:01Z"
+      "cursor": "2026-10-21T14:38:50Z"
     }
   },
   "next": 25,
   "pulse": {
     "status": "partial",
     "reason": "100 measurement records lack event times; 43 dated records lack explicit campaign/run association",
-    "checked": "2026-10-21T09:34:01Z",
+    "checked": "2026-10-21T14:38:50Z",
     "revision": "e3d411e5ff82e3698cbe874ed0ed4baaed51fee6",
     "rows": [
       {
