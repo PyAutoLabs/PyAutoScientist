@@ -53,6 +53,8 @@ Natural-language requirements are translated into tests, examples and documentat
 
 The shared [PyAuto AI Policy](AI_POLICY.md) describes the principles governing natural-language development, validation, attribution, licensing and human responsibility.
 
+The [PyAutoLabs AI Options](AI_OPTIONS.md) page explains which AI coding agents run the science assistants: Claude Code and Codex (recommended, paid), free options, and chat.
+
 ## The organs
 
 PyAutoScientist is organised as a software organism whose repositories mirror the roles of human organs:
