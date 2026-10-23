@@ -363,7 +363,7 @@ def main():
     ap.add_argument('--budget', type=int, default=60)
     ap.add_argument('--config', type=Path, default=Path(__file__).resolve().parents[1] / 'config' / 'activity_sources.json')
     args = ap.parse_args()
-    # 180 calls / 5min fits a 5000/hour PAT. Default GITHUB_TOKEN uses 60/cycle.
+    # The board workflow passes 180 calls / 5min, which fits the App token's 5000/hour.
     previous = json.loads(args.cache.read_text()) if args.cache.exists() else {}
     import yaml
     config = json.loads(args.config.read_text())

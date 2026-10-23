@@ -60,12 +60,25 @@ jobs:
             if [ "$status" -ne 2 ]; then exit "$status"; fi
           fi
 
+      # Cross-repo activity reads (issues, issue comments, PR details) use an
+      # owner-wide read-only App token. No fallback to the workflow token: a
+      # failed mint fails the run rather than silently shrinking coverage.
+      - name: Mint App token (read-only, owner-wide)
+        id: app_token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.APP_CLIENT_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: PyAutoLabs
+          permission-issues: read
+          permission-pull-requests: read
+          permission-metadata: read
+
       - name: Collect public development activity
         env:
-          GH_TOKEN: ${{ secrets.PAT_PYAUTOLABS || github.token }}
-          ACTIVITY_BUDGET: ${{ secrets.PAT_PYAUTOLABS && '180' || '60' }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
-          python scripts/activity_feed.py --repos PyAutoMind/repos.yaml --cache _activity/cache.json --output _site/activity.json --budget "$ACTIVITY_BUDGET"
+          python scripts/activity_feed.py --repos PyAutoMind/repos.yaml --cache _activity/cache.json --output _site/activity.json --budget 180
 
       - name: Preserve bounded derived index
         if: github.ref == 'refs/heads/main'

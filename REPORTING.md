@@ -124,8 +124,9 @@ mark it stale and leave the cursor unchanged. Losing the cache starts a disclose
 seven-day backfill; successful collection retains up to 30 days, 1500 events per
 repository, 200 published task rows and 20 displayed events per task.
 
-The collector uses `PAT_PYAUTOLABS` when available (180 requests per cycle), or
-the workflow token (60). It rotates repositories when the request budget is
+The collector reads with a read-only token minted from the organisation's GitHub
+App and spends at most 180 requests per cycle; if the token cannot be minted the
+run fails rather than collecting with less. It rotates repositories when the request budget is
 exhausted; a busy source or pagination cap is reported in coverage rather than
 claimed complete. The issue and comment endpoints paginate up to three pages
 of 100 each. Partial batches retain verified events and reuse already normalized PR
