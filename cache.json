@@ -1663,13 +1663,33 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
+        "PyAutoLabs/autocti_assistant#39:merged": {
+          "id": "PyAutoLabs/autocti_assistant#39:merged",
+          "task": "PyAutoLabs/autocti_assistant#39",
+          "repo": "PyAutoLabs/autocti_assistant",
+          "time": "2026-10-26T18:36:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(colab): CTI Colab Gemini mapping + ac_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autocti_assistant/pull/39"
+        },
+        "PyAutoLabs/autocti_assistant#39:opened": {
+          "id": "PyAutoLabs/autocti_assistant#39:opened",
+          "task": "PyAutoLabs/autocti_assistant#39",
+          "repo": "PyAutoLabs/autocti_assistant",
+          "time": "2026-10-26T18:28:35Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(colab): CTI Colab Gemini mapping + ac_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autocti_assistant/pull/39"
+        },
         "PyAutoLabs/autocti_assistant#38:merged": {
           "id": "PyAutoLabs/autocti_assistant#38:merged",
           "task": "PyAutoLabs/autocti_assistant#38",
@@ -1752,12 +1772,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:29:27Z"
+        },
+        "39": {
+          "title": "feat(colab): CTI Colab Gemini mapping + ac_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1990,13 +2017,33 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
+        "PyAutoLabs/autocti_workspace#38:merged": {
+          "id": "PyAutoLabs/autocti_workspace#38:merged",
+          "task": "PyAutoLabs/autocti_workspace#38",
+          "repo": "PyAutoLabs/autocti_workspace",
+          "time": "2026-10-26T18:36:51Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(colab): stamp notebooks with Colab Gemini instructions from autocti_assistant (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autocti_workspace/pull/38"
+        },
+        "PyAutoLabs/autocti_workspace#38:opened": {
+          "id": "PyAutoLabs/autocti_workspace#38:opened",
+          "task": "PyAutoLabs/autocti_workspace#38",
+          "repo": "PyAutoLabs/autocti_workspace",
+          "time": "2026-10-26T18:28:43Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(colab): stamp notebooks with Colab Gemini instructions from autocti_assistant (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autocti_workspace/pull/38"
+        },
         "PyAutoLabs/autocti_workspace#37:merged": {
           "id": "PyAutoLabs/autocti_workspace#37:merged",
           "task": "PyAutoLabs/autocti_workspace#37",
@@ -2052,12 +2099,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-08T08:48:15Z"
+        },
+        "38": {
+          "title": "feat(colab): stamp notebooks with Colab Gemini instructions from autocti_assistant (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:36:54Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2091,13 +2145,53 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
+        "PyAutoLabs/autofit_assistant#60:merged": {
+          "id": "PyAutoLabs/autofit_assistant#60:merged",
+          "task": "PyAutoLabs/autofit_assistant#60",
+          "repo": "PyAutoLabs/autofit_assistant",
+          "time": "2026-10-26T18:36:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(skills): af_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/60"
+        },
+        "PyAutoLabs/autofit_assistant#60:opened": {
+          "id": "PyAutoLabs/autofit_assistant#60:opened",
+          "task": "PyAutoLabs/autofit_assistant#60",
+          "repo": "PyAutoLabs/autofit_assistant",
+          "time": "2026-10-26T18:28:59Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(skills): af_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/60"
+        },
+        "PyAutoLabs/autofit_assistant#59:merged": {
+          "id": "PyAutoLabs/autofit_assistant#59:merged",
+          "task": "PyAutoLabs/autofit_assistant#59",
+          "repo": "PyAutoLabs/autofit_assistant",
+          "time": "2026-10-26T18:04:24Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(colab): map autofit_workspace and HowToFit notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/59"
+        },
+        "PyAutoLabs/autofit_assistant#59:opened": {
+          "id": "PyAutoLabs/autofit_assistant#59:opened",
+          "task": "PyAutoLabs/autofit_assistant#59",
+          "repo": "PyAutoLabs/autofit_assistant",
+          "time": "2026-10-26T17:59:26Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(colab): map autofit_workspace and HowToFit notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/59"
+        },
         "PyAutoLabs/autofit_assistant#58:merged": {
           "id": "PyAutoLabs/autofit_assistant#58:merged",
           "task": "PyAutoLabs/autofit_assistant#58",
@@ -2207,12 +2301,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-23T17:52:52Z"
+        },
+        "59": {
+          "title": "feat(colab): map autofit_workspace and HowToFit notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:04:26Z"
+        },
+        "60": {
+          "title": "feat(skills): af_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2855,10 +2963,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3074,10 +3182,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3246,13 +3354,43 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
+        "PyAutoLabs/autofit_workspace#177:closed": {
+          "id": "PyAutoLabs/autofit_workspace#177:closed",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T21:13:11Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177"
+        },
+        "PyAutoLabs/autofit_workspace#177:comment-6427456693": {
+          "id": "PyAutoLabs/autofit_workspace#177:comment-6427456693",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T21:13:10Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177#issuecomment-6427456693"
+        },
+        "PyAutoLabs/autofit_workspace#177:comment-6422227445": {
+          "id": "PyAutoLabs/autofit_workspace#177:comment-6422227445",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T17:02:09Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177#issuecomment-6422227445"
+        },
         "PyAutoLabs/autofit_workspace#177:comment-6421993697": {
           "id": "PyAutoLabs/autofit_workspace#177:comment-6421993697",
           "task": "PyAutoLabs/autofit_workspace#177",
@@ -3629,14 +3767,14 @@
           "title": "docs: finish corner-plot workspace configuration follow-up",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T16:54:11Z"
+          "state": "closed",
+          "revision": "2026-10-26T21:13:11Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3906,10 +4044,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4226,13 +4364,53 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
+        "PyAutoLabs/autogalaxy_assistant#40:merged": {
+          "id": "PyAutoLabs/autogalaxy_assistant#40:merged",
+          "task": "PyAutoLabs/autogalaxy_assistant#40",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-26T18:37:05Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(skills): ag_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/40"
+        },
+        "PyAutoLabs/autogalaxy_assistant#40:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#40:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#40",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-26T18:29:13Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(skills): ag_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/40"
+        },
+        "PyAutoLabs/autogalaxy_assistant#39:merged": {
+          "id": "PyAutoLabs/autogalaxy_assistant#39:merged",
+          "task": "PyAutoLabs/autogalaxy_assistant#39",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-26T18:04:36Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(colab): map autogalaxy_workspace and HowToGalaxy notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/39"
+        },
+        "PyAutoLabs/autogalaxy_assistant#39:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#39:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#39",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-26T17:59:56Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(colab): map autogalaxy_workspace and HowToGalaxy notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/39"
+        },
         "PyAutoLabs/autogalaxy_assistant#38:merged": {
           "id": "PyAutoLabs/autogalaxy_assistant#38:merged",
           "task": "PyAutoLabs/autogalaxy_assistant#38",
@@ -4396,12 +4574,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:29:18Z"
+        },
+        "39": {
+          "title": "feat(colab): map autogalaxy_workspace and HowToGalaxy notebooks to skills for Colab Gemini (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:04:39Z"
+        },
+        "40": {
+          "title": "feat(skills): ag_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:37:08Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4617,13 +4809,23 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace#259:merged": {
+          "id": "PyAutoLabs/autogalaxy_workspace#259:merged",
+          "task": "PyAutoLabs/autogalaxy_workspace#259",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-26T21:12:23Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Corner plot config switches and the latent-parameter descriptions",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/259"
+        },
         "PyAutoLabs/autogalaxy_workspace#263:closed": {
           "id": "PyAutoLabs/autogalaxy_workspace#263:closed",
           "task": "PyAutoLabs/autogalaxy_workspace#263",
@@ -4948,8 +5150,8 @@
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "is_pr": true,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T14:23:40Z"
+          "state": "closed",
+          "revision": "2026-10-26T21:12:23Z"
         },
         "260": {
           "title": "docs: README points at the PyAutoLabs AI options page (#87)",
@@ -4987,10 +5189,10 @@
           "revision": "2026-10-26T10:28:40Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5105,13 +5307,53 @@
           "revision": "2026-10-26T10:28:58Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
+        "PyAutoLabs/autolens_assistant#166:merged": {
+          "id": "PyAutoLabs/autolens_assistant#166:merged",
+          "task": "PyAutoLabs/autolens_assistant#166",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-26T18:36:54Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(skills): al_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/166"
+        },
+        "PyAutoLabs/autolens_assistant#166:opened": {
+          "id": "PyAutoLabs/autolens_assistant#166:opened",
+          "task": "PyAutoLabs/autolens_assistant#166",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-26T18:28:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(skills): al_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/166"
+        },
+        "PyAutoLabs/autolens_assistant#165:merged": {
+          "id": "PyAutoLabs/autolens_assistant#165:merged",
+          "task": "PyAutoLabs/autolens_assistant#165",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-26T17:36:22Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(colab): carry assistant skills into Colab notebooks (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/165"
+        },
+        "PyAutoLabs/autolens_assistant#165:opened": {
+          "id": "PyAutoLabs/autolens_assistant#165:opened",
+          "task": "PyAutoLabs/autolens_assistant#165",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-26T17:25:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(colab): carry assistant skills into Colab notebooks (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/165"
+        },
         "PyAutoLabs/autolens_assistant#164:merged": {
           "id": "PyAutoLabs/autolens_assistant#164:merged",
           "task": "PyAutoLabs/autolens_assistant#164",
@@ -5497,12 +5739,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:29:06Z"
+        },
+        "165": {
+          "title": "feat(colab): carry assistant skills into Colab notebooks (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T17:36:25Z"
+        },
+        "166": {
+          "title": "feat(skills): al_refresh_colab_contexts upkeep skill (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:36:57Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -6506,13 +6762,63 @@
           "revision": "2026-10-26T14:40:15Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
+        "PyAutoLabs/autolens_profiling#468:comment-6423433826": {
+          "id": "PyAutoLabs/autolens_profiling#468:comment-6423433826",
+          "task": "PyAutoLabs/autolens_profiling#468",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T17:55:04Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: rectangular 28² (production preset) runtime rows for the inference links",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/468#issuecomment-6423433826"
+        },
+        "PyAutoLabs/autolens_profiling#469:opened": {
+          "id": "PyAutoLabs/autolens_profiling#469:opened",
+          "task": "PyAutoLabs/autolens_profiling#469",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T17:45:38Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: likelihood-lifecycle 2b interferometer campaign (PR A: presets, harnesses, generator)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/469"
+        },
+        "PyAutoLabs/autolens_profiling#468:comment-6423088911": {
+          "id": "PyAutoLabs/autolens_profiling#468:comment-6423088911",
+          "task": "PyAutoLabs/autolens_profiling#468",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T17:38:35Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: rectangular 28² (production preset) runtime rows for the inference links",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/468#issuecomment-6423088911"
+        },
+        "PyAutoLabs/autolens_profiling#468:comment-6423040514": {
+          "id": "PyAutoLabs/autolens_profiling#468:comment-6423040514",
+          "task": "PyAutoLabs/autolens_profiling#468",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T17:36:25Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: rectangular 28² (production preset) runtime rows for the inference links",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/468#issuecomment-6423040514"
+        },
+        "PyAutoLabs/autolens_profiling#468:comment-6422796973": {
+          "id": "PyAutoLabs/autolens_profiling#468:comment-6422796973",
+          "task": "PyAutoLabs/autolens_profiling#468",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T17:25:08Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: rectangular 28² (production preset) runtime rows for the inference links",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/468#issuecomment-6422796973"
+        },
         "PyAutoLabs/autolens_profiling#468:opened": {
           "id": "PyAutoLabs/autolens_profiling#468:opened",
           "task": "PyAutoLabs/autolens_profiling#468",
@@ -9427,13 +9733,20 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-26T16:52:25Z"
+          "revision": "2026-10-26T17:55:04Z"
+        },
+        "469": {
+          "title": "feat: likelihood-lifecycle 2b interferometer campaign (PR A: presets, harnesses, generator)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T17:45:38Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -9986,13 +10299,23 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#595:merged": {
+          "id": "PyAutoLabs/autolens_workspace#595:merged",
+          "task": "PyAutoLabs/autolens_workspace#595",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-26T21:12:28Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Corner plot config switches and the latent-parameter descriptions",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/595"
+        },
         "PyAutoLabs/autolens_workspace#603:merged": {
           "id": "PyAutoLabs/autolens_workspace#603:merged",
           "task": "PyAutoLabs/autolens_workspace#603",
@@ -10556,8 +10879,8 @@
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "is_pr": true,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T16:55:47Z"
+          "state": "closed",
+          "revision": "2026-10-26T21:12:28Z"
         },
         "597": {
           "title": "docs: README points at the PyAutoLabs AI options page (#87)",
@@ -10616,18 +10939,18 @@
           "revision": "2026-10-26T16:55:15Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -10715,10 +11038,10 @@
           "revision": "2026-10-22T08:53:55Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -10779,10 +11102,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -10917,10 +11240,10 @@
           "revision": "2026-10-16T21:09:46Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -11352,10 +11675,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -11593,13 +11916,23 @@
           "revision": "2026-10-25T17:09:46Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
+        "PyAutoLabs/HowToGalaxy#87:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#87:merged",
+          "task": "PyAutoLabs/HowToGalaxy#87",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T21:12:32Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Corner plot config switches and the latent-parameter descriptions",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/87"
+        },
         "PyAutoLabs/HowToGalaxy#90:closed": {
           "id": "PyAutoLabs/HowToGalaxy#90:closed",
           "task": "PyAutoLabs/HowToGalaxy#90",
@@ -11827,8 +12160,8 @@
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "is_pr": true,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T14:51:10Z"
+          "state": "closed",
+          "revision": "2026-10-26T21:12:33Z"
         },
         "88": {
           "title": "fix(ci): install zeus in the 3.13 smoke bootstrap",
@@ -11859,13 +12192,23 @@
           "revision": "2026-10-26T10:28:47Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
+        "PyAutoLabs/HowToLens#100:merged": {
+          "id": "PyAutoLabs/HowToLens#100:merged",
+          "task": "PyAutoLabs/HowToLens#100",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-26T21:12:37Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Corner plot config switches and the latent-parameter descriptions",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/100"
+        },
         "PyAutoLabs/HowToLens#101:merged": {
           "id": "PyAutoLabs/HowToLens#101:merged",
           "task": "PyAutoLabs/HowToLens#101",
@@ -12067,8 +12410,8 @@
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "is_pr": true,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T14:51:12Z"
+          "state": "closed",
+          "revision": "2026-10-26T21:12:37Z"
         },
         "101": {
           "title": "docs: update guides/point_solver/pairing.py path in tutorial_5",
@@ -12078,13 +12421,73 @@
           "revision": "2026-10-24T12:10:32Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#638:comment-6423044959": {
+          "id": "PyAutoLabs/PyAutoArray#638:comment-6423044959",
+          "task": "PyAutoLabs/PyAutoArray#638",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:36:37Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer inversion for very large rectangular meshes",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/638#issuecomment-6423044959"
+        },
+        "PyAutoLabs/PyAutoArray#657:comment-6422880424": {
+          "id": "PyAutoLabs/PyAutoArray#657:comment-6422880424",
+          "task": "PyAutoLabs/PyAutoArray#657",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:29:01Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: matrix-free interferometer route in Settings (#638 phase 5a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/657#issuecomment-6422880424"
+        },
+        "PyAutoLabs/PyAutoArray#657:closed": {
+          "id": "PyAutoLabs/PyAutoArray#657:closed",
+          "task": "PyAutoLabs/PyAutoArray#657",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:26:28Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: matrix-free interferometer route in Settings (#638 phase 5a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/657"
+        },
+        "PyAutoLabs/PyAutoArray#658:merged": {
+          "id": "PyAutoLabs/PyAutoArray#658:merged",
+          "task": "PyAutoLabs/PyAutoArray#658",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:26:27Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: matrix-free interferometer route via Settings (#638 phase 5a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/658"
+        },
+        "PyAutoLabs/PyAutoArray#657:comment-6422779254": {
+          "id": "PyAutoLabs/PyAutoArray#657:comment-6422779254",
+          "task": "PyAutoLabs/PyAutoArray#657",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:24:18Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: matrix-free interferometer route in Settings (#638 phase 5a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/657#issuecomment-6422779254"
+        },
+        "PyAutoLabs/PyAutoArray#658:opened": {
+          "id": "PyAutoLabs/PyAutoArray#658:opened",
+          "task": "PyAutoLabs/PyAutoArray#658",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T17:20:42Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: matrix-free interferometer route via Settings (#638 phase 5a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/658"
+        },
         "PyAutoLabs/PyAutoArray#657:opened": {
           "id": "PyAutoLabs/PyAutoArray#657:opened",
           "task": "PyAutoLabs/PyAutoArray#657",
@@ -13864,26 +14267,6 @@
           "summary": "PR opened",
           "title": "perf(triangles): step-0 Point containment without the (N,3,2) gather (#579)",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/580"
-        },
-        "PyAutoLabs/PyAutoArray#578:merged": {
-          "id": "PyAutoLabs/PyAutoArray#578:merged",
-          "task": "PyAutoLabs/PyAutoArray#578",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-09-26T18:26:18Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/578"
-        },
-        "PyAutoLabs/PyAutoArray#578:opened": {
-          "id": "PyAutoLabs/PyAutoArray#578:opened",
-          "task": "PyAutoLabs/PyAutoArray#578",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-09-26T17:13:50Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/578"
         }
       },
       "tasks": {
@@ -13907,13 +14290,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T08:47:54Z"
-        },
-        "578": {
-          "title": "perf: scatter the real mapping matrix then cast in TransformerNUFFT.transform_mapping_matrix (#577)",
-          "is_pr": true,
-          "issue": 577,
-          "state": "closed",
-          "revision": "2026-10-07T09:50:36Z"
         },
         "580": {
           "title": "perf(triangles): step-0 Point containment without the (N,3,2) gather (#579)",
@@ -14186,7 +14562,7 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-21T13:11:25Z"
+          "revision": "2026-10-26T17:36:37Z"
         },
         "639": {
           "title": "feat: sparse mapped reconstructed image on the interferometer sparse inversion path",
@@ -14312,23 +14688,50 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T10:27:40Z"
+          "revision": "2026-10-26T20:32:09Z"
         },
         "657": {
           "title": "feat: matrix-free interferometer route in Settings (#638 phase 5a)",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T16:52:10Z"
+          "state": "closed",
+          "revision": "2026-10-26T17:29:01Z"
+        },
+        "658": {
+          "title": "feat: matrix-free interferometer route via Settings (#638 phase 5a)",
+          "is_pr": true,
+          "issue": 657,
+          "state": "closed",
+          "revision": "2026-10-26T20:32:17Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#541:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#541:merged",
+          "task": "PyAutoLabs/PyAutoBrain#541",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-26T17:36:18Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(clone): classify assistant colab/* as mixed (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/541"
+        },
+        "PyAutoLabs/PyAutoBrain#541:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#541:opened",
+          "task": "PyAutoLabs/PyAutoBrain#541",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-10-26T17:25:43Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(clone): classify assistant colab/* as mixed (PyAutoHands#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/541"
+        },
         "PyAutoLabs/PyAutoBrain#539:closed": {
           "id": "PyAutoLabs/PyAutoBrain#539:closed",
           "task": "PyAutoLabs/PyAutoBrain#539",
@@ -15976,12 +16379,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-24T12:42:46Z"
+        },
+        "541": {
+          "title": "feat(clone): classify assistant colab/* as mixed (PyAutoHands#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T17:36:21Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -16661,10 +17071,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -16725,10 +17135,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -17497,10 +17907,10 @@
           "revision": "2026-10-23T17:21:42Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -17588,10 +17998,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -18161,10 +18571,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -18808,10 +19218,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -21602,16 +22012,36 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T10:27:31Z"
+          "revision": "2026-10-26T20:32:08Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
+        "PyAutoLabs/PyAutoGalaxy#670:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#670:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#670",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T17:28:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "test: FitInterferometer parity on the matrix-free interferometer route (PyAutoArray#657)",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/670"
+        },
+        "PyAutoLabs/PyAutoGalaxy#670:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#670:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#670",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T17:22:53Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "test: FitInterferometer parity on the matrix-free interferometer route (PyAutoArray#657)",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/670"
+        },
         "PyAutoLabs/PyAutoGalaxy#669:closed": {
           "id": "PyAutoLabs/PyAutoGalaxy#669:closed",
           "task": "PyAutoLabs/PyAutoGalaxy#669",
@@ -22552,7 +22982,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T11:39:42Z"
+          "revision": "2026-10-26T20:32:14Z"
         },
         "657": {
           "title": "docs: Hessian magnification docstring returns signed 1/det(A), not abs",
@@ -22594,28 +23024,28 @@
           "is_pr": true,
           "issue": 659,
           "state": "closed",
-          "revision": "2026-10-25T22:33:12Z"
+          "revision": "2026-10-26T20:32:22Z"
         },
         "664": {
           "title": "fix: Restore SersicCoreSph mass-to-light ratio",
           "is_pr": true,
           "issue": 660,
           "state": "closed",
-          "revision": "2026-10-25T22:33:14Z"
+          "revision": "2026-10-26T20:32:23Z"
         },
         "665": {
           "title": "fix: Reject singular isothermal dipole multipoles",
           "is_pr": true,
           "issue": 661,
           "state": "closed",
-          "revision": "2026-10-25T22:33:15Z"
+          "revision": "2026-10-26T20:32:20Z"
         },
         "662": {
           "title": "fix: MassSheet JAX deflections",
           "is_pr": true,
           "issue": 658,
           "state": "closed",
-          "revision": "2026-10-25T22:33:11Z"
+          "revision": "2026-10-26T20:32:16Z"
         },
         "666": {
           "title": "docs: verify inherited linear-operated Sersic priors",
@@ -22629,14 +23059,14 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T10:27:51Z"
+          "revision": "2026-10-26T20:32:10Z"
         },
         "668": {
           "title": "Document and test inherited linear-operated Sersic priors",
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T10:28:29Z"
+          "revision": "2026-10-26T20:32:15Z"
         },
         "669": {
           "title": "Complete profile latent declarations in contributor PR #656",
@@ -22644,12 +23074,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T11:40:08Z"
+        },
+        "670": {
+          "title": "test: FitInterferometer parity on the matrix-free interferometer route (PyAutoArray#657)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T20:32:18Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -23088,13 +23525,123 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
+        "PyAutoLabs/PyAutoHands#324:closed": {
+          "id": "PyAutoLabs/PyAutoHands#324:closed",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:38:19Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6424337057": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6424337057",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:38:18Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6424337057"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6424152868": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6424152868",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:29:34Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6424152868"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6423657654": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6423657654",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:05:54Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6423657654"
+        },
+        "PyAutoLabs/PyAutoHands#326:merged": {
+          "id": "PyAutoLabs/PyAutoHands#326:merged",
+          "task": "PyAutoLabs/PyAutoHands#326",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:05:28Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: enable Colab Gemini instructions for galaxy and fit + per-assistant cap (#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/326"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6423540067": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6423540067",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T18:00:13Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6423540067"
+        },
+        "PyAutoLabs/PyAutoHands#326:opened": {
+          "id": "PyAutoLabs/PyAutoHands#326:opened",
+          "task": "PyAutoLabs/PyAutoHands#326",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T17:59:42Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: enable Colab Gemini instructions for galaxy and fit + per-assistant cap (#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/326"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6423058129": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6423058129",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T17:37:13Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6423058129"
+        },
+        "PyAutoLabs/PyAutoHands#325:merged": {
+          "id": "PyAutoLabs/PyAutoHands#325:merged",
+          "task": "PyAutoLabs/PyAutoHands#325",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T17:36:27Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions (#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/325"
+        },
+        "PyAutoLabs/PyAutoHands#324:comment-6422823372": {
+          "id": "PyAutoLabs/PyAutoHands#324:comment-6422823372",
+          "task": "PyAutoLabs/PyAutoHands#324",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T17:26:22Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/324#issuecomment-6422823372"
+        },
+        "PyAutoLabs/PyAutoHands#325:opened": {
+          "id": "PyAutoLabs/PyAutoHands#325:opened",
+          "task": "PyAutoLabs/PyAutoHands#325",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-26T17:26:03Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions (#324)",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/325"
+        },
         "PyAutoLabs/PyAutoHands#324:comment-6421802289": {
           "id": "PyAutoLabs/PyAutoHands#324:comment-6421802289",
           "task": "PyAutoLabs/PyAutoHands#324",
@@ -23700,14 +24247,28 @@
           "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-10-26T16:47:36Z"
+          "state": "closed",
+          "revision": "2026-10-26T18:38:19Z"
+        },
+        "325": {
+          "title": "feat: carry assistant skills into Colab notebooks via Gemini instructions (#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T17:36:30Z"
+        },
+        "326": {
+          "title": "feat: enable Colab Gemini instructions for galaxy and fit + per-assistant cap (#324)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T18:05:30Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -24741,10 +25302,10 @@
           "revision": "2026-10-26T16:47:19Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -25820,10 +26381,10 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -27415,13 +27976,13 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-10-26T10:28:01Z"
+          "revision": "2026-10-26T20:32:11Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -27998,10 +28559,10 @@
           "revision": "2026-10-23T14:38:32Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -29072,10 +29633,10 @@
           "revision": "2026-10-26T16:38:40Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -29881,13 +30442,33 @@
           "revision": "2026-10-25T16:14:26Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
+        "PyAutoLabs/PyAutoPulse#80:merged": {
+          "id": "PyAutoLabs/PyAutoPulse#80:merged",
+          "task": "PyAutoLabs/PyAutoPulse#80",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-10-26T17:54:39Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: regime joins the profiling-summary@3 one-current key (size variants)",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/80"
+        },
+        "PyAutoLabs/PyAutoPulse#80:opened": {
+          "id": "PyAutoLabs/PyAutoPulse#80:opened",
+          "task": "PyAutoLabs/PyAutoPulse#80",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-10-26T17:38:17Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: regime joins the profiling-summary@3 one-current key (size variants)",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/80"
+        },
         "PyAutoLabs/PyAutoPulse#78:comment-6421604679": {
           "id": "PyAutoLabs/PyAutoPulse#78:comment-6421604679",
           "task": "PyAutoLabs/PyAutoPulse#78",
@@ -32065,28 +32646,35 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T16:40:09Z"
+        },
+        "80": {
+          "title": "feat: regime joins the profiling-summary@3 one-current key (size variants)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T17:54:41Z"
         }
       },
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-26T16:55:50Z",
+      "checked": "2026-10-26T21:28:54Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T16:55:50Z"
+      "cursor": "2026-10-26T21:28:54Z"
     }
   },
   "next": 25,
   "pulse": {
     "status": "partial",
     "reason": "444 measurement records lack event times; 326 dated records lack explicit campaign/run association",
-    "checked": "2026-10-26T16:55:50Z",
-    "revision": "002d6e4a979f7e7808df5c64814a61534af29953",
+    "checked": "2026-10-26T21:28:54Z",
+    "revision": "0dfdd7f09700ea0cabf855fcef0f0cd25f3e78ef",
     "rows": [
       {
         "id": "pulse:campaign:setup-baseline",
