@@ -1663,13 +1663,23 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
+        "PyAutoLabs/autocti_assistant#38:opened": {
+          "id": "PyAutoLabs/autocti_assistant#38:opened",
+          "task": "PyAutoLabs/autocti_assistant#38",
+          "repo": "PyAutoLabs/autocti_assistant",
+          "time": "2026-10-26T09:56:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/autocti_assistant/pull/38"
+        },
         "PyAutoLabs/autocti_assistant#37:merged": {
           "id": "PyAutoLabs/autocti_assistant#37:merged",
           "task": "PyAutoLabs/autocti_assistant#37",
@@ -1725,12 +1735,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-23T17:52:56Z"
+        },
+        "38": {
+          "title": "Sync copied priors and plotting configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T09:56:51Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1963,10 +1980,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -2027,10 +2044,10 @@
           "revision": "2026-10-08T08:48:15Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2064,10 +2081,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2182,10 +2199,10 @@
           "revision": "2026-10-23T17:52:52Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2828,10 +2845,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3047,10 +3064,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3219,13 +3236,43 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
+        "PyAutoLabs/autofit_workspace#177:comment-6413688889": {
+          "id": "PyAutoLabs/autofit_workspace#177:comment-6413688889",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T10:22:48Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177#issuecomment-6413688889"
+        },
+        "PyAutoLabs/autofit_workspace#177:comment-6413038548": {
+          "id": "PyAutoLabs/autofit_workspace#177:comment-6413038548",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T09:49:05Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177#issuecomment-6413038548"
+        },
+        "PyAutoLabs/autofit_workspace#177:opened": {
+          "id": "PyAutoLabs/autofit_workspace#177:opened",
+          "task": "PyAutoLabs/autofit_workspace#177",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-26T09:33:16Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/177"
+        },
         "PyAutoLabs/autofit_workspace#176:merged": {
           "id": "PyAutoLabs/autofit_workspace#176:merged",
           "task": "PyAutoLabs/autofit_workspace#176",
@@ -3492,7 +3539,7 @@
           "is_pr": true,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-22T11:34:32Z"
+          "revision": "2026-10-26T10:21:48Z"
         },
         "175": {
           "title": "docs: README points at the PyAutoLabs AI options page (#87)",
@@ -3507,12 +3554,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T17:25:06Z"
+        },
+        "177": {
+          "title": "docs: finish corner-plot workspace configuration follow-up",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:22:48Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3782,10 +3836,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4102,13 +4156,23 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
+        "PyAutoLabs/autogalaxy_assistant#38:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#38:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#38",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-26T09:56:49Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/38"
+        },
         "PyAutoLabs/autogalaxy_assistant#37:merged": {
           "id": "PyAutoLabs/autogalaxy_assistant#37:merged",
           "task": "PyAutoLabs/autogalaxy_assistant#37",
@@ -4245,12 +4309,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-23T17:52:46Z"
+        },
+        "38": {
+          "title": "Sync copied priors and plotting configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T09:56:49Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4466,13 +4537,53 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace#264:merged": {
+          "id": "PyAutoLabs/autogalaxy_workspace#264:merged",
+          "task": "PyAutoLabs/autogalaxy_workspace#264",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-26T10:28:37Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Mirror explanatory comments into workspace configuration",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/264"
+        },
+        "PyAutoLabs/autogalaxy_workspace#264:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#264:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#264",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-26T10:12:14Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Mirror explanatory comments into workspace configuration",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/264"
+        },
+        "PyAutoLabs/autogalaxy_workspace#263:comment-6413026009": {
+          "id": "PyAutoLabs/autogalaxy_workspace#263:comment-6413026009",
+          "task": "PyAutoLabs/autogalaxy_workspace#263",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-26T09:48:27Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: mirror supported workspace configuration keys",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/issues/263#issuecomment-6413026009"
+        },
+        "PyAutoLabs/autogalaxy_workspace#263:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#263:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#263",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-26T09:33:15Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: mirror supported workspace configuration keys",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/issues/263"
+        },
         "PyAutoLabs/autogalaxy_workspace#261:closed": {
           "id": "PyAutoLabs/autogalaxy_workspace#261:closed",
           "task": "PyAutoLabs/autogalaxy_workspace#261",
@@ -4738,7 +4849,7 @@
           "is_pr": true,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-22T11:34:35Z"
+          "revision": "2026-10-26T10:21:50Z"
         },
         "260": {
           "title": "docs: README points at the PyAutoLabs AI options page (#87)",
@@ -4760,15 +4871,39 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T17:13:20Z"
+        },
+        "263": {
+          "title": "fix: mirror supported workspace configuration keys",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T09:48:27Z"
+        },
+        "264": {
+          "title": "Mirror explanatory comments into workspace configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:28:40Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace_test#131:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace_test#131:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace_test#131",
+          "repo": "PyAutoLabs/autogalaxy_workspace_test",
+          "time": "2026-10-26T10:17:00Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace_test/pull/131"
+        },
         "PyAutoLabs/autogalaxy_workspace_test#130:merged": {
           "id": "PyAutoLabs/autogalaxy_workspace_test#130:merged",
           "task": "PyAutoLabs/autogalaxy_workspace_test#130",
@@ -4851,15 +4986,32 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T23:06:27Z"
+        },
+        "131": {
+          "title": "Sync copied priors and plotting configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:17:00Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
+        "PyAutoLabs/autolens_assistant#164:opened": {
+          "id": "PyAutoLabs/autolens_assistant#164:opened",
+          "task": "PyAutoLabs/autolens_assistant#164",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-26T09:56:47Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/164"
+        },
         "PyAutoLabs/autolens_assistant#162:closed": {
           "id": "PyAutoLabs/autolens_assistant#162:closed",
           "task": "PyAutoLabs/autolens_assistant#162",
@@ -5218,12 +5370,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-23T17:53:17Z"
+        },
+        "164": {
+          "title": "Sync copied priors and plotting configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T09:56:47Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -6133,13 +6292,23 @@
           "revision": "2026-10-23T17:36:55Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
+        "PyAutoLabs/autolens_profiling#466:opened": {
+          "id": "PyAutoLabs/autolens_profiling#466:opened",
+          "task": "PyAutoLabs/autolens_profiling#466",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-26T10:25:18Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: carry 2a pins forward to 2026.10.25.1, 12-core estimate, ao GPU breakdown rerun",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/466"
+        },
         "PyAutoLabs/autolens_profiling#464:comment-6402187800": {
           "id": "PyAutoLabs/autolens_profiling#464:comment-6402187800",
           "task": "PyAutoLabs/autolens_profiling#464",
@@ -8964,12 +9133,19 @@
           "issue": 464,
           "state": "closed",
           "revision": "2026-10-25T19:33:09Z"
+        },
+        "466": {
+          "title": "feat: carry 2a pins forward to 2026.10.25.1, 12-core estimate, ao GPU breakdown rerun",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:25:18Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -9522,13 +9698,23 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#602:opened": {
+          "id": "PyAutoLabs/autolens_workspace#602:opened",
+          "task": "PyAutoLabs/autolens_workspace#602",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-26T10:19:35Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Mirror explanatory comments into workspace configuration",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/602"
+        },
         "PyAutoLabs/autolens_workspace#599:comment-6384043536": {
           "id": "PyAutoLabs/autolens_workspace#599:comment-6384043536",
           "task": "PyAutoLabs/autolens_workspace#599",
@@ -10053,7 +10239,7 @@
           "is_pr": true,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-22T11:34:38Z"
+          "revision": "2026-10-26T10:21:52Z"
         },
         "597": {
           "title": "docs: README points at the PyAutoLabs AI options page (#87)",
@@ -10096,20 +10282,27 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-24T12:10:50Z"
+        },
+        "602": {
+          "title": "Mirror explanatory comments into workspace configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:27:21Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -10197,10 +10390,10 @@
           "revision": "2026-10-22T08:53:55Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -10261,10 +10454,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -10399,10 +10592,10 @@
           "revision": "2026-10-16T21:09:46Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -10834,10 +11027,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -11075,13 +11268,83 @@
           "revision": "2026-10-25T17:09:46Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
+        "PyAutoLabs/HowToGalaxy#91:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#91:merged",
+          "task": "PyAutoLabs/HowToGalaxy#91",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T10:28:45Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/91"
+        },
+        "PyAutoLabs/HowToGalaxy#90:comment-6413588079": {
+          "id": "PyAutoLabs/HowToGalaxy#90:comment-6413588079",
+          "task": "PyAutoLabs/HowToGalaxy#90",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T10:17:32Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/issues/90#issuecomment-6413588079"
+        },
+        "PyAutoLabs/HowToGalaxy#90:comment-6413465522": {
+          "id": "PyAutoLabs/HowToGalaxy#90:comment-6413465522",
+          "task": "PyAutoLabs/HowToGalaxy#90",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T10:11:16Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/issues/90#issuecomment-6413465522"
+        },
+        "PyAutoLabs/HowToGalaxy#90:comment-6413194017": {
+          "id": "PyAutoLabs/HowToGalaxy#90:comment-6413194017",
+          "task": "PyAutoLabs/HowToGalaxy#90",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T09:57:06Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/issues/90#issuecomment-6413194017"
+        },
+        "PyAutoLabs/HowToGalaxy#91:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#91:opened",
+          "task": "PyAutoLabs/HowToGalaxy#91",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T09:56:45Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Sync copied priors and plotting configuration",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/91"
+        },
+        "PyAutoLabs/HowToGalaxy#90:comment-6413038101": {
+          "id": "PyAutoLabs/HowToGalaxy#90:comment-6413038101",
+          "task": "PyAutoLabs/HowToGalaxy#90",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T09:49:04Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/issues/90#issuecomment-6413038101"
+        },
+        "PyAutoLabs/HowToGalaxy#90:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#90:opened",
+          "task": "PyAutoLabs/HowToGalaxy#90",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-26T09:33:13Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/issues/90"
+        },
         "PyAutoLabs/HowToGalaxy#88:closed": {
           "id": "PyAutoLabs/HowToGalaxy#88:closed",
           "task": "PyAutoLabs/HowToGalaxy#88",
@@ -11220,7 +11483,7 @@
           "is_pr": true,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-22T11:34:45Z"
+          "revision": "2026-10-26T10:21:54Z"
         },
         "88": {
           "title": "fix(ci): install zeus in the 3.13 smoke bootstrap",
@@ -11235,12 +11498,26 @@
           "issue": 88,
           "state": "closed",
           "revision": "2026-10-22T20:36:45Z"
+        },
+        "90": {
+          "title": "fix: remove stale workspace and assistant prior entries",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:17:32Z"
+        },
+        "91": {
+          "title": "Sync copied priors and plotting configuration",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:28:47Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -11446,7 +11723,7 @@
           "is_pr": true,
           "issue": null,
           "state": "open",
-          "revision": "2026-10-22T11:34:42Z"
+          "revision": "2026-10-26T10:21:55Z"
         },
         "101": {
           "title": "docs: update guides/point_solver/pairing.py path in tutorial_5",
@@ -11456,13 +11733,53 @@
           "revision": "2026-10-24T12:10:32Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#656:merged": {
+          "id": "PyAutoLabs/PyAutoArray#656:merged",
+          "task": "PyAutoLabs/PyAutoArray#656",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T10:27:36Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/656"
+        },
+        "PyAutoLabs/PyAutoArray#656:comment-6413627814": {
+          "id": "PyAutoLabs/PyAutoArray#656:comment-6413627814",
+          "task": "PyAutoLabs/PyAutoArray#656",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T10:19:38Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/656#issuecomment-6413627814"
+        },
+        "PyAutoLabs/PyAutoArray#656:comment-6413485379": {
+          "id": "PyAutoLabs/PyAutoArray#656:comment-6413485379",
+          "task": "PyAutoLabs/PyAutoArray#656",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T10:12:17Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/656#issuecomment-6413485379"
+        },
+        "PyAutoLabs/PyAutoArray#656:opened": {
+          "id": "PyAutoLabs/PyAutoArray#656:opened",
+          "task": "PyAutoLabs/PyAutoArray#656",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-26T09:57:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/656"
+        },
         "PyAutoLabs/PyAutoArray#654:comment-6386994316": {
           "id": "PyAutoLabs/PyAutoArray#654:comment-6386994316",
           "task": "PyAutoLabs/PyAutoArray#654",
@@ -13661,12 +13978,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-24T16:58:25Z"
+        },
+        "656": {
+          "title": "Document remaining configuration leaf settings",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:27:40Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
@@ -15319,10 +15643,10 @@
           "revision": "2026-10-24T12:42:46Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -16002,10 +16326,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -16066,10 +16390,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -16838,10 +17162,10 @@
           "revision": "2026-10-23T17:21:42Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -16929,10 +17253,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -17502,10 +17826,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -18149,13 +18473,113 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
+        "PyAutoLabs/PyAutoFit#1733:merged": {
+          "id": "PyAutoLabs/PyAutoFit#1733:merged",
+          "task": "PyAutoLabs/PyAutoFit#1733",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:27:28Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Document configuration leaves and check comment coverage",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1733"
+        },
+        "PyAutoLabs/PyAutoFit#1732:comment-6413688475": {
+          "id": "PyAutoLabs/PyAutoFit#1732:comment-6413688475",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:22:47Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732#issuecomment-6413688475"
+        },
+        "PyAutoLabs/PyAutoFit#1733:comment-6413627416": {
+          "id": "PyAutoLabs/PyAutoFit#1733:comment-6413627416",
+          "task": "PyAutoLabs/PyAutoFit#1733",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:19:36Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document configuration leaves and check comment coverage",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1733#issuecomment-6413627416"
+        },
+        "PyAutoLabs/PyAutoFit#1732:comment-6413587629": {
+          "id": "PyAutoLabs/PyAutoFit#1732:comment-6413587629",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:17:31Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732#issuecomment-6413587629"
+        },
+        "PyAutoLabs/PyAutoFit#1733:comment-6413484919": {
+          "id": "PyAutoLabs/PyAutoFit#1733:comment-6413484919",
+          "task": "PyAutoLabs/PyAutoFit#1733",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:12:16Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document configuration leaves and check comment coverage",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1733#issuecomment-6413484919"
+        },
+        "PyAutoLabs/PyAutoFit#1732:comment-6413361034": {
+          "id": "PyAutoLabs/PyAutoFit#1732:comment-6413361034",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T10:05:46Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732#issuecomment-6413361034"
+        },
+        "PyAutoLabs/PyAutoFit#1732:comment-6413136342": {
+          "id": "PyAutoLabs/PyAutoFit#1732:comment-6413136342",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T09:54:00Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732#issuecomment-6413136342"
+        },
+        "PyAutoLabs/PyAutoFit#1733:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1733:opened",
+          "task": "PyAutoLabs/PyAutoFit#1733",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T09:53:42Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Document configuration leaves and check comment coverage",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1733"
+        },
+        "PyAutoLabs/PyAutoFit#1732:comment-6413084037": {
+          "id": "PyAutoLabs/PyAutoFit#1732:comment-6413084037",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T09:51:11Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732#issuecomment-6413084037"
+        },
+        "PyAutoLabs/PyAutoFit#1732:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1732:opened",
+          "task": "PyAutoLabs/PyAutoFit#1732",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-26T09:33:12Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: explain non-prior configuration leaf keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1732"
+        },
         "PyAutoLabs/PyAutoFit#1727:comment-6399523818": {
           "id": "PyAutoLabs/PyAutoFit#1727:comment-6399523818",
           "task": "PyAutoLabs/PyAutoFit#1727",
@@ -20810,15 +21234,119 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T15:28:35Z"
+        },
+        "1732": {
+          "title": "docs: explain non-prior configuration leaf keys",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:22:47Z"
+        },
+        "1733": {
+          "title": "Document configuration leaves and check comment coverage",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:27:31Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
+        "PyAutoLabs/PyAutoGalaxy#668:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#668:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#668",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:28:26Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Document and test inherited linear-operated Sersic priors",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/668"
+        },
+        "PyAutoLabs/PyAutoGalaxy#667:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#667:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#667",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:27:47Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/667"
+        },
+        "PyAutoLabs/PyAutoGalaxy#667:comment-6413628261": {
+          "id": "PyAutoLabs/PyAutoGalaxy#667:comment-6413628261",
+          "task": "PyAutoLabs/PyAutoGalaxy#667",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:19:39Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/667#issuecomment-6413628261"
+        },
+        "PyAutoLabs/PyAutoGalaxy#666:comment-6413587125": {
+          "id": "PyAutoLabs/PyAutoGalaxy#666:comment-6413587125",
+          "task": "PyAutoLabs/PyAutoGalaxy#666",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:17:29Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: verify inherited linear-operated Sersic priors",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/666#issuecomment-6413587125"
+        },
+        "PyAutoLabs/PyAutoGalaxy#668:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#668:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#668",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:16:55Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Document and test inherited linear-operated Sersic priors",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/668"
+        },
+        "PyAutoLabs/PyAutoGalaxy#667:comment-6413485841": {
+          "id": "PyAutoLabs/PyAutoGalaxy#667:comment-6413485841",
+          "task": "PyAutoLabs/PyAutoGalaxy#667",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T10:12:19Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/667#issuecomment-6413485841"
+        },
+        "PyAutoLabs/PyAutoGalaxy#667:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#667:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#667",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T09:59:38Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/667"
+        },
+        "PyAutoLabs/PyAutoGalaxy#666:comment-6413037684": {
+          "id": "PyAutoLabs/PyAutoGalaxy#666:comment-6413037684",
+          "task": "PyAutoLabs/PyAutoGalaxy#666",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T09:49:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: verify inherited linear-operated Sersic priors",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/666#issuecomment-6413037684"
+        },
+        "PyAutoLabs/PyAutoGalaxy#666:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#666:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#666",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-10-26T09:29:11Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: verify inherited linear-operated Sersic priors",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/666"
+        },
         "PyAutoLabs/PyAutoGalaxy#661:comment-6404671764": {
           "id": "PyAutoLabs/PyAutoGalaxy#661:comment-6404671764",
           "task": "PyAutoLabs/PyAutoGalaxy#661",
@@ -21690,12 +22218,33 @@
           "issue": 658,
           "state": "closed",
           "revision": "2026-10-25T22:33:11Z"
+        },
+        "666": {
+          "title": "docs: verify inherited linear-operated Sersic priors",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-26T10:17:29Z"
+        },
+        "667": {
+          "title": "Document remaining configuration leaf settings",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:27:51Z"
+        },
+        "668": {
+          "title": "Document and test inherited linear-operated Sersic priors",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:28:29Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -22134,10 +22683,10 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -22713,10 +23262,10 @@
           "revision": "2026-10-23T20:38:47Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -23686,10 +24235,10 @@
           "revision": "2026-10-25T21:41:22Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -24765,13 +25314,43 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
+        "PyAutoLabs/PyAutoLens#802:merged": {
+          "id": "PyAutoLabs/PyAutoLens#802:merged",
+          "task": "PyAutoLabs/PyAutoLens#802",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-26T10:27:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/802"
+        },
+        "PyAutoLabs/PyAutoLens#802:comment-6413628666": {
+          "id": "PyAutoLabs/PyAutoLens#802:comment-6413628666",
+          "task": "PyAutoLabs/PyAutoLens#802",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-26T10:19:40Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/802#issuecomment-6413628666"
+        },
+        "PyAutoLabs/PyAutoLens#802:opened": {
+          "id": "PyAutoLabs/PyAutoLens#802:opened",
+          "task": "PyAutoLabs/PyAutoLens#802",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-10-26T10:05:11Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Document remaining configuration leaf settings",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/802"
+        },
         "PyAutoLabs/PyAutoLens#801:merged": {
           "id": "PyAutoLabs/PyAutoLens#801:merged",
           "task": "PyAutoLabs/PyAutoLens#801",
@@ -26351,12 +26930,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-24T12:02:37Z"
+        },
+        "802": {
+          "title": "Document remaining configuration leaf settings",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-26T10:28:01Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -26923,10 +27509,10 @@
           "revision": "2026-10-23T14:38:32Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -27923,10 +28509,10 @@
           "revision": "2026-10-23T21:56:40Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -28732,10 +29318,10 @@
           "revision": "2026-10-25T16:14:26Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
@@ -30834,26 +31420,26 @@
           "revision": "2026-10-25T22:36:04Z"
         }
       },
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-26T04:32:54Z",
+      "checked": "2026-10-26T10:28:38Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-26T04:32:54Z"
+      "cursor": "2026-10-26T10:28:38Z"
     }
   },
   "next": 25,
   "pulse": {
     "status": "partial",
     "reason": "444 measurement records lack event times; 322 dated records lack explicit campaign/run association",
-    "checked": "2026-10-26T04:32:54Z",
-    "revision": "057d194ac06ce49662ef75f7cf184a32f036479b",
+    "checked": "2026-10-26T10:28:38Z",
+    "revision": "989af34b53ecc1ac96dc1da943fe9ecacfb6644f",
     "rows": [
       {
         "id": "pulse:campaign:setup-baseline",
