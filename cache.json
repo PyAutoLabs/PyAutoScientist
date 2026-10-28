@@ -1262,63 +1262,9 @@
           "summary": "PR opened",
           "title": "fix: make dashboard prompts portable across assistants",
           "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/38"
-        },
-        "PyAutoLabs/PyAutoScientist#36:merged": {
-          "id": "PyAutoLabs/PyAutoScientist#36:merged",
-          "task": "PyAutoLabs/PyAutoScientist#36",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-09-28T20:27:17Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/36"
-        },
-        "PyAutoLabs/PyAutoScientist#36:opened": {
-          "id": "PyAutoLabs/PyAutoScientist#36:opened",
-          "task": "PyAutoLabs/PyAutoScientist#36",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-09-28T20:19:18Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/36"
-        },
-        "PyAutoLabs/PyAutoScientist#35:merged": {
-          "id": "PyAutoLabs/PyAutoScientist#35:merged",
-          "task": "PyAutoLabs/PyAutoScientist#35",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-09-28T20:15:55Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/35"
-        },
-        "PyAutoLabs/PyAutoScientist#35:opened": {
-          "id": "PyAutoLabs/PyAutoScientist#35:opened",
-          "task": "PyAutoLabs/PyAutoScientist#35",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-09-28T19:10:06Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/35"
         }
       },
       "tasks": {
-        "35": {
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:15:34Z"
-        },
-        "36": {
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:15:38Z"
-        },
         "38": {
           "title": "fix: make dashboard prompts portable across assistants",
           "is_pr": true,
@@ -1663,10 +1609,10 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1781,10 +1727,10 @@
           "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -2017,10 +1963,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -2081,10 +2027,10 @@
           "revision": "2026-10-26T18:36:54Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2118,10 +2064,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2290,10 +2236,10 @@
           "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2936,10 +2882,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3155,10 +3101,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3327,13 +3273,23 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
+        "PyAutoLabs/autofit_workspace#178:opened": {
+          "id": "PyAutoLabs/autofit_workspace#178:opened",
+          "task": "PyAutoLabs/autofit_workspace#178",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-10-28T20:28:10Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify Colab setup across notebooks",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/178"
+        },
         "PyAutoLabs/autofit_workspace#177:closed": {
           "id": "PyAutoLabs/autofit_workspace#177:closed",
           "task": "PyAutoLabs/autofit_workspace#177",
@@ -3742,12 +3698,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T21:13:11Z"
+        },
+        "178": {
+          "title": "docs: simplify Colab setup across notebooks",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:28:10Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -4017,10 +3980,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4337,13 +4300,33 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
+        "PyAutoLabs/autogalaxy_assistant#41:merged": {
+          "id": "PyAutoLabs/autogalaxy_assistant#41:merged",
+          "task": "PyAutoLabs/autogalaxy_assistant#41",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-28T21:18:10Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Guide Colab users to the compact setup cell",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/41"
+        },
+        "PyAutoLabs/autogalaxy_assistant#41:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#41:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#41",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-10-28T20:56:53Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Guide Colab users to the compact setup cell",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/41"
+        },
         "PyAutoLabs/autogalaxy_assistant#40:merged": {
           "id": "PyAutoLabs/autogalaxy_assistant#40:merged",
           "task": "PyAutoLabs/autogalaxy_assistant#40",
@@ -4561,12 +4544,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T18:37:08Z"
+        },
+        "41": {
+          "title": "Guide Colab users to the compact setup cell",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-28T21:18:12Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4782,13 +4772,33 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace#265:merged": {
+          "id": "PyAutoLabs/autogalaxy_workspace#265:merged",
+          "task": "PyAutoLabs/autogalaxy_workspace#265",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-28T21:17:40Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: simplify Colab setup across Galaxy examples",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/265"
+        },
+        "PyAutoLabs/autogalaxy_workspace#265:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#265:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#265",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-10-28T20:33:00Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify Colab setup across Galaxy examples",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/265"
+        },
         "PyAutoLabs/autogalaxy_workspace#259:merged": {
           "id": "PyAutoLabs/autogalaxy_workspace#259:merged",
           "task": "PyAutoLabs/autogalaxy_workspace#259",
@@ -5160,12 +5170,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:28:40Z"
+        },
+        "265": {
+          "title": "docs: simplify Colab setup across Galaxy examples",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-28T21:17:43Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5280,13 +5297,33 @@
           "revision": "2026-10-26T10:28:58Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
+        "PyAutoLabs/autolens_assistant#167:merged": {
+          "id": "PyAutoLabs/autolens_assistant#167:merged",
+          "task": "PyAutoLabs/autolens_assistant#167",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-28T21:17:58Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: simplify COSMOS-Web Colab setup",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/167"
+        },
+        "PyAutoLabs/autolens_assistant#167:opened": {
+          "id": "PyAutoLabs/autolens_assistant#167:opened",
+          "task": "PyAutoLabs/autolens_assistant#167",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-10-28T20:37:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify COSMOS-Web Colab setup",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/167"
+        },
         "PyAutoLabs/autolens_assistant#166:merged": {
           "id": "PyAutoLabs/autolens_assistant#166:merged",
           "task": "PyAutoLabs/autolens_assistant#166",
@@ -5726,12 +5763,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T18:36:57Z"
+        },
+        "167": {
+          "title": "docs: simplify COSMOS-Web Colab setup",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-28T21:18:01Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -6752,13 +6796,93 @@
           "revision": "2026-10-27T13:55:44Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
+        "PyAutoLabs/autolens_profiling#479:opened": {
+          "id": "PyAutoLabs/autolens_profiling#479:opened",
+          "task": "PyAutoLabs/autolens_profiling#479",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T22:02:51Z",
+          "kind": "opened",
+          "summary": "Draft PR opened",
+          "title": "2f: multi_dataset + datacube campaign setup (#475) — DRAFT for review before RAL",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/479"
+        },
+        "PyAutoLabs/autolens_profiling#478:opened": {
+          "id": "PyAutoLabs/autolens_profiling#478:opened",
+          "task": "PyAutoLabs/autolens_profiling#478",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T21:40:54Z",
+          "kind": "opened",
+          "summary": "Draft PR opened",
+          "title": "2e: cluster campaign setup (#474) — DRAFT for review before RAL",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/478"
+        },
+        "PyAutoLabs/autolens_profiling#477:opened": {
+          "id": "PyAutoLabs/autolens_profiling#477:opened",
+          "task": "PyAutoLabs/autolens_profiling#477",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T21:07:00Z",
+          "kind": "opened",
+          "summary": "Draft PR opened",
+          "title": "2g: weak lensing campaign setup (#476) — DRAFT for review before RAL",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/477"
+        },
+        "PyAutoLabs/autolens_profiling#476:opened": {
+          "id": "PyAutoLabs/autolens_profiling#476:opened",
+          "task": "PyAutoLabs/autolens_profiling#476",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T20:18:59Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood-lifecycle 2g — weak lensing profiling campaign (new scripts)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/476"
+        },
+        "PyAutoLabs/autolens_profiling#475:opened": {
+          "id": "PyAutoLabs/autolens_profiling#475:opened",
+          "task": "PyAutoLabs/autolens_profiling#475",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T20:18:57Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood-lifecycle 2f — multi_dataset + datacube profiling campaign (40 cells)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/475"
+        },
+        "PyAutoLabs/autolens_profiling#474:opened": {
+          "id": "PyAutoLabs/autolens_profiling#474:opened",
+          "task": "PyAutoLabs/autolens_profiling#474",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T20:18:56Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood-lifecycle 2e — cluster image/source-plane profiling campaign",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/474"
+        },
+        "PyAutoLabs/autolens_profiling#473:opened": {
+          "id": "PyAutoLabs/autolens_profiling#473:opened",
+          "task": "PyAutoLabs/autolens_profiling#473",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T20:18:54Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood-lifecycle 2d — multi_galaxy + group profiling campaign (new scripts)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/473"
+        },
+        "PyAutoLabs/autolens_profiling#472:opened": {
+          "id": "PyAutoLabs/autolens_profiling#472:opened",
+          "task": "PyAutoLabs/autolens_profiling#472",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-10-28T20:08:49Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood-lifecycle 2c — point-source profiling campaign (12 cells)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/472"
+        },
         "PyAutoLabs/autolens_profiling#471:comment-6469668867": {
           "id": "PyAutoLabs/autolens_profiling#471:comment-6469668867",
           "task": "PyAutoLabs/autolens_profiling#471",
@@ -9805,12 +9929,68 @@
           "issue": null,
           "state": "open",
           "revision": "2026-10-28T13:02:09Z"
+        },
+        "472": {
+          "title": "research: likelihood-lifecycle 2c — point-source profiling campaign (12 cells)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:08:49Z"
+        },
+        "473": {
+          "title": "research: likelihood-lifecycle 2d — multi_galaxy + group profiling campaign (new scripts)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:18:54Z"
+        },
+        "474": {
+          "title": "research: likelihood-lifecycle 2e — cluster image/source-plane profiling campaign",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:18:56Z"
+        },
+        "475": {
+          "title": "research: likelihood-lifecycle 2f — multi_dataset + datacube profiling campaign (40 cells)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:18:57Z"
+        },
+        "476": {
+          "title": "research: likelihood-lifecycle 2g — weak lensing profiling campaign (new scripts)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:18:59Z"
+        },
+        "477": {
+          "title": "2g: weak lensing campaign setup (#476) — DRAFT for review before RAL",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T21:07:00Z"
+        },
+        "478": {
+          "title": "2e: cluster campaign setup (#474) — DRAFT for review before RAL",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T21:40:54Z"
+        },
+        "479": {
+          "title": "2f: multi_dataset + datacube campaign setup (#475) — DRAFT for review before RAL",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T22:02:51Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -10213,36 +10393,9 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/2"
-        },
-        "PyAutoLabs/autolens_visualization#1:merged": {
-          "id": "PyAutoLabs/autolens_visualization#1:merged",
-          "task": "PyAutoLabs/autolens_visualization#1",
-          "repo": "PyAutoLabs/autolens_visualization",
-          "time": "2026-09-28T20:13:01Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "gallery: tracked viz_manifest.yaml (PyAutoEyes read contract); project-repo role (PyAutoMind#446)",
-          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/1"
-        },
-        "PyAutoLabs/autolens_visualization#1:opened": {
-          "id": "PyAutoLabs/autolens_visualization#1:opened",
-          "task": "PyAutoLabs/autolens_visualization#1",
-          "repo": "PyAutoLabs/autolens_visualization",
-          "time": "2026-09-28T18:27:10Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "gallery: tracked viz_manifest.yaml (PyAutoEyes read contract); project-repo role (PyAutoMind#446)",
-          "url": "https://github.com/PyAutoLabs/autolens_visualization/pull/1"
         }
       },
       "tasks": {
-        "1": {
-          "title": "gallery: tracked viz_manifest.yaml (PyAutoEyes read contract); project-repo role (PyAutoMind#446)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T10:21:53Z"
-        },
         "2": {
           "title": "docs: discover shared organism standards",
           "is_pr": true,
@@ -10363,13 +10516,33 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#604:merged": {
+          "id": "PyAutoLabs/autolens_workspace#604:merged",
+          "task": "PyAutoLabs/autolens_workspace#604",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-28T21:17:47Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Simplify Colab setup across notebooks and examples",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/604"
+        },
+        "PyAutoLabs/autolens_workspace#604:opened": {
+          "id": "PyAutoLabs/autolens_workspace#604:opened",
+          "task": "PyAutoLabs/autolens_workspace#604",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-10-28T20:56:38Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Simplify Colab setup across notebooks and examples",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/604"
+        },
         "PyAutoLabs/autolens_workspace#595:merged": {
           "id": "PyAutoLabs/autolens_workspace#595:merged",
           "task": "PyAutoLabs/autolens_workspace#595",
@@ -11001,20 +11174,27 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T16:55:15Z"
+        },
+        "604": {
+          "title": "Simplify Colab setup across notebooks and examples",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-28T21:17:51Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -11102,10 +11282,10 @@
           "revision": "2026-10-22T08:53:55Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -11166,10 +11346,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -11304,10 +11484,10 @@
           "revision": "2026-10-16T21:09:46Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -11739,10 +11919,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -11758,6 +11938,16 @@
     },
     "PyAutoLabs/HowToFit": {
       "events": {
+        "PyAutoLabs/HowToFit#77:opened": {
+          "id": "PyAutoLabs/HowToFit#77:opened",
+          "task": "PyAutoLabs/HowToFit#77",
+          "repo": "PyAutoLabs/HowToFit",
+          "time": "2026-10-28T20:37:21Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify Colab setup across tutorials",
+          "url": "https://github.com/PyAutoLabs/HowToFit/pull/77"
+        },
         "PyAutoLabs/HowToFit#76:merged": {
           "id": "PyAutoLabs/HowToFit#76:merged",
           "task": "PyAutoLabs/HowToFit#76",
@@ -11978,15 +12168,32 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T17:09:46Z"
+        },
+        "77": {
+          "title": "docs: simplify Colab setup across tutorials",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:37:21Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
+        "PyAutoLabs/HowToGalaxy#92:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#92:opened",
+          "task": "PyAutoLabs/HowToGalaxy#92",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-10-28T20:38:34Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify Colab setup across tutorials",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/92"
+        },
         "PyAutoLabs/HowToGalaxy#87:merged": {
           "id": "PyAutoLabs/HowToGalaxy#87:merged",
           "task": "PyAutoLabs/HowToGalaxy#87",
@@ -12254,15 +12461,32 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:28:47Z"
+        },
+        "92": {
+          "title": "docs: simplify Colab setup across tutorials",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:38:34Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
+        "PyAutoLabs/HowToLens#102:opened": {
+          "id": "PyAutoLabs/HowToLens#102:opened",
+          "task": "PyAutoLabs/HowToLens#102",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-10-28T20:43:37Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: simplify Colab setup across tutorials",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/102"
+        },
         "PyAutoLabs/HowToLens#100:merged": {
           "id": "PyAutoLabs/HowToLens#100:merged",
           "task": "PyAutoLabs/HowToLens#100",
@@ -12483,15 +12707,42 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-24T12:10:32Z"
+        },
+        "102": {
+          "title": "docs: simplify Colab setup across tutorials",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:43:37Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#660:opened": {
+          "id": "PyAutoLabs/PyAutoArray#660:opened",
+          "task": "PyAutoLabs/PyAutoArray#660",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-28T20:54:41Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "bug: rectangular adaptive meshes' zeroed ring zeroes a live y-row and misses guard row 1",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/660"
+        },
+        "PyAutoLabs/PyAutoArray#659:opened": {
+          "id": "PyAutoLabs/PyAutoArray#659:opened",
+          "task": "PyAutoLabs/PyAutoArray#659",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-10-28T20:04:33Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "test: mesh magnification areas — per-mesh correctness + integration check (arc phase 4a)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/659"
+        },
         "PyAutoLabs/PyAutoArray#638:comment-6423044959": {
           "id": "PyAutoLabs/PyAutoArray#638:comment-6423044959",
           "task": "PyAutoLabs/PyAutoArray#638",
@@ -14676,12 +14927,26 @@
           "issue": 657,
           "state": "closed",
           "revision": "2026-10-26T20:32:17Z"
+        },
+        "659": {
+          "title": "test: mesh magnification areas — per-mesh correctness + integration check (arc phase 4a)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:04:33Z"
+        },
+        "660": {
+          "title": "bug: rectangular adaptive meshes' zeroed ring zeroes a live y-row and misses guard row 1",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:54:41Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
@@ -16381,10 +16646,10 @@
           "revision": "2026-10-26T17:36:21Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -17064,10 +17329,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -17128,10 +17393,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -17674,63 +17939,9 @@
           "summary": "PR opened",
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/49"
-        },
-        "PyAutoLabs/PyAutoCortex#47:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#47:merged",
-          "task": "PyAutoLabs/PyAutoCortex#47",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-09-28T20:29:20Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: organism map — regenerate after PyAutoMind#447/#449",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/47"
-        },
-        "PyAutoLabs/PyAutoCortex#47:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#47:opened",
-          "task": "PyAutoLabs/PyAutoCortex#47",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-09-28T20:27:25Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: organism map — regenerate after PyAutoMind#447/#449",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/47"
-        },
-        "PyAutoLabs/PyAutoCortex#46:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#46:merged",
-          "task": "PyAutoLabs/PyAutoCortex#46",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-09-28T20:15:47Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/46"
-        },
-        "PyAutoLabs/PyAutoCortex#46:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#46:opened",
-          "task": "PyAutoLabs/PyAutoCortex#46",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-09-28T19:09:45Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/46"
         }
       },
       "tasks": {
-        "46": {
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:00:03Z"
-        },
-        "47": {
-          "title": "chore: organism map — regenerate after PyAutoMind#447/#449",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:00:07Z"
-        },
         "49": {
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "is_pr": true,
@@ -17900,10 +18111,10 @@
           "revision": "2026-10-23T17:21:42Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -17991,10 +18202,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -18564,10 +18775,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -19020,63 +19231,9 @@
           "summary": "PR opened",
           "title": "feat: register the galaxy visualization instance (PyAutoEyes 3)",
           "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/4"
-        },
-        "PyAutoLabs/PyAutoEyes#3:merged": {
-          "id": "PyAutoLabs/PyAutoEyes#3:merged",
-          "task": "PyAutoLabs/PyAutoEyes#3",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-09-28T21:04:50Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: dashboard survey + critiques, per-figure critique route, badge.json (PyAutoEyes 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/3"
-        },
-        "PyAutoLabs/PyAutoEyes#3:opened": {
-          "id": "PyAutoLabs/PyAutoEyes#3:opened",
-          "task": "PyAutoLabs/PyAutoEyes#3",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-09-28T21:01:20Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat: dashboard survey + critiques, per-figure critique route, badge.json (PyAutoEyes 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/3"
-        },
-        "PyAutoLabs/PyAutoEyes#2:merged": {
-          "id": "PyAutoLabs/PyAutoEyes#2:merged",
-          "task": "PyAutoLabs/PyAutoEyes#2",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-09-28T20:36:47Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "PyAutoEyes organ skeleton: strip lens content + cross-project dashboard (PyAutoMind#448)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/2"
-        },
-        "PyAutoLabs/PyAutoEyes#2:opened": {
-          "id": "PyAutoLabs/PyAutoEyes#2:opened",
-          "task": "PyAutoLabs/PyAutoEyes#2",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-09-28T20:29:38Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "PyAutoEyes organ skeleton: strip lens content + cross-project dashboard (PyAutoMind#448)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/2"
         }
       },
       "tasks": {
-        "2": {
-          "title": "PyAutoEyes organ skeleton: strip lens content + cross-project dashboard (PyAutoMind#448)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:01:34Z"
-        },
-        "3": {
-          "title": "feat: dashboard survey + critiques, per-figure critique route, badge.json (PyAutoEyes 2)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:01:38Z"
-        },
         "4": {
           "title": "feat: register the galaxy visualization instance (PyAutoEyes 3)",
           "is_pr": true,
@@ -19211,13 +19368,33 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
+        "PyAutoLabs/PyAutoFit#1735:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1735:opened",
+          "task": "PyAutoLabs/PyAutoFit#1735",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-28T20:45:06Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: hpc-campaign phase 1 — per-fit status record, failure record, states.py",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1735"
+        },
+        "PyAutoLabs/PyAutoFit#1734:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1734:opened",
+          "task": "PyAutoLabs/PyAutoFit#1734",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-10-28T20:44:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: results-library phase 0 — artefact integrity and honest reads",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1734"
+        },
         "PyAutoLabs/PyAutoFit#1732:closed": {
           "id": "PyAutoLabs/PyAutoFit#1732:closed",
           "task": "PyAutoLabs/PyAutoFit#1732",
@@ -21979,12 +22156,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T20:32:08Z"
+        },
+        "1734": {
+          "title": "feat: results-library phase 0 — artefact integrity and honest reads",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:44:46Z"
+        },
+        "1735": {
+          "title": "feat: hpc-campaign phase 1 — per-fit status record, failure record, states.py",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:45:06Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -23224,10 +23415,10 @@
           "revision": "2026-10-28T16:45:10Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -23490,63 +23681,9 @@
           "summary": "PR opened",
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/16"
-        },
-        "PyAutoLabs/PyAutoGut#14:merged": {
-          "id": "PyAutoLabs/PyAutoGut#14:merged",
-          "task": "PyAutoLabs/PyAutoGut#14",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-09-28T20:27:13Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/14"
-        },
-        "PyAutoLabs/PyAutoGut#14:opened": {
-          "id": "PyAutoLabs/PyAutoGut#14:opened",
-          "task": "PyAutoLabs/PyAutoGut#14",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-09-28T20:19:12Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/14"
-        },
-        "PyAutoLabs/PyAutoGut#13:merged": {
-          "id": "PyAutoLabs/PyAutoGut#13:merged",
-          "task": "PyAutoLabs/PyAutoGut#13",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-09-28T20:15:51Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/13"
-        },
-        "PyAutoLabs/PyAutoGut#13:opened": {
-          "id": "PyAutoLabs/PyAutoGut#13:opened",
-          "task": "PyAutoLabs/PyAutoGut#13",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-09-28T19:09:58Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/13"
         }
       },
       "tasks": {
-        "13": {
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:02:26Z"
-        },
-        "14": {
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:02:29Z"
-        },
         "16": {
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "is_pr": true,
@@ -23639,13 +23776,83 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
+        "PyAutoLabs/PyAutoHands#327:comment-6480940483": {
+          "id": "PyAutoLabs/PyAutoHands#327:comment-6480940483",
+          "task": "PyAutoLabs/PyAutoHands#327",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T21:19:04Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/327#issuecomment-6480940483"
+        },
+        "PyAutoLabs/PyAutoHands#328:merged": {
+          "id": "PyAutoLabs/PyAutoHands#328:merged",
+          "task": "PyAutoLabs/PyAutoHands#328",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T21:17:25Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/328"
+        },
+        "PyAutoLabs/PyAutoHands#327:comment-6480516998": {
+          "id": "PyAutoLabs/PyAutoHands#327:comment-6480516998",
+          "task": "PyAutoLabs/PyAutoHands#327",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T20:57:35Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/327#issuecomment-6480516998"
+        },
+        "PyAutoLabs/PyAutoHands#327:comment-6479949914": {
+          "id": "PyAutoLabs/PyAutoHands#327:comment-6479949914",
+          "task": "PyAutoLabs/PyAutoHands#327",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T20:29:14Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/327#issuecomment-6479949914"
+        },
+        "PyAutoLabs/PyAutoHands#328:opened": {
+          "id": "PyAutoLabs/PyAutoHands#328:opened",
+          "task": "PyAutoLabs/PyAutoHands#328",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T20:27:20Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/328"
+        },
+        "PyAutoLabs/PyAutoHands#327:comment-6479578372": {
+          "id": "PyAutoLabs/PyAutoHands#327:comment-6479578372",
+          "task": "PyAutoLabs/PyAutoHands#327",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T20:15:53Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/327#issuecomment-6479578372"
+        },
+        "PyAutoLabs/PyAutoHands#327:opened": {
+          "id": "PyAutoLabs/PyAutoHands#327:opened",
+          "task": "PyAutoLabs/PyAutoHands#327",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-10-28T20:05:31Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "refactor: make Colab setup compact across projects",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/327"
+        },
         "PyAutoLabs/PyAutoHands#324:closed": {
           "id": "PyAutoLabs/PyAutoHands#324:closed",
           "task": "PyAutoLabs/PyAutoHands#324",
@@ -24377,12 +24584,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T18:05:30Z"
+        },
+        "328": {
+          "title": "refactor: make Colab setup compact across projects",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-10-28T21:17:28Z"
+        },
+        "327": {
+          "title": "refactor: make Colab setup compact across projects",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T21:19:04Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -25426,10 +25647,10 @@
           "revision": "2026-10-26T16:47:19Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -26505,10 +26726,10 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -28217,10 +28438,10 @@
           "revision": "2026-10-28T17:18:09Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -28797,10 +29018,10 @@
           "revision": "2026-10-23T14:38:32Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -29925,13 +30146,23 @@
           "revision": "2026-10-28T12:28:23Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
+        "PyAutoLabs/PyAutoNerves#206:opened": {
+          "id": "PyAutoLabs/PyAutoNerves#206:opened",
+          "task": "PyAutoLabs/PyAutoNerves#206",
+          "repo": "PyAutoLabs/PyAutoNerves",
+          "time": "2026-10-28T20:45:08Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: hpc-campaign phase 1 — site.yaml layer and Config.push_site",
+          "url": "https://github.com/PyAutoLabs/PyAutoNerves/issues/206"
+        },
         "PyAutoLabs/PyAutoNerves#204:closed": {
           "id": "PyAutoLabs/PyAutoNerves#204:closed",
           "task": "PyAutoLabs/PyAutoNerves#204",
@@ -30461,63 +30692,9 @@
           "summary": "PR opened",
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/180"
-        },
-        "PyAutoLabs/PyAutoNerves#178:merged": {
-          "id": "PyAutoLabs/PyAutoNerves#178:merged",
-          "task": "PyAutoLabs/PyAutoNerves#178",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-09-28T20:27:09Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/178"
-        },
-        "PyAutoLabs/PyAutoNerves#178:opened": {
-          "id": "PyAutoLabs/PyAutoNerves#178:opened",
-          "task": "PyAutoLabs/PyAutoNerves#178",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-09-28T20:19:06Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/178"
-        },
-        "PyAutoLabs/PyAutoNerves#177:merged": {
-          "id": "PyAutoLabs/PyAutoNerves#177:merged",
-          "task": "PyAutoLabs/PyAutoNerves#177",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-09-28T20:13:05Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/177"
-        },
-        "PyAutoLabs/PyAutoNerves#177:opened": {
-          "id": "PyAutoLabs/PyAutoNerves#177:opened",
-          "task": "PyAutoLabs/PyAutoNerves#177",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-09-28T19:09:52Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/177"
         }
       },
       "tasks": {
-        "177": {
-          "title": "chore: canonical organ order — Eyes after Memory, before Heart (PyAutoMind#439)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:53:11Z"
-        },
-        "178": {
-          "title": "chore: organism map — autolens_visualization row + PyAutoEyes dashboard role (PyAutoMind#447)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:53:14Z"
-        },
         "180": {
           "title": "map: PyAutoEyes role names the fit + cti visualization instances (repos_sync, PyAutoMind#455)",
           "is_pr": true,
@@ -30678,12 +30855,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-25T16:14:26Z"
+        },
+        "206": {
+          "title": "feat: hpc-campaign phase 1 — site.yaml layer and Config.push_site",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-10-28T20:45:08Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
@@ -32893,25 +33077,25 @@
           "revision": "2026-10-26T17:54:41Z"
         }
       },
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {},
       "tasks": {},
-      "checked": "2026-10-28T18:26:23Z",
+      "checked": "2026-10-28T22:46:52Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-10-28T18:26:23Z"
+      "cursor": "2026-10-28T22:46:52Z"
     }
   },
   "next": 25,
   "pulse": {
     "status": "partial",
     "reason": "444 measurement records lack event times; 344 dated records lack explicit campaign/run association",
-    "checked": "2026-10-28T18:26:23Z",
+    "checked": "2026-10-28T22:46:52Z",
     "revision": "1ec23122368c43f8bfb0318c0c949590d6547958",
     "rows": [
       {
