@@ -1232,16 +1232,6 @@
           "summary": "PR merged",
           "title": "chore(readme): regenerate organ table for PyAutoPulse (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/39"
-        },
-        "PyAutoLabs/PyAutoScientist#39:opened": {
-          "id": "PyAutoLabs/PyAutoScientist#39:opened",
-          "task": "PyAutoLabs/PyAutoScientist#39",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-10-02T10:43:08Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore(readme): regenerate organ table for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/39"
         }
       },
       "tasks": {
@@ -1582,10 +1572,10 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1700,10 +1690,10 @@
           "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1909,10 +1899,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -1973,10 +1963,10 @@
           "revision": "2026-10-26T18:36:54Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2010,10 +2000,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2182,10 +2172,10 @@
           "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2828,10 +2818,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3047,10 +3037,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3192,10 +3182,10 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3663,10 +3653,10 @@
           "revision": "2026-10-29T21:39:36Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3936,10 +3926,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4256,10 +4246,10 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -4509,10 +4499,10 @@
           "revision": "2026-10-28T21:18:12Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4701,10 +4691,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -5067,16 +5057,6 @@
           "summary": "PR merged",
           "title": "docs(gui): document the Scribbler erase brush and a refine-existing-mask route",
           "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/251"
-        },
-        "PyAutoLabs/autogalaxy_workspace#254:opened": {
-          "id": "PyAutoLabs/autogalaxy_workspace#254:opened",
-          "task": "PyAutoLabs/autogalaxy_workspace#254",
-          "repo": "PyAutoLabs/autogalaxy_workspace",
-          "time": "2026-10-02T04:53:33Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(gui): Scribbler radial-subtracted display and GUI mask-up order",
-          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/254"
         }
       },
       "tasks": {
@@ -5172,10 +5152,10 @@
           "revision": "2026-10-31T12:19:04Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5290,10 +5270,10 @@
           "revision": "2026-10-26T10:28:58Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -6014,10 +5994,10 @@
           "revision": "2026-10-31T11:46:03Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -6820,36 +6800,9 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/autolens_inference/pull/19"
-        },
-        "PyAutoLabs/autolens_inference#17:merged": {
-          "id": "PyAutoLabs/autolens_inference#17:merged",
-          "task": "PyAutoLabs/autolens_inference#17",
-          "repo": "PyAutoLabs/autolens_inference",
-          "time": "2026-10-02T09:04:59Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: measure point-source Nautilus fit cost across five seeds",
-          "url": "https://github.com/PyAutoLabs/autolens_inference/pull/17"
-        },
-        "PyAutoLabs/autolens_inference#17:opened": {
-          "id": "PyAutoLabs/autolens_inference#17:opened",
-          "task": "PyAutoLabs/autolens_inference#17",
-          "repo": "PyAutoLabs/autolens_inference",
-          "time": "2026-10-02T08:39:40Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat: measure point-source Nautilus fit cost across five seeds",
-          "url": "https://github.com/PyAutoLabs/autolens_inference/pull/17"
         }
       },
       "tasks": {
-        "17": {
-          "title": "feat: measure point-source Nautilus fit cost across five seeds",
-          "is_pr": true,
-          "issue": 15,
-          "state": "closed",
-          "revision": "2026-10-07T10:15:08Z"
-        },
         "19": {
           "title": "docs: discover shared organism standards",
           "is_pr": true,
@@ -7075,10 +7028,10 @@
           "revision": "2026-10-29T12:51:00Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -10211,16 +10164,6 @@
           "summary": "Task opened",
           "title": "research: interferometer streaming vs in-memory scaling (phase 1, CPU)",
           "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/368"
-        },
-        "PyAutoLabs/autolens_profiling#362:opened": {
-          "id": "PyAutoLabs/autolens_profiling#362:opened",
-          "task": "PyAutoLabs/autolens_profiling#362",
-          "repo": "PyAutoLabs/autolens_profiling",
-          "time": "2026-10-02T08:56:30Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "bug: audit timing tests and profiling gates for noise",
-          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/362"
         }
       },
       "tasks": {
@@ -11009,10 +10952,10 @@
           "revision": "2026-10-31T18:15:19Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -11538,10 +11481,10 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
@@ -12224,16 +12167,6 @@
           "summary": "PR merged",
           "title": "docs(gui): document the Scribbler erase brush and a refine-existing-mask route",
           "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/579"
-        },
-        "PyAutoLabs/autolens_workspace#583:opened": {
-          "id": "PyAutoLabs/autolens_workspace#583:opened",
-          "task": "PyAutoLabs/autolens_workspace#583",
-          "repo": "PyAutoLabs/autolens_workspace",
-          "time": "2026-10-02T04:53:37Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(gui): Scribbler radial panels, multi-wavelength mask regrid, positions crosses, arc-mask GUI",
-          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/583"
         }
       },
       "tasks": {
@@ -12427,18 +12360,18 @@
           "revision": "2026-10-31T14:59:30Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -12671,10 +12604,10 @@
           "revision": "2026-10-30T13:42:15Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -12735,10 +12668,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -13085,10 +13018,10 @@
           "revision": "2026-10-31T14:51:41Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -13341,16 +13274,6 @@
           "summary": "PR merged",
           "title": "docs(hub): add PyAutoPulse organ (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/23"
-        },
-        "PyAutoLabs/pyautolabs.github.io#23:opened": {
-          "id": "PyAutoLabs/pyautolabs.github.io#23:opened",
-          "task": "PyAutoLabs/pyautolabs.github.io#23",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T10:42:36Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(hub): add PyAutoPulse organ (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/23"
         }
       },
       "tasks": {
@@ -13439,10 +13362,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -13707,10 +13630,10 @@
           "revision": "2026-10-29T09:45:45Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -14148,10 +14071,10 @@
           "revision": "2026-10-31T17:21:43Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -14804,10 +14727,10 @@
           "revision": "2026-10-31T17:13:15Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
@@ -16670,46 +16593,6 @@
           "summary": "PR opened",
           "title": "test: Audit numerical invariants across every mesh interpolator",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/611"
-        },
-        "PyAutoLabs/PyAutoArray#609:opened": {
-          "id": "PyAutoLabs/PyAutoArray#609:opened",
-          "task": "PyAutoLabs/PyAutoArray#609",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T10:40:20Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "fix: Preserve KNN neighbors in a partial final point block",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/609"
-        },
-        "PyAutoLabs/PyAutoArray#608:opened": {
-          "id": "PyAutoLabs/PyAutoArray#608:opened",
-          "task": "PyAutoLabs/PyAutoArray#608",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T10:32:57Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: Align transformed mesh areas with their cell edges",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/608"
-        },
-        "PyAutoLabs/PyAutoArray#607:opened": {
-          "id": "PyAutoLabs/PyAutoArray#607:opened",
-          "task": "PyAutoLabs/PyAutoArray#607",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T10:09:05Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: Keep masked fit utility gradients finite",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/607"
-        },
-        "PyAutoLabs/PyAutoArray#606:opened": {
-          "id": "PyAutoLabs/PyAutoArray#606:opened",
-          "task": "PyAutoLabs/PyAutoArray#606",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T09:03:35Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat: Add direct signal-to-noise over-sampling helper",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/606"
         }
       },
       "tasks": {
@@ -17148,10 +17031,10 @@
           "revision": "2026-10-30T11:43:26Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
@@ -19120,10 +19003,10 @@
           "revision": "2026-10-31T11:51:51Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -19803,10 +19686,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -19867,10 +19750,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -20503,16 +20386,6 @@
           "summary": "PR merged",
           "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/54"
-        },
-        "PyAutoLabs/PyAutoCortex#54:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#54:opened",
-          "task": "PyAutoLabs/PyAutoCortex#54",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-02T10:42:42Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/54"
         }
       },
       "tasks": {
@@ -20713,10 +20586,10 @@
           "revision": "2026-10-30T16:36:41Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -20804,10 +20677,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -21377,10 +21250,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -21743,16 +21616,6 @@
           "summary": "PR merged",
           "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/12"
-        },
-        "PyAutoLabs/PyAutoEyes#12:opened": {
-          "id": "PyAutoLabs/PyAutoEyes#12:opened",
-          "task": "PyAutoLabs/PyAutoEyes#12",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-10-02T10:43:02Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/12"
         }
       },
       "tasks": {
@@ -21862,10 +21725,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -25197,10 +25060,10 @@
           "revision": "2026-10-31T14:59:15Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -26581,10 +26444,10 @@
           "revision": "2026-10-30T13:32:30Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -26797,16 +26660,6 @@
           "summary": "PR merged",
           "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/18"
-        },
-        "PyAutoLabs/PyAutoGut#18:opened": {
-          "id": "PyAutoLabs/PyAutoGut#18:opened",
-          "task": "PyAutoLabs/PyAutoGut#18",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-10-02T10:42:55Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/18"
         }
       },
       "tasks": {
@@ -26888,10 +26741,10 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -27732,10 +27585,10 @@
           "revision": "2026-10-29T09:46:26Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -28779,10 +28632,10 @@
           "revision": "2026-10-26T16:47:19Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -29858,10 +29711,10 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -31654,10 +31507,10 @@
           "revision": "2026-10-30T16:32:05Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -32234,10 +32087,10 @@
           "revision": "2026-10-23T14:38:32Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -33389,10 +33242,10 @@
           "revision": "2026-10-31T12:38:21Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -34015,16 +33868,6 @@
           "summary": "PR merged",
           "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
           "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/181"
-        },
-        "PyAutoLabs/PyAutoNerves#181:opened": {
-          "id": "PyAutoLabs/PyAutoNerves#181:opened",
-          "task": "PyAutoLabs/PyAutoNerves#181",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-10-02T10:42:49Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/181"
         }
       },
       "tasks": {
@@ -34211,10 +34054,10 @@
           "revision": "2026-10-30T15:35:25Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
@@ -36552,10 +36395,10 @@
           "revision": "2026-10-31T16:56:20Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -36589,10 +36432,10 @@
           "revision": "2026-10-29T12:51:03Z"
         }
       },
-      "checked": "2026-11-01T03:40:52Z",
+      "checked": "2026-11-01T10:49:01Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T03:40:52Z"
+      "cursor": "2026-11-01T10:49:01Z"
     }
   },
   "next": 25,
