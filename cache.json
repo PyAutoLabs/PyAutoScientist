@@ -1222,26 +1222,9 @@
           "summary": "PR opened",
           "title": "Use shared banner and board section navigation",
           "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/43"
-        },
-        "PyAutoLabs/PyAutoScientist#39:merged": {
-          "id": "PyAutoLabs/PyAutoScientist#39:merged",
-          "task": "PyAutoLabs/PyAutoScientist#39",
-          "repo": "PyAutoLabs/PyAutoScientist",
-          "time": "2026-10-02T11:01:40Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore(readme): regenerate organ table for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoScientist/pull/39"
         }
       },
       "tasks": {
-        "39": {
-          "title": "chore(readme): regenerate organ table for PyAutoPulse (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:15:46Z"
-        },
         "43": {
           "title": "Use shared banner and board section navigation",
           "is_pr": true,
@@ -1572,10 +1555,10 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1690,10 +1673,10 @@
           "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1899,10 +1882,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -1963,10 +1946,10 @@
           "revision": "2026-10-26T18:36:54Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2000,10 +1983,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2172,10 +2155,10 @@
           "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2818,10 +2801,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3037,10 +3020,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3182,10 +3165,10 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3653,10 +3636,10 @@
           "revision": "2026-10-29T21:39:36Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3926,10 +3909,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4246,13 +4229,33 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
+        "PyAutoLabs/autogalaxy_assistant#42:merged": {
+          "id": "PyAutoLabs/autogalaxy_assistant#42:merged",
+          "task": "PyAutoLabs/autogalaxy_assistant#42",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-01T16:45:43Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Add start here mode: the PyAutoGalaxy Start Here tour as a guided conversation",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/42"
+        },
+        "PyAutoLabs/autogalaxy_assistant#42:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#42:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#42",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-01T16:20:19Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Add start here mode: the PyAutoGalaxy Start Here tour as a guided conversation",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/42"
+        },
         "PyAutoLabs/autogalaxy_assistant#41:merged": {
           "id": "PyAutoLabs/autogalaxy_assistant#41:merged",
           "task": "PyAutoLabs/autogalaxy_assistant#41",
@@ -4497,12 +4500,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-28T21:18:12Z"
+        },
+        "42": {
+          "title": "Add start here mode: the PyAutoGalaxy Start Here tour as a guided conversation",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:45Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4691,13 +4701,53 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace#270:merged": {
+          "id": "PyAutoLabs/autogalaxy_workspace#270:merged",
+          "task": "PyAutoLabs/autogalaxy_workspace#270",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-11-01T16:45:49Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "start_here: natural language or Python opening",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/270"
+        },
+        "PyAutoLabs/autogalaxy_workspace#270:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#270:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#270",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-11-01T16:20:27Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "start_here: natural language or Python opening",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/270"
+        },
+        "PyAutoLabs/autogalaxy_workspace#269:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#269:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#269",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-11-01T16:18:23Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/269"
+        },
+        "PyAutoLabs/autogalaxy_workspace#268:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace#268:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace#268",
+          "repo": "PyAutoLabs/autogalaxy_workspace",
+          "time": "2026-11-01T16:12:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "refactor: sweep workspaces onto util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/issues/268"
+        },
         "PyAutoLabs/autogalaxy_workspace#266:comment-6543270049": {
           "id": "PyAutoLabs/autogalaxy_workspace#266:comment-6543270049",
           "task": "PyAutoLabs/autogalaxy_workspace#266",
@@ -5150,15 +5200,46 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T12:19:04Z"
+        },
+        "268": {
+          "title": "refactor: sweep workspaces onto util.dataset.simulate_if_needed",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:12:46Z"
+        },
+        "269": {
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:18:23Z"
+        },
+        "270": {
+          "title": "start_here: natural language or Python opening",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:51Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace_test#132:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace_test#132:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace_test#132",
+          "repo": "PyAutoLabs/autogalaxy_workspace_test",
+          "time": "2026-11-01T16:18:37Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace_test/pull/132"
+        },
         "PyAutoLabs/autogalaxy_workspace_test#131:merged": {
           "id": "PyAutoLabs/autogalaxy_workspace_test#131:merged",
           "task": "PyAutoLabs/autogalaxy_workspace_test#131",
@@ -5268,15 +5349,42 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T10:28:58Z"
+        },
+        "132": {
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:18:37Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
+        "PyAutoLabs/autolens_assistant#175:merged": {
+          "id": "PyAutoLabs/autolens_assistant#175:merged",
+          "task": "PyAutoLabs/autolens_assistant#175",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-01T16:45:39Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Add start here mode: the PyAutoLens Start Here tour as a guided conversation",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/175"
+        },
+        "PyAutoLabs/autolens_assistant#175:opened": {
+          "id": "PyAutoLabs/autolens_assistant#175:opened",
+          "task": "PyAutoLabs/autolens_assistant#175",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-01T16:20:14Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Add start here mode: the PyAutoLens Start Here tour as a guided conversation",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/175"
+        },
         "PyAutoLabs/autolens_assistant#173:merged": {
           "id": "PyAutoLabs/autolens_assistant#173:merged",
           "task": "PyAutoLabs/autolens_assistant#173",
@@ -5992,12 +6100,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T11:46:03Z"
+        },
+        "175": {
+          "title": "Add start here mode: the PyAutoLens Start Here tour as a guided conversation",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:41Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -7028,13 +7143,283 @@
           "revision": "2026-10-29T12:51:00Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
+        "PyAutoLabs/autolens_profiling#509:opened": {
+          "id": "PyAutoLabs/autolens_profiling#509:opened",
+          "task": "PyAutoLabs/autolens_profiling#509",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T15:01:12Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "research: likelihood lifecycle 6c — run the gradient campaign on RAL",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/509"
+        },
+        "PyAutoLabs/autolens_profiling#507:comment-6559244007": {
+          "id": "PyAutoLabs/autolens_profiling#507:comment-6559244007",
+          "task": "PyAutoLabs/autolens_profiling#507",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T14:24:48Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign generator (phase 6b)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/507#issuecomment-6559244007"
+        },
+        "PyAutoLabs/autolens_profiling#507:closed": {
+          "id": "PyAutoLabs/autolens_profiling#507:closed",
+          "task": "PyAutoLabs/autolens_profiling#507",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T14:24:43Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign generator (phase 6b)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/507"
+        },
+        "PyAutoLabs/autolens_profiling#508:merged": {
+          "id": "PyAutoLabs/autolens_profiling#508:merged",
+          "task": "PyAutoLabs/autolens_profiling#508",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T14:24:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign (phase 6b)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/508"
+        },
+        "PyAutoLabs/autolens_profiling#508:opened": {
+          "id": "PyAutoLabs/autolens_profiling#508:opened",
+          "task": "PyAutoLabs/autolens_profiling#508",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:59:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign (phase 6b)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/508"
+        },
+        "PyAutoLabs/autolens_profiling#505:comment-6558931570": {
+          "id": "PyAutoLabs/autolens_profiling#505:comment-6558931570",
+          "task": "PyAutoLabs/autolens_profiling#505",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:58:20Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/505#issuecomment-6558931570"
+        },
+        "PyAutoLabs/autolens_profiling#505:closed": {
+          "id": "PyAutoLabs/autolens_profiling#505:closed",
+          "task": "PyAutoLabs/autolens_profiling#505",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:58:14Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/505"
+        },
+        "PyAutoLabs/autolens_profiling#506:merged": {
+          "id": "PyAutoLabs/autolens_profiling#506:merged",
+          "task": "PyAutoLabs/autolens_profiling#506",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:58:13Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/506"
+        },
+        "PyAutoLabs/autolens_profiling#507:opened": {
+          "id": "PyAutoLabs/autolens_profiling#507:opened",
+          "task": "PyAutoLabs/autolens_profiling#507",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:43:01Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign generator (phase 6b)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/507"
+        },
+        "PyAutoLabs/autolens_profiling#506:comment-6558623576": {
+          "id": "PyAutoLabs/autolens_profiling#506:comment-6558623576",
+          "task": "PyAutoLabs/autolens_profiling#506",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:30:42Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/506#issuecomment-6558623576"
+        },
+        "PyAutoLabs/autolens_profiling#506:opened": {
+          "id": "PyAutoLabs/autolens_profiling#506:opened",
+          "task": "PyAutoLabs/autolens_profiling#506",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T13:15:12Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/506"
+        },
+        "PyAutoLabs/autolens_profiling#505:opened": {
+          "id": "PyAutoLabs/autolens_profiling#505:opened",
+          "task": "PyAutoLabs/autolens_profiling#505",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:55:52Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/505"
+        },
+        "PyAutoLabs/autolens_profiling#503:comment-6558060563": {
+          "id": "PyAutoLabs/autolens_profiling#503:comment-6558060563",
+          "task": "PyAutoLabs/autolens_profiling#503",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:39:30Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/503#issuecomment-6558060563"
+        },
+        "PyAutoLabs/autolens_profiling#503:closed": {
+          "id": "PyAutoLabs/autolens_profiling#503:closed",
+          "task": "PyAutoLabs/autolens_profiling#503",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:39:12Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/503"
+        },
+        "PyAutoLabs/autolens_profiling#504:merged": {
+          "id": "PyAutoLabs/autolens_profiling#504:merged",
+          "task": "PyAutoLabs/autolens_profiling#504",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:39:11Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/504"
+        },
+        "PyAutoLabs/autolens_profiling#504:opened": {
+          "id": "PyAutoLabs/autolens_profiling#504:opened",
+          "task": "PyAutoLabs/autolens_profiling#504",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:19:36Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/504"
+        },
+        "PyAutoLabs/autolens_profiling#503:opened": {
+          "id": "PyAutoLabs/autolens_profiling#503:opened",
+          "task": "PyAutoLabs/autolens_profiling#503",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:11:52Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/503"
+        },
+        "PyAutoLabs/autolens_profiling#501:comment-6557729956": {
+          "id": "PyAutoLabs/autolens_profiling#501:comment-6557729956",
+          "task": "PyAutoLabs/autolens_profiling#501",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:08:57Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/501#issuecomment-6557729956"
+        },
+        "PyAutoLabs/autolens_profiling#501:closed": {
+          "id": "PyAutoLabs/autolens_profiling#501:closed",
+          "task": "PyAutoLabs/autolens_profiling#501",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:08:56Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/501"
+        },
+        "PyAutoLabs/autolens_profiling#502:merged": {
+          "id": "PyAutoLabs/autolens_profiling#502:merged",
+          "task": "PyAutoLabs/autolens_profiling#502",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T12:08:55Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/502"
+        },
+        "PyAutoLabs/autolens_profiling#502:opened": {
+          "id": "PyAutoLabs/autolens_profiling#502:opened",
+          "task": "PyAutoLabs/autolens_profiling#502",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:58:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/502"
+        },
+        "PyAutoLabs/autolens_profiling#501:opened": {
+          "id": "PyAutoLabs/autolens_profiling#501:opened",
+          "task": "PyAutoLabs/autolens_profiling#501",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:51:30Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/501"
+        },
+        "PyAutoLabs/autolens_profiling#499:closed": {
+          "id": "PyAutoLabs/autolens_profiling#499:closed",
+          "task": "PyAutoLabs/autolens_profiling#499",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:19:14Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1; freeze the Pulse day_zero snapshot",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/499"
+        },
+        "PyAutoLabs/autolens_profiling#499:comment-6557231061": {
+          "id": "PyAutoLabs/autolens_profiling#499:comment-6557231061",
+          "task": "PyAutoLabs/autolens_profiling#499",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:19:12Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1; freeze the Pulse day_zero snapshot",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/499#issuecomment-6557231061"
+        },
+        "PyAutoLabs/autolens_profiling#500:merged": {
+          "id": "PyAutoLabs/autolens_profiling#500:merged",
+          "task": "PyAutoLabs/autolens_profiling#500",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:16:30Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1 on the §3.6 baseline",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/500"
+        },
+        "PyAutoLabs/autolens_profiling#500:opened": {
+          "id": "PyAutoLabs/autolens_profiling#500:opened",
+          "task": "PyAutoLabs/autolens_profiling#500",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T11:05:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1 on the §3.6 baseline",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/pull/500"
+        },
+        "PyAutoLabs/autolens_profiling#499:opened": {
+          "id": "PyAutoLabs/autolens_profiling#499:opened",
+          "task": "PyAutoLabs/autolens_profiling#499",
+          "repo": "PyAutoLabs/autolens_profiling",
+          "time": "2026-11-01T10:56:25Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1; freeze the Pulse day_zero snapshot",
+          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/499"
+        },
         "PyAutoLabs/autolens_profiling#497:comment-6547296406": {
           "id": "PyAutoLabs/autolens_profiling#497:comment-6547296406",
           "task": "PyAutoLabs/autolens_profiling#497",
@@ -10950,12 +11335,89 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T18:15:19Z"
+        },
+        "500": {
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1 on the §3.6 baseline",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T11:16:32Z"
+        },
+        "499": {
+          "title": "feat(catalogue): stamp day_zero 2026.10.25.1; freeze the Pulse day_zero snapshot",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T11:19:14Z"
+        },
+        "502": {
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T12:08:57Z"
+        },
+        "501": {
+          "title": "docs(wiki): generated day_zero.md rule pages per likelihood",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T12:08:57Z"
+        },
+        "504": {
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T12:39:13Z"
+        },
+        "503": {
+          "title": "feat(baseline): close setup-baseline by day zero; runtime_estimates export",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T12:39:30Z"
+        },
+        "506": {
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T13:58:16Z"
+        },
+        "505": {
+          "title": "feat(gradient): gradient harness, gradient.json ingestion and the imaging/mge pilot (phase 6a)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T13:58:20Z"
+        },
+        "508": {
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign (phase 6b)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T14:24:44Z"
+        },
+        "507": {
+          "title": "feat(gradient): gradient_breakdown.py for every likelihood + gradient_p6 campaign generator (phase 6b)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T14:24:48Z"
+        },
+        "509": {
+          "title": "research: likelihood lifecycle 6c — run the gradient campaign on RAL",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T15:01:12Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -11481,13 +11943,43 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#612:opened": {
+          "id": "PyAutoLabs/autolens_workspace#612:opened",
+          "task": "PyAutoLabs/autolens_workspace#612",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-01T16:54:15Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/612"
+        },
+        "PyAutoLabs/autolens_workspace#611:merged": {
+          "id": "PyAutoLabs/autolens_workspace#611:merged",
+          "task": "PyAutoLabs/autolens_workspace#611",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-01T16:45:46Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "start_here: natural language or Python opening",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/611"
+        },
+        "PyAutoLabs/autolens_workspace#611:opened": {
+          "id": "PyAutoLabs/autolens_workspace#611:opened",
+          "task": "PyAutoLabs/autolens_workspace#611",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-01T16:20:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "start_here: natural language or Python opening",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/611"
+        },
         "PyAutoLabs/autolens_workspace#610:comment-6545060731": {
           "id": "PyAutoLabs/autolens_workspace#610:comment-6545060731",
           "task": "PyAutoLabs/autolens_workspace#610",
@@ -12358,23 +12850,47 @@
           "issue": null,
           "state": "open",
           "revision": "2026-10-31T14:59:30Z"
+        },
+        "611": {
+          "title": "start_here: natural language or Python opening",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:48Z"
+        },
+        "612": {
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:54:15Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
+        "PyAutoLabs/autolens_workspace_test#353:opened": {
+          "id": "PyAutoLabs/autolens_workspace_test#353:opened",
+          "task": "PyAutoLabs/autolens_workspace_test#353",
+          "repo": "PyAutoLabs/autolens_workspace_test",
+          "time": "2026-11-01T16:18:30Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/353"
+        },
         "PyAutoLabs/autolens_workspace_test#351:comment-6524252456": {
           "id": "PyAutoLabs/autolens_workspace_test#351:comment-6524252456",
           "task": "PyAutoLabs/autolens_workspace_test#351",
@@ -12602,12 +13118,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-30T13:42:15Z"
+        },
+        "353": {
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:18:30Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -12668,10 +13191,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -13018,10 +13541,10 @@
           "revision": "2026-10-31T14:51:41Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -13224,80 +13747,9 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/29"
-        },
-        "PyAutoLabs/pyautolabs.github.io#26:merged": {
-          "id": "PyAutoLabs/pyautolabs.github.io#26:merged",
-          "task": "PyAutoLabs/pyautolabs.github.io#26",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T15:44:42Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "hub: link the Pulse board beside the Eyes board (#25)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/26"
-        },
-        "PyAutoLabs/pyautolabs.github.io#26:opened": {
-          "id": "PyAutoLabs/pyautolabs.github.io#26:opened",
-          "task": "PyAutoLabs/pyautolabs.github.io#26",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T15:40:47Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "hub: link the Pulse board beside the Eyes board (#25)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/26"
-        },
-        "PyAutoLabs/pyautolabs.github.io#24:merged": {
-          "id": "PyAutoLabs/pyautolabs.github.io#24:merged",
-          "task": "PyAutoLabs/pyautolabs.github.io#24",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T14:48:05Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat(cockpit): Pulse card fed from PyAutoPulse/state.json (PyAutoBrain#450)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/24"
-        },
-        "PyAutoLabs/pyautolabs.github.io#24:opened": {
-          "id": "PyAutoLabs/pyautolabs.github.io#24:opened",
-          "task": "PyAutoLabs/pyautolabs.github.io#24",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T14:35:33Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat(cockpit): Pulse card fed from PyAutoPulse/state.json (PyAutoBrain#450)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/24"
-        },
-        "PyAutoLabs/pyautolabs.github.io#23:merged": {
-          "id": "PyAutoLabs/pyautolabs.github.io#23:merged",
-          "task": "PyAutoLabs/pyautolabs.github.io#23",
-          "repo": "PyAutoLabs/pyautolabs.github.io",
-          "time": "2026-10-02T11:01:28Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs(hub): add PyAutoPulse organ (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/pyautolabs.github.io/pull/23"
         }
       },
       "tasks": {
-        "23": {
-          "title": "docs(hub): add PyAutoPulse organ (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:10:51Z"
-        },
-        "24": {
-          "title": "feat(cockpit): Pulse card fed from PyAutoPulse/state.json (PyAutoBrain#450)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:10:55Z"
-        },
-        "26": {
-          "title": "hub: link the Pulse board beside the Eyes board (#25)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:10:58Z"
-        },
         "29": {
           "title": "docs: discover shared organism standards",
           "is_pr": true,
@@ -13362,10 +13814,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -13630,13 +14082,63 @@
           "revision": "2026-10-29T09:45:45Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
+        "PyAutoLabs/HowToGalaxy#99:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#99:opened",
+          "task": "PyAutoLabs/HowToGalaxy#99",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-11-01T16:54:29Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/99"
+        },
+        "PyAutoLabs/HowToGalaxy#98:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#98:merged",
+          "task": "PyAutoLabs/HowToGalaxy#98",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-11-01T16:54:17Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "start_here and README: HowToGalaxy and natural language",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/98"
+        },
+        "PyAutoLabs/HowToGalaxy#98:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#98:opened",
+          "task": "PyAutoLabs/HowToGalaxy#98",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-11-01T16:48:41Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "start_here and README: HowToGalaxy and natural language",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/98"
+        },
+        "PyAutoLabs/HowToGalaxy#97:merged": {
+          "id": "PyAutoLabs/HowToGalaxy#97:merged",
+          "task": "PyAutoLabs/HowToGalaxy#97",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-11-01T16:14:48Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/97"
+        },
+        "PyAutoLabs/HowToGalaxy#97:opened": {
+          "id": "PyAutoLabs/HowToGalaxy#97:opened",
+          "task": "PyAutoLabs/HowToGalaxy#97",
+          "repo": "PyAutoLabs/HowToGalaxy",
+          "time": "2026-11-01T16:07:51Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "url": "https://github.com/PyAutoLabs/HowToGalaxy/pull/97"
+        },
         "PyAutoLabs/HowToGalaxy#94:comment-6546679012": {
           "id": "PyAutoLabs/HowToGalaxy#94:comment-6546679012",
           "task": "PyAutoLabs/HowToGalaxy#94",
@@ -14069,15 +14571,206 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T17:21:43Z"
+        },
+        "97": {
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:14:51Z"
+        },
+        "98": {
+          "title": "start_here and README: HowToGalaxy and natural language",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:54:19Z"
+        },
+        "99": {
+          "title": "refactor: auto-simulate datasets with ag.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:54:29Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
+        "PyAutoLabs/HowToLens#120:opened": {
+          "id": "PyAutoLabs/HowToLens#120:opened",
+          "task": "PyAutoLabs/HowToLens#120",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:54:22Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/120"
+        },
+        "PyAutoLabs/HowToLens#118:merged": {
+          "id": "PyAutoLabs/HowToLens#118:merged",
+          "task": "PyAutoLabs/HowToLens#118",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:54:14Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "start_here and README: HowToLens and natural language",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/118"
+        },
+        "PyAutoLabs/HowToLens#119:opened": {
+          "id": "PyAutoLabs/HowToLens#119:opened",
+          "task": "PyAutoLabs/HowToLens#119",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:51:01Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: wrap tutorial prose and join consecutive narrative blocks",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/119"
+        },
+        "PyAutoLabs/HowToLens#118:opened": {
+          "id": "PyAutoLabs/HowToLens#118:opened",
+          "task": "PyAutoLabs/HowToLens#118",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:48:37Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "start_here and README: HowToLens and natural language",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/118"
+        },
+        "PyAutoLabs/HowToLens#116:closed": {
+          "id": "PyAutoLabs/HowToLens#116:closed",
+          "task": "PyAutoLabs/HowToLens#116",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:16:30Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs: restore Chapter 2 contents and source formatting",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/116"
+        },
+        "PyAutoLabs/HowToLens#116:comment-6560536339": {
+          "id": "PyAutoLabs/HowToLens#116:comment-6560536339",
+          "task": "PyAutoLabs/HowToLens#116",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:16:29Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "docs: restore Chapter 2 contents and source formatting",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/116#issuecomment-6560536339"
+        },
+        "PyAutoLabs/HowToLens#117:merged": {
+          "id": "PyAutoLabs/HowToLens#117:merged",
+          "task": "PyAutoLabs/HowToLens#117",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:15:03Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/117"
+        },
+        "PyAutoLabs/HowToLens#117:opened": {
+          "id": "PyAutoLabs/HowToLens#117:opened",
+          "task": "PyAutoLabs/HowToLens#117",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:07:49Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/117"
+        },
+        "PyAutoLabs/HowToLens#116:opened": {
+          "id": "PyAutoLabs/HowToLens#116:opened",
+          "task": "PyAutoLabs/HowToLens#116",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T16:03:58Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: restore Chapter 2 contents and source formatting",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/116"
+        },
+        "PyAutoLabs/HowToLens#113:comment-6560168755": {
+          "id": "PyAutoLabs/HowToLens#113:comment-6560168755",
+          "task": "PyAutoLabs/HowToLens#113",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:45:05Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "docs: implement approved Chapter 2 lessons 1–4",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/113#issuecomment-6560168755"
+        },
+        "PyAutoLabs/HowToLens#113:closed": {
+          "id": "PyAutoLabs/HowToLens#113:closed",
+          "task": "PyAutoLabs/HowToLens#113",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:43:47Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs: implement approved Chapter 2 lessons 1–4",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/113"
+        },
+        "PyAutoLabs/HowToLens#115:merged": {
+          "id": "PyAutoLabs/HowToLens#115:merged",
+          "task": "PyAutoLabs/HowToLens#115",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:43:46Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: apply reviewed Chapter 2 modeling lessons",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/115"
+        },
+        "PyAutoLabs/HowToLens#113:comment-6560056919": {
+          "id": "PyAutoLabs/HowToLens#113:comment-6560056919",
+          "task": "PyAutoLabs/HowToLens#113",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:35:03Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "docs: implement approved Chapter 2 lessons 1–4",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/113#issuecomment-6560056919"
+        },
+        "PyAutoLabs/HowToLens#114:merged": {
+          "id": "PyAutoLabs/HowToLens#114:merged",
+          "task": "PyAutoLabs/HowToLens#114",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:33:14Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Complete Chapter 1 data, fitting and summary tutorial review",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/114"
+        },
+        "PyAutoLabs/HowToLens#115:opened": {
+          "id": "PyAutoLabs/HowToLens#115:opened",
+          "task": "PyAutoLabs/HowToLens#115",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:33:10Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: apply reviewed Chapter 2 modeling lessons",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/115"
+        },
+        "PyAutoLabs/HowToLens#114:opened": {
+          "id": "PyAutoLabs/HowToLens#114:opened",
+          "task": "PyAutoLabs/HowToLens#114",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:19:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Complete Chapter 1 data, fitting and summary tutorial review",
+          "url": "https://github.com/PyAutoLabs/HowToLens/pull/114"
+        },
+        "PyAutoLabs/HowToLens#113:opened": {
+          "id": "PyAutoLabs/HowToLens#113:opened",
+          "task": "PyAutoLabs/HowToLens#113",
+          "repo": "PyAutoLabs/HowToLens",
+          "time": "2026-11-01T15:16:06Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: implement approved Chapter 2 lessons 1–4",
+          "url": "https://github.com/PyAutoLabs/HowToLens/issues/113"
+        },
         "PyAutoLabs/HowToLens#111:closed": {
           "id": "PyAutoLabs/HowToLens#111:closed",
           "task": "PyAutoLabs/HowToLens#111",
@@ -14725,15 +15418,121 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T17:13:15Z"
+        },
+        "114": {
+          "title": "Complete Chapter 1 data, fitting and summary tutorial review",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T15:33:18Z"
+        },
+        "115": {
+          "title": "docs: apply reviewed Chapter 2 modeling lessons",
+          "is_pr": true,
+          "issue": 113,
+          "state": "closed",
+          "revision": "2026-11-01T15:43:49Z"
+        },
+        "113": {
+          "title": "docs: implement approved Chapter 2 lessons 1–4",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T15:45:05Z"
+        },
+        "117": {
+          "title": "docs: restore descriptive Chapter 2 contents",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:15:06Z"
+        },
+        "116": {
+          "title": "docs: restore Chapter 2 contents and source formatting",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:16:30Z"
+        },
+        "119": {
+          "title": "fix: wrap tutorial prose and join consecutive narrative blocks",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:51:01Z"
+        },
+        "118": {
+          "title": "start_here and README: HowToLens and natural language",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:54:16Z"
+        },
+        "120": {
+          "title": "refactor: auto-simulate datasets with al.util.dataset.simulate_if_needed",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-01T16:54:22Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#669:closed": {
+          "id": "PyAutoLabs/PyAutoArray#669:closed",
+          "task": "PyAutoLabs/PyAutoArray#669",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-01T15:59:57Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: one-line auto-simulate helper al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/669"
+        },
+        "PyAutoLabs/PyAutoArray#669:comment-6560337723": {
+          "id": "PyAutoLabs/PyAutoArray#669:comment-6560337723",
+          "task": "PyAutoLabs/PyAutoArray#669",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-01T15:59:52Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: one-line auto-simulate helper al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/669#issuecomment-6560337723"
+        },
+        "PyAutoLabs/PyAutoArray#670:merged": {
+          "id": "PyAutoLabs/PyAutoArray#670:merged",
+          "task": "PyAutoLabs/PyAutoArray#670",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-01T15:59:14Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(util.dataset): add simulate_if_needed one-line auto-simulate helper",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/670"
+        },
+        "PyAutoLabs/PyAutoArray#670:opened": {
+          "id": "PyAutoLabs/PyAutoArray#670:opened",
+          "task": "PyAutoLabs/PyAutoArray#670",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-01T15:47:59Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(util.dataset): add simulate_if_needed one-line auto-simulate helper",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/670"
+        },
+        "PyAutoLabs/PyAutoArray#669:opened": {
+          "id": "PyAutoLabs/PyAutoArray#669:opened",
+          "task": "PyAutoLabs/PyAutoArray#669",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-01T15:47:45Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: one-line auto-simulate helper al.util.dataset.simulate_if_needed",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/669"
+        },
         "PyAutoLabs/PyAutoArray#668:comment-6522447947": {
           "id": "PyAutoLabs/PyAutoArray#668:comment-6522447947",
           "task": "PyAutoLabs/PyAutoArray#668",
@@ -16543,56 +17342,6 @@
           "summary": "PR opened",
           "title": "fix: require Nerves with the JAX deadlock exclusions",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/612"
-        },
-        "PyAutoLabs/PyAutoArray#611:merged": {
-          "id": "PyAutoLabs/PyAutoArray#611:merged",
-          "task": "PyAutoLabs/PyAutoArray#611",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T11:45:32Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "test: Audit numerical invariants across every mesh interpolator",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/611"
-        },
-        "PyAutoLabs/PyAutoArray#608:merged": {
-          "id": "PyAutoLabs/PyAutoArray#608:merged",
-          "task": "PyAutoLabs/PyAutoArray#608",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T11:44:51Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: Align transformed mesh areas with their cell edges",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/608"
-        },
-        "PyAutoLabs/PyAutoArray#607:merged": {
-          "id": "PyAutoLabs/PyAutoArray#607:merged",
-          "task": "PyAutoLabs/PyAutoArray#607",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T11:43:57Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: Keep masked fit utility gradients finite",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/607"
-        },
-        "PyAutoLabs/PyAutoArray#606:merged": {
-          "id": "PyAutoLabs/PyAutoArray#606:merged",
-          "task": "PyAutoLabs/PyAutoArray#606",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T11:43:22Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: Add direct signal-to-noise over-sampling helper",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/606"
-        },
-        "PyAutoLabs/PyAutoArray#611:opened": {
-          "id": "PyAutoLabs/PyAutoArray#611:opened",
-          "task": "PyAutoLabs/PyAutoArray#611",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-02T11:10:19Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "test: Audit numerical invariants across every mesh interpolator",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/611"
         }
       },
       "tasks": {
@@ -16616,34 +17365,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T08:47:54Z"
-        },
-        "606": {
-          "title": "feat: Add direct signal-to-noise over-sampling helper",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:51:20Z"
-        },
-        "607": {
-          "title": "fix: Keep masked fit utility gradients finite",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:51:23Z"
-        },
-        "608": {
-          "title": "fix: Align transformed mesh areas with their cell edges",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:51:26Z"
-        },
-        "611": {
-          "title": "test: Audit numerical invariants across every mesh interpolator",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:51:31Z"
         },
         "617": {
           "title": "feat: opt-in quadrature pooling of unequal real/imag sigma on the sparse path",
@@ -17029,12 +17750,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-30T11:43:26Z"
+        },
+        "670": {
+          "title": "feat(util.dataset): add simulate_if_needed one-line auto-simulate helper",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T15:59:49Z"
+        },
+        "669": {
+          "title": "feat: one-line auto-simulate helper al.util.dataset.simulate_if_needed",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T15:59:57Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
@@ -19003,10 +19738,10 @@
           "revision": "2026-10-31T11:51:51Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -19686,10 +20421,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -19750,10 +20485,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -20376,26 +21111,9 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/57"
-        },
-        "PyAutoLabs/PyAutoCortex#54:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#54:merged",
-          "task": "PyAutoLabs/PyAutoCortex#54",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-02T11:01:31Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/54"
         }
       },
       "tasks": {
-        "54": {
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:00:19Z"
-        },
         "57": {
           "title": "docs: discover shared organism standards",
           "is_pr": true,
@@ -20586,10 +21304,10 @@
           "revision": "2026-10-30T16:36:41Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -20677,10 +21395,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -21250,10 +21968,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -21586,53 +22304,9 @@
           "summary": "PR opened",
           "title": "Use shared banner and board section navigation",
           "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/17"
-        },
-        "PyAutoLabs/PyAutoEyes#13:merged": {
-          "id": "PyAutoLabs/PyAutoEyes#13:merged",
-          "task": "PyAutoLabs/PyAutoEyes#13",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-10-02T13:50:20Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/13"
-        },
-        "PyAutoLabs/PyAutoEyes#13:opened": {
-          "id": "PyAutoLabs/PyAutoEyes#13:opened",
-          "task": "PyAutoLabs/PyAutoEyes#13",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-10-02T13:11:54Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/13"
-        },
-        "PyAutoLabs/PyAutoEyes#12:merged": {
-          "id": "PyAutoLabs/PyAutoEyes#12:merged",
-          "task": "PyAutoLabs/PyAutoEyes#12",
-          "repo": "PyAutoLabs/PyAutoEyes",
-          "time": "2026-10-02T10:57:16Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoEyes/pull/12"
         }
       },
       "tasks": {
-        "12": {
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:01:55Z"
-        },
-        "13": {
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:01:58Z"
-        },
         "17": {
           "title": "Use shared banner and board section navigation",
           "is_pr": true,
@@ -21725,10 +22399,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -25060,13 +25734,33 @@
           "revision": "2026-10-31T14:59:15Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
+        "PyAutoLabs/PyAutoGalaxy#688:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#688:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#688",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-01T16:45:34Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Docs: lead Start Here with natural language or Python",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/688"
+        },
+        "PyAutoLabs/PyAutoGalaxy#688:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#688:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#688",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-01T16:20:09Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Docs: lead Start Here with natural language or Python",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/688"
+        },
         "PyAutoLabs/PyAutoGalaxy#686:comment-6524056636": {
           "id": "PyAutoLabs/PyAutoGalaxy#686:comment-6524056636",
           "task": "PyAutoLabs/PyAutoGalaxy#686",
@@ -26442,12 +27136,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-30T13:32:30Z"
+        },
+        "688": {
+          "title": "Docs: lead Start Here with natural language or Python",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:36Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -26650,26 +27351,9 @@
           "summary": "PR opened",
           "title": "Use shared banner and board section navigation",
           "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/22"
-        },
-        "PyAutoLabs/PyAutoGut#18:merged": {
-          "id": "PyAutoLabs/PyAutoGut#18:merged",
-          "task": "PyAutoLabs/PyAutoGut#18",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-10-02T11:01:36Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/18"
         }
       },
       "tasks": {
-        "18": {
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:02:38Z"
-        },
         "22": {
           "title": "Use shared banner and board section navigation",
           "is_pr": true,
@@ -26741,13 +27425,33 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
+        "PyAutoLabs/PyAutoHands#329:merged": {
+          "id": "PyAutoLabs/PyAutoHands#329:merged",
+          "task": "PyAutoLabs/PyAutoHands#329",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-11-01T15:59:18Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(check_dataset_allowlist): cover simulate_if_needed call sites",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/329"
+        },
+        "PyAutoLabs/PyAutoHands#329:opened": {
+          "id": "PyAutoLabs/PyAutoHands#329:opened",
+          "task": "PyAutoLabs/PyAutoHands#329",
+          "repo": "PyAutoLabs/PyAutoHands",
+          "time": "2026-11-01T15:48:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(check_dataset_allowlist): cover simulate_if_needed call sites",
+          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/329"
+        },
         "PyAutoLabs/PyAutoHands#327:closed": {
           "id": "PyAutoLabs/PyAutoHands#327:closed",
           "task": "PyAutoLabs/PyAutoHands#327",
@@ -27583,12 +28287,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-29T09:46:26Z"
+        },
+        "329": {
+          "title": "feat(check_dataset_allowlist): cover simulate_if_needed call sites",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T15:59:19Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -28632,10 +29343,10 @@
           "revision": "2026-10-26T16:47:19Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -29711,13 +30422,33 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
+        "PyAutoLabs/PyAutoLens#814:merged": {
+          "id": "PyAutoLabs/PyAutoLens#814:merged",
+          "task": "PyAutoLabs/PyAutoLens#814",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-01T16:45:30Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Docs: lead Start Here with natural language or Python",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/814"
+        },
+        "PyAutoLabs/PyAutoLens#814:opened": {
+          "id": "PyAutoLabs/PyAutoLens#814:opened",
+          "task": "PyAutoLabs/PyAutoLens#814",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-01T16:20:03Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Docs: lead Start Here with natural language or Python",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/814"
+        },
         "PyAutoLabs/PyAutoLens#812:comment-6527924689": {
           "id": "PyAutoLabs/PyAutoLens#812:comment-6527924689",
           "task": "PyAutoLabs/PyAutoLens#812",
@@ -31505,12 +32236,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-30T16:32:05Z"
+        },
+        "814": {
+          "title": "Docs: lead Start Here with natural language or Python",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T16:45:33Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -32087,10 +32825,10 @@
           "revision": "2026-10-23T14:38:32Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -33242,10 +33980,10 @@
           "revision": "2026-10-31T12:38:21Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -33858,26 +34596,9 @@
           "summary": "PR opened",
           "title": "fix: exclude deadlocking JAX releases while preserving older support",
           "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/184"
-        },
-        "PyAutoLabs/PyAutoNerves#181:merged": {
-          "id": "PyAutoLabs/PyAutoNerves#181:merged",
-          "task": "PyAutoLabs/PyAutoNerves#181",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-10-02T10:57:12Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/181"
         }
       },
       "tasks": {
-        "181": {
-          "title": "chore(map): regenerate organism map for PyAutoPulse (PyAutoMind#463)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T09:53:20Z"
-        },
         "191": {
           "title": "fix: skip workspace version warning outside a workspace (no config/)",
           "is_pr": false,
@@ -34054,13 +34775,53 @@
           "revision": "2026-10-30T15:35:25Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
+        "PyAutoLabs/PyAutoPulse#86:merged": {
+          "id": "PyAutoLabs/PyAutoPulse#86:merged",
+          "task": "PyAutoLabs/PyAutoPulse#86",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-11-01T12:39:18Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "pulse: close the setup-baseline campaign (superseded by day zero, R10)",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/86"
+        },
+        "PyAutoLabs/PyAutoPulse#86:opened": {
+          "id": "PyAutoLabs/PyAutoPulse#86:opened",
+          "task": "PyAutoLabs/PyAutoPulse#86",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-11-01T12:21:47Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "pulse: close the setup-baseline campaign (superseded by day zero, R10)",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/86"
+        },
+        "PyAutoLabs/PyAutoPulse#85:merged": {
+          "id": "PyAutoLabs/PyAutoPulse#85:merged",
+          "task": "PyAutoLabs/PyAutoPulse#85",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-11-01T11:19:00Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat(freeze): frozen day_zero snapshot of the lens baseline",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/85"
+        },
+        "PyAutoLabs/PyAutoPulse#85:opened": {
+          "id": "PyAutoLabs/PyAutoPulse#85:opened",
+          "task": "PyAutoLabs/PyAutoPulse#85",
+          "repo": "PyAutoLabs/PyAutoPulse",
+          "time": "2026-11-01T11:09:04Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat(freeze): frozen day_zero snapshot of the lens baseline",
+          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/85"
+        },
         "PyAutoLabs/PyAutoPulse#83:comment-6546388426": {
           "id": "PyAutoLabs/PyAutoPulse#83:comment-6546388426",
           "task": "PyAutoLabs/PyAutoPulse#83",
@@ -35840,46 +36601,6 @@
           "summary": "PR opened",
           "title": "feat: accept setup-based profiling evidence",
           "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/11"
-        },
-        "PyAutoLabs/PyAutoPulse#4:merged": {
-          "id": "PyAutoLabs/PyAutoPulse#4:merged",
-          "task": "PyAutoLabs/PyAutoPulse#4",
-          "repo": "PyAutoLabs/PyAutoPulse",
-          "time": "2026-10-02T13:50:17Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/4"
-        },
-        "PyAutoLabs/PyAutoPulse#4:opened": {
-          "id": "PyAutoLabs/PyAutoPulse#4:opened",
-          "task": "PyAutoLabs/PyAutoPulse#4",
-          "repo": "PyAutoLabs/PyAutoPulse",
-          "time": "2026-10-02T13:11:41Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/4"
-        },
-        "PyAutoLabs/PyAutoPulse#2:merged": {
-          "id": "PyAutoLabs/PyAutoPulse#2:merged",
-          "task": "PyAutoLabs/PyAutoPulse#2",
-          "repo": "PyAutoLabs/PyAutoPulse",
-          "time": "2026-10-02T12:55:59Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: organ skeleton — registry, commit-pinned reader + receipts, board, CLI, workflows (phase 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/2"
-        },
-        "PyAutoLabs/PyAutoPulse#2:opened": {
-          "id": "PyAutoLabs/PyAutoPulse#2:opened",
-          "task": "PyAutoLabs/PyAutoPulse#2",
-          "repo": "PyAutoLabs/PyAutoPulse",
-          "time": "2026-10-02T12:30:02Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat: organ skeleton — registry, commit-pinned reader + receipts, board, CLI, workflows (phase 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/2"
         }
       },
       "tasks": {
@@ -35889,20 +36610,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T08:34:31Z"
-        },
-        "2": {
-          "title": "feat: organ skeleton — registry, commit-pinned reader + receipts, board, CLI, workflows (phase 2)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:13:45Z"
-        },
-        "4": {
-          "title": "ci(lint): exclude github.com blob pages from lychee (PyAutoPulse#3)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T11:13:48Z"
         },
         "11": {
           "title": "feat: accept setup-based profiling evidence",
@@ -36393,12 +37100,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-31T16:56:20Z"
+        },
+        "85": {
+          "title": "feat(freeze): frozen day_zero snapshot of the lens baseline",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T11:19:02Z"
+        },
+        "86": {
+          "title": "pulse: close the setup-baseline campaign (superseded by day zero, R10)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-01T12:39:21Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -36432,10 +37153,10 @@
           "revision": "2026-10-29T12:51:03Z"
         }
       },
-      "checked": "2026-11-01T10:49:01Z",
+      "checked": "2026-11-01T16:55:53Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-01T10:49:01Z"
+      "cursor": "2026-11-01T16:55:53Z"
     }
   },
   "next": 25,
