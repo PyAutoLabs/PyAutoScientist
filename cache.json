@@ -1555,10 +1555,10 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1673,10 +1673,10 @@
           "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1882,10 +1882,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -1973,10 +1973,10 @@
           "revision": "2026-11-01T20:51:08Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2010,10 +2010,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2182,10 +2182,10 @@
           "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2828,10 +2828,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3047,10 +3047,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3192,10 +3192,10 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3690,10 +3690,10 @@
           "revision": "2026-11-02T12:16:58Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3963,10 +3963,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4283,10 +4283,10 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -4563,10 +4563,10 @@
           "revision": "2026-11-01T16:45:45Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4755,10 +4755,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -5307,10 +5307,10 @@
           "revision": "2026-11-01T16:45:51Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5452,10 +5452,10 @@
           "revision": "2026-11-01T20:51:11Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -6277,10 +6277,10 @@
           "revision": "2026-11-02T14:08:01Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -7547,10 +7547,10 @@
           "revision": "2026-11-02T20:06:01Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -12141,10 +12141,10 @@
           "revision": "2026-11-02T22:38:30Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -12670,10 +12670,10 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
@@ -13731,18 +13731,18 @@
           "revision": "2026-11-02T16:58:32Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -14002,10 +14002,10 @@
           "revision": "2026-11-01T20:51:05Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -14066,10 +14066,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -14443,10 +14443,10 @@
           "revision": "2026-11-01T20:51:22Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -14716,10 +14716,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -14984,10 +14984,10 @@
           "revision": "2026-10-29T09:45:45Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -15533,10 +15533,10 @@
           "revision": "2026-11-01T19:04:01Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -16526,10 +16526,10 @@
           "revision": "2026-11-02T14:01:43Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
@@ -18522,16 +18522,6 @@
           "summary": "PR opened",
           "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/615"
-        },
-        "PyAutoLabs/PyAutoArray#613:opened": {
-          "id": "PyAutoLabs/PyAutoArray#613:opened",
-          "task": "PyAutoLabs/PyAutoArray#613",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-04T19:41:35Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/613"
         }
       },
       "tasks": {
@@ -18984,13 +18974,73 @@
           "revision": "2026-11-03T11:57:09Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#565:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#565:closed",
+          "task": "PyAutoLabs/PyAutoBrain#565",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:24:28Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: install.sh --check/--write-project-discovery rejects repo names (argparse ordering)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/565"
+        },
+        "PyAutoLabs/PyAutoBrain#563:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#563:closed",
+          "task": "PyAutoLabs/PyAutoBrain#563",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:24:26Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "docs: RTD organism pages current — Nerves/DNA/Broca, no hard-coded organ counts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/563"
+        },
+        "PyAutoLabs/PyAutoBrain#562:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#562:closed",
+          "task": "PyAutoLabs/PyAutoBrain#562",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:24:25Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: board phase 2 — remaining GitHub legs onto --github-data",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/562"
+        },
+        "PyAutoLabs/PyAutoBrain#561:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#561:closed",
+          "task": "PyAutoLabs/PyAutoBrain#561",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:24:23Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: intake adds no Memory: line to organ-targeted prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/561"
+        },
+        "PyAutoLabs/PyAutoBrain#564:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#564:merged",
+          "task": "PyAutoLabs/PyAutoBrain#564",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:24:21Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "Intake organ Memory gate, board phase 2, RTD organism currency",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/564"
+        },
+        "PyAutoLabs/PyAutoBrain#565:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#565:opened",
+          "task": "PyAutoLabs/PyAutoBrain#565",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T19:11:54Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: install.sh --check/--write-project-discovery rejects repo names (argparse ordering)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/565"
+        },
         "PyAutoLabs/PyAutoBrain#564:opened": {
           "id": "PyAutoLabs/PyAutoBrain#564:opened",
           "task": "PyAutoLabs/PyAutoBrain#564",
@@ -21363,35 +21413,42 @@
           "title": "fix: intake adds no Memory: line to organ-targeted prompts",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-03T18:37:28Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:23Z"
         },
         "562": {
           "title": "feat: board phase 2 — remaining GitHub legs onto --github-data",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-03T18:37:33Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:25Z"
         },
         "563": {
           "title": "docs: RTD organism pages current — Nerves/DNA/Broca, no hard-coded organ counts",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-03T18:37:38Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:26Z"
         },
         "564": {
           "title": "Intake organ Memory gate, board phase 2, RTD organism currency",
           "is_pr": true,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-03T18:40:18Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:23Z"
+        },
+        "565": {
+          "title": "fix: install.sh --check/--write-project-discovery rejects repo names (argparse ordering)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T19:24:28Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -22071,10 +22128,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -22135,10 +22192,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -23028,10 +23085,10 @@
           "revision": "2026-11-02T14:49:40Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -23119,10 +23176,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -23665,10 +23722,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -24096,10 +24153,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -27700,10 +27757,10 @@
           "revision": "2026-11-02T18:08:56Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -29289,10 +29346,10 @@
           "revision": "2026-11-02T16:51:46Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -29569,10 +29626,10 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -30440,10 +30497,10 @@
           "revision": "2026-11-01T15:59:19Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -31551,10 +31608,10 @@
           "revision": "2026-11-01T17:48:33Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -32630,10 +32687,10 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -34156,26 +34213,6 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/769"
-        },
-        "PyAutoLabs/PyAutoLens#768:merged": {
-          "id": "PyAutoLabs/PyAutoLens#768:merged",
-          "task": "PyAutoLabs/PyAutoLens#768",
-          "repo": "PyAutoLabs/PyAutoLens",
-          "time": "2026-10-04T20:41:19Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: finite forward-mode gradient for FitPositionsImagePairAll(Solved)",
-          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/768"
-        },
-        "PyAutoLabs/PyAutoLens#768:opened": {
-          "id": "PyAutoLabs/PyAutoLens#768:opened",
-          "task": "PyAutoLabs/PyAutoLens#768",
-          "repo": "PyAutoLabs/PyAutoLens",
-          "time": "2026-10-04T20:29:33Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: finite forward-mode gradient for FitPositionsImagePairAll(Solved)",
-          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/768"
         }
       },
       "tasks": {
@@ -34206,13 +34243,6 @@
           "issue": 771,
           "state": "closed",
           "revision": "2026-10-07T17:56:28Z"
-        },
-        "768": {
-          "title": "fix: finite forward-mode gradient for FitPositionsImagePairAll(Solved)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:30Z"
         },
         "775": {
           "title": "fix: allow-list setuptools package discovery (autolens*)",
@@ -34544,13 +34574,33 @@
           "revision": "2026-11-02T17:39:09Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
+        "PyAutoLabs/PyAutoMemory#142:closed": {
+          "id": "PyAutoLabs/PyAutoMemory#142:closed",
+          "task": "PyAutoLabs/PyAutoMemory#142",
+          "repo": "PyAutoLabs/PyAutoMemory",
+          "time": "2026-11-03T19:24:26Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: arxiv_refs — an arXiv API outage must turn the workflow red",
+          "url": "https://github.com/PyAutoLabs/PyAutoMemory/issues/142"
+        },
+        "PyAutoLabs/PyAutoMemory#143:merged": {
+          "id": "PyAutoLabs/PyAutoMemory#143:merged",
+          "task": "PyAutoLabs/PyAutoMemory#143",
+          "repo": "PyAutoLabs/PyAutoMemory",
+          "time": "2026-11-03T19:24:25Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "arxiv_refs: an arXiv API outage now turns the workflow red",
+          "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/143"
+        },
         "PyAutoLabs/PyAutoMemory#143:opened": {
           "id": "PyAutoLabs/PyAutoMemory#143:opened",
           "task": "PyAutoLabs/PyAutoMemory#143",
@@ -35147,21 +35197,21 @@
           "title": "fix: arxiv_refs — an arXiv API outage must turn the workflow red",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-03T18:37:43Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:26Z"
         },
         "143": {
           "title": "arxiv_refs: an arXiv API outage now turns the workflow red",
           "is_pr": true,
           "issue": 142,
-          "state": "open",
-          "revision": "2026-11-03T18:38:41Z"
+          "state": "closed",
+          "revision": "2026-11-03T19:24:27Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
@@ -36496,13 +36546,13 @@
           "is_pr": true,
           "issue": 527,
           "state": "open",
-          "revision": "2026-11-03T18:40:05Z"
+          "revision": "2026-11-03T19:27:49Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -37267,10 +37317,10 @@
           "revision": "2026-10-30T15:35:25Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
@@ -39689,10 +39739,10 @@
           "revision": "2026-11-02T16:24:07Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -39726,10 +39776,10 @@
           "revision": "2026-10-29T12:51:03Z"
         }
       },
-      "checked": "2026-11-03T18:53:45Z",
+      "checked": "2026-11-03T23:50:59Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T18:53:45Z"
+      "cursor": "2026-11-03T23:50:59Z"
     }
   },
   "next": 25,
