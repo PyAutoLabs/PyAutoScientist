@@ -1555,10 +1555,10 @@
           "revision": "2026-10-23T14:38:26Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1673,10 +1673,10 @@
           "revision": "2026-10-26T18:36:44Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1882,10 +1882,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -1973,10 +1973,10 @@
           "revision": "2026-11-01T20:51:08Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2010,10 +2010,10 @@
           "revision": "2026-10-07T09:55:22Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2182,10 +2182,10 @@
           "revision": "2026-10-26T18:37:00Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2828,10 +2828,10 @@
           "revision": "2026-10-16T15:59:35Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3047,10 +3047,10 @@
           "revision": "2026-10-23T17:36:52Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3192,10 +3192,10 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3690,10 +3690,10 @@
           "revision": "2026-11-02T12:16:58Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3963,10 +3963,10 @@
           "revision": "2026-10-15T16:48:48Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4283,10 +4283,10 @@
           "revision": "2026-10-23T15:25:30Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -4563,10 +4563,10 @@
           "revision": "2026-11-01T16:45:45Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4755,10 +4755,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -5307,10 +5307,10 @@
           "revision": "2026-11-01T16:45:51Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5452,10 +5452,10 @@
           "revision": "2026-11-01T20:51:11Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -6277,10 +6277,10 @@
           "revision": "2026-11-02T14:08:01Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -7547,10 +7547,10 @@
           "revision": "2026-11-02T20:06:01Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -11213,16 +11213,6 @@
           "summary": "Task opened",
           "title": "fix: expose profiling measurements and related hazards",
           "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/387"
-        },
-        "PyAutoLabs/autolens_profiling#368:opened": {
-          "id": "PyAutoLabs/autolens_profiling#368:opened",
-          "task": "PyAutoLabs/autolens_profiling#368",
-          "repo": "PyAutoLabs/autolens_profiling",
-          "time": "2026-10-04T18:06:06Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "research: interferometer streaming vs in-memory scaling (phase 1, CPU)",
-          "url": "https://github.com/PyAutoLabs/autolens_profiling/issues/368"
         }
       },
       "tasks": {
@@ -12151,10 +12141,10 @@
           "revision": "2026-11-02T22:38:30Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -12680,10 +12670,10 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
@@ -13741,18 +13731,18 @@
           "revision": "2026-11-02T16:58:32Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {},
       "tasks": {},
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -14012,10 +14002,10 @@
           "revision": "2026-11-01T20:51:05Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -14076,10 +14066,10 @@
           "revision": "2026-10-07T11:17:48Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -14453,10 +14443,10 @@
           "revision": "2026-11-01T20:51:22Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -14726,10 +14716,10 @@
           "revision": "2026-10-23T12:25:16Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -14994,10 +14984,10 @@
           "revision": "2026-10-29T09:45:45Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -15543,10 +15533,10 @@
           "revision": "2026-11-01T19:04:01Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -16536,13 +16526,23 @@
           "revision": "2026-11-02T14:01:43Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#675:opened": {
+          "id": "PyAutoLabs/PyAutoArray#675:opened",
+          "task": "PyAutoLabs/PyAutoArray#675",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-03T11:57:09Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Imaging.apply_mask: trim the native arrays to the mask plus a PSF half-width (trim_to_mask)",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/675"
+        },
         "PyAutoLabs/PyAutoArray#673:comment-6581432327": {
           "id": "PyAutoLabs/PyAutoArray#673:comment-6581432327",
           "task": "PyAutoLabs/PyAutoArray#673",
@@ -18532,26 +18532,6 @@
           "summary": "Task opened",
           "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/613"
-        },
-        "PyAutoLabs/PyAutoArray#612:merged": {
-          "id": "PyAutoLabs/PyAutoArray#612:merged",
-          "task": "PyAutoLabs/PyAutoArray#612",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-04T15:50:07Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/612"
-        },
-        "PyAutoLabs/PyAutoArray#612:opened": {
-          "id": "PyAutoLabs/PyAutoArray#612:opened",
-          "task": "PyAutoLabs/PyAutoArray#612",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-04T14:51:03Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/612"
         }
       },
       "tasks": {
@@ -18589,13 +18569,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T10:55:59Z"
-        },
-        "612": {
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:20Z"
         },
         "615": {
           "title": "perf: back off the fnnls warm-start memo on scattered evaluation streams",
@@ -19002,15 +18975,302 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-02T15:46:08Z"
+        },
+        "675": {
+          "title": "Imaging.apply_mask: trim the native arrays to the mask plus a PSF half-width (trim_to_mask)",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T11:57:09Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#564:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#564:opened",
+          "task": "PyAutoLabs/PyAutoBrain#564",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T18:38:35Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "Intake organ Memory gate, board phase 2, RTD organism currency",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/564"
+        },
+        "PyAutoLabs/PyAutoBrain#563:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#563:opened",
+          "task": "PyAutoLabs/PyAutoBrain#563",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T18:37:38Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "docs: RTD organism pages current — Nerves/DNA/Broca, no hard-coded organ counts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/563"
+        },
+        "PyAutoLabs/PyAutoBrain#562:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#562:opened",
+          "task": "PyAutoLabs/PyAutoBrain#562",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T18:37:33Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: board phase 2 — remaining GitHub legs onto --github-data",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/562"
+        },
+        "PyAutoLabs/PyAutoBrain#561:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#561:opened",
+          "task": "PyAutoLabs/PyAutoBrain#561",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T18:37:28Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: intake adds no Memory: line to organ-targeted prompts",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/561"
+        },
+        "PyAutoLabs/PyAutoBrain#560:comment-6611719208": {
+          "id": "PyAutoLabs/PyAutoBrain#560:comment-6611719208",
+          "task": "PyAutoLabs/PyAutoBrain#560",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T18:06:47Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p3c — one Mind writer (ledger ops, temp-worktree commits, worker hook)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/560#issuecomment-6611719208"
+        },
+        "PyAutoLabs/PyAutoBrain#560:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#560:opened",
+          "task": "PyAutoLabs/PyAutoBrain#560",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:55:53Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: autonomous orchestrators p3c — one Mind writer (ledger ops, temp-worktree commits, worker hook)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/560"
+        },
+        "PyAutoLabs/PyAutoBrain#559:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#559:opened",
+          "task": "PyAutoLabs/PyAutoBrain#559",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:47:11Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: autonomous orchestrators p3c — one Mind writer (ledger ops, temp-worktree commits, worker hook)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/559"
+        },
+        "PyAutoLabs/PyAutoBrain#557:comment-6610862496": {
+          "id": "PyAutoLabs/PyAutoBrain#557:comment-6610862496",
+          "task": "PyAutoLabs/PyAutoBrain#557",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:25:59Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/557#issuecomment-6610862496"
+        },
+        "PyAutoLabs/PyAutoBrain#557:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#557:closed",
+          "task": "PyAutoLabs/PyAutoBrain#557",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:25:40Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/557"
+        },
+        "PyAutoLabs/PyAutoBrain#558:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#558:merged",
+          "task": "PyAutoLabs/PyAutoBrain#558",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:25:39Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/558"
+        },
+        "PyAutoLabs/PyAutoBrain#558:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#558:opened",
+          "task": "PyAutoLabs/PyAutoBrain#558",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:21:44Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/558"
+        },
+        "PyAutoLabs/PyAutoBrain#557:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#557:opened",
+          "task": "PyAutoLabs/PyAutoBrain#557",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T17:04:18Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/557"
+        },
+        "PyAutoLabs/PyAutoBrain#555:comment-6608457337": {
+          "id": "PyAutoLabs/PyAutoBrain#555:comment-6608457337",
+          "task": "PyAutoLabs/PyAutoBrain#555",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T15:50:26Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p3a — watcher core (fake workers, leases, kill switch)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/555#issuecomment-6608457337"
+        },
+        "PyAutoLabs/PyAutoBrain#555:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#555:closed",
+          "task": "PyAutoLabs/PyAutoBrain#555",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T15:50:10Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: autonomous orchestrators p3a — watcher core (fake workers, leases, kill switch)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/555"
+        },
+        "PyAutoLabs/PyAutoBrain#556:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#556:merged",
+          "task": "PyAutoLabs/PyAutoBrain#556",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T15:50:08Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: autonomous orchestrators p3a — shift watcher core (fake workers, leases, kill switch)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/556"
+        },
+        "PyAutoLabs/PyAutoBrain#556:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#556:opened",
+          "task": "PyAutoLabs/PyAutoBrain#556",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T15:44:08Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: autonomous orchestrators p3a — shift watcher core (fake workers, leases, kill switch)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/556"
+        },
+        "PyAutoLabs/PyAutoBrain#555:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#555:opened",
+          "task": "PyAutoLabs/PyAutoBrain#555",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T15:34:44Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: autonomous orchestrators p3a — watcher core (fake workers, leases, kill switch)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/555"
+        },
+        "PyAutoLabs/PyAutoBrain#553:comment-6606727319": {
+          "id": "PyAutoLabs/PyAutoBrain#553:comment-6606727319",
+          "task": "PyAutoLabs/PyAutoBrain#553",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:40:30Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/553#issuecomment-6606727319"
+        },
+        "PyAutoLabs/PyAutoBrain#553:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#553:closed",
+          "task": "PyAutoLabs/PyAutoBrain#553",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:40:17Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/553"
+        },
+        "PyAutoLabs/PyAutoBrain#554:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#554:merged",
+          "task": "PyAutoLabs/PyAutoBrain#554",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:40:15Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/554"
+        },
+        "PyAutoLabs/PyAutoBrain#554:comment-6606627010": {
+          "id": "PyAutoLabs/PyAutoBrain#554:comment-6606627010",
+          "task": "PyAutoLabs/PyAutoBrain#554",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:36:24Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/554#issuecomment-6606627010"
+        },
+        "PyAutoLabs/PyAutoBrain#554:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#554:opened",
+          "task": "PyAutoLabs/PyAutoBrain#554",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:31:46Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/554"
+        },
+        "PyAutoLabs/PyAutoBrain#553:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#553:opened",
+          "task": "PyAutoLabs/PyAutoBrain#553",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T14:12:51Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/553"
+        },
+        "PyAutoLabs/PyAutoBrain#551:comment-6605307179": {
+          "id": "PyAutoLabs/PyAutoBrain#551:comment-6605307179",
+          "task": "PyAutoLabs/PyAutoBrain#551",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T13:38:46Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: autonomous orchestrators p1 — shift brief doctrine and formats",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/551#issuecomment-6605307179"
+        },
+        "PyAutoLabs/PyAutoBrain#551:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#551:closed",
+          "task": "PyAutoLabs/PyAutoBrain#551",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T13:38:30Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: autonomous orchestrators p1 — shift brief doctrine and formats",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/551"
+        },
+        "PyAutoLabs/PyAutoBrain#552:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#552:merged",
+          "task": "PyAutoLabs/PyAutoBrain#552",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T13:38:28Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: autonomous orchestrators p1 — shift brief doctrine (AUTONOMY.md 2026-11-03)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/552"
+        },
+        "PyAutoLabs/PyAutoBrain#552:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#552:opened",
+          "task": "PyAutoLabs/PyAutoBrain#552",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T13:11:24Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: autonomous orchestrators p1 — shift brief doctrine (AUTONOMY.md 2026-11-03)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/552"
+        },
+        "PyAutoLabs/PyAutoBrain#551:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#551:opened",
+          "task": "PyAutoLabs/PyAutoBrain#551",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-03T13:03:53Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: autonomous orchestrators p1 — shift brief doctrine and formats",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/551"
+        },
         "PyAutoLabs/PyAutoBrain#549:merged": {
           "id": "PyAutoLabs/PyAutoBrain#549:merged",
           "task": "PyAutoLabs/PyAutoBrain#549",
@@ -21028,12 +21288,110 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-01T20:51:25Z"
+        },
+        "552": {
+          "title": "docs: autonomous orchestrators p1 — shift brief doctrine (AUTONOMY.md 2026-11-03)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T13:38:31Z"
+        },
+        "551": {
+          "title": "feat: autonomous orchestrators p1 — shift brief doctrine and formats",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T13:38:46Z"
+        },
+        "554": {
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T14:40:19Z"
+        },
+        "553": {
+          "title": "feat: autonomous orchestrators p2 — Lane resource values, brief validator, census",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T14:40:30Z"
+        },
+        "556": {
+          "title": "feat: autonomous orchestrators p3a — shift watcher core (fake workers, leases, kill switch)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T15:50:11Z"
+        },
+        "555": {
+          "title": "feat: autonomous orchestrators p3a — watcher core (fake workers, leases, kill switch)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T15:50:26Z"
+        },
+        "558": {
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T17:25:41Z"
+        },
+        "557": {
+          "title": "feat: autonomous orchestrators p3b — real dispatch (claude --bg workers, stall parking, token budget)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T17:25:59Z"
+        },
+        "559": {
+          "title": "feat: autonomous orchestrators p3c — one Mind writer (ledger ops, temp-worktree commits, worker hook)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T17:47:11Z"
+        },
+        "560": {
+          "title": "feat: autonomous orchestrators p3c — one Mind writer (ledger ops, temp-worktree commits, worker hook)",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:06:47Z"
+        },
+        "561": {
+          "title": "fix: intake adds no Memory: line to organ-targeted prompts",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:37:28Z"
+        },
+        "562": {
+          "title": "feat: board phase 2 — remaining GitHub legs onto --github-data",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:37:33Z"
+        },
+        "563": {
+          "title": "docs: RTD organism pages current — Nerves/DNA/Broca, no hard-coded organ counts",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:37:38Z"
+        },
+        "564": {
+          "title": "Intake organ Memory gate, board phase 2, RTD organism currency",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:40:18Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -21713,10 +22071,10 @@
           "revision": "2026-10-12T11:36:57Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -21777,10 +22135,10 @@
           "revision": "2026-10-23T12:52:47Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -22670,10 +23028,10 @@
           "revision": "2026-11-02T14:49:40Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -22761,10 +23119,10 @@
           "revision": "2026-10-11T18:24:11Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -23307,10 +23665,10 @@
           "revision": "2026-10-11T15:09:48Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -23738,10 +24096,10 @@
           "revision": "2026-10-21T09:25:35Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -26624,26 +26982,6 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1660"
-        },
-        "PyAutoLabs/PyAutoFit#1659:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1659:merged",
-          "task": "PyAutoLabs/PyAutoFit#1659",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-04T15:50:00Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1659"
-        },
-        "PyAutoLabs/PyAutoFit#1659:opened": {
-          "id": "PyAutoLabs/PyAutoFit#1659:opened",
-          "task": "PyAutoLabs/PyAutoFit#1659",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-04T14:43:20Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1659"
         }
       },
       "tasks": {
@@ -26674,13 +27012,6 @@
           "issue": 1661,
           "state": "closed",
           "revision": "2026-10-07T17:56:09Z"
-        },
-        "1659": {
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:15Z"
         },
         "1664": {
           "title": "fix: allow-list setuptools package discovery (autofit*)",
@@ -27369,10 +27700,10 @@
           "revision": "2026-11-02T18:08:56Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -28625,26 +28956,6 @@
           "summary": "PR opened",
           "title": "docs: discover shared organism standards",
           "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/648"
-        },
-        "PyAutoLabs/PyAutoGalaxy#647:merged": {
-          "id": "PyAutoLabs/PyAutoGalaxy#647:merged",
-          "task": "PyAutoLabs/PyAutoGalaxy#647",
-          "repo": "PyAutoLabs/PyAutoGalaxy",
-          "time": "2026-10-04T15:50:17Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/647"
-        },
-        "PyAutoLabs/PyAutoGalaxy#647:opened": {
-          "id": "PyAutoLabs/PyAutoGalaxy#647:opened",
-          "task": "PyAutoLabs/PyAutoGalaxy#647",
-          "repo": "PyAutoLabs/PyAutoGalaxy",
-          "time": "2026-10-04T14:43:27Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/647"
         }
       },
       "tasks": {
@@ -28654,13 +28965,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-16T04:48:15Z"
-        },
-        "647": {
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:18Z"
         },
         "651": {
           "title": "fix: allow-list setuptools package discovery (autogalaxy*)",
@@ -28985,10 +29289,10 @@
           "revision": "2026-11-02T16:51:46Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -29265,10 +29569,10 @@
           "revision": "2026-10-23T15:22:42Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -30136,10 +30440,10 @@
           "revision": "2026-11-01T15:59:19Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -31247,10 +31551,10 @@
           "revision": "2026-11-01T17:48:33Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -32326,10 +32630,10 @@
           "revision": "2026-10-23T17:23:28Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -33872,26 +34176,6 @@
           "summary": "PR opened",
           "title": "fix: finite forward-mode gradient for FitPositionsImagePairAll(Solved)",
           "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/768"
-        },
-        "PyAutoLabs/PyAutoLens#766:merged": {
-          "id": "PyAutoLabs/PyAutoLens#766:merged",
-          "task": "PyAutoLabs/PyAutoLens#766",
-          "repo": "PyAutoLabs/PyAutoLens",
-          "time": "2026-10-04T15:50:24Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/766"
-        },
-        "PyAutoLabs/PyAutoLens#766:opened": {
-          "id": "PyAutoLabs/PyAutoLens#766:opened",
-          "task": "PyAutoLabs/PyAutoLens#766",
-          "repo": "PyAutoLabs/PyAutoLens",
-          "time": "2026-10-04T14:58:43Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/766"
         }
       },
       "tasks": {
@@ -33915,13 +34199,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T08:03:09Z"
-        },
-        "766": {
-          "title": "fix: require Nerves with the JAX deadlock exclusions",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:22Z"
         },
         "772": {
           "title": "fix: single-image recovery blind to inf-padded JAX solver output",
@@ -34267,13 +34544,33 @@
           "revision": "2026-11-02T17:39:09Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
+        "PyAutoLabs/PyAutoMemory#143:opened": {
+          "id": "PyAutoLabs/PyAutoMemory#143:opened",
+          "task": "PyAutoLabs/PyAutoMemory#143",
+          "repo": "PyAutoLabs/PyAutoMemory",
+          "time": "2026-11-03T18:38:41Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "arxiv_refs: an arXiv API outage now turns the workflow red",
+          "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/143"
+        },
+        "PyAutoLabs/PyAutoMemory#142:opened": {
+          "id": "PyAutoLabs/PyAutoMemory#142:opened",
+          "task": "PyAutoLabs/PyAutoMemory#142",
+          "repo": "PyAutoLabs/PyAutoMemory",
+          "time": "2026-11-03T18:37:43Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: arxiv_refs — an arXiv API outage must turn the workflow red",
+          "url": "https://github.com/PyAutoLabs/PyAutoMemory/issues/142"
+        },
         "PyAutoLabs/PyAutoMemory#140:merged": {
           "id": "PyAutoLabs/PyAutoMemory#140:merged",
           "task": "PyAutoLabs/PyAutoMemory#140",
@@ -34845,15 +35142,139 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-23T14:38:32Z"
+        },
+        "142": {
+          "title": "fix: arxiv_refs — an arXiv API outage must turn the workflow red",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:37:43Z"
+        },
+        "143": {
+          "title": "arxiv_refs: an arXiv API outage now turns the workflow red",
+          "is_pr": true,
+          "issue": 142,
+          "state": "open",
+          "revision": "2026-11-03T18:38:41Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
+        "PyAutoLabs/PyAutoMind#528:opened": {
+          "id": "PyAutoLabs/PyAutoMind#528:opened",
+          "task": "PyAutoLabs/PyAutoMind#528",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T18:39:28Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "repos_sync: one declaration per generated block; register 5 organ tasks",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/528"
+        },
+        "PyAutoLabs/PyAutoMind#527:opened": {
+          "id": "PyAutoLabs/PyAutoMind#527:opened",
+          "task": "PyAutoLabs/PyAutoMind#527",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T18:37:47Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "refactor: repos_sync.py — one declaration per generated marker block",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/527"
+        },
+        "PyAutoLabs/PyAutoMind#526:opened": {
+          "id": "PyAutoLabs/PyAutoMind#526:opened",
+          "task": "PyAutoLabs/PyAutoMind#526",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T17:55:50Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: autonomous orchestrators p3c — sandbox is a test marker only",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/526"
+        },
+        "PyAutoLabs/PyAutoMind#525:merged": {
+          "id": "PyAutoLabs/PyAutoMind#525:merged",
+          "task": "PyAutoLabs/PyAutoMind#525",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T17:25:32Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: autonomous orchestrators p3b — worker-mode and sandbox brief keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/525"
+        },
+        "PyAutoLabs/PyAutoMind#525:opened": {
+          "id": "PyAutoLabs/PyAutoMind#525:opened",
+          "task": "PyAutoLabs/PyAutoMind#525",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T17:21:42Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: autonomous orchestrators p3b — worker-mode and sandbox brief keys",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/525"
+        },
+        "PyAutoLabs/PyAutoMind#524:merged": {
+          "id": "PyAutoLabs/PyAutoMind#524:merged",
+          "task": "PyAutoLabs/PyAutoMind#524",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T15:50:02Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: autonomous orchestrators p3a — shift-brief usage caps",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/524"
+        },
+        "PyAutoLabs/PyAutoMind#524:opened": {
+          "id": "PyAutoLabs/PyAutoMind#524:opened",
+          "task": "PyAutoLabs/PyAutoMind#524",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T15:44:05Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: autonomous orchestrators p3a — shift-brief usage caps",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/524"
+        },
+        "PyAutoLabs/PyAutoMind#523:merged": {
+          "id": "PyAutoLabs/PyAutoMind#523:merged",
+          "task": "PyAutoLabs/PyAutoMind#523",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T14:40:06Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: autonomous orchestrators p2 — shift-brief example fixture",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/523"
+        },
+        "PyAutoLabs/PyAutoMind#523:opened": {
+          "id": "PyAutoLabs/PyAutoMind#523:opened",
+          "task": "PyAutoLabs/PyAutoMind#523",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T14:31:30Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: autonomous orchestrators p2 — shift-brief example fixture",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/523"
+        },
+        "PyAutoLabs/PyAutoMind#522:merged": {
+          "id": "PyAutoLabs/PyAutoMind#522:merged",
+          "task": "PyAutoLabs/PyAutoMind#522",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T13:38:11Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: autonomous orchestrators p1 — shift brief formats, watcher exemption, Lane:",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/522"
+        },
+        "PyAutoLabs/PyAutoMind#522:opened": {
+          "id": "PyAutoLabs/PyAutoMind#522:opened",
+          "task": "PyAutoLabs/PyAutoMind#522",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-03T13:11:12Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: autonomous orchestrators p1 — shift brief formats, watcher exemption, Lane:",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/522"
+        },
         "PyAutoLabs/PyAutoMind#521:merged": {
           "id": "PyAutoLabs/PyAutoMind#521:merged",
           "task": "PyAutoLabs/PyAutoMind#521",
@@ -36027,12 +36448,61 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-01T17:51:29Z"
+        },
+        "522": {
+          "title": "docs: autonomous orchestrators p1 — shift brief formats, watcher exemption, Lane:",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T13:38:14Z"
+        },
+        "523": {
+          "title": "feat: autonomous orchestrators p2 — shift-brief example fixture",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T14:40:10Z"
+        },
+        "524": {
+          "title": "docs: autonomous orchestrators p3a — shift-brief usage caps",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T15:50:06Z"
+        },
+        "525": {
+          "title": "docs: autonomous orchestrators p3b — worker-mode and sandbox brief keys",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-03T17:25:35Z"
+        },
+        "526": {
+          "title": "docs: autonomous orchestrators p3c — sandbox is a test marker only",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T17:55:56Z"
+        },
+        "527": {
+          "title": "refactor: repos_sync.py — one declaration per generated marker block",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-03T18:37:47Z"
+        },
+        "528": {
+          "title": "repos_sync: one declaration per generated block; register 5 organ tasks",
+          "is_pr": true,
+          "issue": 527,
+          "state": "open",
+          "revision": "2026-11-03T18:40:05Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -36625,26 +37095,6 @@
           "summary": "PR opened",
           "title": "Use shared banner and board section navigation",
           "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/186"
-        },
-        "PyAutoLabs/PyAutoNerves#184:merged": {
-          "id": "PyAutoLabs/PyAutoNerves#184:merged",
-          "task": "PyAutoLabs/PyAutoNerves#184",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-10-04T15:49:51Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: exclude deadlocking JAX releases while preserving older support",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/184"
-        },
-        "PyAutoLabs/PyAutoNerves#184:opened": {
-          "id": "PyAutoLabs/PyAutoNerves#184:opened",
-          "task": "PyAutoLabs/PyAutoNerves#184",
-          "repo": "PyAutoLabs/PyAutoNerves",
-          "time": "2026-10-04T14:43:07Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: exclude deadlocking JAX releases while preserving older support",
-          "url": "https://github.com/PyAutoLabs/PyAutoNerves/pull/184"
         }
       },
       "tasks": {
@@ -36682,13 +37132,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-07T17:56:07Z"
-        },
-        "184": {
-          "title": "fix: exclude deadlocking JAX releases while preserving older support",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-07T17:56:13Z"
         },
         "195": {
           "title": "fix: allow-list setuptools package discovery (autonerves*)",
@@ -36824,10 +37267,10 @@
           "revision": "2026-10-30T15:35:25Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoPulse": {
       "events": {
@@ -39246,10 +39689,10 @@
           "revision": "2026-11-02T16:24:07Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -39283,10 +39726,10 @@
           "revision": "2026-10-29T12:51:03Z"
         }
       },
-      "checked": "2026-11-03T11:51:43Z",
+      "checked": "2026-11-03T18:53:45Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-03T11:51:43Z"
+      "cursor": "2026-11-03T18:53:45Z"
     }
   },
   "next": 25,
