@@ -74,7 +74,8 @@ expertise needed to use the software responsibly. AI should be able to:
 - identify assumptions, limitations and possible failure modes; and
 - direct users to human-readable learning material and runnable examples.
 
-The principal learning resources are:
+Use the tutorials, workspace examples and assistant guidance for the project
+you are working with. For example, PyAutoLens provides:
 
 - [HowToLens](https://github.com/PyAutoLabs/HowToLens), which teaches
   gravitational lensing, Bayesian inference and lens modelling from first
@@ -177,8 +178,8 @@ until it has been reviewed. Contributors must:
 - check that any reused implementation is compatible with its original
   licence;
 - avoid incorporating code whose licence or provenance is unclear; and
-- add relevant papers and software references to the
-  [PyAutoLens citations documentation](https://github.com/PyAutoLabs/PyAutoLens/blob/main/CITATIONS.md).
+- add relevant papers and software references to the citation documentation
+  for the project you are contributing to.
 
 If an implementation substantially follows an existing published method or
 software package, attribution is required even if the AI did not reveal the
