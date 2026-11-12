@@ -135,3 +135,5 @@ The dashboard includes expandable project cards linking software, shared depende
 The Scientist **Live Feed** groups recorded public development activity by task,
 with five compact rows and expandable history. Its coverage, refresh behaviour
 and limits are documented in [REPORTING.md](REPORTING.md#live-feed-recorded-development-activity).
+
+<sub><i><a href="https://fredagain.lnk.to/hardstyle2">i can feel my whole body</a></i></sub>
