@@ -1,8 +1,7 @@
 # PyAutoScientist — Agent Guidance
 
 This file is for AI coding agents (Claude Code, Codex, Cursor, etc.) and humans
-discovering this repository. It is the agent-agnostic source of truth; Claude
-Code loads it via the `@AGENTS.md` import in `CLAUDE.md`.
+discovering this repository. Read this file directly for the canonical instructions.
 
 ## What this repo is
 
