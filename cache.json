@@ -982,26 +982,9 @@
           "summary": "Task opened",
           "title": "campaign: interferometer large-mask likelihood — memory and routing (Aris 512×512)",
           "url": "https://github.com/PyAutoLabs/PyAutoPulse/issues/62"
-        },
-        "PyAutoLabs/PyAutoPulse#61:merged": {
-          "id": "PyAutoLabs/PyAutoPulse#61:merged",
-          "task": "PyAutoLabs/PyAutoPulse#61",
-          "repo": "PyAutoLabs/PyAutoPulse",
-          "time": "2026-10-15T12:25:32Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: fit fixture + autofit campaign for B4b EP / graphical baselines",
-          "url": "https://github.com/PyAutoLabs/PyAutoPulse/pull/61"
         }
       },
       "tasks": {
-        "61": {
-          "title": "feat: fit fixture + autofit campaign for B4b EP / graphical baselines",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:25:35Z"
-        },
         "63": {
           "title": "docs: log the Aris interferometer large-mask tasks under the interferometer campaign",
           "is_pr": true,
@@ -1255,10 +1238,10 @@
           "revision": "2026-11-12T21:08:27Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -1346,10 +1329,10 @@
           "revision": "2026-11-12T21:08:58Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoScientist": {
       "events": {
@@ -1672,10 +1655,10 @@
           "revision": "2026-11-12T21:08:37Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1898,10 +1881,10 @@
           "revision": "2026-11-12T17:52:53Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -2053,10 +2036,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -2380,10 +2363,10 @@
           "revision": "2026-11-10T19:16:59Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2518,10 +2501,10 @@
           "revision": "2026-11-06T12:10:51Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2694,36 +2677,9 @@
           "summary": "PR opened",
           "title": "docs: link the PyAutoLabs AI options page; retire OpenCode/Gemini/chat legacy (#87)",
           "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/57"
-        },
-        "PyAutoLabs/autofit_assistant#56:merged": {
-          "id": "PyAutoLabs/autofit_assistant#56:merged",
-          "task": "PyAutoLabs/autofit_assistant#56",
-          "repo": "PyAutoLabs/autofit_assistant",
-          "time": "2026-10-15T15:58:53Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/56"
-        },
-        "PyAutoLabs/autofit_assistant#56:opened": {
-          "id": "PyAutoLabs/autofit_assistant#56:opened",
-          "task": "PyAutoLabs/autofit_assistant#56",
-          "repo": "PyAutoLabs/autofit_assistant",
-          "time": "2026-10-15T13:27:58Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autofit_assistant/pull/56"
         }
       },
       "tasks": {
-        "56": {
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:58:55Z"
-        },
         "57": {
           "title": "docs: link the PyAutoLabs AI options page; retire OpenCode/Gemini/chat legacy (#87)",
           "is_pr": true,
@@ -2781,10 +2737,10 @@
           "revision": "2026-11-12T11:10:31Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -3007,127 +2963,9 @@
           "summary": "Task opened",
           "title": "research: B5b-2 — wave-2 remainder, inference-summary@2 records, ordering convention",
           "url": "https://github.com/PyAutoLabs/autofit_inference/issues/12"
-        },
-        "PyAutoLabs/autofit_inference#10:comment-6196484944": {
-          "id": "PyAutoLabs/autofit_inference#10:comment-6196484944",
-          "task": "PyAutoLabs/autofit_inference#10",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T16:02:26Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "research: B5b — pull, judge and publish scored wave 2 (gaussian_x3@2)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/10#issuecomment-6196484944"
-        },
-        "PyAutoLabs/autofit_inference#10:closed": {
-          "id": "PyAutoLabs/autofit_inference#10:closed",
-          "task": "PyAutoLabs/autofit_inference#10",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T15:59:57Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "research: B5b — pull, judge and publish scored wave 2 (gaussian_x3@2)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/10"
-        },
-        "PyAutoLabs/autofit_inference#11:merged": {
-          "id": "PyAutoLabs/autofit_inference#11:merged",
-          "task": "PyAutoLabs/autofit_inference#11",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T15:59:55Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "research: B5b — scored wave 2 judged under gaussian_x3@2, catalogue + summary",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/pull/11"
-        },
-        "PyAutoLabs/autofit_inference#11:opened": {
-          "id": "PyAutoLabs/autofit_inference#11:opened",
-          "task": "PyAutoLabs/autofit_inference#11",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T15:46:08Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "research: B5b — scored wave 2 judged under gaussian_x3@2, catalogue + summary",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/pull/11"
-        },
-        "PyAutoLabs/autofit_inference#10:comment-6195413688": {
-          "id": "PyAutoLabs/autofit_inference#10:comment-6195413688",
-          "task": "PyAutoLabs/autofit_inference#10",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T15:11:29Z",
-          "kind": "progress",
-          "summary": "Discussion update recorded",
-          "title": "research: B5b — pull, judge and publish scored wave 2 (gaussian_x3@2)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/10#issuecomment-6195413688"
-        },
-        "PyAutoLabs/autofit_inference#10:opened": {
-          "id": "PyAutoLabs/autofit_inference#10:opened",
-          "task": "PyAutoLabs/autofit_inference#10",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T13:02:18Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "research: B5b — pull, judge and publish scored wave 2 (gaussian_x3@2)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/10"
-        },
-        "PyAutoLabs/autofit_inference#8:comment-6192036117": {
-          "id": "PyAutoLabs/autofit_inference#8:comment-6192036117",
-          "task": "PyAutoLabs/autofit_inference#8",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T12:27:55Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "research: B5a freeze gaussian_x3@2 + scored wave 2 submission on RAL (search-extensibility)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/8#issuecomment-6192036117"
-        },
-        "PyAutoLabs/autofit_inference#8:closed": {
-          "id": "PyAutoLabs/autofit_inference#8:closed",
-          "task": "PyAutoLabs/autofit_inference#8",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T12:22:16Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "research: B5a freeze gaussian_x3@2 + scored wave 2 submission on RAL (search-extensibility)",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/8"
-        },
-        "PyAutoLabs/autofit_inference#9:merged": {
-          "id": "PyAutoLabs/autofit_inference#9:merged",
-          "task": "PyAutoLabs/autofit_inference#9",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-15T12:22:15Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "research: B5a — freeze gaussian_x3@2, scored wave-2 infrastructure and RAL plan",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/pull/9"
         }
       },
       "tasks": {
-        "8": {
-          "title": "research: B5a freeze gaussian_x3@2 + scored wave 2 submission on RAL (search-extensibility)",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:28:04Z"
-        },
-        "9": {
-          "title": "research: B5a — freeze gaussian_x3@2, scored wave-2 infrastructure and RAL plan",
-          "is_pr": true,
-          "issue": 8,
-          "state": "closed",
-          "revision": "2026-10-15T12:22:17Z"
-        },
-        "10": {
-          "title": "research: B5b — pull, judge and publish scored wave 2 (gaussian_x3@2)",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T16:02:26Z"
-        },
-        "11": {
-          "title": "research: B5b — scored wave 2 judged under gaussian_x3@2, catalogue + summary",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:58Z"
-        },
         "13": {
           "title": "B5b-2: wave-2 remainder judged, inference-summary@3 record shards, catalogue reliability floor",
           "is_pr": true,
@@ -3192,10 +3030,10 @@
           "revision": "2026-11-12T11:10:35Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3848,53 +3686,9 @@
           "summary": "PR opened",
           "title": "refactor: repoint RAL paths to the category layout",
           "url": "https://github.com/PyAutoLabs/autofit_profiling/pull/6"
-        },
-        "PyAutoLabs/autofit_profiling#4:comment-6192035731": {
-          "id": "PyAutoLabs/autofit_profiling#4:comment-6192035731",
-          "task": "PyAutoLabs/autofit_profiling#4",
-          "repo": "PyAutoLabs/autofit_profiling",
-          "time": "2026-10-15T12:27:53Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "feat: B4b EP / graphical baseline port + analytic benchmark cell (search-extensibility)",
-          "url": "https://github.com/PyAutoLabs/autofit_profiling/issues/4#issuecomment-6192035731"
-        },
-        "PyAutoLabs/autofit_profiling#4:closed": {
-          "id": "PyAutoLabs/autofit_profiling#4:closed",
-          "task": "PyAutoLabs/autofit_profiling#4",
-          "repo": "PyAutoLabs/autofit_profiling",
-          "time": "2026-10-15T12:22:11Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "feat: B4b EP / graphical baseline port + analytic benchmark cell (search-extensibility)",
-          "url": "https://github.com/PyAutoLabs/autofit_profiling/issues/4"
-        },
-        "PyAutoLabs/autofit_profiling#5:merged": {
-          "id": "PyAutoLabs/autofit_profiling#5:merged",
-          "task": "PyAutoLabs/autofit_profiling#5",
-          "repo": "PyAutoLabs/autofit_profiling",
-          "time": "2026-10-15T12:22:09Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat: EP / graphical baselines + analytic parity cell (search-extensibility B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_profiling/pull/5"
         }
       },
       "tasks": {
-        "4": {
-          "title": "feat: B4b EP / graphical baseline port + analytic benchmark cell (search-extensibility)",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:27:54Z"
-        },
-        "5": {
-          "title": "feat: EP / graphical baselines + analytic parity cell (search-extensibility B4b)",
-          "is_pr": true,
-          "issue": 4,
-          "state": "closed",
-          "revision": "2026-10-15T12:22:12Z"
-        },
         "6": {
           "title": "refactor: repoint RAL paths to the category layout",
           "is_pr": true,
@@ -3980,10 +3774,10 @@
           "revision": "2026-11-12T13:52:23Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -4071,13 +3865,63 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
+        "PyAutoLabs/autofit_workspace#184:comment-6877381303": {
+          "id": "PyAutoLabs/autofit_workspace#184:comment-6877381303",
+          "task": "PyAutoLabs/autofit_workspace#184",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-11-14T12:38:41Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/184#issuecomment-6877381303"
+        },
+        "PyAutoLabs/autofit_workspace#184:closed": {
+          "id": "PyAutoLabs/autofit_workspace#184:closed",
+          "task": "PyAutoLabs/autofit_workspace#184",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-11-14T12:38:10Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/184"
+        },
+        "PyAutoLabs/autofit_workspace#185:merged": {
+          "id": "PyAutoLabs/autofit_workspace#185:merged",
+          "task": "PyAutoLabs/autofit_workspace#185",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-11-14T12:38:08Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/185"
+        },
+        "PyAutoLabs/autofit_workspace#185:opened": {
+          "id": "PyAutoLabs/autofit_workspace#185:opened",
+          "task": "PyAutoLabs/autofit_workspace#185",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-11-14T12:34:17Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/185"
+        },
+        "PyAutoLabs/autofit_workspace#184:opened": {
+          "id": "PyAutoLabs/autofit_workspace#184:opened",
+          "task": "PyAutoLabs/autofit_workspace#184",
+          "repo": "PyAutoLabs/autofit_workspace",
+          "time": "2026-11-14T12:27:36Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "url": "https://github.com/PyAutoLabs/autofit_workspace/issues/184"
+        },
         "PyAutoLabs/autofit_workspace#183:merged": {
           "id": "PyAutoLabs/autofit_workspace#183:merged",
           "task": "PyAutoLabs/autofit_workspace#183",
@@ -4457,36 +4301,9 @@
           "summary": "PR opened",
           "title": "fix: search kwarg typos in searches/mcmc.py and nest.py",
           "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/170"
-        },
-        "PyAutoLabs/autofit_workspace#169:merged": {
-          "id": "PyAutoLabs/autofit_workspace#169:merged",
-          "task": "PyAutoLabs/autofit_workspace#169",
-          "repo": "PyAutoLabs/autofit_workspace",
-          "time": "2026-10-15T15:58:44Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs: generated search roster blocks in llms.txt and searches README (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/169"
-        },
-        "PyAutoLabs/autofit_workspace#169:opened": {
-          "id": "PyAutoLabs/autofit_workspace#169:opened",
-          "task": "PyAutoLabs/autofit_workspace#169",
-          "repo": "PyAutoLabs/autofit_workspace",
-          "time": "2026-10-15T13:27:22Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs: generated search roster blocks in llms.txt and searches README (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/169"
         }
       },
       "tasks": {
-        "169": {
-          "title": "docs: generated search roster blocks in llms.txt and searches README (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:58:46Z"
-        },
         "170": {
           "title": "fix: search kwarg typos in searches/mcmc.py and nest.py",
           "is_pr": true,
@@ -4584,12 +4401,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-10T19:16:56Z"
+        },
+        "185": {
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "is_pr": true,
+          "issue": 184,
+          "state": "closed",
+          "revision": "2026-11-14T12:38:11Z"
+        },
+        "184": {
+          "title": "fix: drop stale enable_pytrees/register_model advice from searches/mcmc.py",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-14T12:38:42Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -4622,83 +4453,9 @@
           "summary": "PR merged",
           "title": "chore: remove dead aggregate_profiles.py",
           "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/pull/36"
-        },
-        "PyAutoLabs/autofit_workspace_developer#36:opened": {
-          "id": "PyAutoLabs/autofit_workspace_developer#36:opened",
-          "task": "PyAutoLabs/autofit_workspace_developer#36",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T16:29:17Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: remove dead aggregate_profiles.py",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/pull/36"
-        },
-        "PyAutoLabs/autofit_workspace_developer#34:comment-6193077114": {
-          "id": "PyAutoLabs/autofit_workspace_developer#34:comment-6193077114",
-          "task": "PyAutoLabs/autofit_workspace_developer#34",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T13:21:15Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "chore: retire ep/ and graphical/ via Gut (re-homed in autofit_profiling by B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/issues/34#issuecomment-6193077114"
-        },
-        "PyAutoLabs/autofit_workspace_developer#34:closed": {
-          "id": "PyAutoLabs/autofit_workspace_developer#34:closed",
-          "task": "PyAutoLabs/autofit_workspace_developer#34",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T13:20:33Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "chore: retire ep/ and graphical/ via Gut (re-homed in autofit_profiling by B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/issues/34"
-        },
-        "PyAutoLabs/autofit_workspace_developer#35:merged": {
-          "id": "PyAutoLabs/autofit_workspace_developer#35:merged",
-          "task": "PyAutoLabs/autofit_workspace_developer#35",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T13:20:31Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "chore: retire ep/ and graphical/ (re-homed in autofit_profiling by B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/pull/35"
-        },
-        "PyAutoLabs/autofit_workspace_developer#35:opened": {
-          "id": "PyAutoLabs/autofit_workspace_developer#35:opened",
-          "task": "PyAutoLabs/autofit_workspace_developer#35",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T13:08:23Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "chore: retire ep/ and graphical/ (re-homed in autofit_profiling by B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/pull/35"
-        },
-        "PyAutoLabs/autofit_workspace_developer#34:opened": {
-          "id": "PyAutoLabs/autofit_workspace_developer#34:opened",
-          "task": "PyAutoLabs/autofit_workspace_developer#34",
-          "repo": "PyAutoLabs/autofit_workspace_developer",
-          "time": "2026-10-15T13:02:21Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "chore: retire ep/ and graphical/ via Gut (re-homed in autofit_profiling by B4b)",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace_developer/issues/34"
         }
       },
       "tasks": {
-        "35": {
-          "title": "chore: retire ep/ and graphical/ (re-homed in autofit_profiling by B4b)",
-          "is_pr": true,
-          "issue": 34,
-          "state": "closed",
-          "revision": "2026-10-15T13:20:34Z"
-        },
-        "34": {
-          "title": "chore: retire ep/ and graphical/ via Gut (re-homed in autofit_profiling by B4b)",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T13:21:16Z"
-        },
         "36": {
           "title": "chore: remove dead aggregate_profiles.py",
           "is_pr": true,
@@ -4721,10 +4478,10 @@
           "revision": "2026-11-12T17:36:49Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4967,10 +4724,10 @@
           "revision": "2026-11-08T16:41:49Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -5243,36 +5000,9 @@
           "summary": "PR opened",
           "title": "docs: link the PyAutoLabs AI options page; retire OpenCode/Gemini/chat legacy (#87)",
           "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/36"
-        },
-        "PyAutoLabs/autogalaxy_assistant#35:merged": {
-          "id": "PyAutoLabs/autogalaxy_assistant#35:merged",
-          "task": "PyAutoLabs/autogalaxy_assistant#35",
-          "repo": "PyAutoLabs/autogalaxy_assistant",
-          "time": "2026-10-15T15:59:11Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/35"
-        },
-        "PyAutoLabs/autogalaxy_assistant#35:opened": {
-          "id": "PyAutoLabs/autogalaxy_assistant#35:opened",
-          "task": "PyAutoLabs/autogalaxy_assistant#35",
-          "repo": "PyAutoLabs/autogalaxy_assistant",
-          "time": "2026-10-15T13:30:51Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/pull/35"
         }
       },
       "tasks": {
-        "35": {
-          "title": "docs: generated search roster blocks + roster check (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:15Z"
-        },
         "36": {
           "title": "docs: link the PyAutoLabs AI options page; retire OpenCode/Gemini/chat legacy (#87)",
           "is_pr": true,
@@ -5365,10 +5095,10 @@
           "revision": "2026-11-13T12:39:20Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -5503,10 +5233,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -6219,36 +5949,9 @@
           "summary": "PR opened",
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/259"
-        },
-        "PyAutoLabs/autogalaxy_workspace#258:merged": {
-          "id": "PyAutoLabs/autogalaxy_workspace#258:merged",
-          "task": "PyAutoLabs/autogalaxy_workspace#258",
-          "repo": "PyAutoLabs/autogalaxy_workspace",
-          "time": "2026-10-15T15:59:31Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/258"
-        },
-        "PyAutoLabs/autogalaxy_workspace#258:opened": {
-          "id": "PyAutoLabs/autogalaxy_workspace#258:opened",
-          "task": "PyAutoLabs/autogalaxy_workspace#258",
-          "repo": "PyAutoLabs/autogalaxy_workspace",
-          "time": "2026-10-15T13:36:01Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace/pull/258"
         }
       },
       "tasks": {
-        "258": {
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:34Z"
-        },
         "259": {
           "title": "Corner plot config switches and the latent-parameter descriptions",
           "is_pr": true,
@@ -6425,10 +6128,10 @@
           "revision": "2026-11-13T09:02:45Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -6688,10 +6391,10 @@
           "revision": "2026-11-12T14:32:15Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -7424,36 +7127,9 @@
           "summary": "Task opened",
           "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (walkthrough phase 1)",
           "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/160"
-        },
-        "PyAutoLabs/autolens_assistant#159:merged": {
-          "id": "PyAutoLabs/autolens_assistant#159:merged",
-          "task": "PyAutoLabs/autolens_assistant#159",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-15T15:59:02Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs: generated search roster blocks; stale UltraNest/PySwarms sections out (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/159"
-        },
-        "PyAutoLabs/autolens_assistant#159:opened": {
-          "id": "PyAutoLabs/autolens_assistant#159:opened",
-          "task": "PyAutoLabs/autolens_assistant#159",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-15T13:29:29Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs: generated search roster blocks; stale UltraNest/PySwarms sections out (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/159"
         }
       },
       "tasks": {
-        "159": {
-          "title": "docs: generated search roster blocks; stale UltraNest/PySwarms sections out (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:04Z"
-        },
         "160": {
           "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (walkthrough phase 1)",
           "is_pr": false,
@@ -7644,10 +7320,10 @@
           "revision": "2026-11-13T12:39:33Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -9153,10 +8829,10 @@
           "revision": "2026-11-12T14:36:56Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -13152,10 +12828,10 @@
           "revision": "2026-11-12T17:53:06Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -13627,10 +13303,10 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
@@ -16093,36 +15769,9 @@
           "summary": "PR opened",
           "title": "feat: point-source imaging from PSF-convolved point images; pass image= to AnalysisPoint",
           "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/591"
-        },
-        "PyAutoLabs/autolens_workspace#590:merged": {
-          "id": "PyAutoLabs/autolens_workspace#590:merged",
-          "task": "PyAutoLabs/autolens_workspace#590",
-          "repo": "PyAutoLabs/autolens_workspace",
-          "time": "2026-10-15T15:59:22Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/590"
-        },
-        "PyAutoLabs/autolens_workspace#590:opened": {
-          "id": "PyAutoLabs/autolens_workspace#590:opened",
-          "task": "PyAutoLabs/autolens_workspace#590",
-          "repo": "PyAutoLabs/autolens_workspace",
-          "time": "2026-10-15T13:35:56Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/590"
         }
       },
       "tasks": {
-        "590": {
-          "title": "docs(guides): capability-matrix link in modeling/searches.py (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:25Z"
-        },
         "591": {
           "title": "feat: point-source imaging from PSF-convolved point images; pass image= to AnalysisPoint",
           "is_pr": true,
@@ -16670,10 +16319,10 @@
           "revision": "2026-11-13T09:02:44Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {
@@ -16697,10 +16346,10 @@
           "revision": "2026-11-12T17:05:15Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -17354,10 +17003,10 @@
           "revision": "2026-11-12T14:32:12Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -17472,10 +17121,10 @@
           "revision": "2026-11-12T17:53:17Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -18102,10 +17751,10 @@
           "revision": "2026-11-13T10:41:37Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -18173,10 +17822,10 @@
           "revision": "2026-11-12T17:37:08Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -18414,10 +18063,10 @@
           "revision": "2026-11-10T19:17:10Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -19064,10 +18713,10 @@
           "revision": "2026-11-10T19:17:06Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -20413,10 +20062,10 @@
           "revision": "2026-11-11T09:19:57Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
@@ -22609,120 +22258,9 @@
           "summary": "Task opened",
           "title": "perf: interferometer sparse data vector without the dense mapping matrix",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/626"
-        },
-        "PyAutoLabs/PyAutoArray#623:closed": {
-          "id": "PyAutoLabs/PyAutoArray#623:closed",
-          "task": "PyAutoLabs/PyAutoArray#623",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:19:44Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/623"
-        },
-        "PyAutoLabs/PyAutoArray#623:comment-6196840509": {
-          "id": "PyAutoLabs/PyAutoArray#623:comment-6196840509",
-          "task": "PyAutoLabs/PyAutoArray#623",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:19:43Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/623#issuecomment-6196840509"
-        },
-        "PyAutoLabs/PyAutoArray#625:merged": {
-          "id": "PyAutoLabs/PyAutoArray#625:merged",
-          "task": "PyAutoLabs/PyAutoArray#625",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:18:56Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "test: pin DelaunayNN routing to the numba likelihood paths (#623 phase 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/625"
-        },
-        "PyAutoLabs/PyAutoArray#624:merged": {
-          "id": "PyAutoLabs/PyAutoArray#624:merged",
-          "task": "PyAutoLabs/PyAutoArray#624",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:13:41Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "perf: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU (#623 phase 1)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/624"
-        },
-        "PyAutoLabs/PyAutoArray#623:comment-6196657081": {
-          "id": "PyAutoLabs/PyAutoArray#623:comment-6196657081",
-          "task": "PyAutoLabs/PyAutoArray#623",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:10:44Z",
-          "kind": "progress",
-          "summary": "Library PR recorded",
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/623#issuecomment-6196657081"
-        },
-        "PyAutoLabs/PyAutoArray#625:opened": {
-          "id": "PyAutoLabs/PyAutoArray#625:opened",
-          "task": "PyAutoLabs/PyAutoArray#625",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T16:10:20Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "test: pin DelaunayNN routing to the numba likelihood paths (#623 phase 2)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/625"
-        },
-        "PyAutoLabs/PyAutoArray#623:comment-6194917013": {
-          "id": "PyAutoLabs/PyAutoArray#623:comment-6194917013",
-          "task": "PyAutoLabs/PyAutoArray#623",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T14:48:16Z",
-          "kind": "progress",
-          "summary": "Library PR recorded",
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/623#issuecomment-6194917013"
-        },
-        "PyAutoLabs/PyAutoArray#624:opened": {
-          "id": "PyAutoLabs/PyAutoArray#624:opened",
-          "task": "PyAutoLabs/PyAutoArray#624",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T14:47:42Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "perf: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU (#623 phase 1)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/624"
-        },
-        "PyAutoLabs/PyAutoArray#623:opened": {
-          "id": "PyAutoLabs/PyAutoArray#623:opened",
-          "task": "PyAutoLabs/PyAutoArray#623",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-15T13:54:33Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/623"
         }
       },
       "tasks": {
-        "624": {
-          "title": "perf: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU (#623 phase 1)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:42Z"
-        },
-        "623": {
-          "title": "feat: numba Sibson kernel so DelaunayNN matches Delaunay speed on CPU",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T16:19:44Z"
-        },
-        "625": {
-          "title": "test: pin DelaunayNN routing to the numba likelihood paths (#623 phase 2)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:45Z"
-        },
         "629": {
           "title": "perf: skip Sibson row padding in adaptive signals and unique mappings (DelaunayNN imaging)",
           "is_pr": false,
@@ -23207,13 +22745,53 @@
           "revision": "2026-11-12T21:09:14Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#634:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#634:opened",
+          "task": "PyAutoLabs/PyAutoBrain#634",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-14T16:38:15Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: warm-up shift findings — digest links, plain wording, leftover claude daemon, organ firewall pre-push",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/634"
+        },
+        "PyAutoLabs/PyAutoBrain#632:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#632:closed",
+          "task": "PyAutoLabs/PyAutoBrain#632",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-14T11:04:25Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: M3.1 dry-run blockers — re-dispatch writer jam, late close-out count, push test, refusal noise, stale re-",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/632"
+        },
+        "PyAutoLabs/PyAutoBrain#633:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#633:merged",
+          "task": "PyAutoLabs/PyAutoBrain#633",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-14T11:04:24Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: M3.1 dry-run blockers + close-out budget ruling (#632)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/633"
+        },
+        "PyAutoLabs/PyAutoBrain#633:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#633:opened",
+          "task": "PyAutoLabs/PyAutoBrain#633",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-14T11:01:26Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: M3.1 dry-run blockers + close-out budget ruling (#632)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/633"
+        },
         "PyAutoLabs/PyAutoBrain#632:opened": {
           "id": "PyAutoLabs/PyAutoBrain#632:opened",
           "task": "PyAutoLabs/PyAutoBrain#632",
@@ -26113,26 +25691,6 @@
           "summary": "Task opened",
           "title": "docs: route campaign records to Insight and Pulse",
           "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/524"
-        },
-        "PyAutoLabs/PyAutoBrain#523:merged": {
-          "id": "PyAutoLabs/PyAutoBrain#523:merged",
-          "task": "PyAutoLabs/PyAutoBrain#523",
-          "repo": "PyAutoLabs/PyAutoBrain",
-          "time": "2026-10-15T15:58:35Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat(samplers): SamplerSurface keyed on the search manifest + autofit inference tier (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/523"
-        },
-        "PyAutoLabs/PyAutoBrain#523:opened": {
-          "id": "PyAutoLabs/PyAutoBrain#523:opened",
-          "task": "PyAutoLabs/PyAutoBrain#523",
-          "repo": "PyAutoLabs/PyAutoBrain",
-          "time": "2026-10-15T13:26:56Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat(samplers): SamplerSurface keyed on the search manifest + autofit inference tier (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/523"
         }
       },
       "tasks": {
@@ -26149,13 +25707,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-15T19:04:20Z"
-        },
-        "523": {
-          "title": "feat(samplers): SamplerSurface keyed on the search manifest + autofit inference tier (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:58:38Z"
         },
         "525": {
           "title": "docs: route campaign records through Insight and Pulse",
@@ -26917,14 +26468,28 @@
           "title": "fix: M3.1 dry-run blockers — re-dispatch writer jam, late close-out count, push test, refusal noise, stale re-",
           "is_pr": false,
           "issue": null,
+          "state": "closed",
+          "revision": "2026-11-14T11:04:25Z"
+        },
+        "633": {
+          "title": "fix: M3.1 dry-run blockers + close-out budget ruling (#632)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-14T11:04:26Z"
+        },
+        "634": {
+          "title": "fix: warm-up shift findings — digest links, plain wording, leftover claude daemon, organ firewall pre-push",
+          "is_pr": false,
+          "issue": null,
           "state": "open",
-          "revision": "2026-11-14T10:15:38Z"
+          "revision": "2026-11-14T16:38:15Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -26958,10 +26523,10 @@
           "revision": "2026-11-12T21:09:35Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -27433,10 +26998,10 @@
           "revision": "2026-11-12T21:09:09Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -28089,107 +27654,9 @@
           "summary": "Task opened",
           "title": "refactor: repoint hard-coded RAL paths to the category layout",
           "url": "https://github.com/PyAutoLabs/PyAutoCortex/issues/67"
-        },
-        "PyAutoLabs/PyAutoCortex#65:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#65:merged",
-          "task": "PyAutoLabs/PyAutoCortex#65",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T16:01:36Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "cortex: autofit_inference — wave 2 judged under gaussian_x3@2, remainder 409930 (B5b)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/65"
-        },
-        "PyAutoLabs/PyAutoCortex#66:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#66:merged",
-          "task": "PyAutoLabs/PyAutoCortex#66",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T15:58:26Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "projects.yaml: analytic_gaussian, ep_toy_gaussian → active/",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/66"
-        },
-        "PyAutoLabs/PyAutoCortex#66:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#66:opened",
-          "task": "PyAutoLabs/PyAutoCortex#66",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T15:48:33Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "projects.yaml: analytic_gaussian, ep_toy_gaussian → active/",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/66"
-        },
-        "PyAutoLabs/PyAutoCortex#65:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#65:opened",
-          "task": "PyAutoLabs/PyAutoCortex#65",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T15:23:25Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "cortex: autofit_inference — wave 2 judged under gaussian_x3@2, remainder 409930 (B5b)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/65"
-        },
-        "PyAutoLabs/PyAutoCortex#64:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#64:merged",
-          "task": "PyAutoLabs/PyAutoCortex#64",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T13:26:26Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "projects.yaml: point science paths at real folders",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/64"
-        },
-        "PyAutoLabs/PyAutoCortex#64:opened": {
-          "id": "PyAutoLabs/PyAutoCortex#64:opened",
-          "task": "PyAutoLabs/PyAutoCortex#64",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T12:59:17Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "projects.yaml: point science paths at real folders",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/64"
-        },
-        "PyAutoLabs/PyAutoCortex#63:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#63:merged",
-          "task": "PyAutoLabs/PyAutoCortex#63",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-15T12:22:22Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "cortex: autofit_inference — gaussian_x3@2 frozen, scored wave 2 submitted (B5a)",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/63"
         }
       },
       "tasks": {
-        "63": {
-          "title": "cortex: autofit_inference — gaussian_x3@2 frozen, scored wave 2 submitted (B5a)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:22:25Z"
-        },
-        "64": {
-          "title": "projects.yaml: point science paths at real folders",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T13:26:30Z"
-        },
-        "66": {
-          "title": "projects.yaml: analytic_gaussian, ep_toy_gaussian → active/",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:58:29Z"
-        },
-        "65": {
-          "title": "cortex: autofit_inference — wave 2 judged under gaussian_x3@2, remainder 409930 (B5b)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T16:01:39Z"
-        },
         "68": {
           "title": "autofit_inference: 409930 done (wall 1:30), wave 2 closed under gaussian_x3@2 (B5b-2)",
           "is_pr": true,
@@ -28380,10 +27847,10 @@
           "revision": "2026-11-13T14:04:26Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -28535,10 +28002,10 @@
           "revision": "2026-11-12T21:07:57Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -28599,10 +28066,10 @@
           "revision": "2026-11-12T21:09:29Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -28764,10 +28231,10 @@
           "revision": "2026-11-12T21:08:42Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
@@ -31200,66 +30667,6 @@
           "summary": "Task opened",
           "title": "fix: search kwarg typos silently ignored in workspace scripts and a graphical test",
           "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1693"
-        },
-        "PyAutoLabs/PyAutoFit#1688:comment-6191979702": {
-          "id": "PyAutoLabs/PyAutoFit#1688:comment-6191979702",
-          "task": "PyAutoLabs/PyAutoFit#1688",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:24:50Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "refactor: A5 library — all searches onto run(ctx), delete legacy _fit/pool surface, template (search-extensibi",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1688#issuecomment-6191979702"
-        },
-        "PyAutoLabs/PyAutoFit#1688:closed": {
-          "id": "PyAutoLabs/PyAutoFit#1688:closed",
-          "task": "PyAutoLabs/PyAutoFit#1688",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:22:05Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "refactor: A5 library — all searches onto run(ctx), delete legacy _fit/pool surface, template (search-extensibi",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1688"
-        },
-        "PyAutoLabs/PyAutoFit#1692:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1692:merged",
-          "task": "PyAutoLabs/PyAutoFit#1692",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:22:03Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "refactor: close the run(ctx) framework, new-search template (search-ext A5 PR 4/4)",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1692"
-        },
-        "PyAutoLabs/PyAutoFit#1691:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1691:merged",
-          "task": "PyAutoLabs/PyAutoFit#1691",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:21:45Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "refactor: MultiStart onto run(ctx), split into phases (search-ext A5 PR 3/4)",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1691"
-        },
-        "PyAutoLabs/PyAutoFit#1690:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1690:merged",
-          "task": "PyAutoLabs/PyAutoFit#1690",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:21:27Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "refactor: Dynesty, BlackJAX NUTS, SMC onto run(ctx) (search-ext A5 PR 2/4)",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1690"
-        },
-        "PyAutoLabs/PyAutoFit#1689:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1689:merged",
-          "task": "PyAutoLabs/PyAutoFit#1689",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-15T12:21:09Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "refactor: Emcee, Zeus, BFGS/LBFGS onto run(ctx) (search-ext A5 PR 1/4)",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1689"
         }
       },
       "tasks": {
@@ -31269,41 +30676,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-16T04:48:03Z"
-        },
-        "1688": {
-          "title": "refactor: A5 library — all searches onto run(ctx), delete legacy _fit/pool surface, template (search-extensibi",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:24:50Z"
-        },
-        "1689": {
-          "title": "refactor: Emcee, Zeus, BFGS/LBFGS onto run(ctx) (search-ext A5 PR 1/4)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:26Z"
-        },
-        "1690": {
-          "title": "refactor: Dynesty, BlackJAX NUTS, SMC onto run(ctx) (search-ext A5 PR 2/4)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:29Z"
-        },
-        "1691": {
-          "title": "refactor: MultiStart onto run(ctx), split into phases (search-ext A5 PR 3/4)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:31Z"
-        },
-        "1692": {
-          "title": "refactor: close the run(ctx) framework, new-search template (search-ext A5 PR 4/4)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:41:34Z"
         },
         "1695": {
           "title": "test: drop stray dynamic_delta/delta kwargs passed to DynestyStatic",
@@ -31873,10 +31245,10 @@
           "revision": "2026-11-13T20:57:25Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -33957,10 +33329,10 @@
           "revision": "2026-11-13T09:01:41Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -34075,10 +33447,10 @@
           "revision": "2026-11-12T21:09:24Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -34931,73 +34303,9 @@
           "summary": "Task opened",
           "title": "fix: route Python matrix smoke through the workspace harness",
           "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/312"
-        },
-        "PyAutoLabs/PyAutoHands#310:comment-6196464383": {
-          "id": "PyAutoLabs/PyAutoHands#310:comment-6196464383",
-          "task": "PyAutoLabs/PyAutoHands#310",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-15T16:01:25Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "refactor: generate search rosters, tiers and anchors from the manifest (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/310#issuecomment-6196464383"
-        },
-        "PyAutoLabs/PyAutoHands#310:closed": {
-          "id": "PyAutoLabs/PyAutoHands#310:closed",
-          "task": "PyAutoLabs/PyAutoHands#310",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-15T15:58:28Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "refactor: generate search rosters, tiers and anchors from the manifest (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/310"
-        },
-        "PyAutoLabs/PyAutoHands#311:merged": {
-          "id": "PyAutoLabs/PyAutoHands#311:merged",
-          "task": "PyAutoLabs/PyAutoHands#311",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-15T15:58:26Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "feat(hands): generate search rosters from the installed autofit search manifest (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/311"
-        },
-        "PyAutoLabs/PyAutoHands#311:opened": {
-          "id": "PyAutoLabs/PyAutoHands#311:opened",
-          "task": "PyAutoLabs/PyAutoHands#311",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-15T13:22:42Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "feat(hands): generate search rosters from the installed autofit search manifest (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/311"
-        },
-        "PyAutoLabs/PyAutoHands#310:opened": {
-          "id": "PyAutoLabs/PyAutoHands#310:opened",
-          "task": "PyAutoLabs/PyAutoHands#310",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-15T13:02:19Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "refactor: generate search rosters, tiers and anchors from the manifest (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/310"
         }
       },
       "tasks": {
-        "310": {
-          "title": "refactor: generate search rosters, tiers and anchors from the manifest (search-ext A5 consumers)",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T16:01:25Z"
-        },
-        "311": {
-          "title": "feat(hands): generate search rosters from the installed autofit search manifest (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": 310,
-          "state": "closed",
-          "revision": "2026-10-15T15:58:30Z"
-        },
         "313": {
           "title": "feat: detect missing sampler dependencies in smoke mode",
           "is_pr": false,
@@ -35202,13 +34510,43 @@
           "revision": "2026-11-13T14:04:24Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
+        "PyAutoLabs/PyAutoHeart#346:comment-6877340307": {
+          "id": "PyAutoLabs/PyAutoHeart#346:comment-6877340307",
+          "task": "PyAutoLabs/PyAutoHeart#346",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-11-14T12:35:06Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "feat: unit-trend chart follow-ups from PyAutoHeart#338",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/346#issuecomment-6877340307"
+        },
+        "PyAutoLabs/PyAutoHeart#347:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#347:opened",
+          "task": "PyAutoLabs/PyAutoHeart#347",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-11-14T12:34:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: unit-trend chart follow-ups from #338",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/347"
+        },
+        "PyAutoLabs/PyAutoHeart#346:opened": {
+          "id": "PyAutoLabs/PyAutoHeart#346:opened",
+          "task": "PyAutoLabs/PyAutoHeart#346",
+          "repo": "PyAutoLabs/PyAutoHeart",
+          "time": "2026-11-14T12:27:56Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: unit-trend chart follow-ups from PyAutoHeart#338",
+          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/346"
+        },
         "PyAutoLabs/PyAutoHeart#344:closed": {
           "id": "PyAutoLabs/PyAutoHeart#344:closed",
           "task": "PyAutoLabs/PyAutoHeart#344",
@@ -36700,7 +36038,7 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-11-14T09:37:39Z"
+          "revision": "2026-11-14T11:56:17Z"
         },
         "331": {
           "title": "fix: never reuse a pip-cached arcticpy wheel across runner images",
@@ -36813,12 +36151,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-13T14:04:30Z"
+        },
+        "346": {
+          "title": "feat: unit-trend chart follow-ups from PyAutoHeart#338",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-14T12:35:06Z"
+        },
+        "347": {
+          "title": "feat: unit-trend chart follow-ups from #338",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-14T16:41:07Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -37101,53 +36453,9 @@
           "summary": "PR opened",
           "title": "inference-summary@3 record shards; fit pinned @3 (migrating_from @1); gaussian_x3 wave 2 closed (B5b-2)",
           "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/31"
-        },
-        "PyAutoLabs/PyAutoInsight#30:merged": {
-          "id": "PyAutoLabs/PyAutoInsight#30:merged",
-          "task": "PyAutoLabs/PyAutoInsight#30",
-          "repo": "PyAutoLabs/PyAutoInsight",
-          "time": "2026-10-15T16:01:47Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "insight: gaussian_x3 wave 2 judged under @2 (B5b) — task + campaign next; fit snapshot after PR 1",
-          "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/30"
-        },
-        "PyAutoLabs/PyAutoInsight#30:opened": {
-          "id": "PyAutoLabs/PyAutoInsight#30:opened",
-          "task": "PyAutoLabs/PyAutoInsight#30",
-          "repo": "PyAutoLabs/PyAutoInsight",
-          "time": "2026-10-15T15:46:29Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "insight: gaussian_x3 wave 2 judged under @2 (B5b) — task + campaign next; fit snapshot after PR 1",
-          "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/30"
-        },
-        "PyAutoLabs/PyAutoInsight#29:merged": {
-          "id": "PyAutoLabs/PyAutoInsight#29:merged",
-          "task": "PyAutoLabs/PyAutoInsight#29",
-          "repo": "PyAutoLabs/PyAutoInsight",
-          "time": "2026-10-15T12:25:39Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "insight: gaussian_x3 wave 2 (scored) task + campaign next (B5a)",
-          "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/29"
         }
       },
       "tasks": {
-        "29": {
-          "title": "insight: gaussian_x3 wave 2 (scored) task + campaign next (B5a)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T12:25:41Z"
-        },
-        "30": {
-          "title": "insight: gaussian_x3 wave 2 judged under @2 (B5b) — task + campaign next; fit snapshot after PR 1",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T16:01:50Z"
-        },
         "31": {
           "title": "inference-summary@3 record shards; fit pinned @3 (migrating_from @1); gaussian_x3 wave 2 closed (B5b-2)",
           "is_pr": true,
@@ -37240,10 +36548,10 @@
           "revision": "2026-11-12T21:09:40Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -40107,10 +39415,10 @@
           "revision": "2026-11-13T12:28:41Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -40473,36 +39781,9 @@
           "summary": "PR opened",
           "title": "docs: point sampler campaign records to Insight",
           "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/133"
-        },
-        "PyAutoLabs/PyAutoMemory#132:merged": {
-          "id": "PyAutoLabs/PyAutoMemory#132:merged",
-          "task": "PyAutoLabs/PyAutoMemory#132",
-          "repo": "PyAutoLabs/PyAutoMemory",
-          "time": "2026-10-15T15:59:39Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "docs(methods): sampler-benchmarks points at the autofit inference search catalogue (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/132"
-        },
-        "PyAutoLabs/PyAutoMemory#132:opened": {
-          "id": "PyAutoLabs/PyAutoMemory#132:opened",
-          "task": "PyAutoLabs/PyAutoMemory#132",
-          "repo": "PyAutoLabs/PyAutoMemory",
-          "time": "2026-10-15T13:36:05Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(methods): sampler-benchmarks points at the autofit inference search catalogue (search-ext A5 consumers)",
-          "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/132"
         }
       },
       "tasks": {
-        "132": {
-          "title": "docs(methods): sampler-benchmarks points at the autofit inference search catalogue (search-ext A5 consumers)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-15T15:59:42Z"
-        },
         "133": {
           "title": "docs: point sampler campaign records to Insight",
           "is_pr": true,
@@ -40637,13 +39918,43 @@
           "revision": "2026-11-13T14:37:45Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
+        "PyAutoLabs/PyAutoMind#569:comment-6878071693": {
+          "id": "PyAutoLabs/PyAutoMind#569:comment-6878071693",
+          "task": "PyAutoLabs/PyAutoMind#569",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-14T13:36:29Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "shift digest: 2026-11-14 pm — M3.1 warm-up (live, 2 workers, merge-cap 1)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/569#issuecomment-6878071693"
+        },
+        "PyAutoLabs/PyAutoMind#569:comment-6878040276": {
+          "id": "PyAutoLabs/PyAutoMind#569:comment-6878040276",
+          "task": "PyAutoLabs/PyAutoMind#569",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-14T13:33:45Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "shift digest: 2026-11-14 pm — M3.1 warm-up (live, 2 workers, merge-cap 1)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/569#issuecomment-6878040276"
+        },
+        "PyAutoLabs/PyAutoMind#569:opened": {
+          "id": "PyAutoLabs/PyAutoMind#569:opened",
+          "task": "PyAutoLabs/PyAutoMind#569",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-14T11:53:09Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "shift digest: 2026-11-14 pm — M3.1 warm-up (live, 2 workers, merge-cap 1)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/569"
+        },
         "PyAutoLabs/PyAutoMind#568:merged": {
           "id": "PyAutoLabs/PyAutoMind#568:merged",
           "task": "PyAutoLabs/PyAutoMind#568",
@@ -42675,12 +41986,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-13T20:13:19Z"
+        },
+        "569": {
+          "title": "shift digest: 2026-11-14 pm — M3.1 warm-up (live, 2 workers, merge-cap 1)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-14T13:57:27Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -43387,10 +42705,10 @@
           "revision": "2026-11-12T21:08:21Z"
         }
       },
-      "checked": "2026-11-14T10:51:52Z",
+      "checked": "2026-11-14T16:48:33Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-14T10:51:52Z"
+      "cursor": "2026-11-14T16:48:33Z"
     }
   },
   "next": 23,
