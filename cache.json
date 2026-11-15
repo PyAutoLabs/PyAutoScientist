@@ -977,10 +977,10 @@
           "revision": "2026-11-12T21:08:27Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -1068,10 +1068,10 @@
           "revision": "2026-11-12T21:08:58Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoScientist": {
       "events": {
@@ -1394,10 +1394,10 @@
           "revision": "2026-11-12T21:08:37Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1620,10 +1620,10 @@
           "revision": "2026-11-12T17:52:53Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1775,10 +1775,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -2102,10 +2102,10 @@
           "revision": "2026-11-10T19:16:59Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2240,10 +2240,10 @@
           "revision": "2026-11-06T12:10:51Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2476,10 +2476,10 @@
           "revision": "2026-11-12T11:10:31Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2522,53 +2522,9 @@
           "summary": "PR opened",
           "title": "fix: send HPC temp files to the shared disk (TMPDIR) in activate.sh",
           "url": "https://github.com/PyAutoLabs/autofit_inference/pull/19"
-        },
-        "PyAutoLabs/autofit_inference#17:comment-6219459363": {
-          "id": "PyAutoLabs/autofit_inference#17:comment-6219459363",
-          "task": "PyAutoLabs/autofit_inference#17",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-16T16:01:48Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "research: B5c-2a — judge the correlated_nd pilot, calibrate, A2, freeze @2",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/17#issuecomment-6219459363"
-        },
-        "PyAutoLabs/autofit_inference#17:closed": {
-          "id": "PyAutoLabs/autofit_inference#17:closed",
-          "task": "PyAutoLabs/autofit_inference#17",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-16T15:59:34Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "research: B5c-2a — judge the correlated_nd pilot, calibrate, A2, freeze @2",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/issues/17"
-        },
-        "PyAutoLabs/autofit_inference#18:merged": {
-          "id": "PyAutoLabs/autofit_inference#18:merged",
-          "task": "PyAutoLabs/autofit_inference#18",
-          "repo": "PyAutoLabs/autofit_inference",
-          "time": "2026-10-16T15:59:32Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "B5c-2a: correlated_nd pilot judged under @1, calibrated, A2 (OOM cells, d100 Nautilus), correlated_nd@2 frozen",
-          "url": "https://github.com/PyAutoLabs/autofit_inference/pull/18"
         }
       },
       "tasks": {
-        "17": {
-          "title": "research: B5c-2a — judge the correlated_nd pilot, calibrate, A2, freeze @2",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:01:48Z"
-        },
-        "18": {
-          "title": "B5c-2a: correlated_nd pilot judged under @1, calibrated, A2 (OOM cells, d100 Nautilus), correlated_nd@2 frozen",
-          "is_pr": true,
-          "issue": 17,
-          "state": "closed",
-          "revision": "2026-10-16T15:59:35Z"
-        },
         "19": {
           "title": "fix: send HPC temp files to the shared disk (TMPDIR) in activate.sh",
           "is_pr": true,
@@ -2584,10 +2540,10 @@
           "revision": "2026-11-12T11:10:35Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3301,10 +3257,10 @@
           "revision": "2026-11-12T13:52:23Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3392,10 +3348,10 @@
           "revision": "2026-10-23T20:38:57Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3798,16 +3754,6 @@
           "summary": "PR merged",
           "title": "gitignore: test-results/",
           "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/171"
-        },
-        "PyAutoLabs/autofit_workspace#171:opened": {
-          "id": "PyAutoLabs/autofit_workspace#171:opened",
-          "task": "PyAutoLabs/autofit_workspace#171",
-          "repo": "PyAutoLabs/autofit_workspace",
-          "time": "2026-10-16T16:54:38Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "gitignore: test-results/",
-          "url": "https://github.com/PyAutoLabs/autofit_workspace/pull/171"
         }
       },
       "tasks": {
@@ -3917,10 +3863,10 @@
           "revision": "2026-11-14T12:38:42Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3961,10 +3907,10 @@
           "revision": "2026-11-12T17:36:49Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4116,10 +4062,10 @@
           "revision": "2026-11-08T16:41:49Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
@@ -4487,10 +4433,10 @@
           "revision": "2026-11-13T12:39:20Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4625,10 +4571,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -5520,13 +5466,33 @@
           "revision": "2026-11-13T09:02:45Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
+        "PyAutoLabs/autogalaxy_workspace_test#137:merged": {
+          "id": "PyAutoLabs/autogalaxy_workspace_test#137:merged",
+          "task": "PyAutoLabs/autogalaxy_workspace_test#137",
+          "repo": "PyAutoLabs/autogalaxy_workspace_test",
+          "time": "2026-11-15T19:13:51Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "test: certify vendored bessel_kve and drop tfp prose",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace_test/pull/137"
+        },
+        "PyAutoLabs/autogalaxy_workspace_test#137:opened": {
+          "id": "PyAutoLabs/autogalaxy_workspace_test#137:opened",
+          "task": "PyAutoLabs/autogalaxy_workspace_test#137",
+          "repo": "PyAutoLabs/autogalaxy_workspace_test",
+          "time": "2026-11-15T19:04:58Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "test: certify vendored bessel_kve and drop tfp prose",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_workspace_test/pull/137"
+        },
         "PyAutoLabs/autogalaxy_workspace_test#136:merged": {
           "id": "PyAutoLabs/autogalaxy_workspace_test#136:merged",
           "task": "PyAutoLabs/autogalaxy_workspace_test#136",
@@ -5781,12 +5747,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-12T14:32:15Z"
+        },
+        "137": {
+          "title": "test: certify vendored bessel_kve and drop tfp prose",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-15T19:13:54Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
@@ -6712,10 +6685,10 @@
           "revision": "2026-11-13T12:39:33Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -8194,10 +8167,10 @@
           "revision": "2026-11-12T14:36:56Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -11971,10 +11944,10 @@
           "revision": "2026-11-12T17:53:06Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -12446,13 +12419,23 @@
           "revision": "2026-10-23T20:38:50Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#673:opened": {
+          "id": "PyAutoLabs/autolens_workspace#673:opened",
+          "task": "PyAutoLabs/autolens_workspace#673",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-15T20:18:36Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "chore: remove stale tensorflow-probability notes from smoke_install.sh",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/issues/673"
+        },
         "PyAutoLabs/autolens_workspace#669:comment-6883662749": {
           "id": "PyAutoLabs/autolens_workspace#669:comment-6883662749",
           "task": "PyAutoLabs/autolens_workspace#669",
@@ -15578,12 +15561,19 @@
           "issue": null,
           "state": "open",
           "revision": "2026-11-14T20:21:56Z"
+        },
+        "673": {
+          "title": "chore: remove stale tensorflow-probability notes from smoke_install.sh",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-15T20:18:36Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {
@@ -15607,13 +15597,33 @@
           "revision": "2026-11-12T17:05:15Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
+        "PyAutoLabs/autolens_workspace_test#366:merged": {
+          "id": "PyAutoLabs/autolens_workspace_test#366:merged",
+          "task": "PyAutoLabs/autolens_workspace_test#366",
+          "repo": "PyAutoLabs/autolens_workspace_test",
+          "time": "2026-11-15T19:14:00Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "docs: Matern jax_grad scripts use vendored bessel_kve, not tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/366"
+        },
+        "PyAutoLabs/autolens_workspace_test#366:opened": {
+          "id": "PyAutoLabs/autolens_workspace_test#366:opened",
+          "task": "PyAutoLabs/autolens_workspace_test#366",
+          "repo": "PyAutoLabs/autolens_workspace_test",
+          "time": "2026-11-15T19:05:06Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "docs: Matern jax_grad scripts use vendored bessel_kve, not tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/366"
+        },
         "PyAutoLabs/autolens_workspace_test#365:merged": {
           "id": "PyAutoLabs/autolens_workspace_test#365:merged",
           "task": "PyAutoLabs/autolens_workspace_test#365",
@@ -16093,36 +16103,9 @@
           "summary": "PR opened",
           "title": "test: re-pin source-plane literals for jacobian default",
           "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/346"
-        },
-        "PyAutoLabs/autolens_workspace_test#345:merged": {
-          "id": "PyAutoLabs/autolens_workspace_test#345:merged",
-          "task": "PyAutoLabs/autolens_workspace_test#345",
-          "repo": "PyAutoLabs/autolens_workspace_test",
-          "time": "2026-10-16T19:45:45Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: latent_variables_smoke n_live=13 (Nautilus live-point guard, PyAutoFit#1698)",
-          "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/345"
-        },
-        "PyAutoLabs/autolens_workspace_test#345:opened": {
-          "id": "PyAutoLabs/autolens_workspace_test#345:opened",
-          "task": "PyAutoLabs/autolens_workspace_test#345",
-          "repo": "PyAutoLabs/autolens_workspace_test",
-          "time": "2026-10-16T17:34:50Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: latent_variables_smoke n_live=13 (Nautilus live-point guard, PyAutoFit#1698)",
-          "url": "https://github.com/PyAutoLabs/autolens_workspace_test/pull/345"
         }
       },
       "tasks": {
-        "345": {
-          "title": "fix: latent_variables_smoke n_live=13 (Nautilus live-point guard, PyAutoFit#1698)",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T19:45:47Z"
-        },
         "346": {
           "title": "test: re-pin source-plane literals for jacobian default",
           "is_pr": true,
@@ -16262,12 +16245,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-12T14:32:12Z"
+        },
+        "366": {
+          "title": "docs: Matern jax_grad scripts use vendored bessel_kve, not tfp-nightly",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-15T19:14:03Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -16382,10 +16372,10 @@
           "revision": "2026-11-12T17:53:17Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -17012,10 +17002,10 @@
           "revision": "2026-11-13T10:41:37Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -17083,10 +17073,10 @@
           "revision": "2026-11-12T17:37:08Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -17324,10 +17314,10 @@
           "revision": "2026-11-10T19:17:10Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -17974,10 +17964,10 @@
           "revision": "2026-11-10T19:17:06Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -19323,13 +19313,83 @@
           "revision": "2026-11-11T09:19:57Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#694:comment-6899793569": {
+          "id": "PyAutoLabs/PyAutoArray#694:comment-6899793569",
+          "task": "PyAutoLabs/PyAutoArray#694",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T19:14:21Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/694#issuecomment-6899793569"
+        },
+        "PyAutoLabs/PyAutoArray#695:comment-6899662624": {
+          "id": "PyAutoLabs/PyAutoArray#695:comment-6899662624",
+          "task": "PyAutoLabs/PyAutoArray#695",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T19:05:14Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/695#issuecomment-6899662624"
+        },
+        "PyAutoLabs/PyAutoArray#694:closed": {
+          "id": "PyAutoLabs/PyAutoArray#694:closed",
+          "task": "PyAutoLabs/PyAutoArray#694",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T18:58:58Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/694"
+        },
+        "PyAutoLabs/PyAutoArray#695:merged": {
+          "id": "PyAutoLabs/PyAutoArray#695:merged",
+          "task": "PyAutoLabs/PyAutoArray#695",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T18:58:56Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/695"
+        },
+        "PyAutoLabs/PyAutoArray#694:comment-6898779166": {
+          "id": "PyAutoLabs/PyAutoArray#694:comment-6898779166",
+          "task": "PyAutoLabs/PyAutoArray#694",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T17:56:51Z",
+          "kind": "progress",
+          "summary": "Library PR recorded",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/694#issuecomment-6898779166"
+        },
+        "PyAutoLabs/PyAutoArray#695:opened": {
+          "id": "PyAutoLabs/PyAutoArray#695:opened",
+          "task": "PyAutoLabs/PyAutoArray#695",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T17:56:40Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/695"
+        },
+        "PyAutoLabs/PyAutoArray#694:opened": {
+          "id": "PyAutoLabs/PyAutoArray#694:opened",
+          "task": "PyAutoLabs/PyAutoArray#694",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-15T15:05:38Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/694"
+        },
         "PyAutoLabs/PyAutoArray#693:opened": {
           "id": "PyAutoLabs/PyAutoArray#693:opened",
           "task": "PyAutoLabs/PyAutoArray#693",
@@ -21169,16 +21229,6 @@
           "summary": "PR opened",
           "title": "perf: symmetric row-restricted direct_conv curvature kernel",
           "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/636"
-        },
-        "PyAutoLabs/PyAutoArray#635:comment-6219325769": {
-          "id": "PyAutoLabs/PyAutoArray#635:comment-6219325769",
-          "task": "PyAutoLabs/PyAutoArray#635",
-          "repo": "PyAutoLabs/PyAutoArray",
-          "time": "2026-10-16T15:54:34Z",
-          "kind": "progress",
-          "summary": "Discussion update recorded",
-          "title": "perf: symmetric row-restricted direct_conv curvature kernel (serial numba, large extents)",
-          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/635#issuecomment-6219325769"
         }
       },
       "tasks": {
@@ -21615,12 +21665,26 @@
           "issue": null,
           "state": "open",
           "revision": "2026-11-14T17:40:06Z"
+        },
+        "695": {
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-15T19:05:14Z"
+        },
+        "694": {
+          "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-15T19:14:22Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
@@ -25203,10 +25267,10 @@
           "revision": "2026-11-14T17:18:59Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -25240,10 +25304,10 @@
           "revision": "2026-11-12T21:09:35Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -25715,10 +25779,10 @@
           "revision": "2026-11-12T21:09:09Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
@@ -26251,16 +26315,6 @@
           "summary": "PR opened",
           "title": "cortex: autolens_inference 2026-10-18 check-in (hst-imaging-mass-samplers)",
           "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/72"
-        },
-        "PyAutoLabs/PyAutoCortex#71:merged": {
-          "id": "PyAutoLabs/PyAutoCortex#71:merged",
-          "task": "PyAutoLabs/PyAutoCortex#71",
-          "repo": "PyAutoLabs/PyAutoCortex",
-          "time": "2026-10-16T15:59:40Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "B5c-2a: autofit_inference — correlated_nd pilot judged under @1, correlated_nd@2 frozen (44c5e77f1fb0); Now ->",
-          "url": "https://github.com/PyAutoLabs/PyAutoCortex/pull/71"
         }
       },
       "tasks": {
@@ -26270,13 +26324,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-18T18:38:46Z"
-        },
-        "71": {
-          "title": "B5c-2a: autofit_inference — correlated_nd pilot judged under @1, correlated_nd@2 frozen (44c5e77f1fb0); Now ->",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T15:59:43Z"
         },
         "72": {
           "title": "cortex: autolens_inference 2026-10-18 check-in (hst-imaging-mass-samplers)",
@@ -26433,10 +26480,10 @@
           "revision": "2026-11-13T14:04:26Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -26588,10 +26635,10 @@
           "revision": "2026-11-12T21:07:57Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -26652,10 +26699,10 @@
           "revision": "2026-11-12T21:09:29Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -26817,13 +26864,23 @@
           "revision": "2026-11-12T21:08:42Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
+        "PyAutoLabs/PyAutoFit#1774:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1774:opened",
+          "task": "PyAutoLabs/PyAutoFit#1774",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-11-15T20:04:13Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "refactor: example Analysis reduces chi-squared with xp.sum",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1774"
+        },
         "PyAutoLabs/PyAutoFit#1773:opened": {
           "id": "PyAutoLabs/PyAutoFit#1773:opened",
           "task": "PyAutoLabs/PyAutoFit#1773",
@@ -29073,63 +29130,9 @@
           "summary": "Task opened",
           "title": "docs: update references to the HowToFit advanced chapter",
           "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1699"
-        },
-        "PyAutoLabs/PyAutoFit#1697:comment-6219459791": {
-          "id": "PyAutoLabs/PyAutoFit#1697:comment-6219459791",
-          "task": "PyAutoLabs/PyAutoFit#1697",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-16T16:01:49Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "fix: Nautilus at D>=91 — live-point guard and HDF5 checkpoint header limit",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1697#issuecomment-6219459791"
-        },
-        "PyAutoLabs/PyAutoFit#1697:closed": {
-          "id": "PyAutoLabs/PyAutoFit#1697:closed",
-          "task": "PyAutoLabs/PyAutoFit#1697",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-16T16:00:08Z",
-          "kind": "closed",
-          "summary": "Task closed",
-          "title": "fix: Nautilus at D>=91 — live-point guard and HDF5 checkpoint header limit",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/issues/1697"
-        },
-        "PyAutoLabs/PyAutoFit#1698:merged": {
-          "id": "PyAutoLabs/PyAutoFit#1698:merged",
-          "task": "PyAutoLabs/PyAutoFit#1698",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-16T16:00:06Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "fix: Nautilus live-point guard and HDF5 checkpoint format for D >= 91",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1698"
-        },
-        "PyAutoLabs/PyAutoFit#1698:opened": {
-          "id": "PyAutoLabs/PyAutoFit#1698:opened",
-          "task": "PyAutoLabs/PyAutoFit#1698",
-          "repo": "PyAutoLabs/PyAutoFit",
-          "time": "2026-10-16T15:29:04Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: Nautilus live-point guard and HDF5 checkpoint format for D >= 91",
-          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1698"
         }
       },
       "tasks": {
-        "1698": {
-          "title": "fix: Nautilus live-point guard and HDF5 checkpoint format for D >= 91",
-          "is_pr": true,
-          "issue": 1697,
-          "state": "closed",
-          "revision": "2026-10-16T20:39:50Z"
-        },
-        "1697": {
-          "title": "fix: Nautilus at D>=91 — live-point guard and HDF5 checkpoint header limit",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T16:01:50Z"
-        },
         "1700": {
           "title": "docs: point to the HowToFit advanced chapter",
           "is_pr": true,
@@ -29654,12 +29657,19 @@
           "issue": null,
           "state": "open",
           "revision": "2026-11-13T20:57:25Z"
+        },
+        "1774": {
+          "title": "refactor: example Analysis reduces chi-squared with xp.sum",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-15T20:04:13Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
@@ -31757,10 +31767,10 @@
           "revision": "2026-11-14T20:26:02Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -31833,16 +31843,6 @@
           "summary": "PR merged",
           "title": "Add .gitignore for Python caches",
           "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/30"
-        },
-        "PyAutoLabs/PyAutoGut#30:opened": {
-          "id": "PyAutoLabs/PyAutoGut#30:opened",
-          "task": "PyAutoLabs/PyAutoGut#30",
-          "repo": "PyAutoLabs/PyAutoGut",
-          "time": "2026-10-16T16:54:36Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "Add .gitignore for Python caches",
-          "url": "https://github.com/PyAutoLabs/PyAutoGut/pull/30"
         }
       },
       "tasks": {
@@ -31875,10 +31875,10 @@
           "revision": "2026-11-12T21:09:24Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -32701,36 +32701,6 @@
           "summary": "Discussion update recorded",
           "title": "fix: route Python matrix smoke through the workspace harness",
           "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/312#issuecomment-6223948660"
-        },
-        "PyAutoLabs/PyAutoHands#314:opened": {
-          "id": "PyAutoLabs/PyAutoHands#314:opened",
-          "task": "PyAutoLabs/PyAutoHands#314",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-16T20:16:53Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: use workspace harness in Python version matrix",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/pull/314"
-        },
-        "PyAutoLabs/PyAutoHands#313:opened": {
-          "id": "PyAutoLabs/PyAutoHands#313:opened",
-          "task": "PyAutoLabs/PyAutoHands#313",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-16T20:16:28Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "feat: detect missing sampler dependencies in smoke mode",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/313"
-        },
-        "PyAutoLabs/PyAutoHands#312:opened": {
-          "id": "PyAutoLabs/PyAutoHands#312:opened",
-          "task": "PyAutoLabs/PyAutoHands#312",
-          "repo": "PyAutoLabs/PyAutoHands",
-          "time": "2026-10-16T20:13:21Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "fix: route Python matrix smoke through the workspace harness",
-          "url": "https://github.com/PyAutoLabs/PyAutoHands/issues/312"
         }
       },
       "tasks": {
@@ -32938,10 +32908,10 @@
           "revision": "2026-11-13T14:04:24Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -34214,36 +34184,6 @@
           "summary": "Discussion update recorded",
           "title": "fix: run custom smoke runners on code-only PRs",
           "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/298#issuecomment-6223948390"
-        },
-        "PyAutoLabs/PyAutoHeart#300:opened": {
-          "id": "PyAutoLabs/PyAutoHeart#300:opened",
-          "task": "PyAutoLabs/PyAutoHeart#300",
-          "repo": "PyAutoLabs/PyAutoHeart",
-          "time": "2026-10-16T20:16:27Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "fix: prepare smoke environments from grouped repository layouts",
-          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/300"
-        },
-        "PyAutoLabs/PyAutoHeart#299:opened": {
-          "id": "PyAutoLabs/PyAutoHeart#299:opened",
-          "task": "PyAutoLabs/PyAutoHeart#299",
-          "repo": "PyAutoLabs/PyAutoHeart",
-          "time": "2026-10-16T20:13:05Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "fix: run custom runners for code-only PRs",
-          "url": "https://github.com/PyAutoLabs/PyAutoHeart/pull/299"
-        },
-        "PyAutoLabs/PyAutoHeart#298:opened": {
-          "id": "PyAutoLabs/PyAutoHeart#298:opened",
-          "task": "PyAutoLabs/PyAutoHeart#298",
-          "repo": "PyAutoLabs/PyAutoHeart",
-          "time": "2026-10-16T20:09:50Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "fix: run custom smoke runners on code-only PRs",
-          "url": "https://github.com/PyAutoLabs/PyAutoHeart/issues/298"
         }
       },
       "tasks": {
@@ -34469,7 +34409,7 @@
           "is_pr": false,
           "issue": null,
           "state": "open",
-          "revision": "2026-11-15T12:29:25Z"
+          "revision": "2026-11-15T19:03:33Z"
         },
         "331": {
           "title": "fix: never reuse a pip-cached arcticpy wheel across runner images",
@@ -34598,10 +34538,10 @@
           "revision": "2026-11-14T17:16:22Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -34804,26 +34744,9 @@
           "summary": "PR opened",
           "title": "insight: check-in 2026-10-17, clean-slate hst-imaging-mass-samplers, supersede SLaM HST campaigns",
           "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/35"
-        },
-        "PyAutoLabs/PyAutoInsight#34:merged": {
-          "id": "PyAutoLabs/PyAutoInsight#34:merged",
-          "task": "PyAutoLabs/PyAutoInsight#34",
-          "repo": "PyAutoLabs/PyAutoInsight",
-          "time": "2026-10-16T15:59:48Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "B5c-2a: correlated_nd_pilot complete (judged under @1, @2 frozen); campaign next -> B5c-2b",
-          "url": "https://github.com/PyAutoLabs/PyAutoInsight/pull/34"
         }
       },
       "tasks": {
-        "34": {
-          "title": "B5c-2a: correlated_nd_pilot complete (judged under @1, @2 frozen); campaign next -> B5c-2b",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-16T15:59:52Z"
-        },
         "35": {
           "title": "insight: check-in 2026-10-17, clean-slate hst-imaging-mass-samplers, supersede SLaM HST campaigns",
           "is_pr": true,
@@ -34888,10 +34811,10 @@
           "revision": "2026-11-12T21:09:40Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
@@ -37873,10 +37796,10 @@
           "revision": "2026-11-14T20:26:48Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -38209,16 +38132,6 @@
           "summary": "PR merged",
           "title": "lensing: Li 2026 + DSPL references",
           "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/134"
-        },
-        "PyAutoLabs/PyAutoMemory#134:opened": {
-          "id": "PyAutoLabs/PyAutoMemory#134:opened",
-          "task": "PyAutoLabs/PyAutoMemory#134",
-          "repo": "PyAutoLabs/PyAutoMemory",
-          "time": "2026-10-16T16:47:35Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "lensing: Li 2026 + DSPL references",
-          "url": "https://github.com/PyAutoLabs/PyAutoMemory/pull/134"
         }
       },
       "tasks": {
@@ -38349,13 +38262,33 @@
           "revision": "2026-11-13T14:37:45Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
+        "PyAutoLabs/PyAutoMind#572:closed": {
+          "id": "PyAutoLabs/PyAutoMind#572:closed",
+          "task": "PyAutoLabs/PyAutoMind#572",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-15T15:33:07Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "ledger merge: `claude/matern-bessel-kve-docs-s4py9e` needs a human",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/572"
+        },
+        "PyAutoLabs/PyAutoMind#572:opened": {
+          "id": "PyAutoLabs/PyAutoMind#572:opened",
+          "task": "PyAutoLabs/PyAutoMind#572",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-15T15:06:15Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "ledger merge: `claude/matern-bessel-kve-docs-s4py9e` needs a human",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/572"
+        },
         "PyAutoLabs/PyAutoMind#571:comment-6883652146": {
           "id": "PyAutoLabs/PyAutoMind#571:comment-6883652146",
           "task": "PyAutoLabs/PyAutoMind#571",
@@ -39915,26 +39848,6 @@
           "summary": "Task closed",
           "title": "ledger merge: `codex/smoke-reliability-checkpoint` needs a human",
           "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/506"
-        },
-        "PyAutoLabs/PyAutoMind#506:opened": {
-          "id": "PyAutoLabs/PyAutoMind#506:opened",
-          "task": "PyAutoLabs/PyAutoMind#506",
-          "repo": "PyAutoLabs/PyAutoMind",
-          "time": "2026-10-16T20:18:08Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "ledger merge: `codex/smoke-reliability-checkpoint` needs a human",
-          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/506"
-        },
-        "PyAutoLabs/PyAutoMind#505:opened": {
-          "id": "PyAutoLabs/PyAutoMind#505:opened",
-          "task": "PyAutoLabs/PyAutoMind#505",
-          "repo": "PyAutoLabs/PyAutoMind",
-          "time": "2026-10-16T16:53:31Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "lifecycle: clear-released drops labels via REST (no read:org), idempotent on 404",
-          "url": "https://github.com/PyAutoLabs/PyAutoMind/pull/505"
         }
       },
       "tasks": {
@@ -40441,12 +40354,19 @@
           "issue": null,
           "state": "open",
           "revision": "2026-11-14T21:22:50Z"
+        },
+        "572": {
+          "title": "ledger merge: `claude/matern-bessel-kve-docs-s4py9e` needs a human",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-15T15:33:07Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -41153,10 +41073,10 @@
           "revision": "2026-11-12T21:08:21Z"
         }
       },
-      "checked": "2026-11-15T15:00:08Z",
+      "checked": "2026-11-15T20:19:11Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-15T15:00:08Z"
+      "cursor": "2026-11-15T20:19:11Z"
     }
   },
   "next": 23,
