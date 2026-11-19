@@ -913,10 +913,10 @@
           "revision": "2026-11-12T21:08:27Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoReduce": {
       "events": {
@@ -1004,10 +1004,10 @@
           "revision": "2026-11-12T21:08:58Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoScientist": {
       "events": {
@@ -1330,10 +1330,10 @@
           "revision": "2026-11-12T21:08:37Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autocti_assistant": {
       "events": {
@@ -1556,10 +1556,10 @@
           "revision": "2026-11-12T17:52:53Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autocti_visualization": {
       "events": {
@@ -1711,10 +1711,10 @@
           "revision": "2026-10-23T22:22:51Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autocti_workspace": {
       "events": {
@@ -2038,10 +2038,10 @@
           "revision": "2026-11-10T19:16:59Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autocti_workspace_test": {
       "events": {
@@ -2176,10 +2176,10 @@
           "revision": "2026-11-06T12:10:51Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_assistant": {
       "events": {
@@ -2412,10 +2412,10 @@
           "revision": "2026-11-12T11:10:31Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_inference": {
       "events": {
@@ -2476,10 +2476,10 @@
           "revision": "2026-11-12T11:10:35Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_profiling": {
       "events": {
@@ -3193,10 +3193,10 @@
           "revision": "2026-11-12T13:52:23Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_visualization": {
       "events": {
@@ -3348,10 +3348,10 @@
           "revision": "2026-11-16T18:41:55Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_workspace": {
       "events": {
@@ -3866,10 +3866,10 @@
           "revision": "2026-11-14T12:38:42Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_workspace_developer": {
       "events": {
@@ -3930,10 +3930,10 @@
           "revision": "2026-11-18T08:54:03Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autofit_workspace_test": {
       "events": {
@@ -4085,13 +4085,83 @@
           "revision": "2026-11-08T16:41:49Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autogalaxy_assistant": {
       "events": {
+        "PyAutoLabs/autogalaxy_assistant#49:closed": {
+          "id": "PyAutoLabs/autogalaxy_assistant#49:closed",
+          "task": "PyAutoLabs/autogalaxy_assistant#49",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:58:33Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "wiki-currency check could not complete at release 2026.11.19.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/49"
+        },
+        "PyAutoLabs/autogalaxy_assistant#49:comment-7016016793": {
+          "id": "PyAutoLabs/autogalaxy_assistant#49:comment-7016016793",
+          "task": "PyAutoLabs/autogalaxy_assistant#49",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:58:32Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "wiki-currency check could not complete at release 2026.11.19.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/49#issuecomment-7016016793"
+        },
+        "PyAutoLabs/autogalaxy_assistant#13:closed": {
+          "id": "PyAutoLabs/autogalaxy_assistant#13:closed",
+          "task": "PyAutoLabs/autogalaxy_assistant#13",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:41:36Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "wiki drift detected at release 2026.8.7.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/13"
+        },
+        "PyAutoLabs/autogalaxy_assistant#13:comment-7015589319": {
+          "id": "PyAutoLabs/autogalaxy_assistant#13:comment-7015589319",
+          "task": "PyAutoLabs/autogalaxy_assistant#13",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:41:35Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "wiki drift detected at release 2026.8.7.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/13#issuecomment-7015589319"
+        },
+        "PyAutoLabs/autogalaxy_assistant#18:closed": {
+          "id": "PyAutoLabs/autogalaxy_assistant#18:closed",
+          "task": "PyAutoLabs/autogalaxy_assistant#18",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:41:33Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "wiki drift detected at release 2026.8.22.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/18"
+        },
+        "PyAutoLabs/autogalaxy_assistant#18:comment-7015588158": {
+          "id": "PyAutoLabs/autogalaxy_assistant#18:comment-7015588158",
+          "task": "PyAutoLabs/autogalaxy_assistant#18",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:41:32Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "wiki drift detected at release 2026.8.22.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/18#issuecomment-7015588158"
+        },
+        "PyAutoLabs/autogalaxy_assistant#49:opened": {
+          "id": "PyAutoLabs/autogalaxy_assistant#49:opened",
+          "task": "PyAutoLabs/autogalaxy_assistant#49",
+          "repo": "PyAutoLabs/autogalaxy_assistant",
+          "time": "2026-11-19T16:18:22Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "wiki-currency check could not complete at release 2026.11.19.1",
+          "url": "https://github.com/PyAutoLabs/autogalaxy_assistant/issues/49"
+        },
         "PyAutoLabs/autogalaxy_assistant#48:merged": {
           "id": "PyAutoLabs/autogalaxy_assistant#48:merged",
           "task": "PyAutoLabs/autogalaxy_assistant#48",
@@ -4454,12 +4524,33 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-13T12:39:20Z"
+        },
+        "18": {
+          "title": "wiki drift detected at release 2026.8.22.1",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:41:33Z"
+        },
+        "13": {
+          "title": "wiki drift detected at release 2026.8.7.1",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:41:36Z"
+        },
+        "49": {
+          "title": "wiki-currency check could not complete at release 2026.11.19.1",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:58:33Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autogalaxy_visualization": {
       "events": {
@@ -4594,10 +4685,10 @@
           "revision": "2026-10-23T20:38:55Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autogalaxy_workspace": {
       "events": {
@@ -5516,10 +5607,10 @@
           "revision": "2026-11-15T20:31:47Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autogalaxy_workspace_test": {
       "events": {
@@ -5806,13 +5897,53 @@
           "revision": "2026-11-15T19:13:54Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_assistant": {
       "events": {
+        "PyAutoLabs/autolens_assistant#114:closed": {
+          "id": "PyAutoLabs/autolens_assistant#114:closed",
+          "task": "PyAutoLabs/autolens_assistant#114",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-19T16:41:31Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "wiki drift detected at release 2026.8.23.1",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/114"
+        },
+        "PyAutoLabs/autolens_assistant#114:comment-7015586959": {
+          "id": "PyAutoLabs/autolens_assistant#114:comment-7015586959",
+          "task": "PyAutoLabs/autolens_assistant#114",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-19T16:41:30Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "wiki drift detected at release 2026.8.23.1",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/114#issuecomment-7015586959"
+        },
+        "PyAutoLabs/autolens_assistant#153:closed": {
+          "id": "PyAutoLabs/autolens_assistant#153:closed",
+          "task": "PyAutoLabs/autolens_assistant#153",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-19T16:41:27Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "wiki drift detected at release 2026.10.7.1",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/153"
+        },
+        "PyAutoLabs/autolens_assistant#153:comment-7015585632": {
+          "id": "PyAutoLabs/autolens_assistant#153:comment-7015585632",
+          "task": "PyAutoLabs/autolens_assistant#153",
+          "repo": "PyAutoLabs/autolens_assistant",
+          "time": "2026-11-19T16:41:27Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "wiki drift detected at release 2026.10.7.1",
+          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/153#issuecomment-7015585632"
+        },
         "PyAutoLabs/autolens_assistant#187:merged": {
           "id": "PyAutoLabs/autolens_assistant#187:merged",
           "task": "PyAutoLabs/autolens_assistant#187",
@@ -6522,46 +6653,6 @@
           "summary": "PR merged",
           "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (#160)",
           "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/161"
-        },
-        "PyAutoLabs/autolens_assistant#160:comment-6294575048": {
-          "id": "PyAutoLabs/autolens_assistant#160:comment-6294575048",
-          "task": "PyAutoLabs/autolens_assistant#160",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-20T15:30:32Z",
-          "kind": "reported",
-          "summary": "Shipment reported — see source",
-          "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (walkthrough phase 1)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/160#issuecomment-6294575048"
-        },
-        "PyAutoLabs/autolens_assistant#161:opened": {
-          "id": "PyAutoLabs/autolens_assistant#161:opened",
-          "task": "PyAutoLabs/autolens_assistant#161",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-20T15:30:12Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (#160)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/pull/161"
-        },
-        "PyAutoLabs/autolens_assistant#160:comment-6294456931": {
-          "id": "PyAutoLabs/autolens_assistant#160:comment-6294456931",
-          "task": "PyAutoLabs/autolens_assistant#160",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-20T15:25:01Z",
-          "kind": "progress",
-          "summary": "Discussion update recorded",
-          "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (walkthrough phase 1)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/160#issuecomment-6294456931"
-        },
-        "PyAutoLabs/autolens_assistant#160:opened": {
-          "id": "PyAutoLabs/autolens_assistant#160:opened",
-          "task": "PyAutoLabs/autolens_assistant#160",
-          "repo": "PyAutoLabs/autolens_assistant",
-          "time": "2026-10-20T15:04:36Z",
-          "kind": "opened",
-          "summary": "Task opened",
-          "title": "docs(colab): image-first COSMOS-Web Ring notebook, no inference (walkthrough phase 1)",
-          "url": "https://github.com/PyAutoLabs/autolens_assistant/issues/160"
         }
       },
       "tasks": {
@@ -6760,12 +6851,26 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-18T10:11:36Z"
+        },
+        "153": {
+          "title": "wiki drift detected at release 2026.10.7.1",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:41:27Z"
+        },
+        "114": {
+          "title": "wiki drift detected at release 2026.8.23.1",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:41:31Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_inference": {
       "events": {
@@ -7518,36 +7623,6 @@
           "summary": "Task opened",
           "title": "feat: clean-slate rows committed, mirrored tree, walltime-validation@1 exporter",
           "url": "https://github.com/PyAutoLabs/autolens_inference/issues/41"
-        },
-        "PyAutoLabs/autolens_inference#38:comment-6296565003": {
-          "id": "PyAutoLabs/autolens_inference#38:comment-6296565003",
-          "task": "PyAutoLabs/autolens_inference#38",
-          "repo": "PyAutoLabs/autolens_inference",
-          "time": "2026-10-20T17:06:46Z",
-          "kind": "progress",
-          "summary": "Discussion update recorded",
-          "title": "feat: redo numba sparse SLaM legs on RAL with thread caps; light_fixed + slam_delaunay",
-          "url": "https://github.com/PyAutoLabs/autolens_inference/issues/38#issuecomment-6296565003"
-        },
-        "PyAutoLabs/autolens_inference#40:merged": {
-          "id": "PyAutoLabs/autolens_inference#40:merged",
-          "task": "PyAutoLabs/autolens_inference#40",
-          "repo": "PyAutoLabs/autolens_inference",
-          "time": "2026-10-20T17:02:27Z",
-          "kind": "merged",
-          "summary": "PR merged",
-          "title": "hpc: A100 jax_gpu dense + sparse clean-slate Delaunay submits",
-          "url": "https://github.com/PyAutoLabs/autolens_inference/pull/40"
-        },
-        "PyAutoLabs/autolens_inference#40:opened": {
-          "id": "PyAutoLabs/autolens_inference#40:opened",
-          "task": "PyAutoLabs/autolens_inference#40",
-          "repo": "PyAutoLabs/autolens_inference",
-          "time": "2026-10-20T16:59:02Z",
-          "kind": "opened",
-          "summary": "PR opened",
-          "title": "hpc: A100 jax_gpu dense + sparse clean-slate Delaunay submits",
-          "url": "https://github.com/PyAutoLabs/autolens_inference/pull/40"
         }
       },
       "tasks": {
@@ -7557,20 +7632,6 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-10-26T16:31:18Z"
-        },
-        "38": {
-          "title": "feat: redo numba sparse SLaM legs on RAL with thread caps; light_fixed + slam_delaunay",
-          "is_pr": false,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-20T17:06:46Z"
-        },
-        "40": {
-          "title": "hpc: A100 jax_gpu dense + sparse clean-slate Delaunay submits",
-          "is_pr": true,
-          "issue": null,
-          "state": "closed",
-          "revision": "2026-10-20T17:02:30Z"
         },
         "41": {
           "title": "feat: clean-slate rows committed, mirrored tree, walltime-validation@1 exporter",
@@ -7783,10 +7844,10 @@
           "revision": "2026-11-16T19:56:06Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_profiling": {
       "events": {
@@ -10975,10 +11036,10 @@
           "revision": "2026-11-12T17:53:06Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_visualization": {
       "events": {
@@ -11477,13 +11538,123 @@
           "revision": "2026-11-18T10:11:40Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_workspace": {
       "events": {
+        "PyAutoLabs/autolens_workspace#682:merged": {
+          "id": "PyAutoLabs/autolens_workspace#682:merged",
+          "task": "PyAutoLabs/autolens_workspace#682",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T20:52:30Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: los_halos simulator_jax sizes halo arrays with max_n=None",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/682"
+        },
+        "PyAutoLabs/autolens_workspace#681:merged": {
+          "id": "PyAutoLabs/autolens_workspace#681:merged",
+          "task": "PyAutoLabs/autolens_workspace#681",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T20:52:14Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: los_halos simulators drop the silent placeholder coefficients",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/681"
+        },
+        "PyAutoLabs/autolens_workspace#682:comment-7019782307": {
+          "id": "PyAutoLabs/autolens_workspace#682:comment-7019782307",
+          "task": "PyAutoLabs/autolens_workspace#682",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T19:24:51Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: los_halos simulator_jax sizes halo arrays with max_n=None",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/682#issuecomment-7019782307"
+        },
+        "PyAutoLabs/autolens_workspace#682:opened": {
+          "id": "PyAutoLabs/autolens_workspace#682:opened",
+          "task": "PyAutoLabs/autolens_workspace#682",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T19:24:36Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: los_halos simulator_jax sizes halo arrays with max_n=None",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/682"
+        },
+        "PyAutoLabs/autolens_workspace#681:comment-7019317434": {
+          "id": "PyAutoLabs/autolens_workspace#681:comment-7019317434",
+          "task": "PyAutoLabs/autolens_workspace#681",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T19:08:12Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: los_halos simulators drop the silent placeholder coefficients",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/681#issuecomment-7019317434"
+        },
+        "PyAutoLabs/autolens_workspace#681:opened": {
+          "id": "PyAutoLabs/autolens_workspace#681:opened",
+          "task": "PyAutoLabs/autolens_workspace#681",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T19:08:02Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: los_halos simulators drop the silent placeholder coefficients",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/681"
+        },
+        "PyAutoLabs/autolens_workspace#679:comment-7018601926": {
+          "id": "PyAutoLabs/autolens_workspace#679:comment-7018601926",
+          "task": "PyAutoLabs/autolens_workspace#679",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T18:45:12Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/issues/679#issuecomment-7018601926"
+        },
+        "PyAutoLabs/autolens_workspace#679:closed": {
+          "id": "PyAutoLabs/autolens_workspace#679:closed",
+          "task": "PyAutoLabs/autolens_workspace#679",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T18:45:11Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/issues/679"
+        },
+        "PyAutoLabs/autolens_workspace#680:merged": {
+          "id": "PyAutoLabs/autolens_workspace#680:merged",
+          "task": "PyAutoLabs/autolens_workspace#680",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T18:45:09Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/680"
+        },
+        "PyAutoLabs/autolens_workspace#680:opened": {
+          "id": "PyAutoLabs/autolens_workspace#680:opened",
+          "task": "PyAutoLabs/autolens_workspace#680",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T18:31:04Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/pull/680"
+        },
+        "PyAutoLabs/autolens_workspace#679:opened": {
+          "id": "PyAutoLabs/autolens_workspace#679:opened",
+          "task": "PyAutoLabs/autolens_workspace#679",
+          "repo": "PyAutoLabs/autolens_workspace",
+          "time": "2026-11-19T18:28:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "url": "https://github.com/PyAutoLabs/autolens_workspace/issues/679"
+        },
         "PyAutoLabs/autolens_workspace#678:merged": {
           "id": "PyAutoLabs/autolens_workspace#678:merged",
           "task": "PyAutoLabs/autolens_workspace#678",
@@ -14901,12 +15072,40 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-18T10:11:24Z"
+        },
+        "680": {
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "is_pr": true,
+          "issue": 679,
+          "state": "closed",
+          "revision": "2026-11-19T18:45:12Z"
+        },
+        "679": {
+          "title": "fix: group/slam.py sigma prior bound can be 0 under test mode (smoke flake)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T18:45:12Z"
+        },
+        "681": {
+          "title": "fix: los_halos simulators drop the silent placeholder coefficients",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:52:17Z"
+        },
+        "682": {
+          "title": "fix: los_halos simulator_jax sizes halo arrays with max_n=None",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:52:33Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_workspace_developer": {
       "events": {
@@ -14950,10 +15149,10 @@
           "revision": "2026-11-18T09:16:14Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autolens_workspace_test": {
       "events": {
@@ -15661,10 +15860,10 @@
           "revision": "2026-11-19T08:19:26Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/autoreduce_workspace": {
       "events": {
@@ -15779,10 +15978,10 @@
           "revision": "2026-11-12T17:53:17Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/euclid_strong_lens_modeling_pipeline": {
       "events": {
@@ -16557,10 +16756,10 @@
           "revision": "2026-11-16T21:17:52Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/pyautolabs.github.io": {
       "events": {
@@ -16648,10 +16847,10 @@
           "revision": "2026-11-18T08:53:58Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "Jammy2211/euclid_assistant": {
       "status": "unavailable",
@@ -16839,10 +17038,10 @@
           "revision": "2026-11-10T19:17:10Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/HowToGalaxy": {
       "events": {
@@ -17516,10 +17715,10 @@
           "revision": "2026-11-15T20:31:50Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/HowToLens": {
       "events": {
@@ -18946,13 +19145,53 @@
           "revision": "2026-11-18T10:11:31Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoArray": {
       "events": {
+        "PyAutoLabs/PyAutoArray#703:comment-7010058909": {
+          "id": "PyAutoLabs/PyAutoArray#703:comment-7010058909",
+          "task": "PyAutoLabs/PyAutoArray#703",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-19T13:09:22Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: JAX 0.12.1 breaks step-0 structured triangle containment",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/703#issuecomment-7010058909"
+        },
+        "PyAutoLabs/PyAutoArray#703:closed": {
+          "id": "PyAutoLabs/PyAutoArray#703:closed",
+          "task": "PyAutoLabs/PyAutoArray#703",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-19T13:09:05Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: JAX 0.12.1 breaks step-0 structured triangle containment",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/703"
+        },
+        "PyAutoLabs/PyAutoArray#704:merged": {
+          "id": "PyAutoLabs/PyAutoArray#704:merged",
+          "task": "PyAutoLabs/PyAutoArray#704",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-19T13:09:03Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix(triangles): keep step-0 structured containment bit-identical on jax 0.12.1",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/pull/704"
+        },
+        "PyAutoLabs/PyAutoArray#703:comment-7009868329": {
+          "id": "PyAutoLabs/PyAutoArray#703:comment-7009868329",
+          "task": "PyAutoLabs/PyAutoArray#703",
+          "repo": "PyAutoLabs/PyAutoArray",
+          "time": "2026-11-19T13:01:24Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: JAX 0.12.1 breaks step-0 structured triangle containment",
+          "url": "https://github.com/PyAutoLabs/PyAutoArray/issues/703#issuecomment-7009868329"
+        },
         "PyAutoLabs/PyAutoArray#703:comment-7009527274": {
           "id": "PyAutoLabs/PyAutoArray#703:comment-7009527274",
           "task": "PyAutoLabs/PyAutoArray#703",
@@ -21506,7 +21745,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-15T19:05:14Z"
+          "revision": "2026-11-19T16:15:39Z"
         },
         "694": {
           "title": "refactor: vendor bessel_kve into autoarray and drop tfp-nightly",
@@ -21520,7 +21759,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-17T13:48:15Z"
+          "revision": "2026-11-19T16:15:23Z"
         },
         "696": {
           "title": "perf: separable box dilation in blurring_mask_2d_from for large PSFs",
@@ -21534,7 +21773,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-17T15:18:55Z"
+          "revision": "2026-11-19T16:15:25Z"
         },
         "698": {
           "title": "perf: size the ConvolverState FFT frame from the mask, not the native array",
@@ -21555,37 +21794,227 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T10:10:56Z"
+          "revision": "2026-11-19T16:15:27Z"
         },
         "702": {
           "title": "fix: tolerate a class already registered as a JAX pytree elsewhere (#693)",
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T11:59:53Z"
+          "revision": "2026-11-19T16:15:32Z"
         },
         "704": {
           "title": "fix(triangles): keep step-0 structured containment bit-identical on jax 0.12.1",
           "is_pr": true,
           "issue": 703,
-          "state": "open",
-          "revision": "2026-11-19T12:45:50Z"
+          "state": "closed",
+          "revision": "2026-11-19T16:15:37Z"
         },
         "703": {
           "title": "fix: JAX 0.12.1 breaks step-0 structured triangle containment",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-19T12:46:26Z"
+          "state": "closed",
+          "revision": "2026-11-19T13:09:22Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoBrain": {
       "events": {
+        "PyAutoLabs/PyAutoBrain#694:comment-7017626738": {
+          "id": "PyAutoLabs/PyAutoBrain#694:comment-7017626738",
+          "task": "PyAutoLabs/PyAutoBrain#694",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T18:03:53Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: sweep fail streak resets across shift gaps; digest row names the sweep wait (M3.7e follow-ups)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/694#issuecomment-7017626738"
+        },
+        "PyAutoLabs/PyAutoBrain#694:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#694:closed",
+          "task": "PyAutoLabs/PyAutoBrain#694",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T18:03:52Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: sweep fail streak resets across shift gaps; digest row names the sweep wait (M3.7e follow-ups)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/694"
+        },
+        "PyAutoLabs/PyAutoBrain#695:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#695:merged",
+          "task": "PyAutoLabs/PyAutoBrain#695",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T18:03:50Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: sweep fail streak resets on a new shift; digest row names the sweep wait (M3.7e follow-ups)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/695"
+        },
+        "PyAutoLabs/PyAutoBrain#695:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#695:opened",
+          "task": "PyAutoLabs/PyAutoBrain#695",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T17:19:15Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: sweep fail streak resets on a new shift; digest row names the sweep wait (M3.7e follow-ups)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/695"
+        },
+        "PyAutoLabs/PyAutoBrain#694:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#694:opened",
+          "task": "PyAutoLabs/PyAutoBrain#694",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T17:06:51Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: sweep fail streak resets across shift gaps; digest row names the sweep wait (M3.7e follow-ups)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/694"
+        },
+        "PyAutoLabs/PyAutoBrain#692:comment-7015974717": {
+          "id": "PyAutoLabs/PyAutoBrain#692:comment-7015974717",
+          "task": "PyAutoLabs/PyAutoBrain#692",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T16:56:50Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/692#issuecomment-7015974717"
+        },
+        "PyAutoLabs/PyAutoBrain#692:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#692:closed",
+          "task": "PyAutoLabs/PyAutoBrain#692",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T16:56:38Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/692"
+        },
+        "PyAutoLabs/PyAutoBrain#693:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#693:merged",
+          "task": "PyAutoLabs/PyAutoBrain#693",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T16:56:35Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/693"
+        },
+        "PyAutoLabs/PyAutoBrain#693:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#693:opened",
+          "task": "PyAutoLabs/PyAutoBrain#693",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T16:39:37Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/693"
+        },
+        "PyAutoLabs/PyAutoBrain#692:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#692:opened",
+          "task": "PyAutoLabs/PyAutoBrain#692",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T15:57:43Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/692"
+        },
+        "PyAutoLabs/PyAutoBrain#690:comment-7014225342": {
+          "id": "PyAutoLabs/PyAutoBrain#690:comment-7014225342",
+          "task": "PyAutoLabs/PyAutoBrain#690",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T15:50:42Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/690#issuecomment-7014225342"
+        },
+        "PyAutoLabs/PyAutoBrain#690:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#690:closed",
+          "task": "PyAutoLabs/PyAutoBrain#690",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T15:50:29Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/690"
+        },
+        "PyAutoLabs/PyAutoBrain#691:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#691:merged",
+          "task": "PyAutoLabs/PyAutoBrain#691",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T15:50:26Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/691"
+        },
+        "PyAutoLabs/PyAutoBrain#691:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#691:opened",
+          "task": "PyAutoLabs/PyAutoBrain#691",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T14:33:25Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/691"
+        },
+        "PyAutoLabs/PyAutoBrain#690:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#690:opened",
+          "task": "PyAutoLabs/PyAutoBrain#690",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T13:53:40Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/690"
+        },
+        "PyAutoLabs/PyAutoBrain#688:comment-7010537839": {
+          "id": "PyAutoLabs/PyAutoBrain#688:comment-7010537839",
+          "task": "PyAutoLabs/PyAutoBrain#688",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T13:28:49Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/688#issuecomment-7010537839"
+        },
+        "PyAutoLabs/PyAutoBrain#688:closed": {
+          "id": "PyAutoLabs/PyAutoBrain#688:closed",
+          "task": "PyAutoLabs/PyAutoBrain#688",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T13:28:39Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/issues/688"
+        },
+        "PyAutoLabs/PyAutoBrain#689:merged": {
+          "id": "PyAutoLabs/PyAutoBrain#689:merged",
+          "task": "PyAutoLabs/PyAutoBrain#689",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T13:28:37Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/689"
+        },
+        "PyAutoLabs/PyAutoBrain#689:opened": {
+          "id": "PyAutoLabs/PyAutoBrain#689:opened",
+          "task": "PyAutoLabs/PyAutoBrain#689",
+          "repo": "PyAutoLabs/PyAutoBrain",
+          "time": "2026-11-19T13:16:38Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
+          "url": "https://github.com/PyAutoLabs/PyAutoBrain/pull/689"
+        },
         "PyAutoLabs/PyAutoBrain#688:opened": {
           "id": "PyAutoLabs/PyAutoBrain#688:opened",
           "task": "PyAutoLabs/PyAutoBrain#688",
@@ -26812,14 +27241,63 @@
           "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-19T12:50:14Z"
+          "state": "closed",
+          "revision": "2026-11-19T13:28:49Z"
+        },
+        "689": {
+          "title": "feat: shift close-out at PR-open, merge on green CI (M3.7b)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T13:28:39Z"
+        },
+        "691": {
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T15:50:29Z"
+        },
+        "690": {
+          "title": "feat: shift watcher 60 s tick, early close, decision-taken refused at PR-open (M3.7c)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T15:50:42Z"
+        },
+        "693": {
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:56:38Z"
+        },
+        "692": {
+          "title": "feat: shift-end cloud workspace sweep, red blocks unattended merges (M3.7e)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T16:56:50Z"
+        },
+        "695": {
+          "title": "fix: sweep fail streak resets on a new shift; digest row names the sweep wait (M3.7e follow-ups)",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T18:03:52Z"
+        },
+        "694": {
+          "title": "fix: sweep fail streak resets across shift gaps; digest row names the sweep wait (M3.7e follow-ups)",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T18:03:53Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoBroca": {
       "events": {
@@ -26853,10 +27331,10 @@
           "revision": "2026-11-12T21:09:35Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoCTI": {
       "events": {
@@ -27328,13 +27806,23 @@
           "revision": "2026-11-12T21:09:09Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoCortex": {
       "events": {
+        "PyAutoLabs/PyAutoCortex#95:opened": {
+          "id": "PyAutoLabs/PyAutoCortex#95:opened",
+          "task": "PyAutoLabs/PyAutoCortex#95",
+          "repo": "PyAutoLabs/PyAutoCortex",
+          "time": "2026-11-19T18:47:18Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "feat: split development projects from science projects on the board",
+          "url": "https://github.com/PyAutoLabs/PyAutoCortex/issues/95"
+        },
         "PyAutoLabs/PyAutoCortex#93:merged": {
           "id": "PyAutoLabs/PyAutoCortex#93:merged",
           "task": "PyAutoLabs/PyAutoCortex#93",
@@ -27963,12 +28451,19 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-17T18:47:19Z"
+        },
+        "95": {
+          "title": "feat: split development projects from science projects on the board",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-19T18:47:18Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoDNA": {
       "events": {
@@ -28120,10 +28615,10 @@
           "revision": "2026-11-12T21:07:57Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoEars": {
       "events": {
@@ -28275,10 +28770,10 @@
           "revision": "2026-11-17T14:13:40Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoEyes": {
       "events": {
@@ -28440,13 +28935,23 @@
           "revision": "2026-11-12T21:08:42Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoFit": {
       "events": {
+        "PyAutoLabs/PyAutoFit#1786:opened": {
+          "id": "PyAutoLabs/PyAutoFit#1786:opened",
+          "task": "PyAutoLabs/PyAutoFit#1786",
+          "repo": "PyAutoLabs/PyAutoFit",
+          "time": "2026-11-19T16:14:54Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "url": "https://github.com/PyAutoLabs/PyAutoFit/pull/1786"
+        },
         "PyAutoLabs/PyAutoFit#1784:comment-7003679071": {
           "id": "PyAutoLabs/PyAutoFit#1784:comment-7003679071",
           "task": "PyAutoLabs/PyAutoFit#1784",
@@ -31205,7 +31710,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-12T16:16:55Z"
+          "revision": "2026-11-19T16:56:23Z"
         },
         "1762": {
           "title": "perf: add opt-in compact corner array adapter",
@@ -31219,7 +31724,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-12T16:03:54Z"
+          "revision": "2026-11-19T16:56:24Z"
         },
         "1763": {
           "title": "perf: prototype opt-in Nautilus checkpoint batching",
@@ -31296,7 +31801,7 @@
           "is_pr": true,
           "issue": 1774,
           "state": "closed",
-          "revision": "2026-11-15T20:48:53Z"
+          "revision": "2026-11-19T16:15:31Z"
         },
         "1776": {
           "title": "docs: three autos framing in README and docs index (#832)",
@@ -31317,21 +31822,21 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T12:57:07Z"
+          "revision": "2026-11-19T16:15:30Z"
         },
         "1779": {
           "title": "fix: Model.tree_flatten handles zero direct priors and keeps TuplePrior children",
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T13:26:27Z"
+          "revision": "2026-11-19T16:15:26Z"
         },
         "1781": {
           "title": "fix: Model pytree round-trip keeps fixed non-prior attributes",
           "is_pr": true,
           "issue": 1780,
           "state": "closed",
-          "revision": "2026-11-18T14:00:08Z"
+          "revision": "2026-11-19T16:15:41Z"
         },
         "1780": {
           "title": "fix: Model pytree round-trip drops fixed non-prior attributes",
@@ -31352,14 +31857,14 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T17:40:14Z"
+          "revision": "2026-11-19T16:15:24Z"
         },
         "1785": {
           "title": "fix: hash 0-d NumPy arrays as scalars in the model identifier",
           "is_pr": true,
           "issue": 1784,
           "state": "closed",
-          "revision": "2026-11-19T08:19:07Z"
+          "revision": "2026-11-19T16:15:40Z"
         },
         "1784": {
           "title": "fix: model identifier raises TypeError on 0-d array attributes",
@@ -31367,15 +31872,202 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-19T08:19:40Z"
+        },
+        "1786": {
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-19T16:14:54Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoGalaxy": {
       "events": {
+        "PyAutoLabs/PyAutoGalaxy#736:comment-7022021109": {
+          "id": "PyAutoLabs/PyAutoGalaxy#736:comment-7022021109",
+          "task": "PyAutoLabs/PyAutoGalaxy#736",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:57:28Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: NFWTruncatedSph deflection NaN at r=0 and imprecise at small radius",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/736#issuecomment-7022021109"
+        },
+        "PyAutoLabs/PyAutoGalaxy#734:comment-7022020566": {
+          "id": "PyAutoLabs/PyAutoGalaxy#734:comment-7022020566",
+          "task": "PyAutoLabs/PyAutoGalaxy#734",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:57:26Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: NFWTruncatedSph total mass omits the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/734#issuecomment-7022020566"
+        },
+        "PyAutoLabs/PyAutoGalaxy#732:comment-7022020117": {
+          "id": "PyAutoLabs/PyAutoGalaxy#732:comment-7022020117",
+          "task": "PyAutoLabs/PyAutoGalaxy#732",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:57:25Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: NFWTruncatedMCR truncation radius uses kpc as arcseconds",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/732#issuecomment-7022020117"
+        },
+        "PyAutoLabs/PyAutoGalaxy#736:closed": {
+          "id": "PyAutoLabs/PyAutoGalaxy#736:closed",
+          "task": "PyAutoLabs/PyAutoGalaxy#736",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:52:02Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: NFWTruncatedSph deflection NaN at r=0 and imprecise at small radius",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/736"
+        },
+        "PyAutoLabs/PyAutoGalaxy#737:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#737:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#737",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:52:01Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: NFWTruncatedSph deflection finite at r=0 and exact at small radius",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/737"
+        },
+        "PyAutoLabs/PyAutoGalaxy#734:closed": {
+          "id": "PyAutoLabs/PyAutoGalaxy#734:closed",
+          "task": "PyAutoLabs/PyAutoGalaxy#734",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:51:43Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: NFWTruncatedSph total mass omits the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/734"
+        },
+        "PyAutoLabs/PyAutoGalaxy#735:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#735:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#735",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:51:41Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: NFWTruncatedSph total mass divides by the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/735"
+        },
+        "PyAutoLabs/PyAutoGalaxy#732:closed": {
+          "id": "PyAutoLabs/PyAutoGalaxy#732:closed",
+          "task": "PyAutoLabs/PyAutoGalaxy#732",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:50:56Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: NFWTruncatedMCR truncation radius uses kpc as arcseconds",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/732"
+        },
+        "PyAutoLabs/PyAutoGalaxy#733:merged": {
+          "id": "PyAutoLabs/PyAutoGalaxy#733:merged",
+          "task": "PyAutoLabs/PyAutoGalaxy#733",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T20:50:55Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: NFWTruncatedMCR truncation radius in arcseconds, not kpc",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/733"
+        },
+        "PyAutoLabs/PyAutoGalaxy#737:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#737:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#737",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:31:38Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: NFWTruncatedSph deflection finite at r=0 and exact at small radius",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/737"
+        },
+        "PyAutoLabs/PyAutoGalaxy#736:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#736:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#736",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:24:46Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: NFWTruncatedSph deflection NaN at r=0 and imprecise at small radius",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/736"
+        },
+        "PyAutoLabs/PyAutoGalaxy#734:comment-7019657136": {
+          "id": "PyAutoLabs/PyAutoGalaxy#734:comment-7019657136",
+          "task": "PyAutoLabs/PyAutoGalaxy#734",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:20:07Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: NFWTruncatedSph total mass omits the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/734#issuecomment-7019657136"
+        },
+        "PyAutoLabs/PyAutoGalaxy#735:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#735:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#735",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:19:53Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: NFWTruncatedSph total mass divides by the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/735"
+        },
+        "PyAutoLabs/PyAutoGalaxy#734:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#734:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#734",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:08:55Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: NFWTruncatedSph total mass omits the NFW mass factor",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/734"
+        },
+        "PyAutoLabs/PyAutoGalaxy#732:comment-7019204838": {
+          "id": "PyAutoLabs/PyAutoGalaxy#732:comment-7019204838",
+          "task": "PyAutoLabs/PyAutoGalaxy#732",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:04:39Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "fix: NFWTruncatedMCR truncation radius uses kpc as arcseconds",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/732#issuecomment-7019204838"
+        },
+        "PyAutoLabs/PyAutoGalaxy#733:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#733:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#733",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T19:04:34Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: NFWTruncatedMCR truncation radius in arcseconds, not kpc",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/733"
+        },
+        "PyAutoLabs/PyAutoGalaxy#732:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#732:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#732",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T18:58:09Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: NFWTruncatedMCR truncation radius uses kpc as arcseconds",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/issues/732"
+        },
+        "PyAutoLabs/PyAutoGalaxy#731:opened": {
+          "id": "PyAutoLabs/PyAutoGalaxy#731:opened",
+          "task": "PyAutoLabs/PyAutoGalaxy#731",
+          "repo": "PyAutoLabs/PyAutoGalaxy",
+          "time": "2026-11-19T16:14:55Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "url": "https://github.com/PyAutoLabs/PyAutoGalaxy/pull/731"
+        },
         "PyAutoLabs/PyAutoGalaxy#729:comment-7008018850": {
           "id": "PyAutoLabs/PyAutoGalaxy#729:comment-7008018850",
           "task": "PyAutoLabs/PyAutoGalaxy#729",
@@ -33888,7 +34580,7 @@
           "is_pr": true,
           "issue": 719,
           "state": "closed",
-          "revision": "2026-11-18T08:53:17Z"
+          "revision": "2026-11-19T16:15:29Z"
         },
         "719": {
           "title": "fix: EllipseMultipole latent parameters fail when m is not set",
@@ -33902,7 +34594,7 @@
           "is_pr": true,
           "issue": 721,
           "state": "closed",
-          "revision": "2026-11-18T15:34:09Z"
+          "revision": "2026-11-19T16:15:36Z"
         },
         "721": {
           "title": "fix: gNFWVirialMassConcSph kappa_s wrong under JAX (hyp2f1 at z < -1)",
@@ -33923,14 +34615,14 @@
           "is_pr": true,
           "issue": 723,
           "state": "closed",
-          "revision": "2026-11-18T17:46:32Z"
+          "revision": "2026-11-19T16:15:34Z"
         },
         "726": {
           "title": "fix: one M/L-gradient convention for SersicGradient and GaussianGradient",
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-19T08:19:15Z"
+          "revision": "2026-11-19T16:15:44Z"
         },
         "725": {
           "title": "fix: one M/L-gradient convention for SersicGradient and GaussianGradient",
@@ -33944,7 +34636,7 @@
           "is_pr": true,
           "issue": 727,
           "state": "closed",
-          "revision": "2026-11-19T11:05:02Z"
+          "revision": "2026-11-19T16:15:38Z"
         },
         "727": {
           "title": "fix: NaN jax.grad of Sersic CSE deflections (lstsq solve)",
@@ -33958,7 +34650,7 @@
           "is_pr": true,
           "issue": 729,
           "state": "closed",
-          "revision": "2026-11-19T11:39:15Z"
+          "revision": "2026-11-19T16:15:35Z"
         },
         "729": {
           "title": "fix: gNFW MGE deflections lose accuracy for inner_slope above 2",
@@ -33966,12 +34658,61 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-19T11:39:15Z"
+        },
+        "731": {
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-19T16:14:55Z"
+        },
+        "733": {
+          "title": "fix: NFWTruncatedMCR truncation radius in arcseconds, not kpc",
+          "is_pr": true,
+          "issue": 732,
+          "state": "closed",
+          "revision": "2026-11-19T20:50:57Z"
+        },
+        "735": {
+          "title": "fix: NFWTruncatedSph total mass divides by the NFW mass factor",
+          "is_pr": true,
+          "issue": 734,
+          "state": "closed",
+          "revision": "2026-11-19T20:51:44Z"
+        },
+        "737": {
+          "title": "fix: NFWTruncatedSph deflection finite at r=0 and exact at small radius",
+          "is_pr": true,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:52:03Z"
+        },
+        "732": {
+          "title": "fix: NFWTruncatedMCR truncation radius uses kpc as arcseconds",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:57:25Z"
+        },
+        "734": {
+          "title": "fix: NFWTruncatedSph total mass omits the NFW mass factor",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:57:26Z"
+        },
+        "736": {
+          "title": "fix: NFWTruncatedSph deflection NaN at r=0 and imprecise at small radius",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:57:28Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoGut": {
       "events": {
@@ -34059,10 +34800,10 @@
           "revision": "2026-11-12T21:09:24Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoHands": {
       "events": {
@@ -35005,10 +35746,10 @@
           "revision": "2026-11-17T18:47:16Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoHeart": {
       "events": {
@@ -36437,10 +37178,10 @@
           "revision": "2026-11-19T12:38:50Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoInsight": {
       "events": {
@@ -36629,13 +37370,123 @@
           "revision": "2026-11-12T21:09:40Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoLens": {
       "events": {
+        "PyAutoLabs/PyAutoLens#869:comment-7022022062": {
+          "id": "PyAutoLabs/PyAutoLens#869:comment-7022022062",
+          "task": "PyAutoLabs/PyAutoLens#869",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:57:31Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: galaxies_to_halo_arrays silently drops halos beyond max_n",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/869#issuecomment-7022022062"
+        },
+        "PyAutoLabs/PyAutoLens#867:comment-7022021651": {
+          "id": "PyAutoLabs/PyAutoLens#867:comment-7022021651",
+          "task": "PyAutoLabs/PyAutoLens#867",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:57:29Z",
+          "kind": "reported",
+          "summary": "Shipment reported — see source",
+          "title": "fix: LOSSampler mass function from colossus, drop hmf and silent los_halos fallback",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/867#issuecomment-7022021651"
+        },
+        "PyAutoLabs/PyAutoLens#869:closed": {
+          "id": "PyAutoLabs/PyAutoLens#869:closed",
+          "task": "PyAutoLabs/PyAutoLens#869",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:51:47Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: galaxies_to_halo_arrays silently drops halos beyond max_n",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/869"
+        },
+        "PyAutoLabs/PyAutoLens#870:merged": {
+          "id": "PyAutoLabs/PyAutoLens#870:merged",
+          "task": "PyAutoLabs/PyAutoLens#870",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:51:46Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: galaxies_to_halo_arrays raises on max_n overflow, accepts max_n=None",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/870"
+        },
+        "PyAutoLabs/PyAutoLens#867:closed": {
+          "id": "PyAutoLabs/PyAutoLens#867:closed",
+          "task": "PyAutoLabs/PyAutoLens#867",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:51:01Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "fix: LOSSampler mass function from colossus, drop hmf and silent los_halos fallback",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/867"
+        },
+        "PyAutoLabs/PyAutoLens#868:merged": {
+          "id": "PyAutoLabs/PyAutoLens#868:merged",
+          "task": "PyAutoLabs/PyAutoLens#868",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T20:50:59Z",
+          "kind": "merged",
+          "summary": "PR merged",
+          "title": "fix: LOSSampler mass function from colossus, drop hmf",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/868"
+        },
+        "PyAutoLabs/PyAutoLens#870:opened": {
+          "id": "PyAutoLabs/PyAutoLens#870:opened",
+          "task": "PyAutoLabs/PyAutoLens#870",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T19:19:20Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: galaxies_to_halo_arrays raises on max_n overflow, accepts max_n=None",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/870"
+        },
+        "PyAutoLabs/PyAutoLens#869:opened": {
+          "id": "PyAutoLabs/PyAutoLens#869:opened",
+          "task": "PyAutoLabs/PyAutoLens#869",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T19:15:55Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: galaxies_to_halo_arrays silently drops halos beyond max_n",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/869"
+        },
+        "PyAutoLabs/PyAutoLens#868:opened": {
+          "id": "PyAutoLabs/PyAutoLens#868:opened",
+          "task": "PyAutoLabs/PyAutoLens#868",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T19:07:57Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "fix: LOSSampler mass function from colossus, drop hmf",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/868"
+        },
+        "PyAutoLabs/PyAutoLens#867:opened": {
+          "id": "PyAutoLabs/PyAutoLens#867:opened",
+          "task": "PyAutoLabs/PyAutoLens#867",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T18:59:00Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "fix: LOSSampler mass function from colossus, drop hmf and silent los_halos fallback",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/issues/867"
+        },
+        "PyAutoLabs/PyAutoLens#866:opened": {
+          "id": "PyAutoLabs/PyAutoLens#866:opened",
+          "task": "PyAutoLabs/PyAutoLens#866",
+          "repo": "PyAutoLabs/PyAutoLens",
+          "time": "2026-11-19T16:14:59Z",
+          "kind": "opened",
+          "summary": "PR opened",
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "url": "https://github.com/PyAutoLabs/PyAutoLens/pull/866"
+        },
         "PyAutoLabs/PyAutoLens#864:merged": {
           "id": "PyAutoLabs/PyAutoLens#864:merged",
           "task": "PyAutoLabs/PyAutoLens#864",
@@ -39670,7 +40521,7 @@
           "is_pr": true,
           "issue": 860,
           "state": "closed",
-          "revision": "2026-11-14T17:58:05Z"
+          "revision": "2026-11-19T16:15:43Z"
         },
         "860": {
           "title": "test: move positions_threshold fixture off the symmetry axis",
@@ -39698,7 +40549,7 @@
           "is_pr": true,
           "issue": null,
           "state": "closed",
-          "revision": "2026-11-18T10:11:13Z"
+          "revision": "2026-11-19T16:15:28Z"
         },
         "865": {
           "title": "wip: PyAutoLens II paper draft (case studies)",
@@ -39706,12 +40557,47 @@
           "issue": null,
           "state": "closed",
           "revision": "2026-11-18T09:03:28Z"
+        },
+        "866": {
+          "title": "release 2026.11.19.1: Colab URL bump",
+          "is_pr": true,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-19T16:14:59Z"
+        },
+        "868": {
+          "title": "fix: LOSSampler mass function from colossus, drop hmf",
+          "is_pr": true,
+          "issue": 867,
+          "state": "closed",
+          "revision": "2026-11-19T20:51:02Z"
+        },
+        "870": {
+          "title": "fix: galaxies_to_halo_arrays raises on max_n overflow, accepts max_n=None",
+          "is_pr": true,
+          "issue": 869,
+          "state": "closed",
+          "revision": "2026-11-19T20:51:48Z"
+        },
+        "867": {
+          "title": "fix: LOSSampler mass function from colossus, drop hmf and silent los_halos fallback",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:57:29Z"
+        },
+        "869": {
+          "title": "fix: galaxies_to_halo_arrays silently drops halos beyond max_n",
+          "is_pr": false,
+          "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T20:57:31Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoMemory": {
       "events": {
@@ -40235,13 +41121,93 @@
           "revision": "2026-11-19T08:29:50Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoMind": {
       "events": {
+        "PyAutoLabs/PyAutoMind#591:opened": {
+          "id": "PyAutoLabs/PyAutoMind#591:opened",
+          "task": "PyAutoLabs/PyAutoMind#591",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T21:10:41Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "Shift 2026-11-19-pm2 (review at 2026-11-19T21:45Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/591"
+        },
+        "PyAutoLabs/PyAutoMind#590:opened": {
+          "id": "PyAutoLabs/PyAutoMind#590:opened",
+          "task": "PyAutoLabs/PyAutoMind#590",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T18:54:14Z",
+          "kind": "opened",
+          "summary": "Task opened",
+          "title": "Shift 2026-11-19-pm (review at 2026-11-19T20:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/590"
+        },
+        "PyAutoLabs/PyAutoMind#588:closed": {
+          "id": "PyAutoLabs/PyAutoMind#588:closed",
+          "task": "PyAutoLabs/PyAutoMind#588",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T16:00:59Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "Shift 2026-11-18-pm2 (review at 2026-11-18T21:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/588"
+        },
+        "PyAutoLabs/PyAutoMind#588:comment-7014494147": {
+          "id": "PyAutoLabs/PyAutoMind#588:comment-7014494147",
+          "task": "PyAutoLabs/PyAutoMind#588",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T16:00:57Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Shift 2026-11-18-pm2 (review at 2026-11-18T21:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/588#issuecomment-7014494147"
+        },
+        "PyAutoLabs/PyAutoMind#587:closed": {
+          "id": "PyAutoLabs/PyAutoMind#587:closed",
+          "task": "PyAutoLabs/PyAutoMind#587",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T16:00:54Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "Shift 2026-11-18-pm (review at 2026-11-18T17:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/587"
+        },
+        "PyAutoLabs/PyAutoMind#587:comment-7014491573": {
+          "id": "PyAutoLabs/PyAutoMind#587:comment-7014491573",
+          "task": "PyAutoLabs/PyAutoMind#587",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T16:00:51Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Shift 2026-11-18-pm (review at 2026-11-18T17:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/587#issuecomment-7014491573"
+        },
+        "PyAutoLabs/PyAutoMind#589:closed": {
+          "id": "PyAutoLabs/PyAutoMind#589:closed",
+          "task": "PyAutoLabs/PyAutoMind#589",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T15:56:45Z",
+          "kind": "closed",
+          "summary": "Task closed",
+          "title": "Shift 2026-11-19-am (review at 2026-11-19T12:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/589"
+        },
+        "PyAutoLabs/PyAutoMind#589:comment-7014378571": {
+          "id": "PyAutoLabs/PyAutoMind#589:comment-7014378571",
+          "task": "PyAutoLabs/PyAutoMind#589",
+          "repo": "PyAutoLabs/PyAutoMind",
+          "time": "2026-11-19T15:56:32Z",
+          "kind": "progress",
+          "summary": "Discussion update recorded",
+          "title": "Shift 2026-11-19-am (review at 2026-11-19T12:30Z)",
+          "url": "https://github.com/PyAutoLabs/PyAutoMind/issues/589#issuecomment-7014378571"
+        },
         "PyAutoLabs/PyAutoMind#589:comment-7007867189": {
           "id": "PyAutoLabs/PyAutoMind#589:comment-7007867189",
           "task": "PyAutoLabs/PyAutoMind#589",
@@ -42706,28 +43672,42 @@
           "title": "Shift 2026-11-18-pm (review at 2026-11-18T17:30Z)",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-18T17:33:00Z"
+          "state": "closed",
+          "revision": "2026-11-19T16:00:54Z"
         },
         "588": {
           "title": "Shift 2026-11-18-pm2 (review at 2026-11-18T21:30Z)",
           "is_pr": false,
           "issue": null,
-          "state": "open",
-          "revision": "2026-11-18T21:31:41Z"
+          "state": "closed",
+          "revision": "2026-11-19T16:00:59Z"
         },
         "589": {
           "title": "Shift 2026-11-19-am (review at 2026-11-19T12:30Z)",
           "is_pr": false,
           "issue": null,
+          "state": "closed",
+          "revision": "2026-11-19T15:56:45Z"
+        },
+        "590": {
+          "title": "Shift 2026-11-19-pm (review at 2026-11-19T20:30Z)",
+          "is_pr": false,
+          "issue": null,
           "state": "open",
-          "revision": "2026-11-19T11:33:17Z"
+          "revision": "2026-11-19T19:34:06Z"
+        },
+        "591": {
+          "title": "Shift 2026-11-19-pm2 (review at 2026-11-19T21:45Z)",
+          "is_pr": false,
+          "issue": null,
+          "state": "open",
+          "revision": "2026-11-19T21:10:41Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     },
     "PyAutoLabs/PyAutoNerves": {
       "events": {
@@ -43370,10 +44350,10 @@
           "revision": "2026-11-12T21:08:21Z"
         }
       },
-      "checked": "2026-11-19T12:55:14Z",
+      "checked": "2026-11-19T21:13:26Z",
       "status": "ok",
       "reason": null,
-      "cursor": "2026-11-19T12:55:14Z"
+      "cursor": "2026-11-19T21:13:26Z"
     }
   },
   "next": 23,
